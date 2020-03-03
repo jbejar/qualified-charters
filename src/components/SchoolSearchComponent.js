@@ -5,11 +5,14 @@ import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 
 export default function SchoolSearchComponent() {
+  const onChange = e => {
+    console.log(e)
+  };
   return (
     <div>
       <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <LinkContainer to="/schools/110575">
+        <FormControl type="text" placeholder="Search" className="mr-sm-2" onChange={onChange}/>
+        <LinkContainer to="/schools/165615">
           <Button variant="outline-success">Search</Button>
         </LinkContainer>
       </Form>
