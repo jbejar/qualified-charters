@@ -3,7 +3,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import SchoolPage from './components/SchoolPage';
 import HomePage from './components/HomePage';
@@ -18,7 +19,7 @@ function App() {
     <Router>
       <div>
       <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/">Qualifed Teachers</Navbar.Brand>
+      <Link to="/"><Navbar.Brand>Qualifed Teachers</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

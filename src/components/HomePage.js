@@ -5,7 +5,7 @@ export default function HomePage() {
         <div class="container">    
             
             <div class="jumbotron">
-                <h3 class="display-4">Search for a Charter School on the Top Right</h3>
+                <h3 class="display-4">Search for a Charter School up Top</h3>
                 <hr class="my-2"/>
                 <img width="500" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
                 <h3>How do Utah Schools Charter Schools Compare?</h3>
