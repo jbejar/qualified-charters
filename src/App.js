@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div>
       <Navbar bg="light" expand="lg">
-      <Link to="/"><Navbar.Brand>Qualifed Teachers</Navbar.Brand></Link>
+      <Link to="/"><Navbar.Brand>Qualifed Utah Teachers</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
