@@ -21,7 +21,8 @@ export default function HomePage() {
                 This new system will help make the system more clear than in the time past. Currently the
                 State of Utah is updating their <a href="https://cactus.schools.utah.gov/PersonSearch">website</a>.
                 <p/>
-                The information contained for this website still are under the old rules.
+                The information contained for this website still are under the old rules, more information about the rule changes in available on 
+                the Utah State Board of Education <a href="https://www.schools.utah.gov/curr/licensing">website</a>.
             </div>
         </div>
     )
