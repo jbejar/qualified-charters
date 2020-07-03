@@ -1,21 +1,28 @@
-import React from "react";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
-import { LinkContainer } from "react-router-bootstrap";
+import React, { useState } from 'react';
+import schools from './../dump.json';
+import { PowerSelect } from 'react-power-select';
+import 'react-power-select/dist/react-power-select.css';
+import { Redirect } from "react-router-dom";
 
 export default function SchoolSearchComponent() {
-  const onChange = e => {
-    console.log(e)
+  const [school, setSchool] = useState();
+  const onChange = ({option}) => {
+    setSchool(option);
+    
   };
+  
   return (
-    <div>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" onChange={onChange}/>
-        <LinkContainer to="/schools/165615">
-          <Button variant="outline-success">Search</Button>
-        </LinkContainer>
-      </Form>
+    <div style={{width: 500}} className="md-4">
+      {(school) &&
+     (<Redirect to={ "/schools/" + school.SchoolID}/>)}
+         <PowerSelect
+          options={schools}
+          optionLabelPath="SchoolName"
+          selected={school}
+          onChange={onChange}
+          placeholder="Search..."
+          searchIndices={["SchoolName", "SchoolName2", "SchoolShort"]}
+        />
     </div>
   );
 }
