@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import SchoolTable from './SchoolTable';
 export default function HomePage() {
     return (
         <div class="container">    
@@ -10,6 +10,7 @@ export default function HomePage() {
                 <img width="500" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
                 <h3>How do Utah Schools Charter Schools Compare?</h3>
             </div>
+            <SchoolTable/>
             <div>
                 <h4>Notes:</h4>
                 <p>

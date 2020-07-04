@@ -16,7 +16,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
       <Navbar bg="light" expand="lg">
       <Link to="/"><Navbar.Brand>Qualifed Utah Teachers</Navbar.Brand></Link>

@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import CanvasJSReact from "../lib/canvasjs.react";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
 
 export default class LicenseComponent extends Component {
   static propTypes = {
