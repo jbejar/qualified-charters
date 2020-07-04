@@ -20,6 +20,9 @@ function SchoolPage(props) {
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" target="_blank" href={school.URL} role="button">Website</a>
                 </p>
+                <p class="lead">
+                    <a class="btn btn-warning btn-lg" target="_blank" href={"https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=" + school.DistrictNumber} role="button">Proficiency Results</a>
+                </p>
             </div>
             <div>
             </div>
