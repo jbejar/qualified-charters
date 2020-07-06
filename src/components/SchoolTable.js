@@ -21,6 +21,9 @@ function SchoolTable(props) {
             <th>Licensed</th>
             <th>Level 2+</th>
             <th>Temporary</th>
+            <th>Language Arts</th>
+            <th>Math</th>
+            <th>Science</th>
             
           </tr>
         </thead>
@@ -32,6 +35,9 @@ function SchoolTable(props) {
               <td>{(percentLicensed(school) * 100 ).toFixed(2)}%</td>
               <td>{(level2Up(school) * 100 ).toFixed(2)}%</td>
               <td>{(temporaryLicensed(school) * 100 ).toFixed(2)}%</td>
+              <td>{school.scores["Language Arts"]["2019"]}</td>
+              <td>{school.scores["Mathematics"]["2019"]}</td>
+              <td>{school.scores["Science"]["2019"]}</td>
               
             </tr>
           ))}
@@ -46,6 +52,10 @@ function SchoolTable(props) {
             <th>LEA Licensed </th>
             <th>Licensed</th>
             <th>Temporary</th>
+            <th>Language Arts</th>
+            <th>Math</th>
+            <th>Science</th>
+
             
           </tr>
         </thead>
@@ -57,6 +67,9 @@ function SchoolTable(props) {
               <td>{(leaLicensed(school) * 100 ).toFixed(2)}%</td>
               <td>{(percentLicensed(school) * 100 ).toFixed(2)}%</td>
               <td>{(temporaryLicensed(school) * 100 ).toFixed(2)}%</td>
+              <td>{school.scores["Language Arts"]["2019"]}</td>
+              <td>{school.scores["Mathematics"]["2019"]}</td>
+              <td>{school.scores["Science"]["2019"]}</td>
               
             </tr>
           ))}
