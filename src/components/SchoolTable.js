@@ -28,7 +28,7 @@ function SchoolTable(props) {
           </tr>
         </thead>
         <tbody>
-          {schools.slice(0, 5).map((school, i) => (
+          {schools.slice(0, 20).map((school, i) => (
             <tr>
               <td>{i+1}</td>
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>

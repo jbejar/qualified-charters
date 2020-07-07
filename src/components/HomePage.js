@@ -1,14 +1,18 @@
 import React from 'react';
 import SchoolTable from './SchoolTable';
+import SchoolMap from './SchoolMap';
+import schools from "./../dump.json";
+
 export default function HomePage() {
     return (
-        <div class="container">    
+        <div className="container">    
             
-            <div class="jumbotron">
-                <h3 class="display-4">Search for Your Charter School Up Top</h3>
-                <hr class="my-2"/>
+            <div className="jumbotron">
+                <h3 className="display-4">Search for Your Charter School Up Top</h3>
+                <hr className="my-2"/>
                 <img width="500" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
                 <h3>How do Utah Schools Charter Schools Compare?</h3>
+                <SchoolMap schools={schools} zoom={8}/>
             </div>
             <SchoolTable/>
             <div>
