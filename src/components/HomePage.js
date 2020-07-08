@@ -17,7 +17,7 @@ export default function HomePage() {
                 <SchoolFilter setSchools={setSchools}/>
             </div>
             <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
-            <SchoolTable/>
+            <SchoolTable schools={schools}/>
         </div>
     )
 }

@@ -1,26 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import schools from "./../dump.json";
+
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 
-function SchoolTable(props) {
-    const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
-    const temporaryLicensed = s =>  ((s.licenseTypes.Temporary || 0) / (s.licenseTypes.All || 0))
-    const leaLicensed = s =>  (((s.licenseTypes["Level 1 LEA-Specific"] || 0) + (s.licenseTypes["Level 2 LEA-Specific"] || 0)) / (s.licenseTypes.All || 0))
-    const level2Up = s =>  (((s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
-    schools.sort((s,t) => (percentLicensed(t) - temporaryLicensed(t) + level2Up(t)) -(percentLicensed(s) - temporaryLicensed(s) + level2Up(s)))
+function SchoolTable({schools, sort, limit = 10, columns=[]}) {
+    if(sort) {
+        schools.sort(sort);
+    }
   return (
     <div>
-      <h4>Most Qualified Charter Schools</h4>
+      
       <Table striped bordered hover>
         <thead>
           <tr>
             <th>#</th>
             <th>School</th>
-            <th>Licensed</th>
-            <th>Level 2+</th>
-            <th>Temporary</th>
+            {columns.map(col => 
+                <th>{col.name}</th>
+            )}
             <th>Language Arts</th>
             <th>Math</th>
             <th>Science</th>
@@ -28,13 +26,13 @@ function SchoolTable(props) {
           </tr>
         </thead>
         <tbody>
-          {schools.slice(0, 20).map((school, i) => (
+          {schools.slice(0, limit).map((school, i) => (
             <tr>
               <td>{i+1}</td>
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
-              <td>{(percentLicensed(school) * 100 ).toFixed(2)}%</td>
-              <td>{(level2Up(school) * 100 ).toFixed(2)}%</td>
-              <td>{(temporaryLicensed(school) * 100 ).toFixed(2)}%</td>
+              {columns.map( col =>
+                <td>{(col.func(school) * 100 ).toFixed(2)}%</td>
+              )}
               <td>{school.scores["Language Arts"]["2019"]}</td>
               <td>{school.scores["Mathematics"]["2019"]}</td>
               <td>{school.scores["Science"]["2019"]}</td>
@@ -43,8 +41,8 @@ function SchoolTable(props) {
           ))}
         </tbody>
       </Table>
-      <h4>Most LEA Specific Licenses</h4>
-      <Table striped bordered hover>
+      
+      {/* <Table striped bordered hover>
         <thead>
           <tr>
             <th>#</th>
@@ -74,11 +72,16 @@ function SchoolTable(props) {
             </tr>
           ))}
         </tbody>
-      </Table>
+      </Table> */}
     </div>
   );
 }
 
-SchoolTable.propTypes = {};
+SchoolTable.propTypes = {
+    schools:PropTypes.array,
+    sort: PropTypes.func,
+    limit: PropTypes.number,
+    columns: PropTypes.arrayOf(PropTypes.object),
+};
 
 export default SchoolTable;

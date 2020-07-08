@@ -14,6 +14,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
+import MostQualifiedPage from './pages/MostQualifiedPage';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
@@ -23,8 +24,9 @@ function App() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          {/* <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer> */}
+          <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
           <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
+          <LinkContainer to="/qualified"><Nav.Link>Qualified</Nav.Link></LinkContainer>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -42,6 +44,7 @@ function App() {
         <Switch>
           <Route path="/about" component={AboutPage}/>
           <Route path="/schools/:schoolID" component={SchoolPage} />
+          <Route path="/qualified" component={MostQualifiedPage}/>
           <Route path="/" component={HomePage}/>
         </Switch>
       </div>
