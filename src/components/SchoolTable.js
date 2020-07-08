@@ -17,7 +17,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[]}) {
             <th>#</th>
             <th>School</th>
             {columns.map(col => 
-                <th>{col.name}</th>
+                <th key={col.name}>{col.name}</th>
             )}
             <th>Language Arts</th>
             <th>Math</th>
@@ -27,11 +27,11 @@ function SchoolTable({schools, sort, limit = 10, columns=[]}) {
         </thead>
         <tbody>
           {schools.slice(0, limit).map((school, i) => (
-            <tr>
+            <tr key={school.SchoolID}>
               <td>{i+1}</td>
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
               {columns.map( col =>
-                <td>{(col.func(school) * 100 ).toFixed(2)}%</td>
+                <td key={col.name}>{(col.func(school) * 100 ).toFixed(2)}%</td>
               )}
               <td>{school.scores["Language Arts"]["2019"]}</td>
               <td>{school.scores["Mathematics"]["2019"]}</td>

@@ -15,7 +15,7 @@ function SchoolMap({ schools, zoom = 8 }) {
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
       />
       {schools.map((school) => (
-        <Marker position={[school.Lat, school.Lng]}>
+        <Marker key={school.SchoolID} position={[school.Lat, school.Lng]}>
           <Popup>
             <Link to={"schools/" + school.SchoolID}>{school.SchoolName}</Link>
             <br />

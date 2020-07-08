@@ -4,9 +4,10 @@ import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-
+const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
 
 function SchoolFilter(props) {
+    
     const [checked, setChecked] = useState({});
     const scoreThreshold = 45;
     const filter = () => {
@@ -33,6 +34,10 @@ function SchoolFilter(props) {
                 }
                 let score = parseFloat(school.scores["Science"]["2019"]);
                 match = score >= scoreThreshold;
+            }
+            if(match && checked.professionalLicenses) {
+                let score = professionalLicense(school);
+                match = score >= .8;
             }
             return match;
         }));
@@ -78,7 +83,7 @@ function SchoolFilter(props) {
         <Form.Check
           type="checkbox"
           label="80%+ Professional Eduactor Licenses"
-          name="licenses"
+          name="professionalLicenses"
           id="formHorizontalRadios1"
           onChange={onChange}
         />
