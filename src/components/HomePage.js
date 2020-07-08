@@ -13,7 +13,7 @@ export default function HomePage() {
                 <h3 className="display-4">Search for Your Charter School Up Top</h3>
                 <hr className="my-2"/>
                 <h3>How do Utah Schools Charter Schools Compare?</h3>
-                <SchoolMap schools={schools} zoom={8}/>
+                <SchoolMap schools={schools}/>
                 <SchoolFilter setSchools={setSchools}/>
             </div>
             <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
