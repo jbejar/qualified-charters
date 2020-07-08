@@ -2,6 +2,9 @@ import React, {useState} from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import LocateControl from './leaflet/LocateControl'
+
+import { IoMdLocate } from "react-icons/io";
 
 function SchoolMap({ schools, zoom = 8 }) {
   const [viewport, setViewport] = useState({
@@ -14,6 +17,7 @@ function SchoolMap({ schools, zoom = 8 }) {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
       />
+      
       {schools.map((school) => (
         <Marker key={school.SchoolID} position={[school.Lat, school.Lng]}>
           <Popup>
@@ -41,6 +45,9 @@ function SchoolMap({ schools, zoom = 8 }) {
           </Popup>
         </Marker>
       ))}
+      <LocateControl flyTo>
+            <IoMdLocate/>
+          </LocateControl>
     </Map>
   );
 }
