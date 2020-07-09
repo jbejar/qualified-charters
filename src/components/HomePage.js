@@ -11,10 +11,9 @@ export default function HomePage() {
         <div className="container">    
             
             <div className="jumbotron">
-                <h3 className="display-4">Search for Your Charter School Up Top</h3>
-                <hr className="my-2"/>
-                <h3>How do Utah Schools Charter Schools Compare?</h3>
-                <SchoolMap schools={schools}/>
+                <h3 className="display-4">Utah Charter School Map</h3>
+                
+                <SchoolMap locate={true} schools={schools} center={[40.7774076, -111.8881773]}/>
                 <SchoolFilter setSchools={setSchools}/>
             </div>
             <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>    

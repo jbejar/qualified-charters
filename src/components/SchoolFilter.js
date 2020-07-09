@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import ReactGA from "react-ga";
 
 const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
 
@@ -11,7 +12,7 @@ function SchoolFilter(props) {
     const [checked, setChecked] = useState({});
     const scoreThreshold = 45;
     const filter = () => {
-        const schoolsDump = require("./../dump.json");
+        let schoolsDump = require("./../dump.json");
         props.setSchools(schoolsDump.filter(school => {
             let match = true;
             if(match && checked.math) {
@@ -43,10 +44,16 @@ function SchoolFilter(props) {
         }));
     }
     const onChange = evt => {
-        if(checked[evt.target.name]) {
-            checked[evt.target.name] = false;
+        const name = evt.target.name;
+        ReactGA.event({
+            category: 'Search',
+            action: 'Filter',
+            label: name
+          });
+        if(checked[name]) {
+            checked[name] = false;
         } else {
-            checked[evt.target.name] = true;
+            checked[name] = true;
         }
         setChecked(checked)
         filter();

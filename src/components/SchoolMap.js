@@ -2,17 +2,24 @@ import React, {useState} from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import LocateControl from './leaflet/LocateControl'
+import ReactGA from "react-ga";
 
-import { IoMdLocate } from "react-icons/io";
-
-function SchoolMap({ schools, zoom = 8 }) {
+function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], locate}) {
   const [viewport, setViewport] = useState({
-    center: [40.7774076, -111.8881773],
+    center,
     zoom,
-  })
+  });
+  const onViewportChange = viewport => {
+    setViewport(viewport);
+    ReactGA.event({
+      category: 'Map',
+      action: 'UpdateViewport',
+      label: JSON.stringify(viewport),
+      value: schools.count
+    });
+  };
   return (
-    <Map viewport={viewport} onViewportChanged={setViewport}>
+    <Map viewport={viewport} onViewportChanged={onViewportChange} scrollWheelZoom={schools.length !== 1}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
@@ -45,9 +52,7 @@ function SchoolMap({ schools, zoom = 8 }) {
           </Popup>
         </Marker>
       ))}
-      <LocateControl flyTo>
-            <IoMdLocate/>
-          </LocateControl>
+      
     </Map>
   );
 }

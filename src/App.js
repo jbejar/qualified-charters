@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import withTracker from './components/withTracker';
 import {
   BrowserRouter as Router,
   Switch,
@@ -42,10 +43,10 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about" component={AboutPage}/>
-          <Route path="/schools/:schoolID" component={SchoolPage} />
-          <Route path="/qualified" component={MostQualifiedPage}/>
-          <Route path="/" component={HomePage}/>
+          <Route path="/about" component={withTracker(AboutPage)}/>
+          <Route path="/schools/:schoolID" component={withTracker(SchoolPage)} />
+          <Route path="/qualified" component={withTracker(MostQualifiedPage)}/>
+          <Route path="/" component={withTracker(HomePage)}/>
         </Switch>
       </div>
     </Router>
