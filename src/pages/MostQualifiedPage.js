@@ -8,6 +8,8 @@ export default function MostQualifiedPage() {
     const level2Up = s =>  (((s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
     const qualifiedSort = (s,t) => (percentLicensed(t) - temporaryLicensed(t) + level2Up(t)) -(percentLicensed(s) - temporaryLicensed(s) + level2Up(s));
     const licensedSort = (s,t) => (leaLicensed(t) -leaLicensed(s));
+    const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
+    const professionalLicenseSort = (s,t) => (professionalLicense(t) -professionalLicense(s));
     return (
         <div className="container">
             <div className="jumbotron">
@@ -24,6 +26,11 @@ export default function MostQualifiedPage() {
             <h4>Most LEA Specific Licenses</h4>
             <SchoolTable schools={schools} sort={licensedSort} limit={20} columns={[
                 {name: "Lea Licensed", func: leaLicensed},
+            ]}/>
+            <h4>Professional Educator Licenses</h4>
+            (Level 1-3)
+            <SchoolTable schools={schools} sort={professionalLicenseSort} limit={20} columns={[
+                {name: "Professional Educator", func: professionalLicense},
             ]}/>
         </div>
     )

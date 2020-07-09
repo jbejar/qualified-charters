@@ -33,9 +33,9 @@ function SchoolTable({schools, sort, limit = 10, columns=[]}) {
               {columns.map( col =>
                 <td key={col.name}>{(col.func(school) * 100 ).toFixed(2)}%</td>
               )}
-              <td>{school.scores["Language Arts"]["2019"]}</td>
-              <td>{school.scores["Mathematics"]["2019"]}</td>
-              <td>{school.scores["Science"]["2019"]}</td>
+              <td>{school.scores["Language Arts"] && school.scores["Language Arts"]["2019"]}</td>
+              <td>{school.scores["Mathematics"] && school.scores["Mathematics"]["2019"]}</td>
+              <td>{school.scores["Science"] && school.scores["Science"]["2019"]}</td>
               
             </tr>
           ))}
