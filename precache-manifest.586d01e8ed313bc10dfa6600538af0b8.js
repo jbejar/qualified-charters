@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c78e9dda9edfaf9cb5e46c18f51a1d26",
+    "revision": "85a1543c78db8a3585d89fda2642b050",
     "url": "/qualified-charters/index.html"
   },
   {
-    "revision": "468d691f0b7b8a13b2c2",
+    "revision": "52febce8e604af6038ef",
     "url": "/qualified-charters/static/css/2.27d4c8ef.chunk.css"
   },
   {
-    "revision": "11100852d976a1580337",
+    "revision": "b5b9499fb754c34d33f7",
     "url": "/qualified-charters/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "468d691f0b7b8a13b2c2",
-    "url": "/qualified-charters/static/js/2.b9a08355.chunk.js"
+    "revision": "52febce8e604af6038ef",
+    "url": "/qualified-charters/static/js/2.9a67da31.chunk.js"
   },
   {
     "revision": "4b28b98cbf8377586eab3271792f3b68",
-    "url": "/qualified-charters/static/js/2.b9a08355.chunk.js.LICENSE.txt"
+    "url": "/qualified-charters/static/js/2.9a67da31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11100852d976a1580337",
-    "url": "/qualified-charters/static/js/main.b0d7ffae.chunk.js"
+    "revision": "b5b9499fb754c34d33f7",
+    "url": "/qualified-charters/static/js/main.42ba1ed7.chunk.js"
   },
   {
     "revision": "afa2bdc789c9b1ba2e68",
