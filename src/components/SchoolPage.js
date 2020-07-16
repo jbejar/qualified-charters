@@ -3,6 +3,7 @@ import schools from './../dump.json';
 import LicenseComponent from './LicenseComponent';
 import SchoolMap from './SchoolMap';
 import SchoolRadarComponent from "./SchoolRadarComponent";
+import GoogleReviews from "./GoogleReviews";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 function SchoolPage(props) {
@@ -38,7 +39,7 @@ function SchoolPage(props) {
                     </Col>
                 </Row>
                 <LicenseComponent types={school.licenseTypes}/>
-
+                <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/>
                 
                 
             </div>

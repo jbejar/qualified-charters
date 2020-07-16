@@ -5,10 +5,9 @@ export default function MostQualifiedPage() {
     const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
     const temporaryLicensed = s =>  ((s.licenseTypes.Temporary || 0) / (s.licenseTypes.All || 0))
     const leaLicensed = s =>  (((s.licenseTypes["Level 1 LEA-Specific"] || 0) + (s.licenseTypes["Level 2 LEA-Specific"] || 0)) / (s.licenseTypes.All || 0))
-    const level2Up = s =>  (((s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
-    const qualifiedSort = (s,t) => (percentLicensed(t) - temporaryLicensed(t) + level2Up(t)) -(percentLicensed(s) - temporaryLicensed(s) + level2Up(s));
+    const qualifiedSort = (s,t) => (percentLicensed(t) - temporaryLicensed(t) + professionalLicense(t)) -(percentLicensed(s) - temporaryLicensed(s) + professionalLicense(s));
     const licensedSort = (s,t) => (leaLicensed(t) -leaLicensed(s));
-    const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0)) / (s.licenseTypes.All || 0))
+    const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
     const professionalLicenseSort = (s,t) => (professionalLicense(t) -professionalLicense(s));
     return (
         <div className="container">
@@ -19,8 +18,7 @@ export default function MostQualifiedPage() {
             </div>
             <h4>Most Qualified Charter Schools</h4>
             <SchoolTable schools={schools} sort={qualifiedSort} columns={[
-                {name: "Level 2+ Licensed", func: percentLicensed},
-                {name: "Percent Licensed", func: level2Up},
+                {name: "Percent Licensed", func: percentLicensed},
                 {name: "Temporary Licensed", func: temporaryLicensed},
             ]} limit={20}/>
             <h4>Most LEA Specific Licenses</h4>
