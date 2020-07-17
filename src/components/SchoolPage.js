@@ -3,6 +3,7 @@ import schools from './../dump.json';
 import LicenseComponent from './LicenseComponent';
 import SchoolMap from './SchoolMap';
 import SchoolRadarComponent from "./SchoolRadarComponent";
+import BoardMeetingComponent from "./BoardMeetingComponent"
 import GoogleReviews from "./GoogleReviews";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -19,10 +20,13 @@ function SchoolPage(props) {
                 <h1 className="display-3">{school.SchoolName}</h1>
                 <p className="lead">{school.SchoolCategory} ({school.GradeLow} - {school.GradeHigh})</p>
                 <hr className="my-2"/>
+                <Row>
                 <p className="lead">
                     <a className="btn btn-primary btn-lg" target="_blank" href={school.URL} role="button">Website</a>
+                    <BoardMeetingComponent {...school.pmn}/>
                 </p>
                 
+                </Row>
                 
                 <p/>
                 <Row>
@@ -38,11 +42,10 @@ function SchoolPage(props) {
                     <a target="_blank" href={"https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=" + school.DistrictNumber} role="button"><span>From USBE Data Gateway</span></a>
                     </Col>
                 </Row>
-                <LicenseComponent types={school.licenseTypes}/>
-                <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/>
-                
                 
             </div>
+            <LicenseComponent types={school.licenseTypes}/>
+                {/* <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/> */}
             <div>
             </div>
         </div>

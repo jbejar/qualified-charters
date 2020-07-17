@@ -63,18 +63,31 @@ export default class LicenseComponent extends Component {
       <div>
         <CanvasJSChart options={options} onRef={(ref) => (this.chart = ref)} />
         <div>
-          <Accordion defaultActiveKey="1">
+          <Accordion defaultActiveKey="Professional">
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="Professional">
+                Professional License
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="Professional">
+                <Card.Body>Standard professional license issued to educators that have completed a Utah education program, traditional or alternative, or transferred an educator license from another state or country and met Utah’s licensure requirements. Valid for 5 years, renewable.
+			</Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="Associate">
+                Associate License
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="Associate">
+                <Card.Body>Temporary license issued to an individual earning their professional educator license through a Utah university-based or alternate education preparation program as defined in Utah Administrative Rule R277-301. Valid for 3 years.
+			</Card.Body>
+              </Accordion.Collapse>
+            </Card>
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="1">
                 Level 1 License
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="1">
-                <Card.Body>A standard Level 1 license is a Utah professional educator license
-            issued upon completion of an approved preparation program, an
-            alternative preparation program, or pursuant to an agreement under
-            the National Association of State Directors of Teacher Education and
-            Certification (NASDTEC) Interstate Contract, to candidates who have
-            also met all ancillary requirements established by law or rule.
+                <Card.Body>Standard initial license issued to individuals that have completed a Utah education program, traditional or alternative, or transferred an educator license from another state or country and met Utah’s licensure requirements.  Valid for 3 years, renewable.
 			<p>Now Level 1 license will convert to a Professional Educator License.</p>
 			</Card.Body>
               </Accordion.Collapse>
@@ -84,11 +97,7 @@ export default class LicenseComponent extends Component {
                 Level 2 License
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="2">
-                <Card.Body>A standard Level 2 license is a Utah professional educator license
-            issued after satisfactory completion of all requirements for a Level
-            1 license as well as the Entry Years Enhancement (E.Y.E.)
-            requirements established by law or rule relating to professional
-            preparation or experience.
+                <Card.Body>Standard professional license issued to educators that held a Level 1 license and have met the Entry Years Enhancement program requirements for upgrade.  Valid for 5 years, renewable.
 			<p>Now Level 2 license will convert to a Professional Educator License.</p>
 			</Card.Body>
               </Accordion.Collapse>
@@ -98,13 +107,7 @@ export default class LicenseComponent extends Component {
                 Level 3 License
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="3">
-                <Card.Body>A standard Level 3 license is a Utah professional educator license
-            issued to an educator who holds a current Utah Level 2 license and
-            has also received, in the educator’s field of practice,
-            certification from the National Board for Professional Teaching
-            Standards (NBPTS), a doctorate from a regionallyaccredited
-            institution, or a Certificate of Clinical Competence (CCC) from the
-            American SpeechLanguage-Hearing Association (ASHA).
+                <Card.Body>Standard professional license issued to educators that held a Level 2 license and that have completed a doctorate level degree, National Board Certification, or holds a Speech-Language Pathology license area of concentration and holds ASHA certification.  Valid for 7 years, renewable.
 			<p>Now Level 2 license will convert to a Professional Educator License.</p>
 			</Card.Body>
               </Accordion.Collapse>
@@ -114,10 +117,7 @@ export default class LicenseComponent extends Component {
                 APT - Academic Pathway to Teaching 
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="APT">
-                <Card.Body>The APT is an alternative pathway to a Utah Educator License approved by the Utah State Board of Education (USBE) in
-June 2016. It allows an individual with a bachelor’s degree or
-higher from a regionally accredited university to pass the appropriate Board approved content knowledge test to apply
-for and receive a Level 1 – APT license with an Elementary (K-6) or Secondary (6-12) area of concentration.
+                <Card.Body>License issued to an individual that has met the requirements of Utah Administrative Rule R277-511 which provides for an LEA to hire and create a preparation program specific to the individual educator.  If all requirements of the rule are met, the educator may be upgraded to a standard Level 2 license after a minimum of 3 years of full-time teaching experience or 4 years of at least 0.4 Full-Time-Equivalent (FTE) teaching experience.
 			<p> Will convert to an <a href="https://www.schools.utah.gov/curr/licensing/earning?mid=2465&aid=1">Associate Educator License (AEL)</a>.</p></Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -126,7 +126,7 @@ for and receive a Level 1 – APT license with an Elementary (K-6) or Secondary 
                 ARL - Alternative Routes to Licensure 
               </Accordion.Toggle>
               <Accordion.Collapse eventKey="ARL">
-                <Card.Body>Former Pathway to obtain license. Will convert to an <a href="https://www.schools.utah.gov/curr/licensing/earning?mid=2465&aid=1">Associate Educator License (AEL)</a>.</Card.Body>
+                <Card.Body>Temporary license issued to an individual earning their initial educator license through the USOE Alternative Routes to Licensure program under Utah Administrative Rule R277-503.  Valid 1 year, renewable for up to 3 years. Will convert to an <a href="https://www.schools.utah.gov/curr/licensing/earning?mid=2465&aid=1">Associate Educator License (AEL)</a>.</Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card>

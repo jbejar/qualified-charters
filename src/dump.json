@@ -91,6 +91,11 @@
                 "2018": "60.3%",
                 "2019": "60.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "6769",
+            "name": "Academy for Math Engineering and Science",
+            "bodyName": "AMES Board of Trustees"
         }
     },
     {
@@ -179,6 +184,11 @@
                 "2018": "45.2%",
                 "2019": "36.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "5051",
+            "name": "American Academy of Innovation",
+            "bodyName": "AAI Board"
         }
     },
     {
@@ -282,6 +292,11 @@
                 "2018": "48.7%",
                 "2019": "44.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "2277",
+            "name": "American Leadership Academy",
+            "bodyName": "American Leadership Academy"
         }
     },
     {
@@ -379,6 +394,11 @@
                 "2018": "61.2%",
                 "2019": "71.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -482,6 +502,11 @@
                 "2018": "35.2%",
                 "2019": "38.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -579,6 +604,11 @@
                 "2018": "54.0%",
                 "2019": "58.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -672,6 +702,11 @@
                 "2018": "53.1%",
                 "2019": "43.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -764,6 +799,11 @@
                 "2018": "45.1%",
                 "2019": "49.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -864,6 +904,11 @@
                 "2018": "24.6%",
                 "2019": "25.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "1168",
+            "name": "American Preparatory Academy",
+            "bodyName": "American Preparatory Academy"
         }
     },
     {
@@ -961,6 +1006,11 @@
                 "2018": "48.1%",
                 "2019": "46.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "4053",
+            "name": "Ascent Academies of Utah",
+            "bodyName": "AAU Board of Directors"
         }
     },
     {
@@ -1055,6 +1105,11 @@
                 "2018": "52.7%",
                 "2019": "53.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "4053",
+            "name": "Ascent Academies of Utah",
+            "bodyName": "AAU Board of Directors"
         }
     },
     {
@@ -1152,6 +1207,11 @@
                 "2018": "32.0%",
                 "2019": "23.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "4053",
+            "name": "Ascent Academies of Utah",
+            "bodyName": "AAU Board of Directors"
         }
     },
     {
@@ -1249,6 +1309,11 @@
                 "2018": "29.2%",
                 "2019": "25.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "5047",
+            "name": "Athenian eAcademy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -1339,6 +1404,11 @@
                 "2018": "39.3%",
                 "2019": "33.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "5279",
+            "name": "Athlos Academy of Utah",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -1438,6 +1508,11 @@
                 "2018": "60.0%",
                 "2019": "63.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "2383",
+            "name": "Bear River Charter School",
+            "bodyName": "Bear River Charter School Governing Board"
         }
     },
     {
@@ -1535,6 +1610,11 @@
                 "2018": "54.7%",
                 "2019": "62.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "2296",
+            "name": "Beehive Science and Technology Academy",
+            "bodyName": "BSTA Board"
         }
     },
     {
@@ -1632,6 +1712,11 @@
                 "2018": "31.4%",
                 "2019": "26.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "2426",
+            "name": "CS Lewis Academy",
+            "bodyName": "Governing Board"
         }
     },
     {
@@ -1731,6 +1816,11 @@
                 "2018": "28.4%",
                 "2019": "33.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "2227",
+            "name": "Canyon Grove Academy",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -1828,6 +1918,11 @@
                 "2018": "71.8%",
                 "2019": "73.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "2062",
+            "name": "Canyon Rim Academy",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -1927,6 +2022,11 @@
                 "2018": "57.8%",
                 "2019": "61.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "877",
+            "name": "Channing Hall",
+            "bodyName": "Channing Hall Charter School Board"
         }
     },
     {
@@ -2023,6 +2123,11 @@
                 "2018": "33.0%",
                 "2019": "41.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "2016",
+            "name": "City Academy",
+            "bodyName": "City Academy Board of Trustees"
         }
     },
     {
@@ -2126,6 +2231,11 @@
                 "2018": "43.8%",
                 "2019": "38.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "6447",
+            "name": "DaVinci Academy",
+            "bodyName": "Davinci Academy"
         }
     },
     {
@@ -2221,6 +2331,11 @@
                 "2018": "28.2%",
                 "2019": "21.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "4199",
+            "name": "Dixie Montessori Academy",
+            "bodyName": "DMA Board of Directors"
         }
     },
     {
@@ -2320,6 +2435,11 @@
                 "2018": "19.6%",
                 "2019": "21.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "2188",
+            "name": "Dual Immersion Academy",
+            "bodyName": "DIA Board of Directors"
         }
     },
     {
@@ -2420,6 +2540,11 @@
                 "2018": "51.3%",
                 "2019": "56.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1784",
+            "name": "Early Light Academy at Daybreak",
+            "bodyName": "Early Light Academy Board of Directors"
         }
     },
     {
@@ -2514,6 +2639,11 @@
                 "2018": "24.3%",
                 "2019": "12.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "2531",
+            "name": "East Hollywood High",
+            "bodyName": "East Hollywood High School"
         }
     },
     {
@@ -2611,6 +2741,11 @@
                 "2018": "74.8%",
                 "2019": "83.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "1438",
+            "name": "Edith Bowen Laboratory School",
+            "bodyName": "Edith Bowen Laboratory School Governing Board"
         }
     },
     {
@@ -2710,6 +2845,11 @@
                 "2018": "17.7%",
                 "2019": "19.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "2693",
+            "name": "Endeavor Hall ",
+            "bodyName": "Endeavor Hall Board of Directors"
         }
     },
     {
@@ -2810,6 +2950,11 @@
                 "2018": "41.8%",
                 "2019": "45.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "2699",
+            "name": "Entheos Academy",
+            "bodyName": "Entheos Academy Board of Directors"
         }
     },
     {
@@ -2910,6 +3055,11 @@
                 "2018": "19.8%",
                 "2019": "26.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "2699",
+            "name": "Entheos Academy",
+            "bodyName": "Entheos Academy Board of Directors"
         }
     },
     {
@@ -3004,6 +3154,11 @@
                 "2018": "14.2%",
                 "2019": "22.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "3739",
+            "name": "Esperanza Elementary School",
+            "bodyName": "Esperanza Elementary School Board"
         }
     },
     {
@@ -3103,6 +3258,11 @@
                 "2018": "69.0%",
                 "2019": "54.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "1593",
+            "name": "Excelsior Academy",
+            "bodyName": "Excelsior Academy Board of Trustees"
         }
     },
     {
@@ -3197,6 +3357,11 @@
                 "2018": "29.1%",
                 "2019": "8.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "2534",
+            "name": "Fast Forward",
+            "bodyName": "Fast Forward Charter High School"
         }
     },
     {
@@ -3285,6 +3450,11 @@
                 "2018": "36.8%",
                 "2019": "26.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "5021",
+            "name": "Franklin Discovery Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -3388,6 +3558,11 @@
                 "2018": "36.7%",
                 "2019": "46.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "1773",
+            "name": "Ogden Preparatory Academy",
+            "bodyName": "Ogden Preparatory Academy Board of Directors"
         }
     },
     {
@@ -3475,6 +3650,11 @@
                 "2018": "40.6%",
                 "2019": "46.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1773",
+            "name": "Ogden Preparatory Academy",
+            "bodyName": "Ogden Preparatory Academy Board of Directors"
         }
     },
     {
@@ -3574,6 +3754,11 @@
                 "2018": "43.6%",
                 "2019": "42.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "1723",
+            "name": "Gateway Preparatory Academy",
+            "bodyName": "Academy Board"
         }
     },
     {
@@ -3673,6 +3858,11 @@
                 "2018": "73.2%",
                 "2019": "75.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "2501",
+            "name": "George Washington Academy",
+            "bodyName": "Community Council"
         }
     },
     {
@@ -3770,6 +3960,11 @@
                 "2018": "50.3%",
                 "2019": "57.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "2735",
+            "name": "Good Foundations Academy",
+            "bodyName": "Good Foundations Academy Board"
         }
     },
     {
@@ -3863,6 +4058,11 @@
                 "2018": "16.0%",
                 "2019": "32.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "4631",
+            "name": "GreenWood Charter School",
+            "bodyName": "GreenWood Charter School Board"
         }
     },
     {
@@ -3961,6 +4161,11 @@
                 "2018": "17.2%",
                 "2019": "17.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "1053",
+            "name": "Guadalupe Schools",
+            "bodyName": "Charter Board"
         }
     },
     {
@@ -4061,6 +4266,11 @@
                 "2018": "51.3%",
                 "2019": "46.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "1783",
+            "name": "Hawthorn Academy",
+            "bodyName": "Hawthorn Academy Board of Directors"
         }
     },
     {
@@ -4152,6 +4362,11 @@
                 "2018": "43.7%",
                 "2019": "45.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1783",
+            "name": "Hawthorn Academy",
+            "bodyName": "Hawthorn Academy Board of Directors"
         }
     },
     {
@@ -4252,6 +4467,11 @@
                 "2018": "51.2%",
                 "2019": "50.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "3195",
+            "name": "HighMark Charter School",
+            "bodyName": "HighMark Charter School Board of Directors"
         }
     },
     {
@@ -4348,6 +4568,11 @@
                 "2018": "70.6%",
                 "2019": "69.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "4523",
+            "name": "InTech Collegiate High School",
+            "bodyName": "InTech Collegiate High School Community Council"
         }
     },
     {
@@ -4441,6 +4666,11 @@
                 "2018": "54.9%",
                 "2019": "53.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "1852",
+            "name": "Itineris Early College High School",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -4538,6 +4768,11 @@
                 "2018": "59.8%",
                 "2019": "64.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "1871",
+            "name": "Jefferson Academy",
+            "bodyName": "Jefferson Academy Board of Directors"
         }
     },
     {
@@ -4637,6 +4872,11 @@
                 "2018": "62.2%",
                 "2019": "69.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "1975",
+            "name": "John Hancock",
+            "bodyName": "JHCS Board"
         }
     },
     {
@@ -4733,6 +4973,11 @@
                 "2018": "57.3%",
                 "2019": "61.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "1286",
+            "name": "Karl G. Maeser Prep Academy",
+            "bodyName": "Karl G. Maeser Preparatory Academy"
         }
     },
     {
@@ -4833,6 +5078,11 @@
                 "2018": "56.4%",
                 "2019": "56.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "1943",
+            "name": "Lakeview Academy",
+            "bodyName": "Lakeview Academy Board of Trustees"
         }
     },
     {
@@ -4918,6 +5168,11 @@
                 "2018": "40%-49%",
                 "2019": "38.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "5411",
+            "name": "Leadership Academy of Utah",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -5015,6 +5270,11 @@
                 "2018": "47.6%",
                 "2019": "50.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "3727",
+            "name": "Leadership Learning Academy",
+            "bodyName": "LLA Board of Directors"
         }
     },
     {
@@ -5100,6 +5360,11 @@
                 "2018": "20.0%",
                 "2019": "16.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "3727",
+            "name": "Leadership Learning Academy",
+            "bodyName": "LLA Board of Directors"
         }
     },
     {
@@ -5200,6 +5465,11 @@
                 "2018": "50.5%",
                 "2019": "49.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "1157",
+            "name": "Legacy Preparatory Academy",
+            "bodyName": "LPA Governing Board"
         }
     },
     {
@@ -5300,6 +5570,11 @@
                 "2018": "66.1%",
                 "2019": "68.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "2177",
+            "name": "Lincoln Academy",
+            "bodyName": "Lincoln Academy Board of Trustees"
         }
     },
     {
@@ -5397,6 +5672,11 @@
                 "2018": "36.4%",
                 "2019": "27.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "4735",
+            "name": "Lumen Scholar Institute",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -5499,6 +5779,11 @@
                 "2018": "17.6%",
                 "2019": "22.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "4227",
+            "name": "Mana Academy Charter School",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -5599,6 +5884,11 @@
                 "2018": "26.7%",
                 "2019": "30.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "2565",
+            "name": "Maria Montessori Academy",
+            "bodyName": "MMA Board of Directors"
         }
     },
     {
@@ -5695,6 +5985,11 @@
                 "2018": "44.2%",
                 "2019": "33.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "2367",
+            "name": "Merit College Preparatory Academy",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -5792,6 +6087,11 @@
                 "2018": "40.0%",
                 "2019": "20%-29%"
             }
+        },
+        "pmn": {
+            "pmnId": "5415",
+            "name": "Moab Charter School",
+            "bodyName": "Board"
         }
     },
     {
@@ -5894,6 +6194,11 @@
                 "2018": "28.9%",
                 "2019": "35.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "748",
+            "name": "Monticello Academy",
+            "bodyName": "Monticello Academy Board of Trustees"
         }
     },
     {
@@ -5990,6 +6295,11 @@
                 "2018": "51.9%",
                 "2019": "39.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "1890",
+            "name": "Mountain Heights Academy",
+            "bodyName": "MHA Governing Board of Directors"
         }
     },
     {
@@ -6087,6 +6397,11 @@
                 "2018": "33.6%",
                 "2019": "34.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "4055",
+            "name": "Mountain West Montessori Academy",
+            "bodyName": "MWMA Board of Directors"
         }
     },
     {
@@ -6187,6 +6502,11 @@
                 "2018": "57.2%",
                 "2019": "66.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "2244",
+            "name": "Mountainville Academy",
+            "bodyName": "Family Student Organization"
         }
     },
     {
@@ -6287,6 +6607,11 @@
                 "2018": "58.6%",
                 "2019": "57.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "2216",
+            "name": "Navigator Pointe Academy",
+            "bodyName": "Governing Board"
         }
     },
     {
@@ -6380,6 +6705,11 @@
                 "2018": "81.3%",
                 "2019": "73.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "6769",
+            "name": "Academy for Math Engineering and Science",
+            "bodyName": "AMES Board of Trustees"
         }
     },
     {
@@ -6477,6 +6807,11 @@
                 "2018": "54.5%",
                 "2019": "53.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1994",
+            "name": "Noah Webster Academy",
+            "bodyName": "Noah Webster Academy Community Council"
         }
     },
     {
@@ -6577,6 +6912,11 @@
                 "2018": "47.5%",
                 "2019": "46.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "1772",
+            "name": "North Davis Preparatory Academy",
+            "bodyName": "North Davis Preparatory Academy Board of Directors"
         }
     },
     {
@@ -6677,6 +7017,11 @@
                 "2018": "64.9%",
                 "2019": "65.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "1731",
+            "name": "North Star Academy",
+            "bodyName": "North Star Academy Board of Directors"
         }
     },
     {
@@ -6774,6 +7119,11 @@
                 "2018": "66.2%",
                 "2019": "66.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "1982",
+            "name": "Odyssey Charter School",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -6874,6 +7224,11 @@
                 "2018": "40.0%",
                 "2019": "33.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "1773",
+            "name": "Ogden Preparatory Academy",
+            "bodyName": "Ogden Preparatory Academy Board of Directors"
         }
     },
     {
@@ -6973,6 +7328,11 @@
                 "2018": "45.1%",
                 "2019": "52.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "1895",
+            "name": "Open Classroom",
+            "bodyName": "Open Classroom Charter School Corporate Board"
         }
     },
     {
@@ -7072,6 +7432,11 @@
                 "2018": "21.9%",
                 "2019": "27.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "3273",
+            "name": "Pacific Heritage Academy",
+            "bodyName": "Pacific Heritage Academy Board of Directors"
         }
     },
     {
@@ -7168,6 +7533,11 @@
                 "2018": "29.2%",
                 "2019": "25.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "2209",
+            "name": "Paradigm High Charter School",
+            "bodyName": "Paradigm High Charter School Governing Board"
         }
     },
     {
@@ -7272,6 +7642,11 @@
                 "2018": "29.2%",
                 "2019": "24.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "5215",
+            "name": "Pinnacle Canyon Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -7371,6 +7746,11 @@
                 "2018": "40.6%",
                 "2019": "36.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "3345",
+            "name": "Promontory School of Expeditionary Learning",
+            "bodyName": "Promontory School of Expeditionary Learning Bd."
         }
     },
     {
@@ -7474,6 +7854,11 @@
                 "2018": "40.4%",
                 "2019": "36.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "2053",
+            "name": "Providence Hall",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -7574,6 +7959,11 @@
                 "2018": "48.3%",
                 "2019": "54.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "1774",
+            "name": "Quest Academy",
+            "bodyName": "Quest Academy Board of Directors"
         }
     },
     {
@@ -7671,6 +8061,11 @@
                 "2018": "68.6%",
                 "2019": "69.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "3413",
+            "name": "Ranches Academy",
+            "bodyName": "Ranches Academy Board"
         }
     },
     {
@@ -7770,6 +8165,11 @@
                 "2018": "60.4%",
                 "2019": "63.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "2118",
+            "name": "Reagan Academy",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -7870,6 +8270,11 @@
                 "2018": "68.8%",
                 "2019": "58.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "1721",
+            "name": "Renaissance Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -7966,6 +8371,11 @@
                 "2018": "29.8%",
                 "2019": "21.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "2377",
+            "name": "Rockwell Charter High",
+            "bodyName": "Rockwell Charter High Board"
         }
     },
     {
@@ -8054,6 +8464,11 @@
                 "2018": "\u226410%",
                 "2019": "8.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "4939",
+            "name": "Roots Charter High School",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -8148,6 +8563,11 @@
                 "2018": "68.9%",
                 "2019": "66.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "1879",
+            "name": "Salt Lake Arts Academy",
+            "bodyName": "Salt Lake Arts Academy"
         }
     },
     {
@@ -8245,6 +8665,11 @@
                 "2018": "64.4%",
                 "2019": "57.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "2431",
+            "name": "Salt Lake Center for Science Education",
+            "bodyName": "Salt Lake Center for Science Education Community Council"
         }
     },
     {
@@ -8339,6 +8764,11 @@
                 "2018": "34.8%",
                 "2019": "28.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "1885",
+            "name": "Salt Lake School for the Performing Arts",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -8435,6 +8865,11 @@
                 "2018": "44.2%",
                 "2019": "49.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "4081",
+            "name": "Scholar Academy",
+            "bodyName": "Scholar Academy Board of Directors"
         }
     },
     {
@@ -8535,6 +8970,11 @@
                 "2018": "57.1%",
                 "2019": "62.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "3813",
+            "name": "Soldier Hollow Charter School",
+            "bodyName": "Soldier Hollow Charter School Board"
         }
     },
     {
@@ -8638,6 +9078,11 @@
                 "2018": "32.4%",
                 "2019": "24.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1935",
+            "name": "Spectrum Academy",
+            "bodyName": "Spectrum Academy Board of Directors"
         }
     },
     {
@@ -8738,6 +9183,11 @@
                 "2018": "23.8%",
                 "2019": "22.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "1935",
+            "name": "Spectrum Academy",
+            "bodyName": "Spectrum Academy Board of Directors"
         }
     },
     {
@@ -8821,6 +9271,11 @@
                 "2018": "32.3%",
                 "2019": "44.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "4943",
+            "name": "St. George Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -8915,6 +9370,11 @@
                 "2018": "53.7%",
                 "2019": "76.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1900",
+            "name": "SUCCESS Academy",
+            "bodyName": "SUCCESS Academy"
         }
     },
     {
@@ -9005,6 +9465,11 @@
                 "2018": "73.5%",
                 "2019": "58.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "1900",
+            "name": "SUCCESS Academy",
+            "bodyName": "SUCCESS Academy"
         }
     },
     {
@@ -9104,6 +9569,11 @@
                 "2018": "53.5%",
                 "2019": "58.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "878",
+            "name": "Summit Academy",
+            "bodyName": "Summit Academy Board of Trustees"
         }
     },
     {
@@ -9192,6 +9662,11 @@
                 "2018": "31.1%",
                 "2019": "40.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "878",
+            "name": "Summit Academy",
+            "bodyName": "Summit Academy Board of Trustees"
         }
     },
     {
@@ -9288,6 +9763,11 @@
                 "2018": "45.9%",
                 "2019": "49.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "878",
+            "name": "Summit Academy",
+            "bodyName": "Summit Academy Board of Trustees"
         }
     },
     {
@@ -9382,6 +9862,11 @@
                 "2018": "27.0%",
                 "2019": "27.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "5053",
+            "name": "Summit Academy High School",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -9482,6 +9967,11 @@
                 "2018": "53.4%",
                 "2019": "52.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "969",
+            "name": "Syracuse Arts Academy",
+            "bodyName": "Syracuse Arts Academy Board of Directors"
         }
     },
     {
@@ -9573,6 +10063,11 @@
                 "2018": "63.7%",
                 "2019": "71.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "969",
+            "name": "Syracuse Arts Academy",
+            "bodyName": "Syracuse Arts Academy Board of Directors"
         }
     },
     {
@@ -9670,6 +10165,11 @@
                 "2018": "43.3%",
                 "2019": "43.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "4629",
+            "name": "Terra Academy",
+            "bodyName": "Terra Academy Board"
         }
     },
     {
@@ -9757,6 +10257,11 @@
                 "2018": "46.3%",
                 "2019": "50.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "5981",
+            "name": "Center for Creativity, Innovation and Discovery (CCID)",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -9856,6 +10361,11 @@
                 "2018": "56.0%",
                 "2019": "52.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "1698",
+            "name": "Thomas Edison Charter School",
+            "bodyName": "Governing Board"
         }
     },
     {
@@ -9955,6 +10465,11 @@
                 "2018": "49.9%",
                 "2019": "54.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "1698",
+            "name": "Thomas Edison Charter School",
+            "bodyName": "Governing Board"
         }
     },
     {
@@ -10052,6 +10567,11 @@
                 "2018": "39.2%",
                 "2019": "41.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "2159",
+            "name": "Timpanogos Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -10137,6 +10657,11 @@
                 "2018": "32.7%",
                 "2019": "40.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "5557",
+            "name": "Treeside Charter School",
+            "bodyName": "TCS Board of Trustees"
         }
     },
     {
@@ -10231,6 +10756,11 @@
                 "2018": "41.1%",
                 "2019": "44.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "2410",
+            "name": "Tuacahn High School for the Performing Arts",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -10325,6 +10855,11 @@
                 "2018": "\u226410%",
                 "2019": "\u226410%"
             }
+        },
+        "pmn": {
+            "pmnId": "6591",
+            "name": "Uintah River High School",
+            "bodyName": "."
         }
     },
     {
@@ -10419,6 +10954,11 @@
                 "2018": "32.7%",
                 "2019": "19.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "4043",
+            "name": "Utah Career Path High",
+            "bodyName": "Utah Career Path High Board of Directors"
         }
     },
     {
@@ -10522,6 +11062,11 @@
                 "2018": "30.0%",
                 "2019": "29.7%"
             }
+        },
+        "pmn": {
+            "pmnId": "2782",
+            "name": "Utah Connections Academy",
+            "bodyName": "Utah Connections Academy Board"
         }
     },
     {
@@ -10616,6 +11161,11 @@
                 "2018": "67.2%",
                 "2019": "59.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "2269",
+            "name": "Utah County Academy of Sciences",
+            "bodyName": "Utah County Academy of Sciences Board of Trustees"
         }
     },
     {
@@ -10712,6 +11262,11 @@
                 "2018": "\u22645%",
                 "2019": "3.4%"
             }
+        },
+        "pmn": {
+            "pmnId": "3535",
+            "name": "Utah International School",
+            "bodyName": "Utah International Charter School"
         }
     },
     {
@@ -10805,6 +11360,11 @@
                 "2018": "29.4%",
                 "2019": "26.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "4805",
+            "name": "Utah Military Academy",
+            "bodyName": "UMA Board of Directors"
         }
     },
     {
@@ -10889,6 +11449,11 @@
                 "2018": "27.7%",
                 "2019": "19.3%"
             }
+        },
+        "pmn": {
+            "pmnId": "4805",
+            "name": "Utah Military Academy",
+            "bodyName": "UMA Board of Directors"
         }
     },
     {
@@ -10992,6 +11557,11 @@
                 "2018": "31.9%",
                 "2019": "27.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "2441",
+            "name": "Utah Virtual Academy",
+            "bodyName": "Utah Virtual Academy"
         }
     },
     {
@@ -11091,6 +11661,11 @@
                 "2018": "41.3%",
                 "2019": "22.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "3361",
+            "name": "Valley Academy Charter School",
+            "bodyName": "Valley Academy Charter School Board"
         }
     },
     {
@@ -11188,6 +11763,11 @@
                 "2018": "45.4%",
                 "2019": "41.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "4705",
+            "name": "Vanguard Academy",
+            "bodyName": "School Board"
         }
     },
     {
@@ -11291,6 +11871,11 @@
                 "2018": "33.5%",
                 "2019": "30.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "2162",
+            "name": "Venture Academy",
+            "bodyName": "Venture Academy School Board"
         }
     },
     {
@@ -11391,6 +11976,11 @@
                 "2018": "54.8%",
                 "2019": "54.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "2768",
+            "name": "Vista at Entrada School of Performing Arts & Technology",
+            "bodyName": "Vista School"
         }
     },
     {
@@ -11488,6 +12078,11 @@
                 "2018": "48.2%",
                 "2019": "49.6%"
             }
+        },
+        "pmn": {
+            "pmnId": "3689",
+            "name": "Voyage Academy Charter School",
+            "bodyName": "Voyage Academy"
         }
     },
     {
@@ -11591,6 +12186,11 @@
                 "2018": "43.3%",
                 "2019": "50.8%"
             }
+        },
+        "pmn": {
+            "pmnId": "2313",
+            "name": "Walden School of Liberal Arts",
+            "bodyName": "Walden School Board of Trustees"
         }
     },
     {
@@ -11681,6 +12281,11 @@
                 "2018": "42.7%",
                 "2019": "44.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "4933",
+            "name": "Wallace Stegner Academy",
+            "bodyName": "Board of Directors"
         }
     },
     {
@@ -11778,6 +12383,11 @@
                 "2018": "61.2%",
                 "2019": "65.0%"
             }
+        },
+        "pmn": {
+            "pmnId": "1775",
+            "name": "Wasatch Peak Academy",
+            "bodyName": "Wasatch Peak Academy Board of Directors"
         }
     },
     {
@@ -11868,6 +12478,11 @@
                 "2018": "22.4%",
                 "2019": "20.2%"
             }
+        },
+        "pmn": {
+            "pmnId": "5041",
+            "name": "Wasatch Waldorf Charter School",
+            "bodyName": "Wasatch Waldorf Charter School Governing Board"
         }
     },
     {
@@ -11935,6 +12550,11 @@
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=7I&schNum=100",
             "SchoolNumber": "100",
             "DistrictNumber": "7I"
+        },
+        "pmn": {
+            "pmnId": "4005",
+            "name": "Weber State University Charter Academy",
+            "bodyName": "Weber State University Charter Academy"
         }
     },
     {
@@ -12034,6 +12654,11 @@
                 "2018": "53.1%",
                 "2019": "54.5%"
             }
+        },
+        "pmn": {
+            "pmnId": "2446",
+            "name": "Weilenmann School of Discovery",
+            "bodyName": "Weilenmann School of Discovery"
         }
     },
     {
@@ -12122,6 +12747,11 @@
                 "2017": "65.5%",
                 "2018": "63.9%"
             }
+        },
+        "pmn": {
+            "pmnId": "4683",
+            "name": "Winter Sports School in Park City",
+            "bodyName": "Board of Trustees"
         }
     },
     {
@@ -12206,6 +12836,11 @@
             "Science": {
                 "2019": "20.1%"
             }
+        },
+        "pmn": {
+            "pmnId": "5447",
+            "name": "Ignite Entrepreneurship Academy",
+            "bodyName": "IEA Board of Directors"
         }
     }
 ]
