@@ -10,6 +10,11 @@ import Col from "react-bootstrap/Col";
 function SchoolPage(props) {
     const id = parseInt(props.match.params.schoolID);
     const school = schools.find(s => s.SchoolID === id);
+    const gradeMap = {
+        "-1": "Preschool",
+        "0": "K"
+      }
+    const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
     
     if(!school) {
         return <div>404 - Could not find school</div>
@@ -18,7 +23,7 @@ function SchoolPage(props) {
         <div className="container">    
             <div className="jumbotron">
                 <h1 className="display-3">{school.SchoolName}</h1>
-                <p className="lead">{school.SchoolCategory} ({school.GradeLow} - {school.GradeHigh})</p>
+                <p className="lead">{school.SchoolCategory} ({formatGrade(school.GradeLow)} - {school.GradeHigh})</p>
                 <hr className="my-2"/>
                 <Row>
                 <p className="lead">

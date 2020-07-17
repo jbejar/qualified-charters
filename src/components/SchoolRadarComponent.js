@@ -14,12 +14,16 @@ const color = {
     "2022": "#006ba4",
 }
 function SchoolRadarComponent({ school }) {
+    if(!school.scores["Language Arts"]) {
+        return <div>N / A </div>;
+    }
   const data = [
     { name: "Language Arts", ...school.scores["Language Arts"] },
     { name: "Science", ...school.scores["Science"] },
     { name: "Mathematics", ...school.scores["Mathematics"] },
   ].map(score => {
-      Object.keys(school.scores[score.name]).forEach(key => {
+      const sub = school.scores[score.name];
+      Object.keys(sub).forEach(key => {
           score[key] = parseFloat(score[key])
       });
       return score;

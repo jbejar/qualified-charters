@@ -5,12 +5,16 @@ import { Link } from "react-router-dom";
 import ReactGA from "react-ga";
 
 function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], locate}) {
+  const gradeMap = {
+    "-1": "P",
+    "0": "K"
+  }
+  const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
   const [viewport, setViewport] = useState({
     center,
     zoom,
   });
   const onViewportChange = viewport => {
-    setViewport(viewport);
     ReactGA.event({
       category: 'Map',
       action: 'UpdateViewport',
@@ -30,7 +34,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
           <Popup>
             <Link to={"schools/" + school.SchoolID}>{school.SchoolName}</Link>
             <br />
-            Grades: {school.GradeLow} - {school.GradeHigh}
+            Grades: {formatGrade(school.GradeLow)} - {formatGrade(school.GradeHigh)}
             <br />
             <span>
               Math:{" "}
