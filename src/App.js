@@ -16,6 +16,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
 import MostQualifiedPage from './pages/MostQualifiedPage';
+import OpenMeetingsPage from './pages/OpenMeetingsPage';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
@@ -46,6 +47,7 @@ function App() {
           <Route path="/about" component={withTracker(AboutPage)}/>
           <Route path="/schools/:schoolID" component={withTracker(SchoolPage)} />
           <Route path="/qualified" component={withTracker(MostQualifiedPage)}/>
+          <Route path="/openmeetings" component={withTracker(OpenMeetingsPage)}/>
           <Route path="/" component={withTracker(HomePage)}/>
         </Switch>
       </div>
