@@ -8,6 +8,9 @@ import ReactGA from "react-ga";
 export default function SchoolSearchComponent() {
   const [school, setSchool] = useState();
   const onChange = ({option}) => {
+    if(!option) {
+      return;
+    }
     setSchool(option);
     ReactGA.event({
       category: 'Search',

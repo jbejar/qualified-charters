@@ -14,7 +14,7 @@ function BoardMeetingComponent({name, pmnId, bodyName, scheduled=0, haveRecordin
         
             <span>
             <Button size="lg" variant={variant} className="ml-md-4 " href={`https://www.utah.gov/pmn/sitemap/publicbody/${pmnId}.html`} target="_blank">Board Meetings</Button>
-            <span class="ml-md-4">
+            <span className="ml-md-4">
             <FaRegCalendarCheck className="mr-1" /><span title="Scheduled Board Meetings">{scheduled}</span>
             <FaRegFileAlt className="ml-4 mr-1"/><span title="Meetings that Have Minutes Attached">{haveMinutes}</span>
             <FaRegFileAudio className="ml-4 mr-1"/><span title="Meetings that Have Recordings">{haveRecordings}</span>
