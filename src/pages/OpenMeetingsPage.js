@@ -11,7 +11,7 @@ export default function OpenMeetingsPage() {
             <div className="jumbotron">
                 <h3 className="display-4">Transparency</h3>
                 <hr className="my-2"/>
-                <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>
+                <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified Logo"/>
                 <p>
                     Schools are required to post minutes within three days of their approval to the <a href="https://www.utah.gov/pmn/index.html" >Utah Public Meeting</a> website.
                     Also they are also required to post an audio recording within three days of the meeting. See <a href="https://le.utah.gov/xcode/Title52/Chapter4/52-4-S203.html?v=C52-4-S203_2018050820180508">Utah Open and Public Meetings Act</a>

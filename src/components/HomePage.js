@@ -16,7 +16,7 @@ export default function HomePage() {
                 <SchoolMap locate={true} schools={schools} center={[40.7774076, -111.8881773]}/>
                 <SchoolFilter setSchools={setSchools}/>
             </div>
-            <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>    
+            <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified"/>
             <SchoolTable schools={schools} columns={[{
                 name: "Professional License %",
                 func: professionalLicense

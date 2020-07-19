@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ReactGA from "react-ga";
 import withTracker from './components/withTracker';
 import {
   BrowserRouter as Router,
@@ -17,7 +18,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
 import MostQualifiedPage from './pages/MostQualifiedPage';
 import OpenMeetingsPage from './pages/OpenMeetingsPage';
+
 function App() {
+  ReactGA.initialize("UA-104442548-1", {
+    debug: false
+  });
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div>

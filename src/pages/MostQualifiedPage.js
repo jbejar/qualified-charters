@@ -14,7 +14,7 @@ export default function MostQualifiedPage() {
             <div className="jumbotron">
                 <h3 className="display-4">Most Qualified</h3>
                 <hr className="my-2"/>
-                <img width="400" src="/Qualified.png" className="img-fluid rounded" alt=""/>
+                <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified Log"/>
             </div>
             <h4>Most Qualified Charter Schools</h4>
             <SchoolTable schools={schools} sort={qualifiedSort} columns={[
