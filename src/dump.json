@@ -63,6 +63,15 @@
             "Temporary": null,
             "All": 20
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 6.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 10.0,
+            "Student": null,
+            "All": 20
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=83&schNum=700",
             "SchoolNumber": "700",
@@ -167,7 +176,7 @@
         "SchoolName": "American Academy of Innovation",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.aaiutah.org",
+        "URL": "https://www.aaiutah.org",
         "LEATitle": "American Academy of Innovation",
         "LEA": "American Academy of Innovation",
         "LEAShort": null,
@@ -223,6 +232,15 @@
             "No License": 6.0,
             "Professional": 12.0,
             "Temporary": 4.0,
+            "All": 30
+        },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 15.0,
+            "No License": 6.0,
+            "Reinstated": null,
+            "Renewed": 1.0,
+            "Student": null,
             "All": 30
         },
         "scores": {
@@ -386,9 +404,18 @@
             "Level 1 LEA-Specific": 4.0,
             "Level 2 LEA-Specific": null,
             "No License": 5.0,
-            "Professional": 61.0,
+            "Professional": 60.0,
             "Temporary": 10.0,
-            "All": 88
+            "All": 87
+        },
+        "licenseStatus": {
+            "Expired": 20.0,
+            "New": 31.0,
+            "No License": 5.0,
+            "Reinstated": null,
+            "Renewed": 31.0,
+            "Student": null,
+            "All": 87
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8B&schNum=100",
@@ -538,6 +565,15 @@
             "No License": 4.0,
             "Professional": 21.0,
             "Temporary": 5.0,
+            "All": 42
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 21.0,
+            "No License": 4.0,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
             "All": 42
         },
         "scores": {
@@ -690,6 +726,15 @@
             "Temporary": 11.0,
             "All": 88
         },
+        "licenseStatus": {
+            "Expired": 21.0,
+            "New": 52.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 88
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=74&schNum=110",
             "SchoolNumber": "110",
@@ -834,6 +879,15 @@
             "Temporary": 9.0,
             "All": 42
         },
+        "licenseStatus": {
+            "Expired": 12.0,
+            "New": 18.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
+            "All": 42
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=74&schNum=130",
             "SchoolNumber": "130",
@@ -920,7 +974,7 @@
         "SchoolName": "American Preparatory Academy - Draper #3",
         "SchoolName2": null,
         "SchoolShort": "American Prep Acad Draper 3",
-        "URL": "www.americanprep.org",
+        "URL": "https://www.americanprep.org",
         "LEATitle": "American Prep Acad",
         "LEA": "American Preparatory Academy",
         "LEAShort": "American Prep Acad",
@@ -975,6 +1029,15 @@
             "No License": 3.0,
             "Professional": 20.0,
             "Temporary": 7.0,
+            "All": 43
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 18.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
             "All": 43
         },
         "scores": {
@@ -1122,6 +1185,15 @@
             "Temporary": 6.0,
             "All": 27
         },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 27
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=74&schNum=140",
             "SchoolNumber": "140",
@@ -1257,8 +1329,17 @@
             "Level 2 LEA-Specific": null,
             "No License": null,
             "Professional": 12.0,
-            "Temporary": 8.0,
-            "All": 30
+            "Temporary": 7.0,
+            "All": 29
+        },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 11.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 9.0,
+            "Student": null,
+            "All": 29
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=74&schNum=120",
@@ -1346,7 +1427,7 @@
         "SchoolName": "Ascent Academies of Utah Farmington",
         "SchoolName2": null,
         "SchoolShort": "Ascent Acad of UT Farmington",
-        "URL": "www.ascentutah.org",
+        "URL": "https://www.ascentutah.org",
         "LEATitle": "Ascent Academies of Utah",
         "LEA": "Ascent Academies of Utah",
         "LEAShort": null,
@@ -1405,6 +1486,15 @@
             "No License": null,
             "Professional": 18.0,
             "Temporary": 5.0,
+            "All": 29
+        },
+        "licenseStatus": {
+            "Expired": 10.0,
+            "New": 12.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
             "All": 29
         },
         "scores": {
@@ -1539,6 +1629,15 @@
             "Temporary": 7.0,
             "All": 38
         },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 22.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 9.0,
+            "Student": null,
+            "All": 38
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2J&schNum=320",
             "SchoolNumber": "320",
@@ -1607,7 +1706,7 @@
         "SchoolName": "Ascent Academies of Utah West Jordan",
         "SchoolName2": null,
         "SchoolShort": "Ascent Acad of Ut West Jordan",
-        "URL": "www.AscentUtah.org",
+        "URL": "https://www.AscentUtah.org",
         "LEATitle": "Ascent Academies of Utah",
         "LEA": "Ascent Academies of Utah",
         "LEAShort": null,
@@ -1664,9 +1763,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": null,
-            "Professional": 25.0,
+            "Professional": 24.0,
             "Temporary": 6.0,
-            "All": 38
+            "All": 37
+        },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 24.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
+            "All": 37
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2J&schNum=310",
@@ -1739,7 +1847,7 @@
         "SchoolName": "Athenian eAcademy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.aea.rocks",
+        "URL": "https://www.aea.rocks",
         "LEATitle": "Athenian eAcademy",
         "LEA": "Athenian eAcademy",
         "LEAShort": null,
@@ -1801,6 +1909,15 @@
             "No License": 2.0,
             "Professional": 27.0,
             "Temporary": 4.0,
+            "All": 38
+        },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 15.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 38
         },
         "scores": {
@@ -1901,7 +2018,7 @@
         "SchoolName": "Athlos Academy of Utah",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.athlosutah.org",
+        "URL": "https://www.athlosutah.org",
         "LEATitle": "Athlos Academy of Utah",
         "LEA": "Athlos Academy of Utah",
         "LEAShort": null,
@@ -1959,6 +2076,15 @@
             "No License": null,
             "Professional": 20.0,
             "Temporary": 1.0,
+            "All": 24
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 15.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
             "All": 24
         },
         "scores": {
@@ -2110,6 +2236,15 @@
             "Temporary": 2.0,
             "All": 10
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 4.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 10
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3G&schNum=100",
             "SchoolNumber": "100",
@@ -2236,6 +2371,15 @@
             "Temporary": 3.0,
             "All": 23
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 14.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 23
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3B&schNum=700",
             "SchoolNumber": "700",
@@ -2293,6 +2437,159 @@
             "haveAttachments": 3,
             "haveRecordings": 3,
             "haveMinutes": 3
+        }
+    },
+    {
+        "SchoolID": 186580,
+        "DistrictID": 186579,
+        "SchoolNumber": "100",
+        "DistrictNumber": "3M",
+        "SchoolTitle": "Bridge Elementary School",
+        "SchoolName": "Bridge Elementary School",
+        "SchoolName2": null,
+        "SchoolShort": null,
+        "URL": null,
+        "LEATitle": "Bridge Elementary School",
+        "LEA": "Bridge Elementary School",
+        "LEAShort": null,
+        "CharteredBy": "State Charter School Board (SCSB)",
+        "YearOpened": 2020,
+        "YearClosed": null,
+        "Opened": "/Date(1593583200000)/",
+        "Closed": null,
+        "IsOpenThisSchoolYear": true,
+        "Grades": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "GradeLow": 0,
+        "GradeHigh": 6,
+        "Address": "4824 S Midland Dr",
+        "Address1": "4824 S Midland Dr",
+        "Address2": null,
+        "City": "ROY",
+        "Zip": "84067",
+        "PrincipalEmail": "lani@bridgecharter.org",
+        "PrincipalName": "",
+        "PrincipalTitle": "Principal",
+        "Phone": null,
+        "Fax": null,
+        "Lat": 41.1758,
+        "Lng": -112.06633,
+        "IsCharter": true,
+        "IsPrivate": false,
+        "IsTitle1CurrentYear": null,
+        "IsTitle1PreviousYear": false,
+        "SchoolCategory": "Elementary School",
+        "SchoolCategoryCode": "ELEM",
+        "SchoolTypeCode": "ELEM",
+        "EducationType": "Regular Education",
+        "EducationTypeCode": 1,
+        "Contacts": [],
+        "licenseTypes": {
+            "1": null,
+            "1 - Returning": null,
+            "2": null,
+            "3": null,
+            "Alt. Route to Licensure": null,
+            "Associate": null,
+            "Level 1 APT": null,
+            "Level 1 LEA-Specific": null,
+            "Level 2 LEA-Specific": null,
+            "No License": null,
+            "Professional": 1.0,
+            "Temporary": null,
+            "All": 1
+        },
+        "licenseStatus": {
+            "Expired": null,
+            "New": null,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 1.0,
+            "Student": null,
+            "All": 1
+        },
+        "scores": {
+            "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3M&schNum=100",
+            "SchoolNumber": "100",
+            "DistrictNumber": "3M"
+        },
+        "pmn": {
+            "meetings": [
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting and Closed Session",
+                    "date": "2020/07/21 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.07.21 Board Meeting Agenda - BE.pdf Other Added: 2020/07/16 03:50 AM"
+                },
+                {
+                    "name": "2020-2021 Annual Board Meeting Calendar",
+                    "date": "2020/07/01 01:00 AM",
+                    "status": "Scheduled",
+                    "attachments": "2020-2021 Board Meeting Schedule - BE.pdf Other Added: 2020/06/24 11:04 AM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting",
+                    "date": "2020/06/29 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.06.29 505PM Board Meeting Recording - BE.mp3 Audio Recording Added: 2020/06/30 01:48 AM  2020.06.29 Board Meeting Agenda - BE.pdf Other Added: 2020/06/27 01:32 AM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Annual Meeting and Closed Session",
+                    "date": "2020/06/16 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.06.16 512PM Board Meeting Recording Part I - BE.mp3 Audio Recording Added: 2020/06/24 10:09 AM  2020.06.16 512PM Board Meeting Recording Part II - BE.mp3 Audio Recording Added: 2020/06/24 10:11 AM  2020.06.16 Annual Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/06/30 01:40 AM  2020.06.16 Annual Board Meeting Agenda - BE.pdf Other Added: 2020/06/15 01:42 PM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting and Closed Session",
+                    "date": "2020/05/19 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.05.19 501PM Board Meeting Recording - BE.mp3 Audio Recording Added: 2020/05/19 11:03 PM  2020.05.19 Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/06/24 12:45 AM  2020.05.19 Board Meeting Agenda - BE.pdf Other Added: 2020/05/15 01:32 AM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting",
+                    "date": "2020/04/02 06:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.04.02 603PM Board Meeting Recording - BE.wav Audio Recording Added: 2020/04/02 10:02 PM  2020.04.02 Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/05/20 12:04 AM  2020.04.02 Board Meeting Agenda - BE.pdf Other Added: 2020/04/01 12:15 PM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting",
+                    "date": "2020/03/17 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.03.17 Board Meeting Recording - BE.MP3 Audio Recording Added: 2020/03/17 06:56 PM  2020.03.17 Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/04/02 06:56 PM  2020.03.17 Board Meeting Agenda - BE.pdf Other Added: 2020/03/12 06:09 PM"
+                },
+                {
+                    "name": "Bridge Elementary Board of Directors Meeting",
+                    "date": "2020/02/18 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.02.18 505PM Board Meeting Recording - BE.MP3 Audio Recording Added: 2020/02/18 05:59 PM  2020.02.18 Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/03/17 06:53 PM  2020.02.18 Board Meeting Agenda - BE.pdf Other Added: 2020/02/13 04:31 PM"
+                },
+                {
+                    "name": "Bridge Elementary Annual Board Meeting Calendar",
+                    "date": "2020/02/01 01:00 AM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments"
+                },
+                {
+                    "name": "Bridge Elementary Board Meeting",
+                    "date": "2020/01/21 05:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "2020.01.21 504PM Board Meeting Recording - BE.MP3 Audio Recording Added: 2020/01/21 07:09 PM  2020.01.21 Board Meeting Minutes APPROVED - BE.pdf Meeting Minutes Added: 2020/02/18 05:35 PM  2020.01.21 Board Meeting Agenda - BE.pdf Other Added: 2020/01/17 05:36 PM"
+                }
+            ],
+            "pmnId": "6641",
+            "name": "Bridge Elementary",
+            "bodyName": "Bridge Elementary Board of Directors",
+            "scheduled": 10,
+            "haveAttachments": 9,
+            "haveRecordings": 7,
+            "haveMinutes": 6
         }
     },
     {
@@ -2360,6 +2657,15 @@
             "No License": 1.0,
             "Professional": 6.0,
             "Temporary": null,
+            "All": 17
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 8.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
             "All": 17
         },
         "scores": {
@@ -2526,6 +2832,15 @@
             "Temporary": 1.0,
             "All": 19
         },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 8.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 9.0,
+            "Student": null,
+            "All": 19
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=5G&schNum=100",
             "SchoolNumber": "100",
@@ -2670,6 +2985,15 @@
             "Temporary": null,
             "All": 22
         },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 8.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 22
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9D&schNum=100",
             "SchoolNumber": "100",
@@ -2777,6 +3101,15 @@
             "No License": null,
             "Professional": 31.0,
             "Temporary": null,
+            "All": 36
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
             "All": 36
         },
         "scores": {
@@ -2942,9 +3275,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 1.0,
-            "Professional": 15.0,
+            "Professional": 14.0,
             "Temporary": null,
-            "All": 18
+            "All": 17
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 11.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
+            "All": 17
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=87&schNum=700",
@@ -3084,6 +3426,15 @@
             "Temporary": 9.0,
             "All": 71
         },
+        "licenseStatus": {
+            "Expired": 13.0,
+            "New": 44.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 71
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A3&schNum=700",
             "SchoolNumber": "700",
@@ -3133,7 +3484,7 @@
         "SchoolName": "Dixie Montessori Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.dixiemontessoriacademy.org",
+        "URL": "https://www.dixiemontessoriacademy.org",
         "LEATitle": "Dixie Montessori Academy",
         "LEA": "Dixie Montessori Academy",
         "LEAShort": null,
@@ -3190,6 +3541,15 @@
             "No License": 1.0,
             "Professional": 12.0,
             "Temporary": 5.0,
+            "All": 22
+        },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 10.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
             "All": 22
         },
         "scores": {
@@ -3359,6 +3719,15 @@
             "Temporary": 7.0,
             "All": 25
         },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 7.0,
+            "No License": 5.0,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
+            "All": 25
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4E&schNum=100",
             "SchoolNumber": "100",
@@ -3510,6 +3879,15 @@
             "No License": null,
             "Professional": 36.0,
             "Temporary": 2.0,
+            "All": 47
+        },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 24.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
             "All": 47
         },
         "scores": {
@@ -3677,6 +4055,15 @@
             "Temporary": 1.0,
             "All": 22
         },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 11.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 5.0,
+            "Student": null,
+            "All": 22
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A8&schNum=700",
             "SchoolNumber": "700",
@@ -3795,6 +4182,15 @@
             "No License": null,
             "Professional": 22.0,
             "Temporary": null,
+            "All": 25
+        },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 5.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 17.0,
+            "Student": null,
             "All": 25
         },
         "scores": {
@@ -3943,6 +4339,15 @@
             "Temporary": null,
             "All": 18
         },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 12.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
+            "All": 18
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3H&schNum=100",
             "SchoolNumber": "100",
@@ -4051,6 +4456,15 @@
             "No License": null,
             "Professional": 23.0,
             "Temporary": 1.0,
+            "All": 29
+        },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 12.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 29
         },
         "scores": {
@@ -4224,6 +4638,15 @@
             "Temporary": 3.0,
             "All": 20
         },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 13.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 1.0,
+            "Student": null,
+            "All": 20
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3C&schNum=110",
             "SchoolNumber": "110",
@@ -4334,7 +4757,7 @@
         "SchoolName": "Esperanza School",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.esperanzaelementary.org",
+        "URL": "https://www.esperanzaelementary.org",
         "LEATitle": "Esperanza School",
         "LEA": "Esperanza School",
         "LEAShort": null,
@@ -4390,6 +4813,15 @@
             "No License": 1.0,
             "Professional": 17.0,
             "Temporary": 4.0,
+            "All": 26
+        },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 16.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
             "All": 26
         },
         "scores": {
@@ -4535,6 +4967,15 @@
             "Temporary": 13.0,
             "All": 56
         },
+        "licenseStatus": {
+            "Expired": 14.0,
+            "New": 27.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
+            "All": 56
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=7F&schNum=100",
             "SchoolNumber": "100",
@@ -4670,6 +5111,15 @@
             "Temporary": null,
             "All": 25
         },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 5.0,
+            "No License": 4.0,
+            "Reinstated": null,
+            "Renewed": 10.0,
+            "Student": 1.0,
+            "All": 25
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=98&schNum=700",
             "SchoolNumber": "700",
@@ -4788,6 +5238,15 @@
             "No License": 4.0,
             "Professional": 15.0,
             "Temporary": 6.0,
+            "All": 36
+        },
+        "licenseStatus": {
+            "Expired": 15.0,
+            "New": 15.0,
+            "No License": 4.0,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
             "All": 36
         },
         "scores": {
@@ -4915,14 +5374,23 @@
             "1 - Returning": null,
             "2": 3.0,
             "3": null,
-            "Alt. Route to Licensure": 2.0,
-            "Associate": 3.0,
+            "Alt. Route to Licensure": 1.0,
+            "Associate": 4.0,
             "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": null,
             "Professional": 64.0,
             "Temporary": 7.0,
+            "All": 82
+        },
+        "licenseStatus": {
+            "Expired": 14.0,
+            "New": 44.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 24.0,
+            "Student": null,
             "All": 82
         },
         "scores": {
@@ -5017,7 +5485,7 @@
         "SchoolName": "Freedom Preparatory Academy - Vineyard",
         "SchoolName2": null,
         "SchoolShort": "Freedom Prep Vineyard",
-        "URL": "www.freedomprep.net",
+        "URL": "https://www.freedomprep.net",
         "LEATitle": "Freedom Prep Academy",
         "LEA": "Freedom Preparatory Academy",
         "LEAShort": "Freedom Prep Academy",
@@ -5072,6 +5540,15 @@
             "No License": null,
             "Professional": 24.0,
             "Temporary": 2.0,
+            "All": 26
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 20.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
             "All": 26
         },
         "scores": {
@@ -5215,6 +5692,15 @@
             "No License": 2.0,
             "Professional": 30.0,
             "Temporary": null,
+            "All": 38
+        },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 18.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 15.0,
+            "Student": 2.0,
             "All": 38
         },
         "scores": {
@@ -5363,6 +5849,15 @@
             "Temporary": null,
             "All": 49
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 26.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 21.0,
+            "Student": null,
+            "All": 49
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=5D&schNum=100",
             "SchoolNumber": "100",
@@ -5470,6 +5965,15 @@
             "Temporary": null,
             "All": 27
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 12.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 27
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8G&schNum=100",
             "SchoolNumber": "100",
@@ -5556,7 +6060,7 @@
         "SchoolName": "Greenwood Charter School",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.greenwoodcharter.org",
+        "URL": "https://www.greenwoodcharter.org",
         "LEATitle": "Greenwood Charter School",
         "LEA": "Greenwood Charter School",
         "LEAShort": null,
@@ -5614,6 +6118,15 @@
             "No License": null,
             "Professional": 18.0,
             "Temporary": 7.0,
+            "All": 27
+        },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 15.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
             "All": 27
         },
         "scores": {
@@ -5759,7 +6272,7 @@
         "EducationTypeCode": 1,
         "Contacts": [],
         "licenseTypes": {
-            "1": null,
+            "1": 1.0,
             "1 - Returning": null,
             "2": null,
             "3": null,
@@ -5768,10 +6281,19 @@
             "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": 1.0,
-            "Professional": 11.0,
+            "No License": 2.0,
+            "Professional": 12.0,
             "Temporary": 1.0,
-            "All": 15
+            "All": 18
+        },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 6.0,
+            "No License": 2.0,
+            "Reinstated": 1.0,
+            "Renewed": 5.0,
+            "Student": null,
+            "All": 18
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=1E&schNum=100",
@@ -5908,6 +6430,15 @@
             "Temporary": 2.0,
             "All": 38
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 18.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 17.0,
+            "Student": null,
+            "All": 38
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8F&schNum=100",
             "SchoolNumber": "100",
@@ -6000,7 +6531,7 @@
         "SchoolName": "Hawthorn Academy South Jordan",
         "SchoolName2": null,
         "SchoolShort": "Hawthorn Academy - Sojo",
-        "URL": "www.hawthornacademy.org",
+        "URL": "https://www.hawthornacademy.org",
         "LEATitle": "Hawthorn Academy",
         "LEA": "Hawthorn Academy",
         "LEAShort": null,
@@ -6056,6 +6587,15 @@
             "No License": null,
             "Professional": 26.0,
             "Temporary": 3.0,
+            "All": 33
+        },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 13.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 33
         },
         "scores": {
@@ -6205,6 +6745,15 @@
             "Temporary": null,
             "All": 34
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 18.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
+            "All": 34
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=5H&schNum=100",
             "SchoolNumber": "100",
@@ -6340,6 +6889,15 @@
             "No License": null,
             "Professional": 11.0,
             "Temporary": 1.0,
+            "All": 14
+        },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 5.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
             "All": 14
         },
         "scores": {
@@ -6488,6 +7046,15 @@
             "Temporary": 1.0,
             "All": 22
         },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 6.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 15.0,
+            "Student": null,
+            "All": 22
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A5&schNum=700",
             "SchoolNumber": "700",
@@ -6630,6 +7197,15 @@
             "No License": null,
             "Professional": 19.0,
             "Temporary": 1.0,
+            "All": 27
+        },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 13.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
             "All": 27
         },
         "scores": {
@@ -6790,6 +7366,15 @@
             "Temporary": null,
             "All": 12
         },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 3.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
+            "All": 12
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=93&schNum=105",
             "SchoolNumber": "105",
@@ -6943,6 +7528,15 @@
             "No License": 2.0,
             "Professional": 28.0,
             "Temporary": 1.0,
+            "All": 42
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 15.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
             "All": 42
         },
         "scores": {
@@ -7110,6 +7704,15 @@
             "Temporary": 3.0,
             "All": 46
         },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 19.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 21.0,
+            "Student": null,
+            "All": 46
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4C&schNum=100",
             "SchoolNumber": "100",
@@ -7196,7 +7799,7 @@
         "SchoolName": "Leadership Academy of Utah",
         "SchoolName2": null,
         "SchoolShort": "LAU",
-        "URL": "www.lautah.org",
+        "URL": "https://www.lautah.org",
         "LEATitle": "LAU",
         "LEA": "Leadership Academy of Utah",
         "LEAShort": "LAU",
@@ -7252,6 +7855,15 @@
             "No License": null,
             "Professional": 21.0,
             "Temporary": null,
+            "All": 31
+        },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 13.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
             "All": 31
         },
         "scores": {
@@ -7376,9 +7988,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 2.0,
-            "Professional": 18.0,
+            "Professional": 17.0,
             "Temporary": 6.0,
-            "All": 30
+            "All": 29
+        },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 19.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
+            "All": 29
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3I&schNum=100",
@@ -7524,6 +8145,15 @@
             "Temporary": 7.0,
             "All": 21
         },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 11.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
+            "All": 21
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3I&schNum=110",
             "SchoolNumber": "110",
@@ -7657,6 +8287,15 @@
             "No License": 1.0,
             "Professional": 40.0,
             "Temporary": 8.0,
+            "All": 62
+        },
+        "licenseStatus": {
+            "Expired": 13.0,
+            "New": 33.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": 1.0,
             "All": 62
         },
         "scores": {
@@ -7818,6 +8457,15 @@
             "Temporary": 5.0,
             "All": 45
         },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 19.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 17.0,
+            "Student": null,
+            "All": 45
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2B&schNum=100",
             "SchoolNumber": "100",
@@ -7867,7 +8515,7 @@
         "SchoolName": "Lumen Scholar Institute",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.lumenscholar.org",
+        "URL": "https://www.lumenscholar.org",
         "LEATitle": "Lumen Scholar Institute",
         "LEA": "Lumen Scholar Institute",
         "LEAShort": null,
@@ -7917,19 +8565,28 @@
         "EducationTypeCode": 1,
         "Contacts": [],
         "licenseTypes": {
-            "1": null,
+            "1": 1.0,
             "1 - Returning": null,
             "2": 1.0,
             "3": null,
             "Alt. Route to Licensure": 3.0,
             "Associate": 2.0,
             "Level 1 APT": null,
-            "Level 1 LEA-Specific": 2.0,
+            "Level 1 LEA-Specific": 1.0,
             "Level 2 LEA-Specific": null,
-            "No License": 1.0,
-            "Professional": 22.0,
-            "Temporary": 7.0,
-            "All": 38
+            "No License": 2.0,
+            "Professional": 26.0,
+            "Temporary": 5.0,
+            "All": 41
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 15.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
+            "All": 41
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9J&schNum=300",
@@ -8094,9 +8751,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 2.0,
-            "Professional": 7.0,
+            "Professional": 4.0,
             "Temporary": 10.0,
-            "All": 20
+            "All": 17
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 2.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
+            "All": 17
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4I&schNum=700",
@@ -8251,6 +8917,15 @@
             "Temporary": 2.0,
             "All": 23
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 15.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 23
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4G&schNum=100",
             "SchoolNumber": "100",
@@ -8398,6 +9073,15 @@
             "No License": 6.0,
             "Professional": 33.0,
             "Temporary": 2.0,
+            "All": 44
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 21.0,
+            "No License": 6.0,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
             "All": 44
         },
         "scores": {
@@ -8556,6 +9240,15 @@
             "Temporary": 2.0,
             "All": 8
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 6.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": null,
+            "Student": null,
+            "All": 8
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A7&schNum=100",
             "SchoolNumber": "100",
@@ -8705,6 +9398,15 @@
             "Temporary": 1.0,
             "All": 35
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 24.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
+            "All": 35
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=7C&schNum=100",
             "SchoolNumber": "100",
@@ -8842,6 +9544,15 @@
             "Temporary": null,
             "All": 75
         },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 28.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 47.0,
+            "Student": null,
+            "All": 75
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9F&schNum=600",
             "SchoolNumber": "600",
@@ -8934,7 +9645,7 @@
         "SchoolName": "Mountain West Montessori Academy",
         "SchoolName2": null,
         "SchoolShort": "Mountain West Montessori Acad",
-        "URL": "www.MWMAcademy.org",
+        "URL": "https://www.MWMAcademy.org",
         "LEATitle": "Mountain West Montessori Acad",
         "LEA": "Mountain West Montessori Academy",
         "LEAShort": "Mountain West Montessori Acad",
@@ -8993,6 +9704,15 @@
             "No License": null,
             "Professional": 21.0,
             "Temporary": 8.0,
+            "All": 32
+        },
+        "licenseStatus": {
+            "Expired": 10.0,
+            "New": 18.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
             "All": 32
         },
         "scores": {
@@ -9121,6 +9841,15 @@
             "Temporary": null,
             "All": 37
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 17.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 15.0,
+            "Student": 1.0,
+            "All": 37
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8C&schNum=100",
             "SchoolNumber": "100",
@@ -9223,12 +9952,21 @@
             "3": null,
             "Alt. Route to Licensure": null,
             "Associate": 4.0,
-            "Level 1 APT": 2.0,
+            "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 1.0,
-            "Professional": 22.0,
+            "Professional": 23.0,
             "Temporary": null,
+            "All": 30
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 14.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 30
         },
         "scores": {
@@ -9395,6 +10133,15 @@
             "Temporary": 2.0,
             "All": 40
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 17.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 17.0,
+            "Student": null,
+            "All": 40
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A1&schNum=700",
             "SchoolNumber": "700",
@@ -9557,6 +10304,15 @@
             "Temporary": 1.0,
             "All": 24
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 9.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 24
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=6D&schNum=100",
             "SchoolNumber": "100",
@@ -9690,6 +10446,15 @@
             "No License": null,
             "Professional": 41.0,
             "Temporary": 8.0,
+            "All": 56
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 27.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 18.0,
+            "Student": null,
             "All": 56
         },
         "scores": {
@@ -9837,6 +10602,15 @@
             "No License": null,
             "Professional": 28.0,
             "Temporary": 2.0,
+            "All": 30
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 14.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
             "All": 30
         },
         "scores": {
@@ -9993,6 +10767,15 @@
             "No License": 3.0,
             "Professional": 23.0,
             "Temporary": null,
+            "All": 31
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 15.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
             "All": 31
         },
         "scores": {
@@ -10166,6 +10949,15 @@
             "Temporary": 5.0,
             "All": 62
         },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 22.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 29.0,
+            "Student": null,
+            "All": 62
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=68&schNum=100",
             "SchoolNumber": "100",
@@ -10318,6 +11110,15 @@
             "Temporary": null,
             "All": 21
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 9.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 9.0,
+            "Student": null,
+            "All": 21
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8D&schNum=240",
             "SchoolNumber": "240",
@@ -10425,6 +11226,15 @@
             "No License": 1.0,
             "Professional": 12.0,
             "Temporary": 3.0,
+            "All": 18
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 7.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 5.0,
+            "Student": null,
             "All": 18
         },
         "scores": {
@@ -10568,6 +11378,15 @@
             "No License": 1.0,
             "Professional": 14.0,
             "Temporary": 7.0,
+            "All": 30
+        },
+        "licenseStatus": {
+            "Expired": 10.0,
+            "New": 14.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 5.0,
+            "Student": null,
             "All": 30
         },
         "scores": {
@@ -10727,6 +11546,15 @@
             "Temporary": 9.0,
             "All": 36
         },
+        "licenseStatus": {
+            "Expired": 13.0,
+            "New": 11.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
+            "All": 36
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=86&schNum=100",
             "SchoolNumber": "100",
@@ -10847,7 +11675,7 @@
         "EducationTypeCode": 1,
         "Contacts": [],
         "licenseTypes": {
-            "1": 1.0,
+            "1": 2.0,
             "1 - Returning": null,
             "2": null,
             "3": null,
@@ -10856,10 +11684,19 @@
             "Level 1 APT": 2.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": null,
-            "Professional": 17.0,
+            "No License": 2.0,
+            "Professional": 13.0,
             "Temporary": 3.0,
-            "All": 25
+            "All": 24
+        },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 9.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
+            "All": 24
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=6H&schNum=100",
@@ -11023,17 +11860,26 @@
         "licenseTypes": {
             "1": 1.0,
             "1 - Returning": null,
-            "2": 2.0,
+            "2": 1.0,
             "3": null,
             "Alt. Route to Licensure": 2.0,
             "Associate": 6.0,
             "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": 2.0,
-            "Professional": 120.0,
+            "No License": 4.0,
+            "Professional": 117.0,
             "Temporary": 8.0,
-            "All": 142
+            "All": 140
+        },
+        "licenseStatus": {
+            "Expired": 13.0,
+            "New": 95.0,
+            "No License": 4.0,
+            "Reinstated": null,
+            "Renewed": 28.0,
+            "Student": null,
+            "All": 140
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9E&schNum=100",
@@ -11206,6 +12052,15 @@
             "Temporary": 11.0,
             "All": 50
         },
+        "licenseStatus": {
+            "Expired": 14.0,
+            "New": 28.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
+            "All": 50
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=1F&schNum=100",
             "SchoolNumber": "100",
@@ -11336,6 +12191,15 @@
             "No License": null,
             "Professional": 17.0,
             "Temporary": null,
+            "All": 18
+        },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 6.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
             "All": 18
         },
         "scores": {
@@ -11508,6 +12372,15 @@
             "Temporary": 1.0,
             "All": 39
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 14.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 21.0,
+            "Student": null,
+            "All": 39
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=7B&schNum=100",
             "SchoolNumber": "100",
@@ -11623,6 +12496,15 @@
             "No License": 3.0,
             "Professional": 28.0,
             "Temporary": 4.0,
+            "All": 45
+        },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 27.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
             "All": 45
         },
         "scores": {
@@ -11768,6 +12650,15 @@
             "Temporary": null,
             "All": 15
         },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 5.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 15
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2F&schNum=700",
             "SchoolNumber": "700",
@@ -11848,7 +12739,7 @@
         "SchoolName": "Roots Charter High School",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.rootshigh.org",
+        "URL": "https://www.rootshigh.org",
         "LEATitle": "Roots Charter High School",
         "LEA": "Roots Charter High School",
         "LEAShort": null,
@@ -11901,6 +12792,15 @@
             "No License": null,
             "Professional": 7.0,
             "Temporary": null,
+            "All": 13
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 9.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 2.0,
+            "Student": null,
             "All": 13
         },
         "scores": {
@@ -12042,6 +12942,15 @@
             "No License": 1.0,
             "Professional": 20.0,
             "Temporary": null,
+            "All": 27
+        },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 9.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 27
         },
         "scores": {
@@ -12206,6 +13115,15 @@
             "Temporary": null,
             "All": 20
         },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 4.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
+            "All": 20
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4F&schNum=300",
             "SchoolNumber": "300",
@@ -12306,8 +13224,17 @@
             "Level 1 LEA-Specific": 6.0,
             "Level 2 LEA-Specific": 1.0,
             "No License": null,
-            "Professional": 4.0,
-            "Temporary": 5.0,
+            "Professional": 5.0,
+            "Temporary": 4.0,
+            "All": 20
+        },
+        "licenseStatus": {
+            "Expired": 14.0,
+            "New": 3.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
             "All": 20
         },
         "scores": {
@@ -12438,6 +13365,15 @@
             "Temporary": 3.0,
             "All": 38
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 16.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 18.0,
+            "Student": null,
+            "All": 38
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=6J&schNum=100",
             "SchoolNumber": "100",
@@ -12539,7 +13475,7 @@
         "SchoolName": "Soldier Hollow Charter School",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.mysoldierhollow.com",
+        "URL": "https://www.mysoldierhollow.com",
         "LEATitle": "Soldier Hollow Charter School",
         "LEA": "Soldier Hollow Charter School",
         "LEAShort": null,
@@ -12598,6 +13534,15 @@
             "No License": 1.0,
             "Professional": 18.0,
             "Temporary": 1.0,
+            "All": 22
+        },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 11.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
             "All": 22
         },
         "scores": {
@@ -12752,9 +13697,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 1.0,
-            "Professional": 46.0,
+            "Professional": 45.0,
             "Temporary": 27.0,
-            "All": 86
+            "All": 85
+        },
+        "licenseStatus": {
+            "Expired": 34.0,
+            "New": 40.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 10.0,
+            "Student": null,
+            "All": 85
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3D&schNum=100",
@@ -12824,7 +13778,7 @@
         "SchoolName": "Spectrum Academy - Pleasant Grove",
         "SchoolName2": null,
         "SchoolShort": "Spectrum Acad Pleasant Grove",
-        "URL": "www.spectrumcharter.org",
+        "URL": "https://www.spectrumcharter.org",
         "LEATitle": "Spectrum Academy",
         "LEA": "Spectrum Academy",
         "LEAShort": null,
@@ -12886,6 +13840,15 @@
             "No License": 2.0,
             "Professional": 24.0,
             "Temporary": 24.0,
+            "All": 66
+        },
+        "licenseStatus": {
+            "Expired": 31.0,
+            "New": 27.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
             "All": 66
         },
         "scores": {
@@ -12953,7 +13916,7 @@
         "SchoolName": "St. George Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.stgacademy.org",
+        "URL": "https://www.stgacademy.org",
         "LEATitle": "St. George Academy",
         "LEA": "St. George Academy",
         "LEAShort": null,
@@ -13007,6 +13970,15 @@
             "No License": null,
             "Professional": 9.0,
             "Temporary": 5.0,
+            "All": 15
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 4.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
             "All": 15
         },
         "scores": {
@@ -13162,6 +14134,15 @@
             "Temporary": null,
             "All": 9
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 3.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
+            "All": 9
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A9&schNum=700",
             "SchoolNumber": "700",
@@ -13230,7 +14211,7 @@
         "SchoolName": "Success DSU",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.successacademy.org",
+        "URL": "https://www.successacademy.org",
         "LEATitle": "Success Academy",
         "LEA": "Success Academy",
         "LEAShort": null,
@@ -13282,6 +14263,15 @@
             "No License": 1.0,
             "Professional": 8.0,
             "Temporary": null,
+            "All": 9
+        },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 4.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
             "All": 9
         },
         "scores": {
@@ -13405,9 +14395,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": null,
-            "Professional": 45.0,
+            "Professional": 46.0,
             "Temporary": 2.0,
-            "All": 53
+            "All": 54
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 29.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 20.0,
+            "Student": null,
+            "All": 54
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A4&schNum=100",
@@ -13516,6 +14515,15 @@
             "Temporary": null,
             "All": 27
         },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 21.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 5.0,
+            "Student": null,
+            "All": 27
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=A4&schNum=310",
             "SchoolNumber": "310",
@@ -13614,6 +14622,15 @@
             "No License": null,
             "Professional": 34.0,
             "Temporary": 5.0,
+            "All": 47
+        },
+        "licenseStatus": {
+            "Expired": 11.0,
+            "New": 24.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
             "All": 47
         },
         "scores": {
@@ -13715,6 +14732,15 @@
             "No License": 1.0,
             "Professional": 21.0,
             "Temporary": 2.0,
+            "All": 28
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 13.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 9.0,
+            "Student": null,
             "All": 28
         },
         "scores": {
@@ -13882,6 +14908,15 @@
             "Temporary": 2.0,
             "All": 55
         },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 18.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 30.0,
+            "Student": null,
+            "All": 55
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4D&schNum=100",
             "SchoolNumber": "100",
@@ -13962,7 +14997,7 @@
         "SchoolName": "Syracuse Arts Academy - North",
         "SchoolName2": null,
         "SchoolShort": "Syracuse Arts Acad - North",
-        "URL": "www.SyracuseArtsAcademy.org",
+        "URL": "https://www.SyracuseArtsAcademy.org",
         "LEATitle": "Syracuse Arts Academy",
         "LEA": "Syracuse Arts Academy",
         "LEAShort": null,
@@ -14018,6 +15053,15 @@
             "No License": null,
             "Professional": 38.0,
             "Temporary": 2.0,
+            "All": 42
+        },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 16.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 22.0,
+            "Student": null,
             "All": 42
         },
         "scores": {
@@ -14094,7 +15138,7 @@
         "SchoolName": "Terra Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.theterraacademy.org",
+        "URL": "https://www.theterraacademy.org",
         "LEATitle": "Terra Academy",
         "LEA": "Terra Academy",
         "LEAShort": null,
@@ -14156,6 +15200,15 @@
             "No License": 1.0,
             "Professional": 26.0,
             "Temporary": 2.0,
+            "All": 34
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 15.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
             "All": 34
         },
         "scores": {
@@ -14322,6 +15375,15 @@
             "Temporary": null,
             "All": 23
         },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 14.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
+            "All": 23
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2L&schNum=300",
             "SchoolNumber": "300",
@@ -14460,6 +15522,15 @@
             "No License": null,
             "Professional": 28.0,
             "Temporary": null,
+            "All": 31
+        },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
             "All": 31
         },
         "scores": {
@@ -14608,6 +15679,15 @@
             "Temporary": 2.0,
             "All": 36
         },
+        "licenseStatus": {
+            "Expired": 6.0,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 13.0,
+            "Student": null,
+            "All": 36
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=94&schNum=110",
             "SchoolNumber": "110",
@@ -14750,6 +15830,15 @@
             "No License": null,
             "Professional": 25.0,
             "Temporary": null,
+            "All": 26
+        },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 9.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 17.0,
+            "Student": null,
             "All": 26
         },
         "scores": {
@@ -14902,6 +15991,15 @@
             "Temporary": 2.0,
             "All": 26
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 16.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 6.0,
+            "Student": null,
+            "All": 26
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=7L&schNum=110",
             "SchoolNumber": "110",
@@ -15031,6 +16129,15 @@
             "Temporary": 2.0,
             "All": 28
         },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 16.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 5.0,
+            "Student": null,
+            "All": 28
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=90&schNum=700",
             "SchoolNumber": "700",
@@ -15154,6 +16261,15 @@
             "Temporary": null,
             "All": 11
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 5.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
+            "All": 11
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=92&schNum=700",
             "SchoolNumber": "700",
@@ -15203,7 +16319,7 @@
         "SchoolName": "Utah Career Path High School",
         "SchoolName2": null,
         "SchoolShort": "Utah Career Path HS",
-        "URL": "www.careerpathhigh.org",
+        "URL": "https://www.careerpathhigh.org",
         "LEATitle": "Utah Career Path Hs",
         "LEA": "Utah Career Path High School",
         "LEAShort": "Utah Career Path Hs",
@@ -15254,9 +16370,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": null,
-            "Professional": 13.0,
+            "Professional": 12.0,
             "Temporary": null,
-            "All": 14
+            "All": 13
+        },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": 5.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
+            "All": 13
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9I&schNum=600",
@@ -15396,6 +16521,15 @@
             "Temporary": null,
             "All": 36
         },
+        "licenseStatus": {
+            "Expired": 4.0,
+            "New": 17.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 14.0,
+            "Student": null,
+            "All": 36
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2H&schNum=101",
             "SchoolNumber": "101",
@@ -15529,6 +16663,15 @@
             "No License": null,
             "Professional": 16.0,
             "Temporary": null,
+            "All": 24
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 6.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": 1.0,
             "All": 24
         },
         "scores": {
@@ -15686,6 +16829,15 @@
             "Temporary": 2.0,
             "All": 22
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 14.0,
+            "No License": 2.0,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 22
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=1I&schNum=700",
             "SchoolNumber": "700",
@@ -15766,7 +16918,7 @@
         "SchoolName": "Utah Military Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.utahmilitaryacademy.org",
+        "URL": "https://www.utahmilitaryacademy.org",
         "LEATitle": "Utah Military Academy",
         "LEA": "Utah Military Academy",
         "LEAShort": null,
@@ -15821,6 +16973,15 @@
             "No License": 3.0,
             "Professional": 26.0,
             "Temporary": 4.0,
+            "All": 39
+        },
+        "licenseStatus": {
+            "Expired": 10.0,
+            "New": 15.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
             "All": 39
         },
         "scores": {
@@ -15930,7 +17091,7 @@
         "SchoolName": "Utah Military Academy - Camp Williams",
         "SchoolName2": null,
         "SchoolShort": "Ut Military Acad Camp Williams",
-        "URL": "www.umavp.org",
+        "URL": "https://www.umavp.org",
         "LEATitle": "Utah Military Academy",
         "LEA": "Utah Military Academy",
         "LEAShort": null,
@@ -15985,6 +17146,15 @@
             "No License": 4.0,
             "Professional": 17.0,
             "Temporary": 2.0,
+            "All": 30
+        },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 7.0,
+            "No License": 4.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
             "All": 30
         },
         "scores": {
@@ -16149,6 +17319,15 @@
             "Temporary": null,
             "All": 113
         },
+        "licenseStatus": {
+            "Expired": 7.0,
+            "New": 52.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 54.0,
+            "Student": null,
+            "All": 113
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=5F&schNum=700",
             "SchoolNumber": "700",
@@ -16307,6 +17486,15 @@
             "Temporary": 1.0,
             "All": 29
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 13.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": 2.0,
+            "All": 29
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8H&schNum=100",
             "SchoolNumber": "100",
@@ -16399,7 +17587,7 @@
         "SchoolName": "Vanguard Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.vanguardcharter.org",
+        "URL": "https://www.vanguardcharter.org",
         "LEATitle": "Vanguard Academy",
         "LEA": "Vanguard Academy",
         "LEAShort": null,
@@ -16461,6 +17649,15 @@
             "No License": 7.0,
             "Professional": 20.0,
             "Temporary": 9.0,
+            "All": 44
+        },
+        "licenseStatus": {
+            "Expired": 14.0,
+            "New": 12.0,
+            "No License": 7.0,
+            "Reinstated": null,
+            "Renewed": 11.0,
+            "Student": null,
             "All": 44
         },
         "scores": {
@@ -16587,6 +17784,15 @@
             "No License": 1.0,
             "Professional": 36.0,
             "Temporary": 1.0,
+            "All": 47
+        },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 25.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 12.0,
+            "Student": null,
             "All": 47
         },
         "scores": {
@@ -16730,6 +17936,15 @@
             "Temporary": 3.0,
             "All": 50
         },
+        "licenseStatus": {
+            "Expired": 8.0,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 25.0,
+            "Student": null,
+            "All": 50
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2G&schNum=100",
             "SchoolNumber": "100",
@@ -16779,7 +17994,7 @@
         "SchoolName": "Voyage Academy",
         "SchoolName2": null,
         "SchoolShort": null,
-        "URL": "www.voyageacademyutah.org",
+        "URL": "https://www.voyageacademyutah.org",
         "LEATitle": "Voyage Academy",
         "LEA": "Voyage Academy",
         "LEAShort": null,
@@ -16835,6 +18050,15 @@
             "No License": null,
             "Professional": 22.0,
             "Temporary": null,
+            "All": 24
+        },
+        "licenseStatus": {
+            "Expired": null,
+            "New": 17.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
             "All": 24
         },
         "scores": {
@@ -16993,6 +18217,15 @@
             "Temporary": 15.0,
             "All": 54
         },
+        "licenseStatus": {
+            "Expired": 25.0,
+            "New": 22.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
+            "All": 54
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=81&schNum=300",
             "SchoolNumber": "300",
@@ -17119,6 +18352,15 @@
             "No License": null,
             "Professional": 20.0,
             "Temporary": 7.0,
+            "All": 32
+        },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 16.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": null,
             "All": 32
         },
         "scores": {
@@ -17250,6 +18492,15 @@
             "Temporary": 1.0,
             "All": 29
         },
+        "licenseStatus": {
+            "Expired": 2.0,
+            "New": 19.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
+            "All": 29
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4B&schNum=100",
             "SchoolNumber": "100",
@@ -17324,7 +18575,7 @@
         "SchoolName": "Wasatch Waldorf Charter School",
         "SchoolName2": null,
         "SchoolShort": "Wasatch Waldorf Charter Schl",
-        "URL": "www.wasatchwaldorf.org",
+        "URL": "https://www.wasatchwaldorf.org",
         "LEATitle": "Wasatch Waldorf Charter Schl",
         "LEA": "Wasatch Waldorf Charter School",
         "LEAShort": "Wasatch Waldorf Charter Schl",
@@ -17382,6 +18633,15 @@
             "No License": 3.0,
             "Professional": 13.0,
             "Temporary": 11.0,
+            "All": 38
+        },
+        "licenseStatus": {
+            "Expired": 13.0,
+            "New": 19.0,
+            "No License": 3.0,
+            "Reinstated": null,
+            "Renewed": 3.0,
+            "Student": null,
             "All": 38
         },
         "scores": {
@@ -17461,7 +18721,7 @@
         "SchoolName": "Weber State University Charter Academy",
         "SchoolName2": null,
         "SchoolShort": "Weber State Univ Charter Acad",
-        "URL": "www.weberstatecharteracademy.com",
+        "URL": "https://www.weberstatecharteracademy.com",
         "LEATitle": "Weber State Univ Charter Acad",
         "LEA": "Weber State University Charter Academy",
         "LEAShort": "Weber State Univ Charter Acad",
@@ -17511,6 +18771,15 @@
             "No License": null,
             "Professional": 1.0,
             "Temporary": null,
+            "All": 2
+        },
+        "licenseStatus": {
+            "Expired": 1.0,
+            "New": null,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 1.0,
+            "Student": null,
             "All": 2
         },
         "scores": {
@@ -17609,6 +18878,15 @@
             "No License": 1.0,
             "Professional": 24.0,
             "Temporary": 3.0,
+            "All": 38
+        },
+        "licenseStatus": {
+            "Expired": 5.0,
+            "New": 24.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 7.0,
+            "Student": 1.0,
             "All": 38
         },
         "scores": {
@@ -17776,6 +19054,15 @@
             "Temporary": 5.0,
             "All": 16
         },
+        "licenseStatus": {
+            "Expired": 9.0,
+            "New": 3.0,
+            "No License": null,
+            "Reinstated": null,
+            "Renewed": 4.0,
+            "Student": null,
+            "All": 16
+        },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=8I&schNum=700",
             "SchoolNumber": "700",
@@ -17881,10 +19168,19 @@
             "Level 1 APT": null,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": null,
-            "Professional": 10.0,
+            "No License": 1.0,
+            "Professional": 14.0,
             "Temporary": 2.0,
-            "All": 15
+            "All": 20
+        },
+        "licenseStatus": {
+            "Expired": 3.0,
+            "New": 8.0,
+            "No License": 1.0,
+            "Reinstated": null,
+            "Renewed": 8.0,
+            "Student": null,
+            "All": 20
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=5L&schNum=300",

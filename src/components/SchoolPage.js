@@ -27,7 +27,7 @@ function SchoolPage(props) {
                 <hr className="my-2"/>
                 <Row>
                 <p className="lead">
-                    <a className="btn btn-primary btn-lg" target="_blank" href={school.URL} role="button">Website</a>
+                    <a className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer" href={school.URL} role="button">Website</a>
                     <BoardMeetingComponent {...school.pmn}/>
                 </p>
                 
@@ -44,12 +44,12 @@ function SchoolPage(props) {
                     <h3>Student Proficiency</h3>
 
                     <SchoolRadarComponent school={school}/>
-                    <a target="_blank" href={"https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=" + school.DistrictNumber} role="button"><span>From USBE Data Gateway</span></a>
+                    <a target="_blank" rel="noopener noreferrer" href={"https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=" + school.DistrictNumber} role="button"><span>From USBE Data Gateway</span></a>
                     </Col>
                 </Row>
                 
             </div>
-            <LicenseComponent types={school.licenseTypes}/>
+            <LicenseComponent school={school}/>
                 {/* <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/> */}
             <div>
             </div>
