@@ -1,7 +1,7 @@
 import React from 'react'
 import SchoolTable from '../components/SchoolTable';
 import schools from "../dump.json";
-export default function OpenMeetingsPage() {
+export default function TransparencyPage() {
     const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
     const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
     const recordingsSort = (s,t) => (recordings(t) + minutes(t)-recordings(s) - minutes(s));

@@ -17,7 +17,8 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { LinkContainer } from 'react-router-bootstrap'
 import MostQualifiedPage from './pages/MostQualifiedPage';
-import OpenMeetingsPage from './pages/OpenMeetingsPage';
+import TransparencyPage from './pages/TransparencyPage';
+import MeetingsPage from './pages/MeetingsPage';
 
 function App() {
   ReactGA.initialize("UA-104442548-1", {
@@ -34,7 +35,8 @@ function App() {
         <Nav className="mr-auto">
           <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
           <LinkContainer to="/qualified"><Nav.Link>Qualified</Nav.Link></LinkContainer>
-          <LinkContainer to="/openmeetings"><Nav.Link>Transparency</Nav.Link></LinkContainer>
+          <LinkContainer to="/meetings"><Nav.Link>Meetings</Nav.Link></LinkContainer>
+          <LinkContainer to="/transparency"><Nav.Link>Transparency</Nav.Link></LinkContainer>
           <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -54,7 +56,8 @@ function App() {
           <Route path="/about" component={withTracker(AboutPage)}/>
           <Route path="/schools/:schoolID" component={withTracker(SchoolPage)} />
           <Route path="/qualified" component={withTracker(MostQualifiedPage)}/>
-          <Route path="/openmeetings" component={withTracker(OpenMeetingsPage)}/>
+          <Route path="/meetings" component={withTracker(MeetingsPage)}/>
+          <Route path="/transparency" component={withTracker(TransparencyPage)}/>
           <Route path="/" component={withTracker(HomePage)}/>
         </Switch>
       </div>

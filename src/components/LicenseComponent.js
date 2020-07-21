@@ -56,8 +56,7 @@ export default class LicenseComponent extends Component {
             <Pie
               data={statusData}
               dataKey="y"
-              innerRadius="39%"
-              outerRadius="59%"
+              outerRadius="65%"
               fill="#8884d8"
             >
 				{statusData.map((entry, index) => (
@@ -70,8 +69,8 @@ export default class LicenseComponent extends Component {
             <Pie
               data={dataPoints}
               dataKey="y"
-              innerRadius="60%"
-              outerRadius="80%"
+              innerRadius="70%"
+              outerRadius="90%"
               label
             >
               {dataPoints.map((entry, index) => (
