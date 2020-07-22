@@ -57,7 +57,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
             </span>{" "}
             <br />
             <span>
-              Teachers Licensed:{" "}
+              Educators Licensed:{" "}
               {(percentLicensed(school) * 100 ).toFixed(0)}%
             </span>{" "}
             <br />
@@ -67,7 +67,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
             </span>{" "}
             <br />
             <span>
-              Licenses Expired:{" "}
+              Educator Licenses Expired:{" "}
               {(percentExpired(school) * 100 ).toFixed(0)}%
             </span>{" "}
             <br />

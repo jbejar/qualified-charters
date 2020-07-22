@@ -112,7 +112,7 @@ function SchoolFilter(props) {
         />
         <Form.Check
           type="checkbox"
-          label="< 10% Professional Licenses Expired"
+          label="< 10% Licenses Expired"
           name="percentExpired"
           id="formHorizontalRadios1"
           onChange={onChange}
