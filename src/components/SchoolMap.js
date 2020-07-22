@@ -12,7 +12,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
   const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
   
   const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
-  const percentLicensed = s => 1 - ((s.licenseStatus["No License"] || 0) / (s.licenseTypes.All || 0))
+  const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
   const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
   const onViewportChange = viewport => {
     ReactGA.event({
@@ -57,8 +57,8 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
             </span>{" "}
             <br />
             <span>
-              Educators Licensed:{" "}
-              {(percentLicensed(school) * 100 ).toFixed(0)}%
+              Professional Educators Licensed:{" "}
+              {(professionalLicense(school) * 100 ).toFixed(0)}%
             </span>{" "}
             <br />
             <span>

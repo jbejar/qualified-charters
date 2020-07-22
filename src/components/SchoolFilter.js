@@ -37,7 +37,7 @@ function SchoolFilter(props) {
                 let score = parseFloat(school.scores["Science"]["2019"]);
                 match = score >= scoreThreshold;
             }
-            if(match && checked.professionalLicenses) {
+            if(match && checked.professionalLicense) {
                 let score = professionalLicense(school);
                 match = score >= .8;
             }

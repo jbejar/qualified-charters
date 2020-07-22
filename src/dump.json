@@ -2605,7 +2605,7 @@
         "licenseTypes": {
             "1": null,
             "1 - Returning": null,
-            "2": null,
+            "2": 1.0,
             "3": null,
             "Alt. Route to Licensure": null,
             "Associate": null,
@@ -2613,18 +2613,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": null,
-            "Professional": 1.0,
+            "Professional": 4.0,
             "Temporary": null,
-            "All": 1
+            "All": 5
         },
         "licenseStatus": {
-            "Expired": null,
-            "New": null,
+            "Expired": 1.0,
+            "New": 1.0,
             "No License": null,
             "Reinstated": null,
-            "Renewed": 1.0,
+            "Renewed": 3.0,
             "Student": null,
-            "All": 1
+            "All": 5
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3M&schNum=100",
@@ -3737,28 +3737,28 @@
         "EducationTypeCode": 1,
         "Contacts": [],
         "licenseTypes": {
-            "1": 1.0,
+            "1": null,
             "1 - Returning": null,
-            "2": 1.0,
+            "2": null,
             "3": null,
             "Alt. Route to Licensure": null,
-            "Associate": 2.0,
+            "Associate": 1.0,
             "Level 1 APT": null,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": 1.0,
-            "Professional": 12.0,
-            "Temporary": 5.0,
-            "All": 22
+            "No License": null,
+            "Professional": 9.0,
+            "Temporary": 3.0,
+            "All": 13
         },
         "licenseStatus": {
-            "Expired": 7.0,
-            "New": 10.0,
-            "No License": 1.0,
+            "Expired": 3.0,
+            "New": 8.0,
+            "No License": null,
             "Reinstated": null,
-            "Renewed": 4.0,
+            "Renewed": 2.0,
             "Student": null,
-            "All": 22
+            "All": 13
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=3J&schNum=100",
@@ -3929,22 +3929,22 @@
             "3": null,
             "Alt. Route to Licensure": 2.0,
             "Associate": null,
-            "Level 1 APT": null,
+            "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": 1.0,
             "No License": 5.0,
             "Professional": 9.0,
-            "Temporary": 7.0,
-            "All": 25
+            "Temporary": 4.0,
+            "All": 23
         },
         "licenseStatus": {
-            "Expired": 11.0,
+            "Expired": 9.0,
             "New": 7.0,
             "No License": 5.0,
             "Reinstated": null,
             "Renewed": 2.0,
             "Student": null,
-            "All": 25
+            "All": 23
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=4E&schNum=100",
@@ -5152,18 +5152,18 @@
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 1.0,
-            "Professional": 17.0,
+            "Professional": 14.0,
             "Temporary": 4.0,
-            "All": 26
+            "All": 23
         },
         "licenseStatus": {
             "Expired": 6.0,
-            "New": 16.0,
+            "New": 13.0,
             "No License": 1.0,
             "Reinstated": null,
             "Renewed": 3.0,
             "Student": null,
-            "All": 26
+            "All": 23
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2I&schNum=100",
@@ -5589,7 +5589,7 @@
         "licenseTypes": {
             "1": null,
             "1 - Returning": 1.0,
-            "2": 2.0,
+            "2": 1.0,
             "3": null,
             "Alt. Route to Licensure": 1.0,
             "Associate": 2.0,
@@ -5597,16 +5597,16 @@
             "Level 1 LEA-Specific": 1.0,
             "Level 2 LEA-Specific": null,
             "No License": 4.0,
-            "Professional": 15.0,
+            "Professional": 16.0,
             "Temporary": 6.0,
             "All": 36
         },
         "licenseStatus": {
-            "Expired": 15.0,
+            "Expired": 14.0,
             "New": 15.0,
             "No License": 4.0,
             "Reinstated": null,
-            "Renewed": 2.0,
+            "Renewed": 3.0,
             "Student": null,
             "All": 36
         },
@@ -8052,23 +8052,23 @@
             "2": 2.0,
             "3": null,
             "Alt. Route to Licensure": 1.0,
-            "Associate": 1.0,
+            "Associate": 3.0,
             "Level 1 APT": null,
             "Level 1 LEA-Specific": 5.0,
             "Level 2 LEA-Specific": null,
             "No License": 2.0,
-            "Professional": 28.0,
+            "Professional": 30.0,
             "Temporary": 1.0,
-            "All": 42
+            "All": 46
         },
         "licenseStatus": {
             "Expired": 11.0,
-            "New": 15.0,
+            "New": 18.0,
             "No License": 2.0,
             "Reinstated": null,
             "Renewed": 14.0,
-            "Student": null,
-            "All": 42
+            "Student": 1.0,
+            "All": 46
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2E&schNum=700",
@@ -9023,19 +9023,19 @@
             "Level 1 APT": null,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
-            "No License": null,
+            "No License": 1.0,
             "Professional": 35.0,
             "Temporary": 5.0,
-            "All": 45
+            "All": 46
         },
         "licenseStatus": {
             "Expired": 9.0,
             "New": 19.0,
-            "No License": null,
+            "No License": 1.0,
             "Reinstated": null,
             "Renewed": 17.0,
             "Student": null,
-            "All": 45
+            "All": 46
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=2B&schNum=100",
@@ -12261,23 +12261,23 @@
             "2": null,
             "3": null,
             "Alt. Route to Licensure": 1.0,
-            "Associate": 5.0,
+            "Associate": 3.0,
             "Level 1 APT": null,
             "Level 1 LEA-Specific": 1.0,
             "Level 2 LEA-Specific": null,
             "No License": 1.0,
             "Professional": 14.0,
             "Temporary": 7.0,
-            "All": 30
+            "All": 28
         },
         "licenseStatus": {
             "Expired": 10.0,
-            "New": 14.0,
+            "New": 12.0,
             "No License": 1.0,
             "Reinstated": null,
             "Renewed": 5.0,
             "Student": null,
-            "All": 30
+            "All": 28
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9C&schNum=700",
@@ -12774,14 +12774,14 @@
             "2": 1.0,
             "3": null,
             "Alt. Route to Licensure": 2.0,
-            "Associate": 6.0,
+            "Associate": 7.0,
             "Level 1 APT": 1.0,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": null,
             "No License": 4.0,
             "Professional": 117.0,
             "Temporary": 8.0,
-            "All": 140
+            "All": 141
         },
         "licenseStatus": {
             "Expired": 13.0,
@@ -12789,8 +12789,8 @@
             "No License": 4.0,
             "Reinstated": null,
             "Renewed": 28.0,
-            "Student": null,
-            "All": 140
+            "Student": 1.0,
+            "All": 141
         },
         "scores": {
             "url": "https://datagateway.schools.utah.gov/Assessment/StudentProficiencyHistory?leaNum=9E&schNum=100",
@@ -19319,7 +19319,7 @@
         "EducationTypeCode": 1,
         "Contacts": [],
         "licenseTypes": {
-            "1": 1.0,
+            "1": null,
             "1 - Returning": null,
             "2": 2.0,
             "3": null,
@@ -19329,13 +19329,13 @@
             "Level 1 LEA-Specific": 2.0,
             "Level 2 LEA-Specific": null,
             "No License": null,
-            "Professional": 40.0,
+            "Professional": 41.0,
             "Temporary": 3.0,
             "All": 50
         },
         "licenseStatus": {
-            "Expired": 8.0,
-            "New": 17.0,
+            "Expired": 7.0,
+            "New": 18.0,
             "No License": null,
             "Reinstated": null,
             "Renewed": 25.0,
@@ -19661,8 +19661,8 @@
             "1 - Returning": null,
             "2": 2.0,
             "3": null,
-            "Alt. Route to Licensure": 1.0,
-            "Associate": 4.0,
+            "Alt. Route to Licensure": null,
+            "Associate": 5.0,
             "Level 1 APT": null,
             "Level 1 LEA-Specific": null,
             "Level 2 LEA-Specific": 1.0,
@@ -19672,8 +19672,8 @@
             "All": 54
         },
         "licenseStatus": {
-            "Expired": 25.0,
-            "New": 22.0,
+            "Expired": 24.0,
+            "New": 23.0,
             "No License": null,
             "Reinstated": null,
             "Renewed": 7.0,
