@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -10,10 +10,10 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
     "0": "K"
   }
   const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
-  const [viewport, setViewport] = useState({
-    center,
-    zoom,
-  });
+  
+  const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
+  const percentLicensed = s => 1 - ((s.licenseStatus["No License"] || 0) / (s.licenseTypes.All || 0))
+  const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
   const onViewportChange = viewport => {
     ReactGA.event({
       category: 'Map',
@@ -23,7 +23,10 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
     });
   };
   return (
-    <Map viewport={viewport} onViewportChanged={onViewportChange} scrollWheelZoom={schools.length !== 1}>
+    <Map viewport={{
+      center,
+      zoom,
+    }} onViewportChanged={onViewportChange} scrollWheelZoom={schools.length !== 1}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
@@ -51,6 +54,21 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
             <span>
               Science:{" "}
               {school.scores.Science && (school.scores.Science["2019"] || "")}
+            </span>{" "}
+            <br />
+            <span>
+              Teachers Licensed:{" "}
+              {(percentLicensed(school) * 100 ).toFixed(0)}%
+            </span>{" "}
+            <br />
+            <span>
+              Board Meeting Recordings Posted:{" "}
+              {(recordings(school) * 100 ).toFixed(0)}%
+            </span>{" "}
+            <br />
+            <span>
+              Licenses Expired:{" "}
+              {(percentExpired(school) * 100 ).toFixed(0)}%
             </span>{" "}
             <br />
           </Popup>

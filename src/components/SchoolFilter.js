@@ -6,7 +6,8 @@ import Row from "react-bootstrap/Row";
 import ReactGA from "react-ga";
 
 const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
-
+const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
+const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
 function SchoolFilter(props) {
     
     const [checked, setChecked] = useState({});
@@ -38,6 +39,14 @@ function SchoolFilter(props) {
             }
             if(match && checked.professionalLicenses) {
                 let score = professionalLicense(school);
+                match = score >= .8;
+            }
+            if(match && checked.percentExpired) {
+                let score = percentExpired(school);
+                match = score < .1;
+            }
+            if(match && checked.recordings) {
+                let score = recordings(school);
                 match = score >= .8;
             }
             return match;
@@ -89,8 +98,22 @@ function SchoolFilter(props) {
         />
         <Form.Check
           type="checkbox"
-          label="80%+ Professional Eduactor Licenses"
-          name="professionalLicenses"
+          label="80%+ Professional Educator Licenses"
+          name="professionalLicense"
+          id="formHorizontalRadios1"
+          onChange={onChange}
+        />
+        <Form.Check
+          type="checkbox"
+          label="80%+ Board Meeting Recordings Posted "
+          name="recordings"
+          id="formHorizontalRadios1"
+          onChange={onChange}
+        />
+        <Form.Check
+          type="checkbox"
+          label="< 10% Professional Licenses Expired"
+          name="percentExpired"
           id="formHorizontalRadios1"
           onChange={onChange}
         />
