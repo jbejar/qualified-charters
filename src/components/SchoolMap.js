@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga";
 
-function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], locate}) {
+function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], locate, recenter=false}) {
   const gradeMap = {
     "-1": "P",
     "0": "K"
@@ -14,6 +14,16 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
   const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
   const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
   const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
+  const [viewport, setViewport] = useState({
+    center,
+    zoom,
+  });
+  useEffect(() => {
+    recenter && setViewport({
+      center,
+      zoom,
+    })
+  },[recenter, center, zoom]);
   const onViewportChange = viewport => {
     ReactGA.event({
       category: 'Map',
@@ -23,10 +33,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
     });
   };
   return (
-    <Map viewport={{
-      center,
-      zoom,
-    }} onViewportChanged={onViewportChange} scrollWheelZoom={schools.length !== 1}>
+    <Map viewport={viewport} onViewportChanged={onViewportChange} scrollWheelZoom={schools.length !== 1}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"

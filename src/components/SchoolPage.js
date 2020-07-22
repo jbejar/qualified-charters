@@ -37,7 +37,7 @@ function SchoolPage(props) {
                 <Row>
                     <Col sm={12} md={6}>
                     <p>{school.Address} <br/>{school.City}, UT {school.Zip}</p>
-                    <SchoolMap schools={[school]} zoom={12} center={[school.Lat, school.Lng]}/>    
+                    <SchoolMap recenter schools={[school]} zoom={12} center={[school.Lat, school.Lng]}/>    
                     
                     </Col>
                     <Col>
