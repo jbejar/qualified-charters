@@ -4,7 +4,8 @@ import schools from "../dump.json";
 export default function TransparencyPage() {
     const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
     const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
-    const recordingsSort = (s,t) => (recordings(t) + minutes(t)-recordings(s) - minutes(s));
+    const properNotice = s => s.pmn.advanceNotice / s.pmn.meetings.length;
+    const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
     const recordingsSortInv = (s,t) => recordingsSort(t,s);
     return (
         <div className="container">
@@ -21,11 +22,13 @@ export default function TransparencyPage() {
             <SchoolTable schools={schools} sort={recordingsSort} columns={[
                 {name: "Recordings Avail", func: recordings},
                 {name: "Minutes Avail", func: minutes},
+                {name: "<= 24 hr notice", func: properNotice},
             ]} limit={20}/>
             <h4>Least Audio Recordings and Minutes</h4>
             <SchoolTable schools={schools} sort={recordingsSortInv} columns={[
                 {name: "Recordings Avail", func: recordings},
                 {name: "Minutes Avail", func: minutes},
+                {name: "<= 24 hr notice", func: properNotice},
             ]} limit={38}/>
             
         </div>

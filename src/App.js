@@ -19,6 +19,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import MostQualifiedPage from './pages/MostQualifiedPage';
 import TransparencyPage from './pages/TransparencyPage';
 import MeetingsPage from './pages/MeetingsPage';
+import ReportsPage from './pages/ReportsPage';
 
 function App() {
   ReactGA.initialize("UA-104442548-1", {
@@ -37,6 +38,7 @@ function App() {
           <LinkContainer to="/qualified"><Nav.Link>Qualified</Nav.Link></LinkContainer>
           <LinkContainer to="/meetings"><Nav.Link>Meetings</Nav.Link></LinkContainer>
           <LinkContainer to="/transparency"><Nav.Link>Transparency</Nav.Link></LinkContainer>
+          <LinkContainer to="/reports"><Nav.Link>Reports</Nav.Link></LinkContainer>
           <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -58,6 +60,7 @@ function App() {
           <Route path="/qualified" component={withTracker(MostQualifiedPage)}/>
           <Route path="/meetings" component={withTracker(MeetingsPage)}/>
           <Route path="/transparency" component={withTracker(TransparencyPage)}/>
+          <Route path="/reports" component={withTracker(ReportsPage)}/>
           <Route path="/" component={withTracker(HomePage)}/>
         </Switch>
       </div>

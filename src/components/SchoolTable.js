@@ -4,9 +4,38 @@ import PropTypes from "prop-types";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 
-function SchoolTable({schools, sort, limit = 10, columns=[]}) {
+function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
     if(sort) {
         schools.sort(sort);
+    }
+    const summaryStats = {};
+    if(summary) {
+      ["Language Arts", "Mathematics", "Science"].forEach(subject => {
+        summaryStats[subject] = schools.reduce((acc, school) => {
+          if(!school.scores[subject]) {
+            return acc;
+          }
+          const num = parseFloat(school.scores[subject]["2019"]);
+          if(isNaN(num)) {
+            return acc;
+          }
+          return num + acc;
+        }, 0) / schools.length;
+      });
+      columns.forEach(col => {
+        summaryStats[col.name] = schools.reduce((acc, school) => {
+          const result = col.func(school);
+          if(!result) {
+            return acc;
+          }
+          const num = parseFloat(result);
+          if(isNaN(num)) {
+            return acc;
+          }
+          return num + acc;
+        }, 0)/schools.length;
+      });
+      
     }
   return (
     <div>
@@ -30,8 +59,13 @@ function SchoolTable({schools, sort, limit = 10, columns=[]}) {
             <tr key={school.SchoolID}>
               <td>{i+1}</td>
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
-              {columns.map( col =>
-                <td key={col.name}>{(col.func(school) * 100 ).toFixed(2)}%</td>
+              {columns.map( col => {
+                const val = col.func(school);
+                if(typeof val === "string") {
+                return <td key={col.name}>{val}</td>  
+                }
+                return <td key={col.name}>{(val * 100 ).toFixed(2)}%</td>
+              }  
               )}
               <td>{school.scores["Language Arts"] && school.scores["Language Arts"]["2019"]}</td>
               <td>{school.scores["Mathematics"] && school.scores["Mathematics"]["2019"]}</td>
@@ -39,6 +73,23 @@ function SchoolTable({schools, sort, limit = 10, columns=[]}) {
               
             </tr>
           ))}
+          {summary && <tr>
+            <td>Summary</td>
+            <td></td>
+            {columns.map(col => {
+              if(!col.summary) {
+                return <td/>;
+              }
+              const val = summaryStats[col.name];
+              if(typeof val === "string") {
+              return <td key={col.name}>{val}</td>  
+              }
+              return <td key={col.name}>{(val * 100 ).toFixed(2)}%</td>
+            })}
+            <td>{summaryStats["Language Arts"] && summaryStats["Language Arts"].toFixed(2)}%</td>
+              <td>{summaryStats["Mathematics"] && summaryStats["Mathematics"].toFixed(2)}%</td>
+              <td>{summaryStats["Science"] && summaryStats["Science"].toFixed(2)}%</td>
+            </tr>}
         </tbody>
       </Table>
       

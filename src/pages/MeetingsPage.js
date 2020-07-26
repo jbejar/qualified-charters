@@ -3,7 +3,7 @@ import schools from "./../dump.json";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import {FaRegFileAudio} from 'react-icons/fa'
+import {FaRegFileAudio, FaHourglass} from 'react-icons/fa'
 const localizer = momentLocalizer(moment);
 const format = "YYYY/MM/DD hh:mm A";
 export default function MeetingsPage() {
@@ -34,7 +34,9 @@ export default function MeetingsPage() {
         startAccessor={(event) => moment(event.date, format).toDate()}
         endAccessor={(event) => moment(event.date, format).add(2, "h").toDate()}
         titleAccessor={e => <span>
-            {e.HasAudio && <FaRegFileAudio className="mr-1"/>}{e.LEA}
+            {e.HasAudio && <FaRegFileAudio className="mr-1"/>}
+            {e.hoursAdvanceNotice < 24 && <FaHourglass className="mr-1"/>}
+            {e.LEA}
         </span>}
         tooltipAccessor="City"
         eventPropGetter={(event, start, end, isSelected) => {
