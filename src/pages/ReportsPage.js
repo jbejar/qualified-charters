@@ -1,12 +1,9 @@
 import React, {useState} from "react";
-
 import SchoolMap from '../components/SchoolMap';
-
-
 import SchoolTable from '../components/SchoolTable';
 import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 import LicenseComponent from "../components/LicenseComponent";
-import PropTypes from "prop-types";
+
 function titleCase(str) {
     return str.toLowerCase().split(' ').map(function(word) {
       return (word.charAt(0).toUpperCase() + word.slice(1));
@@ -18,6 +15,7 @@ function ReportsPage(props) {
     const [schools, setSchools] = useState([]);
   const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
     const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
+    const properNotice = s => s.pmn.advanceNotice / s.pmn.meetings.length;
     const recordingsSort = (s,t) => (recordings(t) + minutes(t)-recordings(s) - minutes(s));
   
   const licenseStatus = schools.reduce((acc, s) => {
@@ -71,14 +69,13 @@ function ReportsPage(props) {
                 func: s => titleCase(s.City)
             },
             {name: "Recordings Avail", func: recordings, summary: true},
-            {name: "Minutes Avail", func: minutes, summary: true}
-            
+            {name: "Minutes Avail", func: minutes, summary: true},
+            {name: "<= 24 hr notice", func: properNotice, summary:true},
             ]}/>
             <LicenseComponent school={summarySchool}/>
     </div>
   );
 }
 
-ReportsPage.propTypes = {};
 
 export default ReportsPage;

@@ -1,12 +1,13 @@
-import React from 'react'
+import React, {useState } from 'react'
 import SchoolTable from '../components/SchoolTable';
-import schools from "../dump.json";
+import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 export default function TransparencyPage() {
     const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
     const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
     const properNotice = s => s.pmn.advanceNotice / s.pmn.meetings.length;
     const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
     const recordingsSortInv = (s,t) => recordingsSort(t,s);
+    const [schools, setSchools] = useState([]);
     return (
         <div className="container">
             <div className="jumbotron">
@@ -18,6 +19,7 @@ export default function TransparencyPage() {
                     Also they are also required to post an audio recording within three days of the meeting. See <a href="https://le.utah.gov/xcode/Title52/Chapter4/52-4-S203.html?v=C52-4-S203_2018050820180508">Utah Open and Public Meetings Act</a>
                 </p>
             </div>
+            
             <h4>Most Audio Recordings and Minutes</h4>
             <SchoolTable schools={schools} sort={recordingsSort} columns={[
                 {name: "Recordings Avail", func: recordings},
@@ -30,7 +32,7 @@ export default function TransparencyPage() {
                 {name: "Minutes Avail", func: minutes},
                 {name: "<= 24 hr notice", func: properNotice},
             ]} limit={38}/>
-            
+            <LegislativeDistrictDropDown setSchools={setSchools} />
         </div>
     )
 }

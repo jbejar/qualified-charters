@@ -1,9 +1,9 @@
-import React from "react";
-import schools from "./../dump.json";
+import React, {useState} from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import {FaRegFileAudio, FaHourglass} from 'react-icons/fa'
+import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 const localizer = momentLocalizer(moment);
 const format = "YYYY/MM/DD hh:mm A";
 export default function MeetingsPage() {
@@ -13,6 +13,7 @@ export default function MeetingsPage() {
     }
   };
   const districts = {};
+  const [schools, setSchools] = useState([]);
   const events = schools.reduce((current, s) => {
     if (districts[s.DistrictID]) {
       return current;
@@ -28,6 +29,7 @@ export default function MeetingsPage() {
 
   return (
     <div>
+      
       <Calendar
         localizer={localizer}
         events={events}
@@ -57,8 +59,12 @@ export default function MeetingsPage() {
         onSelectEvent={setSelectedEvent}
         style={{ height: 700 }}
       />
+      <div className="container">
+      <LegislativeDistrictDropDown setSchools={setSchools} />
       <p>Missing Recording RED after 3 days </p>
       <p>ORANGE if no recording yet</p>
+      </div>
+      
     </div>
   );
 }
