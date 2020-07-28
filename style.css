@@ -3,3 +3,6 @@
     width: 100%;
     z-index: 0;
 }
+div.rbc-allday-cell {
+    z-index: -300
+}
