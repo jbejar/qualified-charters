@@ -6,3 +6,6 @@
 div.rbc-allday-cell {
     z-index: 0
 }
+.PowerSelect__Tether {
+    z-index: 1000;
+}
