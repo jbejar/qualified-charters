@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import SchoolTable from '../components/SchoolTable';
-import schools from "./../dump.json";
+import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 export default function MostQualifiedPage() {
+    const [schools, setSchools] = useState([]);
     const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
     const temporaryLicensed = s =>  ((s.licenseTypes.Temporary || 0) / (s.licenseTypes.All || 0))
     const leaLicensed = s =>  (((s.licenseTypes["Level 1 LEA-Specific"] || 0) + (s.licenseTypes["Level 2 LEA-Specific"] || 0)) / (s.licenseTypes.All || 0))
@@ -30,6 +31,7 @@ export default function MostQualifiedPage() {
             <SchoolTable schools={schools} sort={professionalLicenseSort} limit={20} columns={[
                 {name: "Professional Educator", func: professionalLicense},
             ]}/>
+            <LegislativeDistrictDropDown setSchools={setSchools}/>
         </div>
     )
 }

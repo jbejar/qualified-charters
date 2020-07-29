@@ -4,8 +4,10 @@ import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDo
 export default function TransparencyPage() {
     const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
     const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
-    const properNotice = s => s.pmn.advanceNotice / s.pmn.meetings.length;
+    const properNotice = s => s.pmn.advanceNotice / s.pmn.scheduled;
+    const hoursNotice  = s => s.pmn.meetings.reduce((prev, mtg) => prev + mtg.hoursAdvanceNotice,0) / s.pmn.scheduled;
     const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
+    const properNoticeSort = (s,t) => (properNotice(t)-properNotice(s) );
     const recordingsSortInv = (s,t) => recordingsSort(t,s);
     const [schools, setSchools] = useState([]);
     return (
@@ -31,6 +33,12 @@ export default function TransparencyPage() {
                 {name: "Recordings Avail", func: recordings},
                 {name: "Minutes Avail", func: minutes},
                 {name: "<= 24 hr notice", func: properNotice},
+            ]} limit={38}/>
+            <h4>At least 24 hr Advance Notice</h4>
+            <SchoolTable schools={schools} sort={properNoticeSort} columns={[
+                {name: "<= 24 hr notice", func: properNotice},
+                {name: "Recordings Avail", func: recordings},
+                {name: "Minutes Avail", func: minutes},
             ]} limit={38}/>
             <LegislativeDistrictDropDown setSchools={setSchools} />
         </div>

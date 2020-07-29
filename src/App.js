@@ -5,17 +5,13 @@ import withTracker from './components/withTracker';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import NavBarComponent from "./components/NavBarComponent";
 import SchoolPage from './components/SchoolPage';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
-import SchoolSearchComponent from './components/SchoolSearchComponent';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { LinkContainer } from 'react-router-bootstrap'
+
 import MostQualifiedPage from './pages/MostQualifiedPage';
 import TransparencyPage from './pages/TransparencyPage';
 import MeetingsPage from './pages/MeetingsPage';
@@ -26,31 +22,12 @@ function App() {
     debug: false
   });
 
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div>
-      <Navbar bg="light" expand="lg">
-      <Link to="/"><Navbar.Brand>Qualifed Utah Teachers</Navbar.Brand></Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-          <LinkContainer to="/qualified"><Nav.Link>Qualified</Nav.Link></LinkContainer>
-          <LinkContainer to="/meetings"><Nav.Link>Meetings</Nav.Link></LinkContainer>
-          <LinkContainer to="/transparency"><Nav.Link>Transparency</Nav.Link></LinkContainer>
-          <LinkContainer to="/reports"><Nav.Link>Reports</Nav.Link></LinkContainer>
-          <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
-          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown> */}
-        </Nav>
-        <SchoolSearchComponent/>
-      </Navbar.Collapse>
-    </Navbar>
+      <NavBarComponent/>
+      
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
