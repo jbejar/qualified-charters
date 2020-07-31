@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/qualified-charters/static/css/main.d1b05096.chunk.css",
-    "main.js": "/qualified-charters/static/js/main.3bfebf64.chunk.js",
-    "main.js.map": "/qualified-charters/static/js/main.3bfebf64.chunk.js.map",
+    "main.js": "/qualified-charters/static/js/main.4b2bb2f8.chunk.js",
+    "main.js.map": "/qualified-charters/static/js/main.4b2bb2f8.chunk.js.map",
     "runtime-main.js": "/qualified-charters/static/js/runtime-main.ac0598ca.js",
     "runtime-main.js.map": "/qualified-charters/static/js/runtime-main.ac0598ca.js.map",
     "static/css/2.98733928.chunk.css": "/qualified-charters/static/css/2.98733928.chunk.css",
     "static/js/2.5839a5da.chunk.js": "/qualified-charters/static/js/2.5839a5da.chunk.js",
     "static/js/2.5839a5da.chunk.js.map": "/qualified-charters/static/js/2.5839a5da.chunk.js.map",
     "index.html": "/qualified-charters/index.html",
-    "precache-manifest.33aae0f7d1b4474780ec9a607a49e300.js": "/qualified-charters/precache-manifest.33aae0f7d1b4474780ec9a607a49e300.js",
+    "precache-manifest.225d640bbdedb20e9b35b248c3d84507.js": "/qualified-charters/precache-manifest.225d640bbdedb20e9b35b248c3d84507.js",
     "service-worker.js": "/qualified-charters/service-worker.js",
     "static/css/2.98733928.chunk.css.map": "/qualified-charters/static/css/2.98733928.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/qualified-charters/static/css/main.d1b05096.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.98733928.chunk.css",
     "static/js/2.5839a5da.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.3bfebf64.chunk.js"
+    "static/js/main.4b2bb2f8.chunk.js"
   ]
 }
