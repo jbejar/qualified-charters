@@ -2,13 +2,18 @@ import React, {useState } from 'react'
 import SchoolTable from '../components/SchoolTable';
 import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 export default function TransparencyPage() {
-    const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
-    const minutes = s => s.pmn.haveMinutes / s.pmn.scheduled;
+    const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
+    const minutes = s => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
     const properNotice = s => s.pmn.advanceNotice / s.pmn.scheduled;
     const hoursNotice  = s => s.pmn.meetings.reduce((prev, mtg) => prev + mtg.hoursAdvanceNotice,0) / s.pmn.scheduled;
     const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
     const properNoticeSort = (s,t) => (properNotice(t)-properNotice(s) );
     const recordingsSortInv = (s,t) => recordingsSort(t,s);
+    var regExp = /\(([^)]+)\)/;
+    const charteredBy = s => {
+        const matches = regExp.exec(s.CharteredBy);
+        return matches && matches.length > 0 ? matches[1] : s.CharteredBy;
+    }
     const [schools, setSchools] = useState([]);
     return (
         <div className="container">
@@ -33,6 +38,7 @@ export default function TransparencyPage() {
                 {name: "Recordings Avail", func: recordings},
                 {name: "Minutes Avail", func: minutes},
                 {name: "<= 24 hr notice", func: properNotice},
+                {name: "Authorizer", func: charteredBy}
             ]} limit={38}/>
             <h4>At least 24 hr Advance Notice</h4>
             <SchoolTable schools={schools} sort={properNoticeSort} columns={[

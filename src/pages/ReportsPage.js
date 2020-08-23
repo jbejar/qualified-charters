@@ -17,9 +17,10 @@ function titleCase(str) {
 
 function ReportsPage(props) {
   const [schools, setSchools] = useState([]);
-  const recordings = (s) => s.pmn.haveRecordings / s.pmn.scheduled;
-  const minutes = (s) => s.pmn.haveMinutes / s.pmn.scheduled;
+  const recordings = (s) => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
+  const minutes = (s) => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
   const properNotice = (s) => s.pmn.advanceNotice / s.pmn.scheduled;
+  const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
   const recordingsSort = (s, t) =>
     recordings(t) + minutes(t) - recordings(s) - minutes(s);
 
@@ -63,9 +64,12 @@ function ReportsPage(props) {
       All: 0,
     }
   );
+  const oldAllLicenses = schools.reduce(
+    (acc, s) => acc + s.oldAllLicenses, 0);
   const summarySchool = {
     licenseTypes,
     licenseStatus,
+    oldAllLicenses
   };
 
   return (
@@ -88,6 +92,7 @@ function ReportsPage(props) {
             name: "City",
             func: (s) => titleCase(s.City),
           },
+          {name: "Percent Licensed", func: percentLicensed, summary: true},
           { name: "Recordings Avail", func: recordings, summary: true },
           { name: "Minutes Avail", func: minutes, summary: true },
           { name: "<= 24 hr notice", func: properNotice, summary: true },

@@ -46,6 +46,7 @@ export default class LicenseComponent extends Component {
       .filter((k) => k != "All")
       .map((key) => ({ name: key, y: statuses[key] }))
       .filter((row) => row.y);
+    const oldLicenses = this.props.school.oldAllLicenses;
     return (
       <div className="align-center">
         <h3>Educator Licenses</h3>
@@ -82,6 +83,10 @@ export default class LicenseComponent extends Component {
             </Pie>
           </PieChart>
         </ResponsiveContainer>
+        <div>
+          <b>Total Assigned:</b> {types.All}
+          { oldLicenses && <span className={types.All >= oldLicenses ? "text-success": "text-danger"}> ({types.All >= oldLicenses ? "+": "" }{((1-oldLicenses/types.All) * 100 ).toFixed(0)}%  since Feb)</span>}
+        </div>
 
         <form
           method="post"

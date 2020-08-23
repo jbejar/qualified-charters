@@ -23,6 +23,7 @@ export default function MeetingsPage() {
     s.pmn.meetings.forEach((m) => {
       m.LEA = s.LEA;
       m.City = s.City;
+      m.StatePublicBody = s.CharteredBy === "State Charter School Board (SCSB)"
       m.HasAudio = m.attachments.includes("Audio Recording Added");
     });
     return current.concat(s.pmn.meetings || []);
@@ -70,7 +71,7 @@ export default function MeetingsPage() {
               backgroundColor = "#28A744";
             } else {
               const threeDays = passed > 1000 * 60 * 60 * 24 * 3;
-              backgroundColor = threeDays ? "#DD3446" : "#c85200";
+              backgroundColor = threeDays && event.StatePublicBody ? "#DD3446" : "#c85200";
             }
           } else if (event.attachments === "No associated attachments") {
             backgroundColor = "#5f9ed1";

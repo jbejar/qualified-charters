@@ -2,11 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Button from "react-bootstrap/Button";
 import {FaRegFileAudio, FaRegFileAlt, FaRegCalendarCheck, FaRegNewspaper} from 'react-icons/fa'
-function BoardMeetingComponent({name, pmnId, bodyName, scheduled=0, haveRecordings = 0, haveMinutes = 0, advanceNotice = 0}) {
+function BoardMeetingComponent({name, pmnId, bodyName, scheduled=0, haveRecordings = 0, haveMinutes = 0, advanceNotice = 0, stateBody = true}) {
     let variant = "warning"
+    
     if(haveRecordings > 0) {
         variant = "success";
-    } else if(haveMinutes > 0) {
+    } else if(!stateBody) {
+        variant = "info"
+    }
+    else if(haveMinutes > 0) {
         variant = "light"
     }
 

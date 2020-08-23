@@ -23,15 +23,22 @@ function SchoolPage(props) {
         <div className="container">    
             <div className="jumbotron">
                 <h1 className="display-3">{school.SchoolName}</h1>
-                <p className="lead">{school.SchoolCategory} ({formatGrade(school.GradeLow)} - {school.GradeHigh})</p>
                 <hr className="my-2"/>
+                <Row>  
+                <Col sm={12} md={6}>
+                <p className="lead">{school.SchoolCategory} ({formatGrade(school.GradeLow)} - {school.GradeHigh})</p>
+                </Col>
+                <Col>
+                <p className="lead">Opened {school.YearOpened} by {school.CharteredBy}</p>
+                </Col>
+                </Row>
                 <Row>
                 <p className="lead">
                     <a className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer" href={school.URL} role="button">Website</a>
-                    <BoardMeetingComponent {...school.pmn}/>
+                    <BoardMeetingComponent {...school.pmn} stateBody={school.CharteredBy === "State Charter School Board (SCSB)"}/>
                 </p>
-                
                 </Row>
+                
                 
                 <p/>
                 <Row>

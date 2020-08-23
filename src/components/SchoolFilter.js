@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import ReactGA from "react-ga";
 
 const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
-const recordings = s => s.pmn.haveRecordings / s.pmn.scheduled;
+const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
 const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
 function SchoolFilter(props) {
     

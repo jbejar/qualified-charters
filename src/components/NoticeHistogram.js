@@ -32,6 +32,9 @@ function NoticeHistogram({ schools }) {
   });
   console.log(data);
   return (
+      <div>
+          <h3>Recent Public Meetings</h3>
+      
     <ResponsiveContainer height={400} width="100%">
       <BarChart
         barGap={1}
@@ -52,6 +55,7 @@ function NoticeHistogram({ schools }) {
         <Bar dataKey="y" fill="#8884d8" />
       </BarChart>
     </ResponsiveContainer>
+    </div>
   );
 }
 
