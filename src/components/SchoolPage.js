@@ -4,6 +4,7 @@ import LicenseComponent from './LicenseComponent';
 import SchoolMap from './SchoolMap';
 import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
+import EnrollmentComponent from "./EnrollmentComponent"
 import GoogleReviews from "./GoogleReviews";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -56,6 +57,7 @@ function SchoolPage(props) {
                 </Row>
                 
             </div>
+            <EnrollmentComponent elsi={school.elsi}/>
             <LicenseComponent school={school}/>
                 {/* <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/> */}
             <div>

@@ -3,6 +3,7 @@ import SchoolMap from "../components/SchoolMap";
 import SchoolTable from "../components/SchoolTable";
 import LegislativeDistrictDropDown from "../components/LegislativeDistrictDropDown";
 import LicenseComponent from "../components/LicenseComponent";
+import EnrollmentComponent from "../components/EnrollmentComponent";
 import NoticeHistogram from "../components/NoticeHistogram"
 
 function titleCase(str) {
@@ -64,16 +65,39 @@ function ReportsPage(props) {
       All: 0,
     }
   );
+  const elsi = schools.reduce(
+    (acc, s) => {
+      if(!s.elsi) {
+        return acc;
+      }
+      Object.keys(acc).forEach((k) => {
+        acc[k] += s.elsi[k] || 0;
+      });
+      return acc;
+    }, {
+      "Total Students All Grades (Excludes AE) 2018-19": 0,
+      "Total Students All Grades (Excludes AE) 2017-18": 0,
+      "Total Students All Grades (Excludes AE) 2016-17": 0,
+      "Total Students All Grades (Excludes AE) 2015-16": 0,
+      "Total Students All Grades (Excludes AE) 2014-15": 0,
+      "Total Students All Grades (Excludes AE) 2013-14": 0,
+      "Total Students All Grades (Excludes AE) 2012-13": 0,
+      "Total Students All Grades (Excludes AE) 2011-12": 0,
+      "Total Students All Grades (Excludes AE) 2010-11": 0,
+      "Total Students All Grades (Excludes AE) 2009-10": 0
+    });
   const oldAllLicenses = schools.reduce(
     (acc, s) => acc + s.oldAllLicenses, 0);
   const summarySchool = {
     licenseTypes,
     licenseStatus,
-    oldAllLicenses
+    oldAllLicenses,
+    elsi
   };
-
+console.log(elsi)
   return (
     <div className="container">
+
       <LegislativeDistrictDropDown setSchools={setSchools} />
       {schools && schools.length > 0 && (
         <SchoolMap
@@ -82,6 +106,7 @@ function ReportsPage(props) {
           center={[schools[0].Lat, schools[0].Lng]}
         />
       )}
+      <EnrollmentComponent elsi={summarySchool.elsi}/>
 
       <SchoolTable
         summary
@@ -98,8 +123,9 @@ function ReportsPage(props) {
           { name: "<= 24 hr notice", func: properNotice, summary: true },
         ]}
       />
-      <NoticeHistogram schools={schools}/>
+      
       <LicenseComponent school={summarySchool} />
+      <NoticeHistogram schools={schools}/>
     </div>
   );
 }
