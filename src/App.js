@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 import NavBarComponent from "./components/NavBarComponent";
 import SchoolPage from './components/SchoolPage';
-import HomePage from './components/HomePage';
+import HomePage from './pages/HomePage';
+import MapPage from './components/MapPage';
 import AboutPage from './components/AboutPage';
 
 import MostQualifiedPage from './pages/MostQualifiedPage';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/meetings" component={withTracker(MeetingsPage)}/>
           <Route path="/transparency" component={withTracker(TransparencyPage)}/>
           <Route path="/reports" component={withTracker(ReportsPage)}/>
+          <Route path="/map" component={withTracker(MapPage)}/>
           <Route path="/" component={withTracker(HomePage)}/>
         </Switch>
       </div>

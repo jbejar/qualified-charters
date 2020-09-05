@@ -16,6 +16,7 @@ export default function NavBarComponent() {
           <LinkContainer to={"/" + search}><Nav.Link>Home</Nav.Link></LinkContainer>
           <LinkContainer to={"/qualified" + search}><Nav.Link>Qualified</Nav.Link></LinkContainer>
           <LinkContainer to={"/meetings" + search}><Nav.Link>Meetings</Nav.Link></LinkContainer>
+          <LinkContainer to={"/map" + search}><Nav.Link>Map</Nav.Link></LinkContainer>
           <LinkContainer to={"/transparency" + search}><Nav.Link>Transparency</Nav.Link></LinkContainer>
           <LinkContainer to={"/reports" + search}><Nav.Link>Reports</Nav.Link></LinkContainer>
           <LinkContainer to={"/about" + search}><Nav.Link>About</Nav.Link></LinkContainer>

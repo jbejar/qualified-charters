@@ -5,6 +5,7 @@ import LegislativeDistrictDropDown from "../components/LegislativeDistrictDropDo
 import LicenseComponent from "../components/LicenseComponent";
 import EnrollmentComponent from "../components/EnrollmentComponent";
 import NoticeHistogram from "../components/NoticeHistogram"
+import FirstLicensedHistogram from "../components/FirstLicensedHistogram"
 
 function titleCase(str) {
   return str
@@ -71,10 +72,14 @@ function ReportsPage(props) {
         return acc;
       }
       Object.keys(acc).forEach((k) => {
+        if(!s.elsi[k]){
+          return;
+        }
         acc[k] += s.elsi[k] || 0;
       });
       return acc;
     }, {
+      "Total Students All Grades (Excludes AE) 2019-20": 0,
       "Total Students All Grades (Excludes AE) 2018-19": 0,
       "Total Students All Grades (Excludes AE) 2017-18": 0,
       "Total Students All Grades (Excludes AE) 2016-17": 0,
@@ -84,7 +89,18 @@ function ReportsPage(props) {
       "Total Students All Grades (Excludes AE) 2012-13": 0,
       "Total Students All Grades (Excludes AE) 2011-12": 0,
       "Total Students All Grades (Excludes AE) 2010-11": 0,
-      "Total Students All Grades (Excludes AE) 2009-10": 0
+      "Total Students All Grades (Excludes AE) 2009-10": 0,
+      "Full-Time Equivalent (FTE) Teachers 2018-19": null,
+      "Full-Time Equivalent (FTE) Teachers 2017-18": null,
+      "Full-Time Equivalent (FTE) Teachers 2016-17": null,
+      "Full-Time Equivalent (FTE) Teachers 2015-16": null,
+      "Full-Time Equivalent (FTE) Teachers 2014-15": null,
+      "Full-Time Equivalent (FTE) Teachers 2013-14": null,
+      "Full-Time Equivalent (FTE) Teachers 2012-13": null,
+      "Full-Time Equivalent (FTE) Teachers 2011-12": null,
+      "Full-Time Equivalent (FTE) Teachers 2010-11": null,
+      "Full-Time Equivalent (FTE) Teachers 2009-10": null,
+
     });
   const oldAllLicenses = schools.reduce(
     (acc, s) => acc + s.oldAllLicenses, 0);
@@ -107,7 +123,7 @@ console.log(elsi)
         />
       )}
       <EnrollmentComponent elsi={summarySchool.elsi}/>
-
+      
       <SchoolTable
         summary
         sort={recordingsSort}
@@ -125,6 +141,7 @@ console.log(elsi)
       />
       
       <LicenseComponent school={summarySchool} />
+      <FirstLicensedHistogram averages schools={schools}/>
       <NoticeHistogram schools={schools}/>
     </div>
   );

@@ -5,7 +5,7 @@ import schoolsDump from "./../dump.json";
 import SchoolFilter from './SchoolFilter';
 const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] + (s.licenseTypes["Professional"] || 0) || 0)) / (s.licenseTypes.All || 0))
 
-export default function HomePage() {
+export default function MapPage() {
     const [schools, setSchools] = useState(schoolsDump);
     return (
         <div className="container">    

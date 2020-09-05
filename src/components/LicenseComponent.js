@@ -48,7 +48,7 @@ export default class LicenseComponent extends Component {
       .filter((row) => row.y);
     const oldLicenses = this.props.school.oldAllLicenses;
     return (
-      <div className="align-center">
+      <div className="align-center mb-3">
         <h3>Educator Licenses</h3>
         <ResponsiveContainer height={400} width="100%">
           <PieChart width={400} height={400}>
