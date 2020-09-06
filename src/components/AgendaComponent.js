@@ -16,7 +16,10 @@ function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID
     } else if(hasRecording) {
         heading = "Recording Available";
         fontClass = "text-success";
-        mp3s = attachmentLinks.filter(link => (link || "").toLowerCase().endsWith(".mp3"));
+        mp3s = attachmentLinks.filter(link => {
+            const file = (link || "").toLowerCase();
+            return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg");
+        });
     }
     return (
         <div className="p-4">
@@ -30,7 +33,7 @@ function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID
                         onPlay={e => console.log("onPlay")}
                         // other props here
                     />}
-            <a target="_blank" href={"https://www.utah.gov" + href} className="stetched-link">Continue Reading</a>
+            <a target="_blank" href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
         </div>
     )
 }

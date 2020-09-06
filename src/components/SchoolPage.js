@@ -6,8 +6,10 @@ import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
 import EnrollmentComponent from "./EnrollmentComponent"
 import FirstLicensedHistogram from "./FirstLicensedHistogram"
+import AgendaComponent from "./AgendaComponent";
 import GoogleReviews from "./GoogleReviews";
 import Row from "react-bootstrap/Row";
+import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
 function SchoolPage(props) {
     const id = parseInt(props.match.params.schoolID);
@@ -58,12 +60,16 @@ function SchoolPage(props) {
                 </Row>
                 
             </div>
+            
             <EnrollmentComponent elsi={school.elsi}/>
             <LicenseComponent school={school}/>
             <FirstLicensedHistogram schools={[school]} averages/>
                 {/* <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/> */}
             <div>
+
             </div>
+            {school.pmn.meetings.map(mtg => <AgendaComponent {...mtg}/>)}
+    
         </div>
     )
 }
