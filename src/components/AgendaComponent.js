@@ -3,9 +3,14 @@ import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import moment from "moment";
+const format = "YYYY/MM/DD hh:mm A";
 
 function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID, SchoolName, attachmentLinks = []}) {
     const hasRecording = attachments && attachments.includes("Audio Recording Added");
+    if(!start) {
+        start = moment(date, format).toDate()
+    }
     const upcoming = (new Date() - start) < 0;
     let heading = "Event Passed";
     let fontClass = "";

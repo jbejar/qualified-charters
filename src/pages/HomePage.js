@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import SchoolTable from "../components/SchoolTable";
-import SchoolMap from "../components/SchoolMap";
 import schoolsDump from "../dump.json";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -12,7 +10,7 @@ const format = "YYYY/MM/DD hh:mm A";
 
 export default function HomePage() {
     const [schools, setSchools] = useState(schoolsDump);
-    const [max, setMax] = useState(3);
+    const [max, setMax] = useState(4);
     let meetings = schools.reduce(
         (acc, school) => {
           return acc.concat(
