@@ -6,7 +6,8 @@ import 'react-h5-audio-player/lib/styles.css';
 import moment from "moment";
 const format = "YYYY/MM/DD hh:mm A";
 
-function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID, SchoolName, attachmentLinks = []}) {
+function AgendaComponent({href, name, agenda, date, attachments,
+    start, SchoolID, SchoolName, audioFile, attachmentLinks = []}) {
     const hasRecording = attachments && attachments.includes("Audio Recording Added");
     if(!start) {
         start = moment(date, format).toDate()
@@ -15,10 +16,14 @@ function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID
     let heading = "Event Passed";
     let fontClass = "";
     let mp3s = null;
+    let embed = audioFile && audioFile.toLowerCase().startsWith("https://drive.google.com/file");
+    if(embed) {
+        embed = audioFile.replace(/view.*$/i, "preview");
+    }
     if(upcoming) {
         heading = "Upcoming Meeting";
         fontClass = "text-primary";
-    } else if(hasRecording) {
+    } else if(hasRecording || audioFile) {
         heading = "Recording Available";
         fontClass = "text-success";
         mp3s = attachmentLinks.filter(link => {
@@ -33,6 +38,8 @@ function AgendaComponent({href, name, agenda, date, attachments, start, SchoolID
             <Link to={"/schools/" + SchoolID}><strong className="mb-0">{SchoolName}</strong></Link>
             <div>{date}</div>
             <p className="card-text mb-auto"><pre>{agenda}</pre></p>
+            {embed && <p><iframe src={embed} width="500" height="240"></iframe></p>}
+            {!embed && audioFile && <p><a target="_blank" href={audioFile} >Audio File</a></p>}
             {mp3s && mp3s.length > 0 && <AudioPlayer
                         src={"https://www.utah.gov" + mp3s[0]}
                         onPlay={e => console.log("onPlay")}
