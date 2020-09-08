@@ -33,6 +33,7 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             const file = (link || "").toLowerCase();
             return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg");
         });
+        mp3s.sort();
     }
     return (
         <div className="p-4">
@@ -43,11 +44,11 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             <p className="card-text mb-auto"><pre>{agenda}</pre></p>
             {embed && <p><iframe src={embed} width="500" height="240"></iframe></p>}
             {!embed && audioFile && <p><a target="_blank" href={audioFile} >Audio File</a></p>}
-            {mp3s && mp3s.length > 0 && <AudioPlayer
-                        src={"https://www.utah.gov" + mp3s[0]}
+            {mp3s && mp3s.map(mp3 => <p><AudioPlayer
+                        src={"https://www.utah.gov" + mp3}
                         onPlay={e => console.log("onPlay")}
                         // other props here
-                    />}
+                    /></p>)}
             <a target="_blank" href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
         </div>
     )
