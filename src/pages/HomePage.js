@@ -24,11 +24,14 @@ export default function HomePage() {
         []
       );
     meetings = Array.from(new Set(meetings))
-    meetings.forEach(mtg => mtg.start = moment(mtg.date, format).toDate());
-    const futureMeetings = meetings.filter(mtg => mtg.start - new Date() > 0)
+    meetings.forEach(mtg => {
+      mtg.start = moment(mtg.date, format).toDate();
+      mtg.posted = moment(mtg.updatedDate, format).toDate();
+    });
+    const futureMeetings = meetings.filter(mtg => mtg.status === "Scheduled" &&  mtg.start - new Date() > 0)
     futureMeetings.sort((a,b) => a.start - b.start);
     const pastMeetings = meetings.filter(mtg => new Date() - mtg.start > 0 && mtg.attachments.includes("Audio Recording Added"))
-    pastMeetings.sort((a,b) => b.start - a.start);
+    pastMeetings.sort((a,b) => b.posted - a.posted);
     const top = (max, arr) => {
       const results = [];
       let hrefs = new Set();
@@ -37,7 +40,6 @@ export default function HomePage() {
         let currentMtg = arr[i++];
         if(!hrefs.has(currentMtg.href)) {
           results.push(currentMtg);
-          debugger
           hrefs.add(currentMtg.href);
         }
       }
@@ -64,8 +66,9 @@ export default function HomePage() {
             </Col>
             <Col md="auto"></Col>
           </Row>
+          <Button onClick={() => {setMax(max+2)}} variant="warning">Load More</Button>
         </Col>
-
+        
         <Col md={6}>
           <Row>
             <Col>
@@ -73,8 +76,8 @@ export default function HomePage() {
             </Col>
             <Col md="auto"></Col>
           </Row>
+        <Button onClick={() => {setMax(max+2)}} variant="warning">Load More</Button>
         </Col>
-        <Button onClick={() => {setMax(max+1)}} variant="warning">Load More</Button>
       </Row>
       {/* <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified"/> */}
 

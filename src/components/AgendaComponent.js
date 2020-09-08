@@ -6,13 +6,13 @@ import 'react-h5-audio-player/lib/styles.css';
 import moment from "moment";
 const format = "YYYY/MM/DD hh:mm A";
 
-function AgendaComponent({href, name, agenda, date, attachments,
+function AgendaComponent({href, name, agenda, date, attachments, status,
     start, SchoolID, SchoolName, audioFile, attachmentLinks = []}) {
     const hasRecording = attachments && attachments.includes("Audio Recording Added");
     if(!start) {
         start = moment(date, format).toDate()
     }
-    const upcoming = (new Date() - start) < 0;
+    const upcoming = status === "Scheduled" && (new Date() - start) < 0;
     let heading = "Event Passed";
     let fontClass = "";
     let mp3s = null;
@@ -23,6 +23,9 @@ function AgendaComponent({href, name, agenda, date, attachments,
     if(upcoming) {
         heading = "Upcoming Meeting";
         fontClass = "text-primary";
+    } else if(status === "Cancelled") {
+        heading = "Meeting Cancelled";
+        fontClass = "text-warning";
     } else if(hasRecording || audioFile) {
         heading = "Recording Available";
         fontClass = "text-success";
