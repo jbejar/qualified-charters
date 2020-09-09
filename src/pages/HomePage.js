@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import schoolsDump from "../dump.json";
+import React, { useState, useEffect } from "react";
+import LegislativeDistrictDropDown from "../components/LegislativeDistrictDropDown";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
@@ -9,42 +9,53 @@ import moment from "moment";
 const format = "YYYY/MM/DD hh:mm A";
 
 export default function HomePage() {
-    const [schools, setSchools] = useState(schoolsDump);
-    const [max, setMax] = useState(4);
-    let meetings = schools.reduce(
-        (acc, school) => {
-          return acc.concat(
-            school.pmn.meetings.map(mtg => {
-                mtg.SchoolName = school.SchoolName;
-                mtg.SchoolID = school.SchoolID;
-                return mtg;
-            })
-          );
-        },
-        []
+  const [schools, setSchools] = useState([]);
+  const [max, setMax] = useState(4);
+  const [futureMeetings, setFutureMeetings] = useState([]);
+  const [pastMeetings, setPastMeetings] = useState([]);
+  useEffect(() => {
+    let meetings = schools.reduce((acc, school) => {
+      return acc.concat(
+        school.pmn.meetings.map((mtg) => {
+          mtg.SchoolName = school.SchoolName;
+          mtg.SchoolID = school.SchoolID;
+          return mtg;
+        })
       );
-    meetings = Array.from(new Set(meetings))
-    meetings.forEach(mtg => {
+    }, []);
+    meetings = Array.from(new Set(meetings));
+    meetings.forEach((mtg) => {
       mtg.start = moment(mtg.date, format).toDate();
       mtg.posted = moment(mtg.updatedDate, format).toDate();
     });
-    const futureMeetings = meetings.filter(mtg => mtg.status === "Scheduled" &&  mtg.start - new Date() > 0)
-    futureMeetings.sort((a,b) => a.start - b.start);
-    const pastMeetings = meetings.filter(mtg => new Date() - mtg.start > 0 && mtg.attachments.includes("Audio Recording Added"))
-    pastMeetings.sort((a,b) => b.posted - a.posted);
-    const top = (max, arr) => {
-      const results = [];
-      let hrefs = new Set();
-      let i = 0;
-      while(results.length < max) {
-        let currentMtg = arr[i++];
-        if(!hrefs.has(currentMtg.href)) {
-          results.push(currentMtg);
-          hrefs.add(currentMtg.href);
-        }
+    const futMeetings = meetings.filter(
+      (mtg) => mtg.status === "Scheduled" && mtg.start - new Date() > 0
+    );
+    futMeetings.sort((a, b) => a.start - b.start);
+    setFutureMeetings(top(max,futMeetings));
+    let pasMeetings = meetings.filter(
+      (mtg) =>
+        new Date() - mtg.start > 0 &&
+        mtg.attachments.includes("Audio Recording Added")
+    );
+    pasMeetings = top(max, pasMeetings);
+    pasMeetings.sort((a, b) => b.posted - a.posted);
+    setPastMeetings(pasMeetings);
+  }, [schools, max]);
+
+  const top = (max, arr) => {
+    const results = [];
+    let hrefs = new Set();
+    let i = 0;
+    while (arr.length > 0 && results.length < Math.min(arr.length, max)) {
+      let currentMtg = arr[i++];
+      if (!hrefs.has(currentMtg.href)) {
+        results.push(currentMtg);
+        hrefs.add(currentMtg.href);
       }
-      return results;
     }
+    return results;
+  };
   return (
     <div className="container">
       <div className="jumbotron p-4">
@@ -62,26 +73,43 @@ export default function HomePage() {
         <Col md={6}>
           <Row>
             <Col>
-                {top(max, pastMeetings).map(mtg => <AgendaComponent {...mtg}/>)}
+              {pastMeetings.map((mtg) => (
+                <AgendaComponent {...mtg} />
+              ))}
             </Col>
             <Col md="auto"></Col>
           </Row>
-          <Button onClick={() => {setMax(max+2)}} variant="warning">Load More</Button>
+          <Button
+            onClick={() => {
+              setMax(max + 2);
+            }}
+            variant="warning"
+          >
+            Load More
+          </Button>
         </Col>
-        
+
         <Col md={6}>
           <Row>
             <Col>
-              {top(max, futureMeetings).map(mtg => <AgendaComponent {...mtg}/>)}
+              {futureMeetings.map((mtg) => (
+                <AgendaComponent {...mtg} />
+              ))}
             </Col>
             <Col md="auto"></Col>
           </Row>
-        <Button onClick={() => {setMax(max+2)}} variant="warning">Load More</Button>
+          <Button
+            onClick={() => {
+              setMax(max + 2);
+            }}
+            variant="warning"
+          >
+            Load More
+          </Button>
         </Col>
       </Row>
+      <LegislativeDistrictDropDown setSchools={setSchools} />
       {/* <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified"/> */}
-
-     
     </div>
   );
 }
