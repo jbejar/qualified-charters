@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import ReactGA from "react-ga";
 import withTracker from './components/withTracker';
 import {

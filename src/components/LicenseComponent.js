@@ -39,11 +39,11 @@ export default class LicenseComponent extends Component {
       "2": "#ababab",
     };
     const dataPoints = Object.keys(types)
-      .filter((k) => k != "All")
+      .filter((k) => k !== "All")
       .map((key) => ({ name: key, y: types[key] }))
       .filter((row) => row.y);
     const statusData = Object.keys(statuses)
-      .filter((k) => k != "All")
+      .filter((k) => k !== "All")
       .map((key) => ({ name: key, y: statuses[key] }))
       .filter((row) => row.y);
     const oldLicenses = this.props.school.oldAllLicenses;

@@ -26,20 +26,21 @@ export default function HomePage() {
     meetings = Array.from(new Set(meetings));
     meetings.forEach((mtg) => {
       mtg.start = moment(mtg.date, format).toDate();
-      mtg.posted = moment(mtg.updatedDate, format).toDate();
+      mtg.posted = new Date(mtg.updatedDate);
     });
     const futMeetings = meetings.filter(
       (mtg) => mtg.status === "Scheduled" && mtg.start - new Date() > 0
     );
     futMeetings.sort((a, b) => a.start - b.start);
+    debugger;
     setFutureMeetings(top(max,futMeetings));
     let pasMeetings = meetings.filter(
       (mtg) =>
         new Date() - mtg.start > 0 &&
         mtg.attachments.includes("Audio Recording Added")
     );
-    pasMeetings = top(max, pasMeetings);
     pasMeetings.sort((a, b) => b.posted - a.posted);
+    pasMeetings = top(max, pasMeetings);
     setPastMeetings(pasMeetings);
   }, [schools, max]);
 

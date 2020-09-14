@@ -29,9 +29,10 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
     } else if(hasRecording || audioFile) {
         heading = "Recording Available";
         fontClass = "text-success";
-        mp3s = attachmentLinks.filter(link => {
+        const possibleFiles = attachmentLinks.concat(embed ? [] : [audioFile]);
+        mp3s = possibleFiles.filter(link => {
             const file = (link || "").toLowerCase();
-            return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg");
+            return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg") || file.endsWith(".m4a") || file.endsWith(".oga");
         });
         mp3s.sort();
     }
@@ -44,11 +45,11 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             <p className="card-text mb-auto"><pre>{agenda}</pre></p>
             {embed && <p><iframe src={embed} width="500" height="240"></iframe></p>}
             {!embed && audioFile && <p><a target="_blank" href={audioFile} >Audio File</a></p>}
-            {mp3s && mp3s.map(mp3 => <p><AudioPlayer
-                        src={"https://www.utah.gov" + mp3}
+            {mp3s && mp3s.map(mp3 => <div class="m-3"><AudioPlayer
+                        src={mp3.startsWith("/") ? ("https://www.utah.gov" + mp3) : mp3}
                         onPlay={e => console.log("onPlay")}
                         // other props here
-                    /></p>)}
+                    /></div>)}
             <a target="_blank" href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
         </div>
     )
