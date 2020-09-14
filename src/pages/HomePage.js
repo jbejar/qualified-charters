@@ -32,7 +32,6 @@ export default function HomePage() {
       (mtg) => mtg.status === "Scheduled" && mtg.start - new Date() > 0
     );
     futMeetings.sort((a, b) => a.start - b.start);
-    debugger;
     setFutureMeetings(top(max,futMeetings));
     let pasMeetings = meetings.filter(
       (mtg) =>

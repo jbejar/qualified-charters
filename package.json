@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build; node sitemap-builder.js",
     "deploy": "firebase deploy"
   },
   "eslintConfig": {
@@ -51,7 +51,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/register": "^7.11.5",
-    "gh-pages": "^2.2.0"
+    "@babel/register": "^7.11.5"
   }
 }
