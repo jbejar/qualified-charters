@@ -40,7 +40,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
   return (
     <div>
       
-      <Table striped bordered hover>
+      <Table striped bordered hover responsive>
         <thead>
           <tr>
             <th>#</th>
@@ -93,37 +93,6 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
         </tbody>
       </Table>
       
-      {/* <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>School</th>
-            <th>LEA Licensed </th>
-            <th>Licensed</th>
-            <th>Temporary</th>
-            <th>Language Arts</th>
-            <th>Math</th>
-            <th>Science</th>
-
-            
-          </tr>
-        </thead>
-        <tbody>
-          {schools.sort((s,t) => (leaLicensed(t) -leaLicensed(s))).slice(0, 20).map((school, i) => (
-            <tr>
-              <td>{i+1}</td>
-              <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
-              <td>{(leaLicensed(school) * 100 ).toFixed(2)}%</td>
-              <td>{(percentLicensed(school) * 100 ).toFixed(2)}%</td>
-              <td>{(temporaryLicensed(school) * 100 ).toFixed(2)}%</td>
-              <td>{school.scores["Language Arts"]["2019"]}</td>
-              <td>{school.scores["Mathematics"]["2019"]}</td>
-              <td>{school.scores["Science"]["2019"]}</td>
-              
-            </tr>
-          ))}
-        </tbody>
-      </Table> */}
     </div>
   );
 }
