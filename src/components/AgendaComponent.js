@@ -43,14 +43,14 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             <Link to={"/schools/" + SchoolID}><strong className="mb-0">{SchoolName}</strong></Link>
             <div>{date}</div>
             <p className="card-text mb-auto"><pre>{agenda}</pre></p>
-            {embed && <p><iframe src={embed} width="500" height="240"></iframe></p>}
-            {!embed && audioFile && <p><a target="_blank" href={audioFile} >Audio File</a></p>}
+            {embed && <p><iframe title={"iframe" + audioFile} src={embed} width="500" height="240"></iframe></p>}
+            {!embed && audioFile && <p><a rel="noopener noreferrer" target="_blank" href={audioFile} >Audio File</a></p>}
             {mp3s && mp3s.map(mp3 => <div class="m-3"><AudioPlayer
                         src={mp3.startsWith("/") ? ("https://www.utah.gov" + mp3) : mp3}
                         onPlay={e => console.log("onPlay")}
                         // other props here
                     /></div>)}
-            <a target="_blank" href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
+            <a target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
         </div>
     )
 }
