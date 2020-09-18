@@ -5,7 +5,7 @@ export default function TransparencyPage() {
     const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
     const minutes = s => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
     const properNotice = s => s.pmn.advanceNotice / s.pmn.scheduled;
-    const hoursNotice  = s => s.pmn.meetings.reduce((prev, mtg) => prev + mtg.hoursAdvanceNotice,0) / s.pmn.scheduled;
+    // const hoursNotice  = s => s.pmn.meetings.reduce((prev, mtg) => prev + mtg.hoursAdvanceNotice,0) / s.pmn.scheduled;
     const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
     const properNoticeSort = (s,t) => (properNotice(t)-properNotice(s) );
     const recordingsSortInv = (s,t) => recordingsSort(t,s);

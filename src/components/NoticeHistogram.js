@@ -4,14 +4,11 @@ import {
   ResponsiveContainer,
   BarChart,
   Bar,
-  Cell,
   Label,
-  LabelList,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
 } from "recharts";
 function NoticeHistogram({ schools }) {
   const numbers = schools.reduce(

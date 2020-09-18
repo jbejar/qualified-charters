@@ -21,7 +21,7 @@ function GoogleReviews({placeId}) {
     },[placeId]);
     return (
         <div>
-            
+            {place}
         </div>
     )
 }

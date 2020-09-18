@@ -2,7 +2,6 @@ import React from 'react'
 import SchoolSearchComponent from './SchoolSearchComponent';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, useLocation} from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 export default function NavBarComponent() {

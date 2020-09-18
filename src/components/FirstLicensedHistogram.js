@@ -4,14 +4,11 @@ import {
   ResponsiveContainer,
   BarChart,
   Bar,
-  Cell,
   Label,
-  LabelList,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
 } from "recharts";
 function FirstLicensedHistogram({ schools, averages }) {
   const numbers = schools.reduce(
