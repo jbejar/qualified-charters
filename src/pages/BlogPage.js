@@ -1,26 +1,31 @@
 import React from "react";
-import { react as Article}  from "../_posts/blog/2020-09-18-test.md";
 import Row from "react-bootstrap/Row";
+import moment from "moment";
 
 export default function BlogPage() {
     const blogPostsContext = require.context("../_posts/blog", true, /\.md$/);
     const articleKeys = blogPostsContext.keys();
+    const format = "YYYY/MM/DD hh:mm A";
     
   return (
     <div className="container">
       <div className="jumbotron p-4">
         <h1 className="display-4">Qualified Charters</h1>
-        {articleKeys.map(key => {
-            const article = blogPostsContext(key);
-            return article.react;
-        })
-        }
-        <p className="lead my-4">
-          Blog
-          <Article/>
-        </p>
 
       </div>
+        {articleKeys.map(key => {
+            const article = blogPostsContext(key);
+            console.log(article);
+            const {date, thumbnail, title} = article.attributes;
+            
+            return <div key={key}>
+                <h1>{title}</h1>
+                <h4>{moment(date).format(format)}</h4>
+                <img src={thumbnail}/>
+                {article.react({})}
+            </div>
+        })
+        }
       <Row className="mb-2">
           
       </Row>
