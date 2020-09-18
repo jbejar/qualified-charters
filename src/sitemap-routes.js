@@ -10,6 +10,7 @@ export default (
           <Route path="/transparency"/>
           <Route path="/reports"/>
           <Route path="/map"/>
+          <Route path="/blog"/>
           <Route path="/"/>
     </Route>
 );
