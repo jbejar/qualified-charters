@@ -1,18 +1,36 @@
-import React from "react";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
-import { LinkContainer } from "react-router-bootstrap";
+import React, { useState } from 'react';
+import schools from './../dump.json';
+import { PowerSelect } from 'react-power-select';
+import 'react-power-select/dist/react-power-select.css';
+import { Redirect } from "react-router-dom";
+import ReactGA from "react-ga";
 
 export default function SchoolSearchComponent() {
+  const [school, setSchool] = useState();
+  const onChange = ({option}) => {
+    if(!option) {
+      return;
+    }
+    setSchool(option);
+    ReactGA.event({
+      category: 'Search',
+      action: 'By Name',
+      label: option.SchoolName
+    });
+  };
+  
   return (
-    <div>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <LinkContainer to="/schools/110575">
-          <Button variant="outline-success">Search</Button>
-        </LinkContainer>
-      </Form>
+    <div style={{width: 500}} className="md-4">
+      {(school) &&
+     (<Redirect to={ "/schools/" + school.SchoolID}/>)}
+         <PowerSelect
+          options={schools}
+          optionLabelPath="SchoolName"
+          selected={school}
+          onChange={onChange}
+          placeholder="Search..."
+          searchIndices={["SchoolName", "SchoolName2", "SchoolShort"]}
+        />
     </div>
   );
 }
