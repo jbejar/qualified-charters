@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import moment from "moment";
+import {FaFilePdf} from 'react-icons/fa'
 const format = "YYYY/MM/DD hh:mm A";
-
+const isImage = file => file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg") || file.endsWith(".m4a") || file.endsWith(".oga");
 function AgendaComponent({href, name, agenda, date, attachments, status,
     start, SchoolID, SchoolName, audioFile, attachmentLinks = []}) {
     const hasRecording = attachments && attachments.includes("Audio Recording Added");
@@ -32,10 +33,11 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
         const possibleFiles = attachmentLinks.concat(embed ? [] : [audioFile]);
         mp3s = possibleFiles.filter(link => {
             const file = (link || "").toLowerCase();
-            return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg") || file.endsWith(".m4a") || file.endsWith(".oga");
+            return isImage(file);
         });
         mp3s.sort();
     }
+    const fileAttachments = attachmentLinks.filter(file => !isImage(file));
     return (
         <div className="p-4">
             <strong className={"d-inline-block mb-2 " + fontClass}>{heading}</strong>
@@ -50,7 +52,8 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
                         onPlay={e => console.log("onPlay")}
                         // other props here
                     /></div>)}
-            <a target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a>
+            { fileAttachments.map(file => <span><a href={file.startsWith("/") ? ("https://www.utah.gov" + file) : file}><FaFilePdf/></a></span>)}
+            <div><a target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a></div>
         </div>
     )
 }
