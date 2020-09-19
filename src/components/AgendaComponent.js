@@ -4,9 +4,17 @@ import { Link } from "react-router-dom";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import moment from "moment";
-import {FaFilePdf} from 'react-icons/fa'
+import {FaFilePdf, FaFileArchive, FaFileWord} from 'react-icons/fa'
 const format = "YYYY/MM/DD hh:mm A";
-const isImage = file => file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg") || file.endsWith(".m4a") || file.endsWith(".oga");
+const isImage = file => { 
+    file = file.toLowerCase();
+    return file.endsWith(".mp3") || file.endsWith(".wav") || file.endsWith(".ogg") || file.endsWith(".m4a") || file.endsWith(".oga")
+};
+const isZip = file => file.toLowerCase().endsWith(".zip");
+const isWord = file => {
+    file = file.toLowerCase();
+    return file.endsWith(".doc") || file.endsWith(".docx")
+};
 function AgendaComponent({href, name, agenda, date, attachments, status,
     start, SchoolID, SchoolName, audioFile, attachmentLinks = []}) {
     const hasRecording = attachments && attachments.includes("Audio Recording Added");
@@ -52,7 +60,9 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
                         onPlay={e => console.log("onPlay")}
                         // other props here
                     /></div>)}
-            { fileAttachments.map(file => <span><a href={file.startsWith("/") ? ("https://www.utah.gov" + file) : file}><FaFilePdf/></a></span>)}
+            { fileAttachments.map(file => <span><a href={file.startsWith("/") ? ("https://www.utah.gov" + file) : file}>
+                {isZip(file) ? <FaFileArchive size={28}/> : isWord(file) ? <FaFileWord  size={28}/> : <FaFilePdf  size={28}/>}
+            </a></span>)}
             <div><a target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a></div>
         </div>
     )
