@@ -16,12 +16,13 @@ export default function BlogPage() {
         {articleKeys.map(key => {
             const article = blogPostsContext(key);
             console.log(article);
-            const {date, thumbnail, title} = article.attributes;
+            const {date, thumbnail, title, author} = article.attributes;
             
             return <div key={key}>
                 <h1>{title}</h1>
+                <h4>{author}</h4>
                 <h4>{moment(date).format(format)}</h4>
-                <img src={thumbnail}/>
+                <img src={thumbnail} alt={title + " image"}/>
                 {article.react({})}
             </div>
         })
