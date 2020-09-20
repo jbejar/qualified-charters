@@ -1,5 +1,6 @@
 import React from 'react'
 import schools from './../dump.json';
+import { Redirect } from "react-router-dom";
 import LicenseComponent from './LicenseComponent';
 import SchoolMap from './SchoolMap';
 import SchoolRadarComponent from "./SchoolRadarComponent";
@@ -21,6 +22,10 @@ function SchoolPage(props) {
     if(!school) {
         return <div>404 - Could not find school</div>
     }
+    const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replace(/\./g, '');
+    if(props.match.params.schoolName !== slug) {
+        return <Redirect to={ "/schools/" + school.SchoolID + "/" + slug }/>
+    }
     return (
         <div className="container">    
             <div className="jumbotron">
@@ -35,10 +40,10 @@ function SchoolPage(props) {
                 </Col>
                 </Row>
                 <Row>
-                <p className="lead">
+                <div className="lead">
                     <a className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer" href={school.URL} role="button">Website</a>
                     <BoardMeetingComponent {...school.pmn} stateBody={school.CharteredBy === "State Charter School Board (SCSB)"}/>
-                </p>
+                </div>
                 </Row>
                 
                 
@@ -66,7 +71,7 @@ function SchoolPage(props) {
             <div>
 
             </div>
-            {school.pmn.meetings.map(mtg => <AgendaComponent {...mtg}/>)}
+            {school.pmn.meetings.map(mtg => <AgendaComponent key={mtg.href} {...mtg}/>)}
     
         </div>
     )

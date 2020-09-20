@@ -4,7 +4,7 @@ import { Route } from 'react-router';
 export default (
     <Route>
 	<Route path="/about"/>
-          <Route path="/schools/:schoolID" />
+          <Route path="/schools/:schoolID/:schoolName" />
           <Route path="/qualified"/>
           <Route path="/meetings"/>
           <Route path="/transparency"/>

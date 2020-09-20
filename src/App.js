@@ -30,7 +30,7 @@ function App() {
           <Switch>
             <Route path="/about" component={withTracker(AboutPage)} />
             <Route
-              path="/schools/:schoolID"
+              path="/schools/:schoolID/:schoolName?"
               component={withTracker(SchoolPage)}
             />
             <Route

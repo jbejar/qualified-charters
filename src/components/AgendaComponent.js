@@ -55,15 +55,15 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             <p className="card-text mb-auto"><pre>{agenda}</pre></p>
             {embed && <p><iframe title={"iframe" + audioFile} src={embed} width="500" height="240"></iframe></p>}
             {!embed && audioFile && <p><a rel="noopener noreferrer" target="_blank" href={audioFile} >Audio File</a></p>}
-            {mp3s && mp3s.map(mp3 => <div class="m-3"><AudioPlayer
+            {mp3s && mp3s.map(mp3 => <div key={mp3} className="m-3"><AudioPlayer
                         src={mp3.startsWith("/") ? ("https://www.utah.gov" + mp3) : mp3}
                         onPlay={e => console.log("onPlay")}
                         // other props here
                     /></div>)}
-            { fileAttachments.map(file => <span><a href={file.startsWith("/") ? ("https://www.utah.gov" + file) : file}>
-                {isZip(file) ? <FaFileArchive size={28}/> : isWord(file) ? <FaFileWord  size={28}/> : <FaFilePdf  size={28}/>}
+            { fileAttachments.map(file => <span key={file}><a title={file} href={file.startsWith("/") ? ("https://www.utah.gov" + file) : file}>
+                {isZip(file) ? <FaFileArchive size={28}/> : isWord(file) ? <FaFileWord size={28}/> : <FaFilePdf size={28}/>}
             </a></span>)}
-            <div><a target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a></div>
+            <div className="float-sm-right pt-2"><a  target="_blank" rel="noopener noreferrer"  href={"https://www.utah.gov" + href} className="stetched-link">Source</a></div>
         </div>
     )
 }

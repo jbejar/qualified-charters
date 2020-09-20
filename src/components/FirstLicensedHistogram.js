@@ -28,7 +28,7 @@ function FirstLicensedHistogram({ schools, averages }) {
     return acc;
   });
   return (
-      <div class="mb-3">
+      <div className="mb-3">
           <h3>Educator Licensure</h3>
       
     <ResponsiveContainer height={400} width="100%">
