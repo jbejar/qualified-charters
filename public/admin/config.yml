@@ -15,5 +15,145 @@ collections:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Featured Image", name: "thumbnail", widget: "image"}
-        - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+        - {label: "Author", name: "author", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
+        - label: "Tags"
+          name: "tags"
+          widget: "select"
+          multiple: true
+          options:
+            - { label: "Academy for Math Engineering & Science", value: "110575" }
+            - { label: "Advantage Arts Academy", value: "186507" }
+            - { label: "American Academy of Innovation", value: "186430" }
+            - { label: "American Leadership Academy", value: "165615" }
+            - { label: "American Preparatory Academy", value: "110573" }
+            - { label: "American Preparatory Academy - Accelerated School", value: "186243" }
+            - { label: "American Preparatory Academy - Draper #2", value: "186317" }
+            - { label: "American Preparatory Academy - Draper #3", value: "186376" }
+            - { label: "American Preparatory Academy - Salem", value: "186480" }
+            - { label: "American Preparatory Academy - The School for New Americans", value: "186124" }
+            - { label: "Ascent Academies of Utah Farmington", value: "186352" }
+            - { label: "Ascent Academies of Utah Lehi", value: "186414" }
+            - { label: "Ascent Academies of Utah West Jordan", value: "186366" }
+            - { label: "Athenian eAcademy", value: "186388" }
+            - { label: "Athlos Academy of Utah", value: "186445" }
+            - { label: "Bear River Charter School", value: "186155" }
+            - { label: "Beehive Science & Technology Academy", value: "165610" }
+            - { label: "Bonneville Academy", value: "186475" }
+            - { label: "Bridge Elementary School", value: "186580" }
+            - { label: "C.S. Lewis Academy", value: "185842" }
+            - { label: "Canyon Grove Academy", value: "186156" }
+            - { label: "Canyon Rim Academy", value: "185836" }
+            - { label: "Channing Hall", value: "185802" }
+            - { label: "City Academy", value: "10527" }
+            - { label: "Davinci Academy", value: "125578" }
+            - { label: "Dixie Montessori Academy", value: "186347" }
+            - { label: "Dual Immersion Academy", value: "185843" }
+            - { label: "Early Light Academy at Daybreak", value: "186110" }
+            - { label: "East Hollywood High", value: "135601" }
+            - { label: "Edith Bowen Laboratory School", value: "185833" }
+            - { label: "Endeavor Hall", value: "186254" }
+            - { label: "Entheos Academy", value: "185690" }
+            - { label: "Entheos Academy Magna", value: "186288" }
+            - { label: "Esperanza School", value: "186299" }
+            - { label: "Excelsior Academy", value: "186111" }
+            - { label: "Fast Forward High", value: "60560" }
+            - { label: "Franklin Discovery Academy", value: "186420" }
+            - { label: "Freedom Preparatory Academy", value: "110574" }
+            - { label: "Freedom Preparatory Academy - Vineyard", value: "186433" }
+            - { label: "Gateway Preparatory Academy", value: "185866" }
+            - { label: "George Washington Academy", value: "185800" }
+            - { label: "Good Foundations Academy", value: "186171" }
+            - { label: "Greenwood Charter School", value: "186391" }
+            - { label: "Guadalupe School", value: "185837" }
+            - { label: "Hawthorn Academy", value: "186112" }
+            - { label: "Hawthorn Academy South Jordan", value: "186412" }
+            - { label: "Highmark Charter School", value: "186275" }
+            - { label: "Ignite Entrepreneurship Academy", value: "186462" }
+            - { label: "Intech Collegiate Academy", value: "185804" }
+            - { label: "Itineris Early College High", value: "125580" }
+            - { label: "Jefferson Academy", value: "186114" }
+            - { label: "John Hancock Charter School", value: "35537" }
+            - { label: "Karl G. Maeser Preparatory Academy", value: "185835" }
+            - { label: "Lakeview Academy", value: "185702" }
+            - { label: "Leadership Academy of Utah", value: "186460" }
+            - { label: "Leadership Learning Academy", value: "186301" }
+            - { label: "Leadership Learning Academy - Ogden", value: "186485" }
+            - { label: "Legacy Preparatory Academy", value: "185694" }
+            - { label: "Lincoln Academy", value: "165609" }
+            - { label: "Lumen Scholar Institute", value: "186386" }
+            - { label: "Mana Academy Charter School", value: "186303" }
+            - { label: "Maria Montessori Academy", value: "186154" }
+            - { label: "Merit College Preparatory Academy", value: "185870" }
+            - { label: "Moab Charter School", value: "135602" }
+            - { label: "Monticello Academy", value: "185798" }
+            - { label: "Monticello Academy West Point", value: "186573" }
+            - { label: "Mountain Heights Academy", value: "186113" }
+            - { label: "Mountain Sunrise Academy", value: "186582" }
+            - { label: "Mountain West Montessori Academy", value: "186356" }
+            - { label: "Mountainville Academy", value: "185688" }
+            - { label: "Navigator Pointe Academy", value: "170609" }
+            - { label: "No. UT. Acad. for Math Engineering & Science", value: "125576" }
+            - { label: "Noah Webster Academy", value: "185686" }
+            - { label: "North Davis Preparatory Academy", value: "125581" }
+            - { label: "North Star Academy", value: "165612" }
+            - { label: "Odyssey Charter School", value: "175612" }
+            - { label: "Ogden Preparatory Academy", value: "110571" }
+            - { label: "Open Classroom", value: "185847" }
+            - { label: "Pacific Heritage Academy", value: "186276" }
+            - { label: "Paradigm High School", value: "185692" }
+            - { label: "Pinnacle Canyon Academy", value: "5492" }
+            - { label: "Promontory School of Expeditionary Learning", value: "186278" }
+            - { label: "Providence Hall", value: "185871" }
+            - { label: "Quest Academy", value: "185872" }
+            - { label: "Ranches Academy", value: "125577" }
+            - { label: "Reagan Academy", value: "165614" }
+            - { label: "Real Salt Lake Academy High School", value: "186491" }
+            - { label: "Renaissance Academy", value: "185700" }
+            - { label: "Rockwell Charter High School", value: "185873" }
+            - { label: "Roots Charter High School", value: "186375" }
+            - { label: "Salt Lake Arts Academy", value: "110569" }
+            - { label: "Salt Lake Center for Science Education", value: "185868" }
+            - { label: "Salt Lake School for the Performing Arts", value: "185696" }
+            - { label: "Scholar Academy", value: "186354" }
+            - { label: "Soldier Hollow Charter School", value: "5495" }
+            - { label: "Spectrum Academy", value: "185698" }
+            - { label: "Spectrum Academy - Pleasant Grove", value: "186365" }
+            - { label: "St. George Academy", value: "186432" }
+            - { label: "Success Academy", value: "165608" }
+            - { label: "Success DSU", value: "186389" }
+            - { label: "Summit Academy", value: "125579" }
+            - { label: "Summit Academy - Bluffdale", value: "186447" }
+            - { label: "Summit Academy - Independence", value: "186371" }
+            - { label: "Summit Academy High School", value: "186170" }
+            - { label: "Syracuse Arts Academy", value: "185793" }
+            - { label: "Syracuse Arts Academy - North", value: "186413" }
+            - { label: "Terra Academy", value: "186373" }
+            - { label: "The Center for Creativity Innovation and Discovery", value: "186458" }
+            - { label: "Thomas Edison", value: "35538" }
+            - { label: "Thomas Edison - South", value: "186031" }
+            - { label: "Timpanogos Academy", value: "35539" }
+            - { label: "Treeside Charter School", value: "186477" }
+            - { label: "Tuacahn High School for the Performing Arts", value: "5496" }
+            - { label: "Uintah River High", value: "5497" }
+            - { label: "Utah Career Path High School", value: "186343" }
+            - { label: "Utah Connections Academy", value: "186182" }
+            - { label: "Utah County Academy of Science", value: "160607" }
+            - { label: "Utah International Charter School", value: "186297" }
+            - { label: "Utah Military Academy", value: "186370" }
+            - { label: "Utah Military Academy - Camp Williams", value: "186446" }
+            - { label: "Utah Virtual Academy", value: "186006" }
+            - { label: "Valley Academy", value: "186279" }
+            - { label: "Vanguard Academy", value: "186381" }
+            - { label: "Venture Academy", value: "185874" }
+            - { label: "Vista School", value: "186115" }
+            - { label: "Voyage Academy", value: "186305" }
+            - { label: "Walden School of Liberal Arts", value: "125582" }
+            - { label: "Wallace Stegner Academy", value: "186424" }
+            - { label: "Wasatch Peak Academy", value: "165611" }
+            - { label: "Wasatch Waldorf Charter School", value: "186422" }
+            - { label: "Weber State University Charter Academy", value: "186315" }
+            - { label: "Weilenmann School of Discovery", value: "186157" }
+            - { label: "Winter Sports School", value: "186313" }
+            - { label: "Qualified", value: "qualified" }
+            - { label: "Transparency", value: "transparency" }
