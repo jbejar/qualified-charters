@@ -1,0 +1,1 @@
+This is where netlify places the Blog posts
