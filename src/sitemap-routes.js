@@ -11,6 +11,7 @@ export default (
           <Route path="/reports"/>
           <Route path="/map"/>
           <Route path="/blog"/>
+          <Route path="/procurement"/>
           <Route path="/"/>
     </Route>
 );

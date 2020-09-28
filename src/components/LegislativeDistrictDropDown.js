@@ -13,6 +13,9 @@ function LegislativeDistrictDropDown({setSchools}) {
             if(!value || value === "") {
                 return true;
             }
+            if(value.startsWith("sb")) {
+                return parseInt(value.slice(2)) === s.UtahLeg.schoolBoard;
+            }
             if(value.startsWith("sd")) {
                 return parseInt(value.slice(2)) === s.UtahLeg.senate;
             }
@@ -30,12 +33,17 @@ function LegislativeDistrictDropDown({setSchools}) {
     return (
         <Form>
         <Form.Group>
-          <Form.Label>Legislative District</Form.Label>
+          <Form.Label>District</Form.Label>
           <Form.Control as="select" value={value} onChange={handleChange}>
             <option value="">All</option>
             {Array.from(Array(29).keys()).map((i) => (
               <option value={"sd" + (i + 1)}>
                 {"Senate District " + (i + 1)}
+              </option>
+            ))}
+            {Array.from(Array(15).keys()).map((i) => (
+              <option value={"sb" + (i + 1)}>
+                {"State School Board " + (i + 1)}
               </option>
             ))}
             {Array.from(Array(75).keys()).map((i) => (

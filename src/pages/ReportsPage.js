@@ -22,6 +22,11 @@ function ReportsPage(props) {
   const recordings = (s) => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
   const minutes = (s) => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
   const properNotice = (s) => s.pmn.advanceNotice / s.pmn.scheduled;
+  const educatorLicenseCountGrowth = s =>  !s.oldAllLicenses ? 0 : ( ((s.licenseStatus.All || 0) / (s.oldAllLicenses || 0))-1);
+  const procurement = s => s.procurement.length  + "";
+  const procurementSort = (s,t) => (procurement(t) -procurement(s));
+  const enrollmentGrowthSort = (s,t) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
+  const enrollmentGrowthSortRev = (t,s) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
   const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
   const recordingsSort = (s, t) =>
     recordings(t) + minutes(t) - recordings(s) - minutes(s);
@@ -137,6 +142,24 @@ console.log(elsi)
           { name: "Recordings Avail", func: recordings, summary: true },
           { name: "Minutes Avail", func: minutes, summary: true },
           { name: "<= 24 hr notice", func: properNotice, summary: true },
+        ]}
+      />
+       <h4>Most New Assigned Educators Since Feb 2020</h4>
+      <SchoolTable
+        summary
+        sort={enrollmentGrowthSort}
+        schools={schools}
+        columns={[
+          {name: "Educators Assigned in CACTUS", func: educatorLicenseCountGrowth, summary: true},
+        ]}
+      />
+       <h4>Most Procurement Records in State Procurement Portal</h4>
+      <SchoolTable
+        limit={24}
+        sort={procurementSort}
+        schools={schools}
+        columns={[
+          {name: "Procurement Records", func: procurement, summary: true},
         ]}
       />
       

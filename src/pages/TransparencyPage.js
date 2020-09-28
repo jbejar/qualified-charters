@@ -28,23 +28,23 @@ export default function TransparencyPage() {
             </div>
             
             <h4>Most Audio Recordings and Minutes</h4>
-            <SchoolTable schools={schools} sort={recordingsSort} columns={[
-                {name: "Recordings Avail", func: recordings},
-                {name: "Minutes Avail", func: minutes},
-                {name: "<= 24 hr notice", func: properNotice},
+            <SchoolTable schools={schools} sort={recordingsSort} summary columns={[
+                {name: "Recordings Avail", func: recordings, summary: true},
+                {name: "Minutes Avail", func: minutes, summary: true},
+                {name: "<= 24 hr notice", func: properNotice, summary: true},
             ]} limit={20}/>
             <h4>Least Audio Recordings and Minutes</h4>
-            <SchoolTable schools={schools} sort={recordingsSortInv} columns={[
-                {name: "Recordings Avail", func: recordings},
-                {name: "Minutes Avail", func: minutes},
-                {name: "<= 24 hr notice", func: properNotice},
-                {name: "Authorizer", func: charteredBy}
+            <SchoolTable schools={schools} sort={recordingsSortInv} summary columns={[
+                {name: "Recordings Avail", func: recordings, summary: true},
+                {name: "Minutes Avail", func: minutes, summary: true},
+                {name: "<= 24 hr notice", func: properNotice, summary: true},
+                {name: "Authorizer", func: charteredBy, summary: true}
             ]} limit={38}/>
             <h4>At least 24 hr Advance Notice</h4>
-            <SchoolTable schools={schools} sort={properNoticeSort} columns={[
-                {name: "<= 24 hr notice", func: properNotice},
-                {name: "Recordings Avail", func: recordings},
-                {name: "Minutes Avail", func: minutes},
+            <SchoolTable schools={schools} sort={properNoticeSort} summary columns={[
+                {name: "<= 24 hr notice", func: properNotice, summary: true},
+                {name: "Recordings Avail", func: recordings, summary: true},
+                {name: "Minutes Avail", func: minutes, summary: true},
             ]} limit={38}/>
             <LegislativeDistrictDropDown setSchools={setSchools} />
         </div>

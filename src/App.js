@@ -3,7 +3,7 @@ import React, { lazy, Suspense } from "react";
 import ReactGA from "react-ga";
 import withTracker from "./components/withTracker";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import ProcurementPage from './pages/ProcurementPage'
 import NavBarComponent from "./components/NavBarComponent";
 const SchoolPage = lazy(() => import("./components/SchoolPage"));
 const HomePage = lazy(() => import("./pages/HomePage"));
@@ -45,6 +45,7 @@ function App() {
             <Route path="/reports" component={withTracker(ReportsPage)} />
             <Route path="/map" component={withTracker(MapPage)} />
             <Route path="/blog" component={withTracker(BlogPage)} />
+            <Route path="/procurement" component={withTracker(ProcurementPage)} />
             <Route path="/" component={withTracker(HomePage)} />
           </Switch>
         </Suspense>

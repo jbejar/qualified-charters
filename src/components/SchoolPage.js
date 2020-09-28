@@ -8,6 +8,7 @@ import BoardMeetingComponent from "./BoardMeetingComponent"
 import EnrollmentComponent from "./EnrollmentComponent"
 import FirstLicensedHistogram from "./FirstLicensedHistogram"
 import AgendaComponent from "./AgendaComponent";
+import ProcurementComponent from "./ProcurementComponent";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 function SchoolPage(props) {
@@ -71,6 +72,8 @@ function SchoolPage(props) {
             <div>
 
             </div>
+            {school.procurement.map(mtg => <ProcurementComponent key={mtg.open} {...mtg}/>)}
+            <div/>
             {school.pmn.meetings.map(mtg => <AgendaComponent key={mtg.href} {...mtg}/>)}
     
         </div>
