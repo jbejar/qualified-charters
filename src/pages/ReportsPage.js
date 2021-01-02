@@ -25,6 +25,10 @@ function ReportsPage(props) {
   const educatorLicenseCountGrowth = s =>  !s.oldAllLicenses ? 0 : ( ((s.licenseStatus.All || 0) / (s.oldAllLicenses || 0))-1);
   const procurement = s => s.procurement.length  + "";
   const procurementSort = (s,t) => (procurement(t) -procurement(s));
+  const yearOpened = s => s.YearOpened  + "";
+  const city = s => s.City  + "";
+  const address = s => s.Address  + "";
+  const yearOpenedSort = (s,t) => (yearOpened(t) -yearOpened(s));
   const enrollmentGrowthSort = (s,t) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
   const enrollmentGrowthSortRev = (t,s) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
   const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
@@ -84,6 +88,7 @@ function ReportsPage(props) {
       });
       return acc;
     }, {
+      "Total Students All Grades (Excludes AE) 2020-21": 0,
       "Total Students All Grades (Excludes AE) 2019-20": 0,
       "Total Students All Grades (Excludes AE) 2018-19": 0,
       "Total Students All Grades (Excludes AE) 2017-18": 0,
@@ -153,6 +158,17 @@ console.log(elsi)
           {name: "Educators Assigned in CACTUS", func: educatorLicenseCountGrowth, summary: true},
         ]}
       />
+      <h4>Newest Charter Schools</h4>
+      <SchoolTable
+        limit={25}
+        sort={yearOpenedSort}
+        schools={schools}
+        columns={[
+          {name: "Opened", func: yearOpened, summary: true},
+          {name: "Address", func: address, summary: true},
+          {name: "City", func: city, summary: true},
+        ]}
+      />
        <h4>Most Procurement Records in State Procurement Portal</h4>
       <SchoolTable
         limit={24}
@@ -161,7 +177,8 @@ console.log(elsi)
         columns={[
           {name: "Procurement Records", func: procurement, summary: true},
         ]}
-      />
+        />
+    
       
       <LicenseComponent school={summarySchool} />
       <FirstLicensedHistogram averages schools={schools}/>

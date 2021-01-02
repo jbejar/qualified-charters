@@ -5,10 +5,13 @@ export default function TransparencyPage() {
     const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
     const minutes = s => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
     const properNotice = s => s.pmn.advanceNotice / s.pmn.scheduled;
+    const postedMeetings = s => s.pmn.meetings.length;
     // const hoursNotice  = s => s.pmn.meetings.reduce((prev, mtg) => prev + mtg.hoursAdvanceNotice,0) / s.pmn.scheduled;
-    const recordingsSort = (s,t) => (recordings(t) + properNotice(t) + minutes(t)-recordings(s) - minutes(s)- properNotice(s));
+    const recordingsSort = (s,t) => (recordings(t) + 0.01 * properNotice(t) + 0.02 * minutes(t)- recordings(s) - 0.02 * minutes(s)- 0.01 *properNotice(s));
     const properNoticeSort = (s,t) => (properNotice(t)-properNotice(s) );
     const recordingsSortInv = (s,t) => recordingsSort(t,s);
+    const postedMeetingSortInv = (s,t) => postedMeetings(s) - postedMeetings(t);
+
     var regExp = /\(([^)]+)\)/;
     const charteredBy = s => {
         const matches = regExp.exec(s.CharteredBy);
@@ -38,8 +41,15 @@ export default function TransparencyPage() {
                 {name: "Recordings Avail", func: recordings, summary: true},
                 {name: "Minutes Avail", func: minutes, summary: true},
                 {name: "<= 24 hr notice", func: properNotice, summary: true},
-                {name: "Authorizer", func: charteredBy, summary: true}
+                {name: "Authorizer", func: charteredBy}
             ]} limit={38}/>
+            <h4>Least Posted Meetings</h4>
+            <SchoolTable schools={schools} sort={postedMeetingSortInv} summary columns={[
+                {name: "Meetings Posted", func: m => postedMeetings(m) + ""},
+                {name: "<= 24 hr notice", func: properNotice, summary: true},
+                {name: "Minutes Avail", func: minutes, summary: true},
+                {name: "Authorizer", func: charteredBy}
+            ]} limit={10}/>
             <h4>At least 24 hr Advance Notice</h4>
             <SchoolTable schools={schools} sort={properNoticeSort} summary columns={[
                 {name: "<= 24 hr notice", func: properNotice, summary: true},

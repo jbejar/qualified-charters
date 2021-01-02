@@ -23,9 +23,9 @@ function SchoolPage(props) {
     if(!school) {
         return <div>404 - Could not find school</div>
     }
-    const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replace(/\./g, '');
-    if(props.match.params.schoolName !== slug) {
-        return <Redirect to={ "/schools/" + school.SchoolID + "/" + slug }/>
+    const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
+    if(decodeURIComponent(props.match.params.schoolName) !== slug) {
+        return <Redirect to={ "/schools/" + school.SchoolID + "/" + encodeURIComponent(slug) }/>
     }
     return (
         <div className="container">    

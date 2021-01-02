@@ -40,7 +40,6 @@ function EnrollmentComponent({elsi}) {
             </LineChart>
             </ResponsiveContainer>
         </div>
-        <div><b>4% below average of the highest 2 of the 3 previous years: </b>{teacherToStudentRatio}</div>
         <br/>
         {teacherToStudentRatio && <div><b>Teacher to Student Ratio (2018-19): </b>{teacherToStudentRatio}</div>}
         </div>
