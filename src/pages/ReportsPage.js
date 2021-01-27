@@ -23,6 +23,9 @@ function ReportsPage(props) {
   const minutes = (s) => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
   const properNotice = (s) => s.pmn.advanceNotice / s.pmn.scheduled;
   const educatorLicenseCountGrowth = s =>  !s.oldAllLicenses ? 0 : ( ((s.licenseStatus.All || 0) / (s.oldAllLicenses || 0))-1);
+  const enrollmentGrowth = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2020-21"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2019-20"]) - 1;
+  const enrollmentGrowthPrev = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2019-20"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2018-19"]) - 1;
+  const enrollmentGrowthPrev2 = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2018-19"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2017-18"]) - 1;
   const procurement = s => s.procurement.length  + "";
   const procurementSort = (s,t) => (procurement(t) -procurement(s));
   const yearOpened = s => s.YearOpened  + "";
@@ -30,7 +33,7 @@ function ReportsPage(props) {
   const address = s => s.Address  + "";
   const yearOpenedSort = (s,t) => (yearOpened(t) -yearOpened(s));
   const enrollmentGrowthSort = (s,t) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
-  const enrollmentGrowthSortRev = (t,s) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
+  const enrollmentGrowthSortRev = (t,s) => (enrollmentGrowth(t) -enrollmentGrowth(s));
   const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
   const recordingsSort = (s, t) =>
     recordings(t) + minutes(t) - recordings(s) - minutes(s);
@@ -67,6 +70,7 @@ function ReportsPage(props) {
       "Alt. Route to Licensure": 0,
       Associate: 0,
       "Level 1 APT": 0,
+      "LEA-Specific": 0,
       "Level 1 LEA-Specific": 0,
       "Level 2 LEA-Specific": 0,
       "No License": 0,
@@ -120,7 +124,6 @@ function ReportsPage(props) {
     oldAllLicenses,
     elsi
   };
-console.log(elsi)
   return (
     <div className="container">
 
@@ -137,7 +140,7 @@ console.log(elsi)
       <SchoolTable
         summary
         sort={recordingsSort}
-        schools={schools}
+        schools={[...schools]}
         columns={[
           {
             name: "City",
@@ -153,16 +156,28 @@ console.log(elsi)
       <SchoolTable
         summary
         sort={enrollmentGrowthSort}
-        schools={schools}
+        schools={[...schools]}
         columns={[
           {name: "Educators Assigned in CACTUS", func: educatorLicenseCountGrowth, summary: true},
+        ]}
+      />
+       <h4>Declining Enrollments</h4>
+      <SchoolTable
+        summary
+        sort={enrollmentGrowthSortRev}
+        limit={20}
+        schools={[...schools]}
+        columns={[
+          {name: "% Change Enrollment SY 20-21", func: enrollmentGrowth, summary: true},
+          {name: "% Change Enrollment SY 19-20", func: enrollmentGrowthPrev, summary: true},
+          {name: "% Change Enrollment SY 18-19", func: enrollmentGrowthPrev2, summary: true},
         ]}
       />
       <h4>Newest Charter Schools</h4>
       <SchoolTable
         limit={25}
         sort={yearOpenedSort}
-        schools={schools}
+        schools={[...schools]}
         columns={[
           {name: "Opened", func: yearOpened, summary: true},
           {name: "Address", func: address, summary: true},

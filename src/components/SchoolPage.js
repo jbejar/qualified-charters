@@ -2,6 +2,7 @@ import React from 'react'
 import schools from './../dump.json';
 import { Redirect } from "react-router-dom";
 import LicenseComponent from './LicenseComponent';
+import AssignmentsComponent from './AssignmentsComponent';
 import SchoolMap from './SchoolMap';
 import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
@@ -66,6 +67,7 @@ function SchoolPage(props) {
             </div>
             
             <EnrollmentComponent elsi={school.elsi}/>
+            <AssignmentsComponent school={school}/>
             <LicenseComponent school={school}/>
             <FirstLicensedHistogram schools={[school]} averages/>
                 {/* <GoogleReviews placeId="ChIJQQf6dCiETYcRwCybJ-7XgzY "/> */}

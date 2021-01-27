@@ -18,7 +18,7 @@ function FirstLicensedHistogram({ schools, averages }) {
       ),
     []
   );
-  const bins = window.d3.bin().domain([-1, 25]).thresholds(25)(numbers);
+  const bins = window.d3.bin().domain([-1, 50]).thresholds(25)(numbers);
   const data = bins.reduce((acc, el) => {
     acc.push({
       x: (el.x0 + el.x1) / 2,
