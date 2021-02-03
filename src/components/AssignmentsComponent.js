@@ -23,7 +23,7 @@ export default class AssignmentsComponent extends Component {
     noLicenseAssignments.sort();
     return (
       <div className="align-center mt-3 mb-3">
-        <h3>Assignments</h3>
+        <h3>Educator Assignments</h3>
         <Row>  
         {noLicenseAssignments.length > 0 && (
           <Col sm={12} md={6}><div className="card" >

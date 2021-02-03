@@ -3,8 +3,8 @@ import React, { lazy, Suspense } from "react";
 import ReactGA from "react-ga";
 import withTracker from "./components/withTracker";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ProcurementPage from './pages/ProcurementPage'
 import NavBarComponent from "./components/NavBarComponent";
+const ProcurementPage = lazy(() => import('./pages/ProcurementPage'));
 const SchoolPage = lazy(() => import("./components/SchoolPage"));
 const HomePage = lazy(() => import("./pages/HomePage"));
 const MapPage = lazy(() => import("./components/MapPage"));
