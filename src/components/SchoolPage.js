@@ -12,15 +12,27 @@ import AgendaComponent from "./AgendaComponent";
 import ProcurementComponent from "./ProcurementComponent";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { useAuth0 } from "@auth0/auth0-react";
+import { getJSON } from "../modules/api";
 function SchoolPage(props) {
+    const { getAccessTokenSilently, isAuthenticated } = useAuth0();
     const id = parseInt(props.match.params.schoolID);
     const school = schools.find(s => s.SchoolID === id);
+
     const gradeMap = {
         "-1": "Preschool",
         "0": "K"
       }
     const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
-    
+    const onSave = async evt => {
+        evt.preventDefault();
+        if(isAuthenticated) {
+            const token = await getAccessTokenSilently();
+            const responseData = await getJSON("/favorites", token);
+            console.log(responseData);
+            alert("test");
+        }
+    };
     if(!school) {
         return <div>404 - Could not find school</div>
     }
@@ -43,6 +55,7 @@ function SchoolPage(props) {
                 </Row>
                 <Row>
                 <div className="lead">
+                    <button className="btn btn-secondary btn-lg ml-3 mr-4" onClick={onSave} >Save</button>
                     <a className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer" href={school.URL} role="button">Website</a>
                     <BoardMeetingComponent {...school.pmn} stateBody={school.CharteredBy === "State Charter School Board (SCSB)"}/>
                 </div>
