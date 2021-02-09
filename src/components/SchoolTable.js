@@ -78,7 +78,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
             <td></td>
             {columns.map(col => {
               if(!col.summary) {
-                return <td/>;
+                return <td key={col.name} />;
               }
               const val = summaryStats[col.name];
               if(typeof val === "string") {

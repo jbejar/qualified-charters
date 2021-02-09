@@ -52,7 +52,7 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
             <h3 className="mb-0">{name}</h3>
             <Link to={"/schools/" + SchoolID}><strong className="mb-0">{SchoolName}</strong></Link>
             <div>{date}</div>
-            <p className="card-text mb-auto"><pre>{agenda}</pre></p>
+            <div className="card-text mb-auto"><pre>{agenda}</pre></div>
             {embed && <p><iframe title={"iframe" + audioFile} src={embed} width="500" height="240"></iframe></p>}
             {!embed && audioFile && <p><a rel="noopener noreferrer" target="_blank" href={audioFile} >Audio File</a></p>}
             {mp3s && mp3s.map(mp3 => <div key={mp3} className="m-3"><AudioPlayer

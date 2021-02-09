@@ -52,7 +52,7 @@ export default function HomePage() {
           <Row>
             <Col>
               {pastMeetings.map((procurement) => (
-                <ProcurementComponent {...procurement}/>
+                <ProcurementComponent key={procurement.href} {...procurement}/>
               ))}
             </Col>
             <Col md="auto"></Col>

@@ -74,7 +74,7 @@ export default function HomePage() {
           <Row>
             <Col>
               {pastMeetings.map((mtg) => (
-                <AgendaComponent {...mtg} />
+                <AgendaComponent key={mtg.href} {...mtg} />
               ))}
             </Col>
             <Col md="auto"></Col>
@@ -93,7 +93,7 @@ export default function HomePage() {
           <Row>
             <Col>
               {futureMeetings.map((mtg) => (
-                <AgendaComponent {...mtg} />
+                <AgendaComponent key={mtg.href} {...mtg} />
               ))}
             </Col>
             <Col md="auto"></Col>

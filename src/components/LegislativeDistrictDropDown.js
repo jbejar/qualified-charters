@@ -37,17 +37,17 @@ function LegislativeDistrictDropDown({setSchools}) {
           <Form.Control as="select" value={value} onChange={handleChange}>
             <option value="">All</option>
             {Array.from(Array(29).keys()).map((i) => (
-              <option value={"sd" + (i + 1)}>
+              <option key={i} value={"sd" + (i + 1)}>
                 {"Senate District " + (i + 1)}
               </option>
             ))}
             {Array.from(Array(15).keys()).map((i) => (
-              <option value={"sb" + (i + 1)}>
+              <option key={i} value={"sb" + (i + 1)}>
                 {"State School Board " + (i + 1)}
               </option>
             ))}
             {Array.from(Array(75).keys()).map((i) => (
-              <option value={"hd" + (i + 1)}>
+              <option key={i} value={"hd" + (i + 1)}>
                 {"House District " + (i + 1)}
               </option>
             ))}
