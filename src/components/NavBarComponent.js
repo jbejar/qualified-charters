@@ -2,7 +2,7 @@ import React from 'react'
 import SchoolSearchComponent from './SchoolSearchComponent';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Link, useLocation, useHistory} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 import { useAuth0 } from "@auth0/auth0-react";
 export default function NavBarComponent() {
