@@ -17,9 +17,9 @@ function CustomChatbot({setLocation}) {
         console.log(history.location.pathname)
         if(history.location.pathname.startsWith("/map")) {
             setLocation([match.fields.latitude, match.fields.longitude]);
-        } else {
-            history.push("/reports?district=sb" + match.UtahLeg.schoolBoard);
+            return "done"
         }
+        history.push("/reports?district=sb" + match.UtahLeg.schoolBoard);
         return "schoolBoardDistrictdone";
 
     };
