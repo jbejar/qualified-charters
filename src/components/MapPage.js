@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
+import { LocationContext } from "../modules/LocationContext";
 import SchoolTable from './SchoolTable';
 import SchoolMap from './SchoolMap';
 import schoolsDump from "./../dump.json";
@@ -7,13 +8,13 @@ const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes
 
 export default function MapPage() {
     const [schools, setSchools] = useState(schoolsDump);
+    const location = useContext(LocationContext);
     return (
         <div className="container">    
             
             <div className="jumbotron">
-                <h3 className="display-4">Utah Charter School Map</h3>
                 
-                <SchoolMap locate={true} schools={schools} center={[40.7774076, -111.8881773]}/>
+                <SchoolMap locate={true} schools={schools} center={location}/>
                 <SchoolFilter setSchools={setSchools}/>
             </div>
             <img width="400" src={process.env.PUBLIC_URL + "/Qualified.png"} className="img-fluid rounded" alt="Qualified"/>

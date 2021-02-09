@@ -1,0 +1,3924 @@
+[
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84401",
+      "geopoint": [41.224911, -111.98346],
+      "longitude": -111.98346,
+      "latitude": 41.224911
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.98346, 41.224911] },
+    "UtahLeg": { "senate": 20, "house": 9, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Draper",
+      "zip": "84020",
+      "geopoint": [40.514843, -111.87294],
+      "longitude": -111.87294,
+      "latitude": 40.514843
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.87294, 40.514843] },
+    "UtahLeg": { "senate": 11, "house": 51, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84123",
+      "geopoint": [40.659514, -111.92226],
+      "longitude": -111.92226,
+      "latitude": 40.659514
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.92226, 40.659514] },
+    "UtahLeg": { "senate": 5, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Levan",
+      "zip": "84639",
+      "geopoint": [39.47178, -111.94431],
+      "longitude": -111.94431,
+      "latitude": 39.47178
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94431, 39.47178] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Boulder",
+      "zip": "84716",
+      "geopoint": [37.94512, -111.09991],
+      "longitude": -111.09991,
+      "latitude": 37.94512
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.09991, 37.94512] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Bountiful",
+      "zip": "84010",
+      "geopoint": [40.876312, -111.87249],
+      "longitude": -111.87249,
+      "latitude": 40.876312
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.87249, 40.876312] },
+    "UtahLeg": { "senate": 23, "house": 19, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84201",
+      "geopoint": [41.244261, -112.007924],
+      "longitude": -112.007924,
+      "latitude": 41.244261
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.007924, 41.244261] },
+    "UtahLeg": { "senate": 20, "house": 9, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Magna",
+      "zip": "84044",
+      "geopoint": [40.700162, -112.08318],
+      "longitude": -112.08318,
+      "latitude": 40.700162
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.08318, 40.700162] },
+    "UtahLeg": { "senate": 12, "house": 22, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Mountain Home",
+      "zip": "84051",
+      "geopoint": [40.42204, -110.38597],
+      "longitude": -110.38597,
+      "latitude": 40.42204
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.38597, 40.42204] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Portage",
+      "zip": "84331",
+      "geopoint": [41.909031, -112.32322],
+      "longitude": -112.32322,
+      "latitude": 41.909031
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.32322, 41.909031] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Enterprise",
+      "zip": "84725",
+      "geopoint": [37.533546, -113.76108],
+      "longitude": -113.76108,
+      "latitude": 37.533546
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.76108, 37.533546] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Bryce",
+      "zip": "84764",
+      "geopoint": [37.638578, -112.20857],
+      "longitude": -112.20857,
+      "latitude": 37.638578
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.20857, 37.638578] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84140",
+      "geopoint": [40.771345, -111.93087],
+      "longitude": -111.93087,
+      "latitude": 40.771345
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.93087, 40.771345] },
+    "UtahLeg": { "senate": 1, "house": 23, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Alton",
+      "zip": "84710",
+      "geopoint": [37.474045, -112.53409],
+      "longitude": -112.53409,
+      "latitude": 37.474045
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.53409, 37.474045] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Peoa",
+      "zip": "84061",
+      "geopoint": [40.732935, -111.35283],
+      "longitude": -111.35283,
+      "latitude": 40.732935
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.35283, 40.732935] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Hurricane",
+      "zip": "84737",
+      "geopoint": [37.130927, -113.24183],
+      "longitude": -113.24183,
+      "latitude": 37.130927
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.24183, 37.130927] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84093",
+      "geopoint": [40.594948, -111.83448],
+      "longitude": -111.83448,
+      "latitude": 40.594948
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.83448, 40.594948] },
+    "UtahLeg": { "senate": 9, "house": 49, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Fillmore",
+      "zip": "84631",
+      "geopoint": [38.951694, -112.31666],
+      "longitude": -112.31666,
+      "latitude": 38.951694
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.31666, 38.951694] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Paradise",
+      "zip": "84328",
+      "geopoint": [41.508503, -111.79102],
+      "longitude": -111.79102,
+      "latitude": 41.508503
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.79102, 41.508503] },
+    "UtahLeg": { "senate": 17, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Chester",
+      "zip": "84623",
+      "geopoint": [39.465357, -111.57686],
+      "longitude": -111.57686,
+      "latitude": 39.465357
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.57686, 39.465357] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Lake Powell",
+      "zip": "84533",
+      "geopoint": [37.655431, -110.03772],
+      "longitude": -110.03772,
+      "latitude": 37.655431
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.03772, 37.655431] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ephraim",
+      "zip": "84627",
+      "geopoint": [39.353561, -111.5783],
+      "longitude": -111.5783,
+      "latitude": 39.353561
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.5783, 39.353561] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Hanksville",
+      "zip": "84734",
+      "geopoint": [38.289429, -110.66366],
+      "longitude": -110.66366,
+      "latitude": 38.289429
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.66366, 38.289429] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Duchesne",
+      "zip": "84021",
+      "geopoint": [40.169399, -110.46066],
+      "longitude": -110.46066,
+      "latitude": 40.169399
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.46066, 40.169399] },
+    "UtahLeg": { "senate": 26, "house": 69, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84199",
+      "geopoint": [40.725946, -111.93942],
+      "longitude": -111.93942,
+      "latitude": 40.725946
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.93942, 40.725946] },
+    "UtahLeg": { "senate": 1, "house": 26, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84402",
+      "geopoint": [41.255285, -111.956721],
+      "longitude": -111.956721,
+      "latitude": 41.255285
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956721, 41.255285] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Elberta",
+      "zip": "84626",
+      "geopoint": [39.92519, -111.99559],
+      "longitude": -111.99559,
+      "latitude": 39.92519
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99559, 39.92519] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84126",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Oakley",
+      "zip": "84055",
+      "geopoint": [40.80725, -111.204],
+      "longitude": -111.204,
+      "latitude": 40.80725
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.204, 40.80725] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Blanding",
+      "zip": "84511",
+      "geopoint": [37.562925, -109.46245],
+      "longitude": -109.46245,
+      "latitude": 37.562925
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.46245, 37.562925] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "La Verkin",
+      "zip": "84745",
+      "geopoint": [37.219954, -113.25581],
+      "longitude": -113.25581,
+      "latitude": 37.219954
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.25581, 37.219954] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Smithfield",
+      "zip": "84335",
+      "geopoint": [41.833371, -111.85897],
+      "longitude": -111.85897,
+      "latitude": 41.833371
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.85897, 41.833371] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84404",
+      "geopoint": [41.270319, -112.01932],
+      "longitude": -112.01932,
+      "latitude": 41.270319
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.01932, 41.270319] },
+    "UtahLeg": { "senate": 20, "house": 29, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Santa Clara",
+      "zip": "84765",
+      "geopoint": [37.136937, -113.64916],
+      "longitude": -113.64916,
+      "latitude": 37.136937
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.64916, 37.136937] },
+    "UtahLeg": { "senate": 29, "house": 74, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Pine Valley",
+      "zip": "84781",
+      "geopoint": [37.391737, -113.51806],
+      "longitude": -113.51806,
+      "latitude": 37.391737
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.51806, 37.391737] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "New Harmony",
+      "zip": "84757",
+      "geopoint": [37.391483, -113.2821],
+      "longitude": -113.2821,
+      "latitude": 37.391483
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.2821, 37.391483] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Jensen",
+      "zip": "84035",
+      "geopoint": [40.443203, -109.25255],
+      "longitude": -109.25255,
+      "latitude": 40.443203
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.25255, 40.443203] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Orem",
+      "zip": "84097",
+      "geopoint": [40.301444, -111.67485],
+      "longitude": -111.67485,
+      "latitude": 40.301444
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.67485, 40.301444] },
+    "UtahLeg": { "senate": 16, "house": 60, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "South Jordan",
+      "zip": "84095",
+      "geopoint": [40.561598, -111.96088],
+      "longitude": -111.96088,
+      "latitude": 40.561598
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.96088, 40.561598] },
+    "UtahLeg": { "senate": 10, "house": 50, "schoolBoard": 11 }
+  },
+  {
+    "fields": {
+      "city": "Payson",
+      "zip": "84651",
+      "geopoint": [40.025007, -111.72117],
+      "longitude": -111.72117,
+      "latitude": 40.025007
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.72117, 40.025007] },
+    "UtahLeg": { "senate": 7, "house": 67, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84244",
+      "geopoint": [41.255285, -111.956721],
+      "longitude": -111.956721,
+      "latitude": 41.255285
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956721, 41.255285] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Park City",
+      "zip": "84060",
+      "geopoint": [40.648541, -111.49362],
+      "longitude": -111.49362,
+      "latitude": 40.648541
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.49362, 40.648541] },
+    "UtahLeg": { "senate": 26, "house": 54, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Fountain Green",
+      "zip": "84632",
+      "geopoint": [39.633383, -111.62844],
+      "longitude": -111.62844,
+      "latitude": 39.633383
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.62844, 39.633383] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Gusher",
+      "zip": "84030",
+      "geopoint": [40.160179, -109.547839],
+      "longitude": -109.547839,
+      "latitude": 40.160179
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.547839, 40.160179] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Wellsville",
+      "zip": "84339",
+      "geopoint": [41.641328, -111.92716],
+      "longitude": -111.92716,
+      "latitude": 41.641328
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.92716, 41.641328] },
+    "UtahLeg": { "senate": 17, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Huntsville",
+      "zip": "84317",
+      "geopoint": [41.288679, -111.70449],
+      "longitude": -111.70449,
+      "latitude": 41.288679
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.70449, 41.288679] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84138",
+      "geopoint": [40.671614, -111.74828],
+      "longitude": -111.74828,
+      "latitude": 40.671614
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.74828, 40.671614] },
+    "UtahLeg": { "senate": 8, "house": 36, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84115",
+      "geopoint": [40.718113, -111.88938],
+      "longitude": -111.88938,
+      "latitude": 40.718113
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88938, 40.718113] },
+    "UtahLeg": { "senate": 3, "house": 35, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Springville",
+      "zip": "84663",
+      "geopoint": [40.168205, -111.59577],
+      "longitude": -111.59577,
+      "latitude": 40.168205
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.59577, 40.168205] },
+    "UtahLeg": { "senate": 27, "house": 65, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Elsinore",
+      "zip": "84724",
+      "geopoint": [38.686793, -112.14565],
+      "longitude": -112.14565,
+      "latitude": 38.686793
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.14565, 38.686793] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84112",
+      "geopoint": [40.76784, -111.83805],
+      "longitude": -111.83805,
+      "latitude": 40.76784
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.83805, 40.76784] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84121",
+      "geopoint": [40.625621, -111.8158],
+      "longitude": -111.8158,
+      "latitude": 40.625621
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.8158, 40.625621] },
+    "UtahLeg": { "senate": 8, "house": 46, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84107",
+      "geopoint": [40.659997, -111.88394],
+      "longitude": -111.88394,
+      "latitude": 40.659997
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88394, 40.659997] },
+    "UtahLeg": { "senate": 8, "house": 37, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Tropic",
+      "zip": "84776",
+      "geopoint": [37.650853, -112.07946],
+      "longitude": -112.07946,
+      "latitude": 37.650853
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.07946, 37.650853] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "North Salt Lake",
+      "zip": "84910",
+      "geopoint": [40.858481, -111.898438],
+      "longitude": -111.898438,
+      "latitude": 40.858481
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.898438, 40.858481] },
+    "UtahLeg": { "senate": 23, "house": 20, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Lynndyl",
+      "zip": "84640",
+      "geopoint": [39.522214, -112.36913],
+      "longitude": -112.36913,
+      "latitude": 39.522214
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.36913, 39.522214] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84139",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84130",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Central",
+      "zip": "84722",
+      "geopoint": [37.416058, -113.62554],
+      "longitude": -113.62554,
+      "latitude": 37.416058
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.62554, 37.416058] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Vernal",
+      "zip": "84079",
+      "geopoint": [40.160179, -109.547839],
+      "longitude": -109.547839,
+      "latitude": 40.160179
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.547839, 40.160179] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Logan",
+      "zip": "84322",
+      "geopoint": [41.641189, -111.896571],
+      "longitude": -111.896571,
+      "latitude": 41.641189
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.896571, 41.641189] },
+    "UtahLeg": { "senate": 17, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Richfield",
+      "zip": "84701",
+      "geopoint": [38.765929, -112.08397],
+      "longitude": -112.08397,
+      "latitude": 38.765929
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.08397, 38.765929] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Toquerville",
+      "zip": "84774",
+      "geopoint": [37.250749, -113.27491],
+      "longitude": -113.27491,
+      "latitude": 37.250749
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.27491, 37.250749] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84119",
+      "geopoint": [40.696596, -111.95239],
+      "longitude": -111.95239,
+      "latitude": 40.696596
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.95239, 40.696596] },
+    "UtahLeg": { "senate": 1, "house": 33, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Whiterocks",
+      "zip": "84085",
+      "geopoint": [40.529949, -109.91425],
+      "longitude": -109.91425,
+      "latitude": 40.529949
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.91425, 40.529949] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Roy",
+      "zip": "84067",
+      "geopoint": [41.173226, -112.05093],
+      "longitude": -112.05093,
+      "latitude": 41.173226
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.05093, 41.173226] },
+    "UtahLeg": { "senate": 20, "house": 12, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Dutch John",
+      "zip": "84023",
+      "geopoint": [40.881951, -109.46319],
+      "longitude": -109.46319,
+      "latitude": 40.881951
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.46319, 40.881951] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Riverton",
+      "zip": "84065",
+      "geopoint": [40.503746, -111.96327],
+      "longitude": -111.96327,
+      "latitude": 40.503746
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.96327, 40.503746] },
+    "UtahLeg": { "senate": 11, "house": 41, "schoolBoard": 11 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84148",
+      "geopoint": [40.756796, -111.837567],
+      "longitude": -111.837567,
+      "latitude": 40.756796
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.837567, 40.756796] },
+    "UtahLeg": { "senate": 2, "house": 28, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Randolph",
+      "zip": "84064",
+      "geopoint": [41.656963, -111.16584],
+      "longitude": -111.16584,
+      "latitude": 41.656963
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.16584, 41.656963] },
+    "UtahLeg": { "senate": 25, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Logan",
+      "zip": "84821",
+      "geopoint": [41.717612, -111.868898],
+      "longitude": -111.868898,
+      "latitude": 41.717612
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.868898, 41.717612] },
+    "UtahLeg": { "senate": 25, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Vernon",
+      "zip": "84080",
+      "geopoint": [40.105195, -112.31673],
+      "longitude": -112.31673,
+      "latitude": 40.105195
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.31673, 40.105195] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Bicknell",
+      "zip": "84715",
+      "geopoint": [38.338787, -111.54921],
+      "longitude": -111.54921,
+      "latitude": 38.338787
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.54921, 38.338787] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Trenton",
+      "zip": "84338",
+      "geopoint": [41.935384, -111.94607],
+      "longitude": -111.94607,
+      "latitude": 41.935384
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94607, 41.935384] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84101",
+      "geopoint": [40.754746, -111.89875],
+      "longitude": -111.89875,
+      "latitude": 40.754746
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.89875, 40.754746] },
+    "UtahLeg": { "senate": 2, "house": 26, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Gunnison",
+      "zip": "84634",
+      "geopoint": [39.193513, -111.85047],
+      "longitude": -111.85047,
+      "latitude": 39.193513
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.85047, 39.193513] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Park Valley",
+      "zip": "84329",
+      "geopoint": [41.689359, -113.44562],
+      "longitude": -113.44562,
+      "latitude": 41.689359
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.44562, 41.689359] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Cedar City",
+      "zip": "84720",
+      "geopoint": [37.75164, -113.16557],
+      "longitude": -113.16557,
+      "latitude": 37.75164
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.16557, 37.75164] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Salina",
+      "zip": "84654",
+      "geopoint": [38.915722, -111.72893],
+      "longitude": -111.72893,
+      "latitude": 38.915722
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.72893, 38.915722] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Echo",
+      "zip": "84024",
+      "geopoint": [40.959532, -111.42743],
+      "longitude": -111.42743,
+      "latitude": 40.959532
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.42743, 40.959532] },
+    "UtahLeg": { "senate": 19, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Morgan",
+      "zip": "84050",
+      "geopoint": [41.059771, -111.71141],
+      "longitude": -111.71141,
+      "latitude": 41.059771
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.71141, 41.059771] },
+    "UtahLeg": { "senate": 18, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Roosevelt",
+      "zip": "84066",
+      "geopoint": [40.328012, -110.01689],
+      "longitude": -110.01689,
+      "latitude": 40.328012
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.01689, 40.328012] },
+    "UtahLeg": { "senate": 26, "house": 69, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84136",
+      "geopoint": [40.768546, -111.887869],
+      "longitude": -111.887869,
+      "latitude": 40.768546
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.887869, 40.768546] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Loa",
+      "zip": "84747",
+      "geopoint": [38.41744, -111.67612],
+      "longitude": -111.67612,
+      "latitude": 38.41744
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.67612, 38.41744] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Fielding",
+      "zip": "84311",
+      "geopoint": [41.81571, -112.11338],
+      "longitude": -112.11338,
+      "latitude": 41.81571
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.11338, 41.81571] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84127",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84113",
+      "geopoint": [40.763322, -111.83364],
+      "longitude": -111.83364,
+      "latitude": 40.763322
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.83364, 40.763322] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84145",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84605",
+      "geopoint": [40.176975, -111.536036],
+      "longitude": -111.536036,
+      "latitude": 40.176975
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.536036, 40.176975] },
+    "UtahLeg": { "senate": 27, "house": 65, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Kanab",
+      "zip": "84741",
+      "geopoint": [37.162224, -112.11431],
+      "longitude": -112.11431,
+      "latitude": 37.162224
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.11431, 37.162224] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84144",
+      "geopoint": [40.767946, -111.890819],
+      "longitude": -111.890819,
+      "latitude": 40.767946
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.890819, 40.767946] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Glendale",
+      "zip": "84729",
+      "geopoint": [37.351773, -112.61182],
+      "longitude": -112.61182,
+      "latitude": 37.351773
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.61182, 37.351773] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84143",
+      "geopoint": [40.786886, -111.900832],
+      "longitude": -111.900832,
+      "latitude": 40.786886
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.900832, 40.786886] },
+    "UtahLeg": { "senate": 23, "house": 24, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Marysvale",
+      "zip": "84750",
+      "geopoint": [38.439428, -112.2208],
+      "longitude": -112.2208,
+      "latitude": 38.439428
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.2208, 38.439428] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84180",
+      "geopoint": [40.770248, -111.90077],
+      "longitude": -111.90077,
+      "latitude": 40.770248
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.90077, 40.770248] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Bluff",
+      "zip": "84512",
+      "geopoint": [37.158935, -109.52773],
+      "longitude": -109.52773,
+      "latitude": 37.158935
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.52773, 37.158935] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Clawson",
+      "zip": "84516",
+      "geopoint": [39.088224, -111.05489],
+      "longitude": -111.05489,
+      "latitude": 39.088224
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.05489, 39.088224] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Beryl",
+      "zip": "84714",
+      "geopoint": [37.798268, -113.6718],
+      "longitude": -113.6718,
+      "latitude": 37.798268
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.6718, 37.798268] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Myton",
+      "zip": "84052",
+      "geopoint": [40.065834, -110.14823],
+      "longitude": -110.14823,
+      "latitude": 40.065834
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.14823, 40.065834] },
+    "UtahLeg": { "senate": 26, "house": 69, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Modena",
+      "zip": "84753",
+      "geopoint": [37.873645, -113.88673],
+      "longitude": -113.88673,
+      "latitude": 37.873645
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.88673, 37.873645] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Collinston",
+      "zip": "84306",
+      "geopoint": [41.804848, -112.07009],
+      "longitude": -112.07009,
+      "latitude": 41.804848
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.07009, 41.804848] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Price",
+      "zip": "84501",
+      "geopoint": [39.578473, -110.78678],
+      "longitude": -110.78678,
+      "latitude": 39.578473
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.78678, 39.578473] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Wallsburg",
+      "zip": "84082",
+      "geopoint": [40.371817, -111.41809],
+      "longitude": -111.41809,
+      "latitude": 40.371817
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.41809, 40.371817] },
+    "UtahLeg": { "senate": 16, "house": 54, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Leeds",
+      "zip": "84746",
+      "geopoint": [37.237225, -113.33562],
+      "longitude": -113.33562,
+      "latitude": 37.237225
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.33562, 37.237225] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Hatch",
+      "zip": "84735",
+      "geopoint": [37.61127, -112.55601],
+      "longitude": -112.55601,
+      "latitude": 37.61127
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.55601, 37.61127] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Park City",
+      "zip": "84098",
+      "geopoint": [40.726899, -111.53674],
+      "longitude": -111.53674,
+      "latitude": 40.726899
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.53674, 40.726899] },
+    "UtahLeg": { "senate": 19, "house": 54, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84135",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Bear River City",
+      "zip": "84301",
+      "geopoint": [41.615276, -112.12561],
+      "longitude": -112.12561,
+      "latitude": 41.615276
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.12561, 41.615276] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "East Carbon",
+      "zip": "84520",
+      "geopoint": [39.569596, -110.34199],
+      "longitude": -110.34199,
+      "latitude": 39.569596
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.34199, 39.569596] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84412",
+      "geopoint": [41.255285, -111.956721],
+      "longitude": -111.956721,
+      "latitude": 41.255285
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956721, 41.255285] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Cedar Valley",
+      "zip": "84013",
+      "geopoint": [40.288953, -112.09859],
+      "longitude": -112.09859,
+      "latitude": 40.288953
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.09859, 40.288953] },
+    "UtahLeg": { "senate": 13, "house": 67, "schoolBoard": 11 }
+  },
+  {
+    "fields": {
+      "city": "Park City",
+      "zip": "84068",
+      "geopoint": [40.66797, -111.505365],
+      "longitude": -111.505365,
+      "latitude": 40.66797
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.505365, 40.66797] },
+    "UtahLeg": { "senate": 26, "house": 54, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84122",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Richmond",
+      "zip": "84333",
+      "geopoint": [41.919806, -111.81676],
+      "longitude": -111.81676,
+      "latitude": 41.919806
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.81676, 41.919806] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Heber City",
+      "zip": "84032",
+      "geopoint": [40.511413, -111.33259],
+      "longitude": -111.33259,
+      "latitude": 40.511413
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.33259, 40.511413] },
+    "UtahLeg": { "senate": 26, "house": 54, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84092",
+      "geopoint": [40.558748, -111.80902],
+      "longitude": -111.80902,
+      "latitude": 40.558748
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.80902, 40.558748] },
+    "UtahLeg": { "senate": 9, "house": 49, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84124",
+      "geopoint": [40.680064, -111.8222],
+      "longitude": -111.8222,
+      "latitude": 40.680064
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.8222, 40.680064] },
+    "UtahLeg": { "senate": 4, "house": 36, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Kingston",
+      "zip": "84743",
+      "geopoint": [38.230935, -112.18455],
+      "longitude": -112.18455,
+      "latitude": 38.230935
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.18455, 38.230935] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Rockville",
+      "zip": "84763",
+      "geopoint": [37.160144, -113.042525],
+      "longitude": -113.042525,
+      "latitude": 37.160144
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.042525, 37.160144] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Hildale",
+      "zip": "84784",
+      "geopoint": [37.004364, -112.978418],
+      "longitude": -112.978418,
+      "latitude": 37.004364
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.978418, 37.004364] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Minersville",
+      "zip": "84752",
+      "geopoint": [38.217377, -112.93204],
+      "longitude": -112.93204,
+      "latitude": 38.217377
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.93204, 38.217377] },
+    "UtahLeg": { "senate": 28, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salem",
+      "zip": "84653",
+      "geopoint": [40.043907, -111.66405],
+      "longitude": -111.66405,
+      "latitude": 40.043907
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.66405, 40.043907] },
+    "UtahLeg": { "senate": 7, "house": 66, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Saint George",
+      "zip": "84791",
+      "geopoint": [37.309231, -113.476182],
+      "longitude": -113.476182,
+      "latitude": 37.309231
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.476182, 37.309231] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Pleasant Grove",
+      "zip": "84062",
+      "geopoint": [40.38584, -111.73333],
+      "longitude": -111.73333,
+      "latitude": 40.38584
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.73333, 40.38584] },
+    "UtahLeg": { "senate": 14, "house": 57, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Neola",
+      "zip": "84053",
+      "geopoint": [40.440294, -110.02525],
+      "longitude": -110.02525,
+      "latitude": 40.440294
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.02525, 40.440294] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Grouse Creek",
+      "zip": "84313",
+      "geopoint": [41.307779, -113.56365],
+      "longitude": -113.56365,
+      "latitude": 41.307779
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.56365, 41.307779] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Cisco",
+      "zip": "84515",
+      "geopoint": [38.999877, -109.615008],
+      "longitude": -109.615008,
+      "latitude": 38.999877
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.615008, 38.999877] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Logan",
+      "zip": "84323",
+      "geopoint": [41.684253, -111.783783],
+      "longitude": -111.783783,
+      "latitude": 41.684253
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.783783, 41.684253] },
+    "UtahLeg": { "senate": 25, "house": 4, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Bonanza",
+      "zip": "84008",
+      "geopoint": [40.443106, -109.505593],
+      "longitude": -109.505593,
+      "latitude": 40.443106
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.505593, 40.443106] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Santaquin",
+      "zip": "84655",
+      "geopoint": [40.03148, -111.85302],
+      "longitude": -111.85302,
+      "latitude": 40.03148
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.85302, 40.03148] },
+    "UtahLeg": { "senate": 24, "house": 67, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84106",
+      "geopoint": [40.706246, -111.85657],
+      "longitude": -111.85657,
+      "latitude": 40.706246
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.85657, 40.706246] },
+    "UtahLeg": { "senate": 3, "house": 40, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Mount Pleasant",
+      "zip": "84647",
+      "geopoint": [39.545778, -111.43798],
+      "longitude": -111.43798,
+      "latitude": 39.545778
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.43798, 39.545778] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Parowan",
+      "zip": "84761",
+      "geopoint": [37.886163, -112.83945],
+      "longitude": -112.83945,
+      "latitude": 37.886163
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.83945, 37.886163] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Rush Valley",
+      "zip": "84069",
+      "geopoint": [40.366554, -112.45813],
+      "longitude": -112.45813,
+      "latitude": 40.366554
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.45813, 40.366554] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Springdale",
+      "zip": "84767",
+      "geopoint": [37.186249, -113.013922],
+      "longitude": -113.013922,
+      "latitude": 37.186249
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.013922, 37.186249] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Henefer",
+      "zip": "84033",
+      "geopoint": [40.996895, -111.50264],
+      "longitude": -111.50264,
+      "latitude": 40.996895
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.50264, 40.996895] },
+    "UtahLeg": { "senate": 19, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Mendon",
+      "zip": "84325",
+      "geopoint": [41.721715, -111.97114],
+      "longitude": -111.97114,
+      "latitude": 41.721715
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.97114, 41.721715] },
+    "UtahLeg": { "senate": 25, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Riverside",
+      "zip": "84334",
+      "geopoint": [41.791414, -112.14671],
+      "longitude": -112.14671,
+      "latitude": 41.791414
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.14671, 41.791414] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Garland",
+      "zip": "84312",
+      "geopoint": [41.76645, -112.15829],
+      "longitude": -112.15829,
+      "latitude": 41.76645
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.15829, 41.76645] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84403",
+      "geopoint": [41.188093, -111.94608],
+      "longitude": -111.94608,
+      "latitude": 41.188093
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94608, 41.188093] },
+    "UtahLeg": { "senate": 18, "house": 10, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Sevier",
+      "zip": "84766",
+      "geopoint": [38.568765, -112.35173],
+      "longitude": -112.35173,
+      "latitude": 38.568765
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.35173, 38.568765] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Layton",
+      "zip": "84041",
+      "geopoint": [41.07221, -111.97625],
+      "longitude": -111.97625,
+      "latitude": 41.07221
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.97625, 41.07221] },
+    "UtahLeg": { "senate": 21, "house": 15, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Eureka",
+      "zip": "84628",
+      "geopoint": [39.855141, -112.14995],
+      "longitude": -112.14995,
+      "latitude": 39.855141
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.14995, 39.855141] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Honeyville",
+      "zip": "84314",
+      "geopoint": [41.644833, -112.09427],
+      "longitude": -112.09427,
+      "latitude": 41.644833
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.09427, 41.644833] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Virgin",
+      "zip": "84779",
+      "geopoint": [37.294866999999996, -113.10279],
+      "longitude": -113.10279,
+      "latitude": 37.294866999999996
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-113.10279, 37.294866999999996]
+    },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Kanarraville",
+      "zip": "84742",
+      "geopoint": [37.522753, -113.203633],
+      "longitude": -113.203633,
+      "latitude": 37.522753
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.203633, 37.522753] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Woods Cross",
+      "zip": "84087",
+      "geopoint": [40.888711, -111.90909],
+      "longitude": -111.90909,
+      "latitude": 40.888711
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.90909, 40.888711] },
+    "UtahLeg": { "senate": 23, "house": 20, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Snowville",
+      "zip": "84336",
+      "geopoint": [41.792609, -112.91032],
+      "longitude": -112.91032,
+      "latitude": 41.792609
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.91032, 41.792609] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84184",
+      "geopoint": [40.676839, -111.956811],
+      "longitude": -111.956811,
+      "latitude": 40.676839
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956811, 40.676839] },
+    "UtahLeg": { "senate": 5, "house": 34, "schoolBoard": 6 }
+  },
+  {
+    "fields": {
+      "city": "Hyrum",
+      "zip": "84319",
+      "geopoint": [41.630767, -111.84549],
+      "longitude": -111.84549,
+      "latitude": 41.630767
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.84549, 41.630767] },
+    "UtahLeg": { "senate": 17, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Hanna",
+      "zip": "84031",
+      "geopoint": [40.535823, -110.46651],
+      "longitude": -110.46651,
+      "latitude": 40.535823
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.46651, 40.535823] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Lehi",
+      "zip": "84043",
+      "geopoint": [40.366648, -111.89052],
+      "longitude": -111.89052,
+      "latitude": 40.366648
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.89052, 40.366648] },
+    "UtahLeg": { "senate": 13, "house": 6, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84185",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Tooele",
+      "zip": "84074",
+      "geopoint": [40.560528, -112.29455],
+      "longitude": -112.29455,
+      "latitude": 40.560528
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.29455, 40.560528] },
+    "UtahLeg": { "senate": 12, "house": 21, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Antimony",
+      "zip": "84712",
+      "geopoint": [38.070706, -111.97354],
+      "longitude": -111.97354,
+      "latitude": 38.070706
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.97354, 38.070706] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84151",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84405",
+      "geopoint": [41.165551, -111.9675],
+      "longitude": -111.9675,
+      "latitude": 41.165551
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.9675, 41.165551] },
+    "UtahLeg": { "senate": 18, "house": 11, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Ivins",
+      "zip": "84738",
+      "geopoint": [37.164561, -113.67582],
+      "longitude": -113.67582,
+      "latitude": 37.164561
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.67582, 37.164561] },
+    "UtahLeg": { "senate": 29, "house": 74, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Mapleton",
+      "zip": "84664",
+      "geopoint": [40.123394, -111.56665],
+      "longitude": -111.56665,
+      "latitude": 40.123394
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.56665, 40.123394] },
+    "UtahLeg": { "senate": 27, "house": 65, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84141",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Kanosh",
+      "zip": "84637",
+      "geopoint": [38.811791, -112.70637],
+      "longitude": -112.70637,
+      "latitude": 38.811791
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.70637, 38.811791] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Millville",
+      "zip": "84326",
+      "geopoint": [41.682506, -111.825],
+      "longitude": -111.825,
+      "latitude": 41.682506
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.825, 41.682506] },
+    "UtahLeg": { "senate": 25, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Fayette",
+      "zip": "84630",
+      "geopoint": [39.272741, -111.77838],
+      "longitude": -111.77838,
+      "latitude": 39.272741
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.77838, 39.272741] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Alpine",
+      "zip": "84004",
+      "geopoint": [40.465161, -111.76279],
+      "longitude": -111.76279,
+      "latitude": 40.465161
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.76279, 40.465161] },
+    "UtahLeg": { "senate": 14, "house": 27, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Redmond",
+      "zip": "84652",
+      "geopoint": [38.974463, -111.92215],
+      "longitude": -111.92215,
+      "latitude": 38.974463
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.92215, 38.974463] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Brigham City",
+      "zip": "84302",
+      "geopoint": [41.508605, -112.04736],
+      "longitude": -112.04736,
+      "latitude": 41.508605
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.04736, 41.508605] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Emery",
+      "zip": "84522",
+      "geopoint": [38.889362, -111.17706],
+      "longitude": -111.17706,
+      "latitude": 38.889362
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.17706, 38.889362] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "American Fork",
+      "zip": "84003",
+      "geopoint": [40.394235, -111.79449],
+      "longitude": -111.79449,
+      "latitude": 40.394235
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.79449, 40.394235] },
+    "UtahLeg": { "senate": 14, "house": 56, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Fairview",
+      "zip": "84629",
+      "geopoint": [39.701506, -111.42865],
+      "longitude": -111.42865,
+      "latitude": 39.701506
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.42865, 39.701506] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84602",
+      "geopoint": [40.356343, -111.732476],
+      "longitude": -111.732476,
+      "latitude": 40.356343
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.732476, 40.356343] },
+    "UtahLeg": { "senate": 15, "house": 57, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Joseph",
+      "zip": "84739",
+      "geopoint": [38.620071, -112.23422],
+      "longitude": -112.23422,
+      "latitude": 38.620071
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.23422, 38.620071] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84170",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Altonah",
+      "zip": "84002",
+      "geopoint": [40.45679, -110.32673],
+      "longitude": -110.32673,
+      "latitude": 40.45679
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.32673, 40.45679] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84190",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Moroni",
+      "zip": "84646",
+      "geopoint": [39.526133, -111.58299],
+      "longitude": -111.58299,
+      "latitude": 39.526133
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.58299, 39.526133] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Nephi",
+      "zip": "84648",
+      "geopoint": [39.692424, -111.88229],
+      "longitude": -111.88229,
+      "latitude": 39.692424
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88229, 39.692424] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Cannonville",
+      "zip": "84718",
+      "geopoint": [37.576034, -112.08849],
+      "longitude": -112.08849,
+      "latitude": 37.576034
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.08849, 37.576034] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84152",
+      "geopoint": [40.728579, -111.66273],
+      "longitude": -111.66273,
+      "latitude": 40.728579
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.66273, 40.728579] },
+    "UtahLeg": { "senate": 2, "house": 28, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Spring City",
+      "zip": "84662",
+      "geopoint": [39.461825, -111.47818],
+      "longitude": -111.47818,
+      "latitude": 39.461825
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.47818, 39.461825] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Kaysville",
+      "zip": "84037",
+      "geopoint": [41.032893, -111.93004],
+      "longitude": -111.93004,
+      "latitude": 41.032893
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.93004, 41.032893] },
+    "UtahLeg": { "senate": 22, "house": 17, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84128",
+      "geopoint": [40.694746, -112.04004],
+      "longitude": -112.04004,
+      "latitude": 40.694746
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.04004, 40.694746] },
+    "UtahLeg": { "senate": 1, "house": 31, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Fruitland",
+      "zip": "84027",
+      "geopoint": [40.156858, -110.95449],
+      "longitude": -110.95449,
+      "latitude": 40.156858
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.95449, 40.156858] },
+    "UtahLeg": { "senate": 26, "house": 54, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Paragonah",
+      "zip": "84760",
+      "geopoint": [37.911834, -112.68799],
+      "longitude": -112.68799,
+      "latitude": 37.911834
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.68799, 37.911834] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84415",
+      "geopoint": [41.255285, -111.956721],
+      "longitude": -111.956721,
+      "latitude": 41.255285
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956721, 41.255285] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Scipio",
+      "zip": "84656",
+      "geopoint": [39.240818, -112.14804],
+      "longitude": -112.14804,
+      "latitude": 39.240818
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.14804, 39.240818] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Deweyville",
+      "zip": "84309",
+      "geopoint": [41.714101, -112.08846],
+      "longitude": -112.08846,
+      "latitude": 41.714101
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.08846, 41.714101] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Castle Dale",
+      "zip": "84513",
+      "geopoint": [39.222858, -111.00605],
+      "longitude": -111.00605,
+      "latitude": 39.222858
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.00605, 39.222858] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84604",
+      "geopoint": [40.280454, -111.6491],
+      "longitude": -111.6491,
+      "latitude": 40.280454
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.6491, 40.280454] },
+    "UtahLeg": { "senate": 16, "house": 48, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Gunlock",
+      "zip": "84733",
+      "geopoint": [37.179347, -113.8136],
+      "longitude": -113.8136,
+      "latitude": 37.179347
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.8136, 37.179347] },
+    "UtahLeg": { "senate": 29, "house": 74, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Lewiston",
+      "zip": "84320",
+      "geopoint": [41.968475, -111.86587],
+      "longitude": -111.86587,
+      "latitude": 41.968475
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.86587, 41.968475] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Elmo",
+      "zip": "84521",
+      "geopoint": [39.367253, -110.78956],
+      "longitude": -110.78956,
+      "latitude": 39.367253
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.78956, 39.367253] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Delta",
+      "zip": "84624",
+      "geopoint": [39.349079, -112.5433],
+      "longitude": -112.5433,
+      "latitude": 39.349079
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.5433, 39.349079] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "West Jordan",
+      "zip": "84084",
+      "geopoint": [40.627668, -111.97566],
+      "longitude": -111.97566,
+      "latitude": 40.627668
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.97566, 40.627668] },
+    "UtahLeg": { "senate": 6, "house": 43, "schoolBoard": 6 }
+  },
+  {
+    "fields": {
+      "city": "Greenville",
+      "zip": "84731",
+      "geopoint": [38.218885, -112.82508],
+      "longitude": -112.82508,
+      "latitude": 38.218885
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.82508, 38.218885] },
+    "UtahLeg": { "senate": 28, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Fort Duchesne",
+      "zip": "84026",
+      "geopoint": [40.294693, -109.82903],
+      "longitude": -109.82903,
+      "latitude": 40.294693
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.82903, 40.294693] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Green River",
+      "zip": "84252",
+      "geopoint": [38.995483, -110.160534],
+      "longitude": -110.160534,
+      "latitude": 38.995483
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.160534, 38.995483] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Wendover",
+      "zip": "84083",
+      "geopoint": [40.773372, -114.0093],
+      "longitude": -114.0093,
+      "latitude": 40.773372
+    },
+    "geometry": { "type": "Point", "coordinates": [-114.0093, 40.773372] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84117",
+      "geopoint": [40.662797, -111.83797],
+      "longitude": -111.83797,
+      "latitude": 40.662797
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.83797, 40.662797] },
+    "UtahLeg": { "senate": 4, "house": 37, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84165",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Logan",
+      "zip": "84321",
+      "geopoint": [41.730637, -111.78042],
+      "longitude": -111.78042,
+      "latitude": 41.730637
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.78042, 41.730637] },
+    "UtahLeg": { "senate": 25, "house": 4, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Circleville",
+      "zip": "84723",
+      "geopoint": [38.180655, -112.25563],
+      "longitude": -112.25563,
+      "latitude": 38.180655
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.25563, 38.180655] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Hinckley",
+      "zip": "84635",
+      "geopoint": [39.314609, -112.79181],
+      "longitude": -112.79181,
+      "latitude": 39.314609
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.79181, 39.314609] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Randlett",
+      "zip": "84063",
+      "geopoint": [40.176006, -109.70579],
+      "longitude": -109.70579,
+      "latitude": 40.176006
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.70579, 40.176006] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Lyman",
+      "zip": "84749",
+      "geopoint": [38.386384, -111.5911],
+      "longitude": -111.5911,
+      "latitude": 38.386384
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.5911, 38.386384] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Stockton",
+      "zip": "84071",
+      "geopoint": [40.336367, -112.33819],
+      "longitude": -112.33819,
+      "latitude": 40.336367
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.33819, 40.336367] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Mona",
+      "zip": "84645",
+      "geopoint": [39.859432, -111.85402],
+      "longitude": -111.85402,
+      "latitude": 39.859432
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.85402, 39.859432] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Aneth",
+      "zip": "84510",
+      "geopoint": [37.198216, -109.11245],
+      "longitude": -109.11245,
+      "latitude": 37.198216
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.11245, 37.198216] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Hill AFB",
+      "zip": "84056",
+      "geopoint": [41.118815, -112.01151],
+      "longitude": -112.01151,
+      "latitude": 41.118815
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.01151, 41.118815] },
+    "UtahLeg": { "senate": 18, "house": 11, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Wales",
+      "zip": "84667",
+      "geopoint": [39.458682, -111.67126],
+      "longitude": -111.67126,
+      "latitude": 39.458682
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.67126, 39.458682] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Oak City",
+      "zip": "84649",
+      "geopoint": [39.370295, -112.32369],
+      "longitude": -112.32369,
+      "latitude": 39.370295
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.32369, 39.370295] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Syracuse",
+      "zip": "84075",
+      "geopoint": [41.086069, -112.06279],
+      "longitude": -112.06279,
+      "latitude": 41.086069
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.06279, 41.086069] },
+    "UtahLeg": { "senate": 21, "house": 15, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Huntington",
+      "zip": "84528",
+      "geopoint": [39.343592, -110.9778],
+      "longitude": -110.9778,
+      "latitude": 39.343592
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.9778, 39.343592] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Midway",
+      "zip": "84049",
+      "geopoint": [40.518775, -111.49837],
+      "longitude": -111.49837,
+      "latitude": 40.518775
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.49837, 40.518775] },
+    "UtahLeg": { "senate": 26, "house": 54, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Coalville",
+      "zip": "84017",
+      "geopoint": [40.88097, -111.37752],
+      "longitude": -111.37752,
+      "latitude": 40.88097
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.37752, 40.88097] },
+    "UtahLeg": { "senate": 19, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Midvale",
+      "zip": "84047",
+      "geopoint": [40.614997, -111.88704],
+      "longitude": -111.88704,
+      "latitude": 40.614997
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88704, 40.614997] },
+    "UtahLeg": { "senate": 8, "house": 44, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84601",
+      "geopoint": [40.230954, -111.68006],
+      "longitude": -111.68006,
+      "latitude": 40.230954
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.68006, 40.230954] },
+    "UtahLeg": { "senate": 16, "house": 61, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Mexican Hat",
+      "zip": "84531",
+      "geopoint": [37.183505, -109.93383],
+      "longitude": -109.93383,
+      "latitude": 37.183505
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.93383, 37.183505] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Logan",
+      "zip": "84341",
+      "geopoint": [41.780998, -111.80904],
+      "longitude": -111.80904,
+      "latitude": 41.780998
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.80904, 41.780998] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Glenwood",
+      "zip": "84730",
+      "geopoint": [38.764683, -111.98379],
+      "longitude": -111.98379,
+      "latitude": 38.764683
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.98379, 38.764683] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Manila",
+      "zip": "84046",
+      "geopoint": [40.978642, -109.74719],
+      "longitude": -109.74719,
+      "latitude": 40.978642
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.74719, 40.978642] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84132",
+      "geopoint": [40.772743, -111.838541],
+      "longitude": -111.838541,
+      "latitude": 40.772743
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.838541, 40.772743] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Cache Junction",
+      "zip": "84304",
+      "geopoint": [41.832776, -111.99738],
+      "longitude": -111.99738,
+      "latitude": 41.832776
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99738, 41.832776] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Clearfield",
+      "zip": "84015",
+      "geopoint": [41.126476, -112.04427],
+      "longitude": -112.04427,
+      "latitude": 41.126476
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.04427, 41.126476] },
+    "UtahLeg": { "senate": 21, "house": 13, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Orangeville",
+      "zip": "84537",
+      "geopoint": [39.36696, -111.16518],
+      "longitude": -111.16518,
+      "latitude": 39.36696
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.16518, 39.36696] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Saint George",
+      "zip": "84771",
+      "geopoint": [37.309231, -113.476182],
+      "longitude": -113.476182,
+      "latitude": 37.309231
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.476182, 37.309231] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84171",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Lyman",
+      "zip": "84947",
+      "geopoint": [38.399138, -111.591641],
+      "longitude": -111.591641,
+      "latitude": 38.399138
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.591641, 38.399138] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Bingham Canyon",
+      "zip": "84006",
+      "geopoint": [40.563896, -112.1281],
+      "longitude": -112.1281,
+      "latitude": 40.563896
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.1281, 40.563896] },
+    "UtahLeg": { "senate": 12, "house": 22, "schoolBoard": 11 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84110",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Newton",
+      "zip": "84327",
+      "geopoint": [41.867966, -111.99026],
+      "longitude": -111.99026,
+      "latitude": 41.867966
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99026, 41.867966] },
+    "UtahLeg": { "senate": 25, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Helper",
+      "zip": "84526",
+      "geopoint": [39.694641, -110.98561],
+      "longitude": -110.98561,
+      "latitude": 39.694641
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.98561, 39.694641] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Dammeron Valley",
+      "zip": "84783",
+      "geopoint": [37.287005, -113.66144],
+      "longitude": -113.66144,
+      "latitude": 37.287005
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.66144, 37.287005] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Providence",
+      "zip": "84332",
+      "geopoint": [41.701304, -111.8096],
+      "longitude": -111.8096,
+      "latitude": 41.701304
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.8096, 41.701304] },
+    "UtahLeg": { "senate": 25, "house": 5, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Aurora",
+      "zip": "84620",
+      "geopoint": [38.917381, -111.92835],
+      "longitude": -111.92835,
+      "latitude": 38.917381
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.92835, 38.917381] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Cedar City",
+      "zip": "84721",
+      "geopoint": [37.656843, -113.3695],
+      "longitude": -113.3695,
+      "latitude": 37.656843
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.3695, 37.656843] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Grantsville",
+      "zip": "84029",
+      "geopoint": [40.689007, -112.6698],
+      "longitude": -112.6698,
+      "latitude": 40.689007
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.6698, 40.689007] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Bryce Canyon",
+      "zip": "84717",
+      "geopoint": [37.6153, -112.17088],
+      "longitude": -112.17088,
+      "latitude": 37.6153
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.17088, 37.6153] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "La Sal",
+      "zip": "84530",
+      "geopoint": [38.236886, -109.15445],
+      "longitude": -109.15445,
+      "latitude": 38.236886
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.15445, 38.236886] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Clarkston",
+      "zip": "84305",
+      "geopoint": [41.938629, -112.0433],
+      "longitude": -112.0433,
+      "latitude": 41.938629
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.0433, 41.938629] },
+    "UtahLeg": { "senate": 25, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Corinne",
+      "zip": "84307",
+      "geopoint": [41.535714, -112.30373],
+      "longitude": -112.30373,
+      "latitude": 41.535714
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.30373, 41.535714] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84133",
+      "geopoint": [40.769046, -111.889319],
+      "longitude": -111.889319,
+      "latitude": 40.769046
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.889319, 40.769046] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Brian Head",
+      "zip": "84719",
+      "geopoint": [37.663896, -112.81081],
+      "longitude": -112.81081,
+      "latitude": 37.663896
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.81081, 37.663896] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Talmage",
+      "zip": "84073",
+      "geopoint": [40.352343, -110.46935],
+      "longitude": -110.46935,
+      "latitude": 40.352343
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.46935, 40.352343] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Howell",
+      "zip": "84316",
+      "geopoint": [41.773176, -112.45965],
+      "longitude": -112.45965,
+      "latitude": 41.773176
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.45965, 41.773176] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Laketown",
+      "zip": "84038",
+      "geopoint": [41.797569, -111.3702],
+      "longitude": -111.3702,
+      "latitude": 41.797569
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.3702, 41.797569] },
+    "UtahLeg": { "senate": 25, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Sigurd",
+      "zip": "84657",
+      "geopoint": [38.834889, -111.943],
+      "longitude": -111.943,
+      "latitude": 38.834889
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.943, 38.834889] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Tabiona",
+      "zip": "84072",
+      "geopoint": [40.362986, -110.70128],
+      "longitude": -110.70128,
+      "latitude": 40.362986
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.70128, 40.362986] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Farmington",
+      "zip": "84025",
+      "geopoint": [40.988347, -111.88847],
+      "longitude": -111.88847,
+      "latitude": 40.988347
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88847, 40.988347] },
+    "UtahLeg": { "senate": 22, "house": 18, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Plymouth",
+      "zip": "84330",
+      "geopoint": [41.875803, -112.13957],
+      "longitude": -112.13957,
+      "latitude": 41.875803
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.13957, 41.875803] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84090",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Spanish Fork",
+      "zip": "84660",
+      "geopoint": [40.10637, -111.65408],
+      "longitude": -111.65408,
+      "latitude": 40.10637
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.65408, 40.10637] },
+    "UtahLeg": { "senate": 7, "house": 66, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84153",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84147",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Centerfield",
+      "zip": "84622",
+      "geopoint": [39.114649, -111.80511],
+      "longitude": -111.80511,
+      "latitude": 39.114649
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.80511, 39.114649] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Moab",
+      "zip": "84532",
+      "geopoint": [38.572778, -109.49392],
+      "longitude": -109.49392,
+      "latitude": 38.572778
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.49392, 38.572778] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Orem",
+      "zip": "84058",
+      "geopoint": [40.278086, -111.71067],
+      "longitude": -111.71067,
+      "latitude": 40.278086
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.71067, 40.278086] },
+    "UtahLeg": { "senate": 15, "house": 60, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Kenilworth",
+      "zip": "84529",
+      "geopoint": [39.6866, -110.80479],
+      "longitude": -110.80479,
+      "latitude": 39.6866
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.80479, 39.6866] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Layton",
+      "zip": "84040",
+      "geopoint": [41.086894, -111.9271],
+      "longitude": -111.9271,
+      "latitude": 41.086894
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.9271, 41.086894] },
+    "UtahLeg": { "senate": 22, "house": 16, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Montezuma Creek",
+      "zip": "84534",
+      "geopoint": [37.237899, -109.28709],
+      "longitude": -109.28709,
+      "latitude": 37.237899
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.28709, 37.237899] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Henrieville",
+      "zip": "84736",
+      "geopoint": [37.565311, -111.99144],
+      "longitude": -111.99144,
+      "latitude": 37.565311
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99144, 37.565311] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84111",
+      "geopoint": [40.7547, -111.88361],
+      "longitude": -111.88361,
+      "latitude": 40.7547
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88361, 40.7547] },
+    "UtahLeg": { "senate": 2, "house": 26, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Garrison",
+      "zip": "84728",
+      "geopoint": [38.970536, -113.7085],
+      "longitude": -113.7085,
+      "latitude": 38.970536
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.7085, 38.970536] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Veyo",
+      "zip": "84782",
+      "geopoint": [37.359887, -113.66976],
+      "longitude": -113.66976,
+      "latitude": 37.359887
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.66976, 37.359887] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Bluebell",
+      "zip": "84007",
+      "geopoint": [40.349644, -110.19776],
+      "longitude": -110.19776,
+      "latitude": 40.349644
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.19776, 40.349644] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84118",
+      "geopoint": [40.650496, -111.99591],
+      "longitude": -111.99591,
+      "latitude": 40.650496
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99591, 40.650496] },
+    "UtahLeg": { "senate": 5, "house": 38, "schoolBoard": 6 }
+  },
+  {
+    "fields": {
+      "city": "Mantua",
+      "zip": "84324",
+      "geopoint": [41.492466, -111.94275],
+      "longitude": -111.94275,
+      "latitude": 41.492466
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94275, 41.492466] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84606",
+      "geopoint": [40.226302, -111.64439],
+      "longitude": -111.64439,
+      "latitude": 40.226302
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.64439, 40.226302] },
+    "UtahLeg": { "senate": 7, "house": 64, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Meadow",
+      "zip": "84644",
+      "geopoint": [39.06433, -113.032141],
+      "longitude": -113.032141,
+      "latitude": 39.06433
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.032141, 39.06433] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Kamas",
+      "zip": "84036",
+      "geopoint": [40.625883, -111.20141],
+      "longitude": -111.20141,
+      "latitude": 40.625883
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.20141, 40.625883] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Provo",
+      "zip": "84603",
+      "geopoint": [40.203908, -111.626081],
+      "longitude": -111.626081,
+      "latitude": 40.203908
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.626081, 40.203908] },
+    "UtahLeg": { "senate": 7, "house": 64, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84409",
+      "geopoint": [41.255285, -111.956721],
+      "longitude": -111.956721,
+      "latitude": 41.255285
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.956721, 41.255285] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84407",
+      "geopoint": [41.238547, -111.965867],
+      "longitude": -111.965867,
+      "latitude": 41.238547
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.965867, 41.238547] },
+    "UtahLeg": { "senate": 19, "house": 9, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Washington",
+      "zip": "84780",
+      "geopoint": [37.144146, -113.49671],
+      "longitude": -113.49671,
+      "latitude": 37.144146
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.49671, 37.144146] },
+    "UtahLeg": { "senate": 28, "house": 62, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Orem",
+      "zip": "84059",
+      "geopoint": [40.176975, -111.536036],
+      "longitude": -111.536036,
+      "latitude": 40.176975
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.536036, 40.176975] },
+    "UtahLeg": { "senate": 27, "house": 65, "schoolBoard": 13 }
+  },
+  {
+    "fields": {
+      "city": "Hyde Park",
+      "zip": "84318",
+      "geopoint": [41.801888, -111.81535],
+      "longitude": -111.81535,
+      "latitude": 41.801888
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.81535, 41.801888] },
+    "UtahLeg": { "senate": 25, "house": 3, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Koosharem",
+      "zip": "84744",
+      "geopoint": [38.510659, -111.88029],
+      "longitude": -111.88029,
+      "latitude": 38.510659
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88029, 38.510659] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Hooper",
+      "zip": "84315",
+      "geopoint": [41.172593, -112.10675],
+      "longitude": -112.10675,
+      "latitude": 41.172593
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.10675, 41.172593] },
+    "UtahLeg": { "senate": 20, "house": 12, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Holden",
+      "zip": "84636",
+      "geopoint": [39.099629, -112.2823],
+      "longitude": -112.2823,
+      "latitude": 39.099629
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.2823, 39.099629] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Teasdale",
+      "zip": "84773",
+      "geopoint": [38.28419, -111.53072],
+      "longitude": -111.53072,
+      "latitude": 38.28419
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.53072, 38.28419] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Annabella",
+      "zip": "84711",
+      "geopoint": [38.707639, -112.05826],
+      "longitude": -112.05826,
+      "latitude": 38.707639
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.05826, 38.707639] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84070",
+      "geopoint": [40.581595, -111.88821],
+      "longitude": -111.88821,
+      "latitude": 40.581595
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88821, 40.581595] },
+    "UtahLeg": { "senate": 9, "house": 45, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84116",
+      "geopoint": [40.790309, -111.94018],
+      "longitude": -111.94018,
+      "latitude": 40.790309
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94018, 40.790309] },
+    "UtahLeg": { "senate": 1, "house": 23, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Croydon",
+      "zip": "84018",
+      "geopoint": [41.084479, -111.53153],
+      "longitude": -111.53153,
+      "latitude": 41.084479
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.53153, 41.084479] },
+    "UtahLeg": { "senate": 19, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Hiawatha",
+      "zip": "84527",
+      "geopoint": [39.640779, -110.560697],
+      "longitude": -110.560697,
+      "latitude": 39.640779
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.560697, 39.640779] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84102",
+      "geopoint": [40.759246, -111.86371],
+      "longitude": -111.86371,
+      "latitude": 40.759246
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.86371, 40.759246] },
+    "UtahLeg": { "senate": 2, "house": 25, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Green River",
+      "zip": "84525",
+      "geopoint": [38.983076, -110.35905],
+      "longitude": -110.35905,
+      "latitude": 38.983076
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.35905, 38.983076] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Tremonton",
+      "zip": "84337",
+      "geopoint": [41.688721, -112.22327],
+      "longitude": -112.22327,
+      "latitude": 41.688721
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.22327, 41.688721] },
+    "UtahLeg": { "senate": 17, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Axtell",
+      "zip": "84621",
+      "geopoint": [39.050838, -111.84775],
+      "longitude": -111.84775,
+      "latitude": 39.050838
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.84775, 39.050838] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Monroe",
+      "zip": "84754",
+      "geopoint": [38.618547, -111.88908],
+      "longitude": -111.88908,
+      "latitude": 38.618547
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.88908, 38.618547] },
+    "UtahLeg": { "senate": 24, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84105",
+      "geopoint": [40.737132, -111.86044],
+      "longitude": -111.86044,
+      "latitude": 40.737132
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.86044, 40.737132] },
+    "UtahLeg": { "senate": 2, "house": 25, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Woodruff",
+      "zip": "84086",
+      "geopoint": [41.376622, -111.22578],
+      "longitude": -111.22578,
+      "latitude": 41.376622
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.22578, 41.376622] },
+    "UtahLeg": { "senate": 25, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Sunnyside",
+      "zip": "84539",
+      "geopoint": [39.661026, -110.58819],
+      "longitude": -110.58819,
+      "latitude": 39.661026
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.58819, 39.661026] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84137",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84158",
+      "geopoint": [40.768996, -111.762115],
+      "longitude": -111.762115,
+      "latitude": 40.768996
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.762115, 40.768996] },
+    "UtahLeg": { "senate": 2, "house": 28, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84109",
+      "geopoint": [40.705747, -111.79973],
+      "longitude": -111.79973,
+      "latitude": 40.705747
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.79973, 40.705747] },
+    "UtahLeg": { "senate": 4, "house": 36, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Tridell",
+      "zip": "84076",
+      "geopoint": [40.446132, -109.87476],
+      "longitude": -109.87476,
+      "latitude": 40.446132
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.87476, 40.446132] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84094",
+      "geopoint": [40.569598, -111.86217],
+      "longitude": -111.86217,
+      "latitude": 40.569598
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.86217, 40.569598] },
+    "UtahLeg": { "senate": 9, "house": 45, "schoolBoard": 10 }
+  },
+  {
+    "fields": {
+      "city": "Greenwich",
+      "zip": "84732",
+      "geopoint": [38.446294, -111.9101],
+      "longitude": -111.9101,
+      "latitude": 38.446294
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.9101, 38.446294] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ibapah",
+      "zip": "84034",
+      "geopoint": [40.105506, -113.94372],
+      "longitude": -113.94372,
+      "latitude": 40.105506
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.94372, 40.105506] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84134",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Beaver",
+      "zip": "84713",
+      "geopoint": [38.35906, -112.6926],
+      "longitude": -112.6926,
+      "latitude": 38.35906
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.6926, 38.35906] },
+    "UtahLeg": { "senate": 28, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Saint George",
+      "zip": "84770",
+      "geopoint": [37.118352, -113.5987],
+      "longitude": -113.5987,
+      "latitude": 37.118352
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.5987, 37.118352] },
+    "UtahLeg": { "senate": 29, "house": 75, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Goshen",
+      "zip": "84633",
+      "geopoint": [39.949142, -111.89623],
+      "longitude": -111.89623,
+      "latitude": 39.949142
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.89623, 39.949142] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 9 }
+  },
+  {
+    "fields": {
+      "city": "Bountiful",
+      "zip": "84011",
+      "geopoint": [40.963547, -112.115984],
+      "longitude": -112.115984,
+      "latitude": 40.963547
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.115984, 40.963547] },
+    "UtahLeg": { "senate": 21, "house": 15, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Clearfield",
+      "zip": "84016",
+      "geopoint": [40.892995, -111.888121],
+      "longitude": -111.888121,
+      "latitude": 40.892995
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.888121, 40.892995] },
+    "UtahLeg": { "senate": 23, "house": 19, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Orem",
+      "zip": "84057",
+      "geopoint": [40.311854, -111.70561000000001],
+      "longitude": -111.70561000000001,
+      "latitude": 40.311854
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-111.70561000000001, 40.311854]
+    },
+    "UtahLeg": { "senate": 15, "house": 59, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84408",
+      "geopoint": [41.195593, -111.948474],
+      "longitude": -111.948474,
+      "latitude": 41.195593
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.948474, 41.195593] },
+    "UtahLeg": { "senate": 18, "house": 10, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Newcastle",
+      "zip": "84756",
+      "geopoint": [37.692401, -113.627239],
+      "longitude": -113.627239,
+      "latitude": 37.692401
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.627239, 37.692401] },
+    "UtahLeg": { "senate": 28, "house": 72, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84114",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Orderville",
+      "zip": "84758",
+      "geopoint": [37.26947, -112.64419],
+      "longitude": -112.64419,
+      "latitude": 37.26947
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.64419, 37.26947] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Clinton",
+      "zip": "84915",
+      "geopoint": [41.142472, -112.066211],
+      "longitude": -112.066211,
+      "latitude": 41.142472
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.066211, 41.142472] },
+    "UtahLeg": { "senate": 20, "house": 13, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "West Jordan",
+      "zip": "84088",
+      "geopoint": [40.594222, -111.97889],
+      "longitude": -111.97889,
+      "latitude": 40.594222
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.97889, 40.594222] },
+    "UtahLeg": { "senate": 6, "house": 47, "schoolBoard": 11 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84189",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84150",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Thompson",
+      "zip": "84540",
+      "geopoint": [39.210907, -109.44491],
+      "longitude": -109.44491,
+      "latitude": 39.210907
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.44491, 39.210907] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Summit",
+      "zip": "84772",
+      "geopoint": [37.800295, -112.93517],
+      "longitude": -112.93517,
+      "latitude": 37.800295
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.93517, 37.800295] },
+    "UtahLeg": { "senate": 28, "house": 71, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Manti",
+      "zip": "84642",
+      "geopoint": [39.230151, -111.57601],
+      "longitude": -111.57601,
+      "latitude": 39.230151
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.57601, 39.230151] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Sterling",
+      "zip": "84665",
+      "geopoint": [39.133489, -111.740853],
+      "longitude": -111.740853,
+      "latitude": 39.133489
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.740853, 39.133489] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84108",
+      "geopoint": [40.744646, -111.81123],
+      "longitude": -111.81123,
+      "latitude": 40.744646
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.81123, 40.744646] },
+    "UtahLeg": { "senate": 2, "house": 28, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Sandy",
+      "zip": "84091",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Willard",
+      "zip": "84340",
+      "geopoint": [41.368481, -112.05538],
+      "longitude": -112.05538,
+      "latitude": 41.368481
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.05538, 41.368481] },
+    "UtahLeg": { "senate": 17, "house": 29, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "South Willard",
+      "zip": "84346",
+      "geopoint": [41.346348, -112.063983],
+      "longitude": -112.063983,
+      "latitude": 41.346348
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.063983, 41.346348] },
+    "UtahLeg": { "senate": 17, "house": 29, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84131",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Vernal",
+      "zip": "84078",
+      "geopoint": [40.514262, -109.54223],
+      "longitude": -109.54223,
+      "latitude": 40.514262
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.54223, 40.514262] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Mayfield",
+      "zip": "84643",
+      "geopoint": [39.111512, -111.69904],
+      "longitude": -111.69904,
+      "latitude": 39.111512
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.69904, 39.111512] },
+    "UtahLeg": { "senate": 24, "house": 58, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Centerville",
+      "zip": "84014",
+      "geopoint": [40.927244, -111.87682],
+      "longitude": -111.87682,
+      "latitude": 40.927244
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.87682, 40.927244] },
+    "UtahLeg": { "senate": 23, "house": 18, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Lindon",
+      "zip": "84042",
+      "geopoint": [40.338552, -111.7162],
+      "longitude": -111.7162,
+      "latitude": 40.338552
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.7162, 40.338552] },
+    "UtahLeg": { "senate": 15, "house": 59, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Cornish",
+      "zip": "84308",
+      "geopoint": [41.944253, -111.973275],
+      "longitude": -111.973275,
+      "latitude": 41.944253
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.973275, 41.944253] },
+    "UtahLeg": { "senate": 25, "house": 1, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84120",
+      "geopoint": [40.688246, -111.99899],
+      "longitude": -111.99899,
+      "latitude": 40.688246
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.99899, 40.688246] },
+    "UtahLeg": { "senate": 5, "house": 30, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Oasis",
+      "zip": "84650",
+      "geopoint": [39.291167, -112.62826],
+      "longitude": -112.62826,
+      "latitude": 39.291167
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.62826, 39.291167] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Milford",
+      "zip": "84751",
+      "geopoint": [38.348238, -113.1063],
+      "longitude": -113.1063,
+      "latitude": 38.348238
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.1063, 38.348238] },
+    "UtahLeg": { "senate": 28, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Duck Creek Village",
+      "zip": "84762",
+      "geopoint": [37.48474, -112.71064],
+      "longitude": -112.71064,
+      "latitude": 37.48474
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.71064, 37.48474] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ferron",
+      "zip": "84523",
+      "geopoint": [39.109059, -111.13617],
+      "longitude": -111.13617,
+      "latitude": 39.109059
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.13617, 39.109059] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Junction",
+      "zip": "84740",
+      "geopoint": [38.238084, -112.23014],
+      "longitude": -112.23014,
+      "latitude": 38.238084
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.23014, 38.238084] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Ogden",
+      "zip": "84414",
+      "geopoint": [41.314075, -111.96366],
+      "longitude": -111.96366,
+      "latitude": 41.314075
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.96366, 41.314075] },
+    "UtahLeg": { "senate": 19, "house": 7, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Cleveland",
+      "zip": "84518",
+      "geopoint": [39.350034, -110.87184],
+      "longitude": -110.87184,
+      "latitude": 39.350034
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.87184, 39.350034] },
+    "UtahLeg": { "senate": 27, "house": 70, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Leamington",
+      "zip": "84638",
+      "geopoint": [39.532384, -112.27113],
+      "longitude": -112.27113,
+      "latitude": 39.532384
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.27113, 39.532384] },
+    "UtahLeg": { "senate": 24, "house": 68, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "North Salt Lake",
+      "zip": "84054",
+      "geopoint": [40.843012, -111.90581],
+      "longitude": -111.90581,
+      "latitude": 40.843012
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.90581, 40.843012] },
+    "UtahLeg": { "senate": 23, "house": 20, "schoolBoard": 5 }
+  },
+  {
+    "fields": {
+      "city": "Altamont",
+      "zip": "84001",
+      "geopoint": [40.395531, -110.27969],
+      "longitude": -110.27969,
+      "latitude": 40.395531
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.27969, 40.395531] },
+    "UtahLeg": { "senate": 26, "house": 53, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84157",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Eden",
+      "zip": "84310",
+      "geopoint": [41.364638, -111.81304],
+      "longitude": -111.81304,
+      "latitude": 41.364638
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.81304, 41.364638] },
+    "UtahLeg": { "senate": 19, "house": 8, "schoolBoard": 2 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84125",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84142",
+      "geopoint": [40.668068, -111.908297],
+      "longitude": -111.908297,
+      "latitude": 40.668068
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.908297, 40.668068] },
+    "UtahLeg": { "senate": 3, "house": 34, "schoolBoard": 8 }
+  },
+  {
+    "fields": {
+      "city": "Lapoint",
+      "zip": "84039",
+      "geopoint": [40.401201, -109.81677],
+      "longitude": -109.81677,
+      "latitude": 40.401201
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.81677, 40.401201] },
+    "UtahLeg": { "senate": 26, "house": 55, "schoolBoard": 12 }
+  },
+  {
+    "fields": {
+      "city": "Wellington",
+      "zip": "84542",
+      "geopoint": [39.543105, -110.72865],
+      "longitude": -110.72865,
+      "latitude": 39.543105
+    },
+    "geometry": { "type": "Point", "coordinates": [-110.72865, 39.543105] },
+    "UtahLeg": { "senate": 27, "house": 69, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Saint George",
+      "zip": "84790",
+      "geopoint": [37.075039, -113.55568],
+      "longitude": -113.55568,
+      "latitude": 37.075039
+    },
+    "geometry": { "type": "Point", "coordinates": [-113.55568, 37.075039] },
+    "UtahLeg": { "senate": 29, "house": 74, "schoolBoard": 15 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84104",
+      "geopoint": [40.750628, -111.94077],
+      "longitude": -111.94077,
+      "latitude": 40.750628
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.94077, 40.750628] },
+    "UtahLeg": { "senate": 1, "house": 26, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Torrey",
+      "zip": "84775",
+      "geopoint": [38.340186, -111.0022],
+      "longitude": -111.0022,
+      "latitude": 38.340186
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.0022, 38.340186] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Dugway",
+      "zip": "84022",
+      "geopoint": [40.212316, -112.70012],
+      "longitude": -112.70012,
+      "latitude": 40.212316
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.70012, 40.212316] },
+    "UtahLeg": { "senate": 17, "house": 68, "schoolBoard": 3 }
+  },
+  {
+    "fields": {
+      "city": "Escalante",
+      "zip": "84726",
+      "geopoint": [37.76737, -111.6841],
+      "longitude": -111.6841,
+      "latitude": 37.76737
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.6841, 37.76737] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Mount Carmel",
+      "zip": "84755",
+      "geopoint": [37.261273, -112.79836],
+      "longitude": -112.79836,
+      "latitude": 37.261273
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.79836, 37.261273] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Garden City",
+      "zip": "84028",
+      "geopoint": [41.91021, -111.40328],
+      "longitude": -111.40328,
+      "latitude": 41.91021
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.40328, 41.91021] },
+    "UtahLeg": { "senate": 25, "house": 53, "schoolBoard": 1 }
+  },
+  {
+    "fields": {
+      "city": "Salt Lake City",
+      "zip": "84103",
+      "geopoint": [40.777746, -111.87491],
+      "longitude": -111.87491,
+      "latitude": 40.777746
+    },
+    "geometry": { "type": "Point", "coordinates": [-111.87491, 40.777746] },
+    "UtahLeg": { "senate": 2, "house": 24, "schoolBoard": 7 }
+  },
+  {
+    "fields": {
+      "city": "Monticello",
+      "zip": "84535",
+      "geopoint": [37.886087, -109.30629],
+      "longitude": -109.30629,
+      "latitude": 37.886087
+    },
+    "geometry": { "type": "Point", "coordinates": [-109.30629, 37.886087] },
+    "UtahLeg": { "senate": 27, "house": 73, "schoolBoard": 14 }
+  },
+  {
+    "fields": {
+      "city": "Clearfield",
+      "zip": "84089",
+      "geopoint": [40.963547, -112.115984],
+      "longitude": -112.115984,
+      "latitude": 40.963547
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.115984, 40.963547] },
+    "UtahLeg": { "senate": 21, "house": 15, "schoolBoard": 4 }
+  },
+  {
+    "fields": {
+      "city": "Panguitch",
+      "zip": "84759",
+      "geopoint": [37.777031, -112.40819],
+      "longitude": -112.40819,
+      "latitude": 37.777031
+    },
+    "geometry": { "type": "Point", "coordinates": [-112.40819, 37.777031] },
+    "UtahLeg": { "senate": 24, "house": 73, "schoolBoard": 14 }
+  }
+]

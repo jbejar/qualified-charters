@@ -13,9 +13,9 @@ import ProcurementComponent from "./ProcurementComponent";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useAuth0 } from "@auth0/auth0-react";
-import { getJSON } from "../modules/api";
+import { postJSON } from "../modules/api";
 function SchoolPage(props) {
-    const { getAccessTokenSilently, isAuthenticated } = useAuth0();
+    const { getAccessTokenSilently, isAuthenticated, loginWithRedirect } = useAuth0();
     const id = parseInt(props.match.params.schoolID);
     const school = schools.find(s => s.SchoolID === id);
 
@@ -28,9 +28,12 @@ function SchoolPage(props) {
         evt.preventDefault();
         if(isAuthenticated) {
             const token = await getAccessTokenSilently();
-            const responseData = await getJSON("/favorites", token);
+            const responseData = await postJSON("/favorites/" + id, token);
             console.log(responseData);
-            alert("test");
+            
+        } else {
+            alert("Saving your favorite schools requires you to login");
+            loginWithRedirect();
         }
     };
     if(!school) {

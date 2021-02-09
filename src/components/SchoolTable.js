@@ -61,7 +61,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
               {columns.map( col => {
                 const val = col.func(school);
-                if(typeof val === "string") {
+                if(typeof val !== "number") {
                 return <td key={col.name}>{val}</td>  
                 }
                 return <td key={col.name}>{(val * 100 ).toFixed(2)}%</td>

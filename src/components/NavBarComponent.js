@@ -2,12 +2,12 @@ import React from 'react'
 import SchoolSearchComponent from './SchoolSearchComponent';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Link, useLocation} from "react-router-dom";
+import { Link, useLocation, useHistory} from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 import { useAuth0 } from "@auth0/auth0-react";
 export default function NavBarComponent() {
     const { search } = useLocation();
-    const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
+    const { loginWithRedirect, isAuthenticated, user   } = useAuth0();
     return (
         <Navbar bg="light" expand="lg">
       <Link to={"/" + search}><Navbar.Brand>Qualifed Utah Teachers</Navbar.Brand></Link>
@@ -23,7 +23,7 @@ export default function NavBarComponent() {
           <LinkContainer to={"/transparency" + search}><Nav.Link>Transparency</Nav.Link></LinkContainer>
           <LinkContainer to={"/reports" + search}><Nav.Link>Reports</Nav.Link></LinkContainer>
           <LinkContainer to={"/about" + search}><Nav.Link>About</Nav.Link></LinkContainer>
-          <Nav.Link onClick={isAuthenticated ? logout : loginWithRedirect}>Log {isAuthenticated ? "out" : "in"}</Nav.Link>
+          <LinkContainer to={"/account" + search}><Nav.Link onClick={!isAuthenticated && loginWithRedirect}>{isAuthenticated ? user.name : "Log in"}</Nav.Link></LinkContainer>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
