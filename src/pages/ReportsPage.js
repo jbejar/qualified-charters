@@ -33,7 +33,7 @@ function ReportsPage(props) {
   const address = s => s.Address  + "";
   const yearOpenedSort = (s,t) => (yearOpened(t) -yearOpened(s));
   const enrollmentGrowthSort = (s,t) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
-  const enrollmentGrowthSortRev = (t,s) => (enrollmentGrowth(t) -enrollmentGrowth(s));
+  const enrollmentGrowthSortRev = (t,s) => (enrollmentGrowth(t) -enrollmentGrowth(s) || isNaN(enrollmentGrowth(t))-isNaN(enrollmentGrowth(s)));
   const percentLicensed = s => 1 - ((s.licenseTypes["No License"] || 0) / (s.licenseTypes.All || 0))
   const recordingsSort = (s, t) =>
     recordings(t) + minutes(t) - recordings(s) - minutes(s);
@@ -140,7 +140,7 @@ function ReportsPage(props) {
       <SchoolTable
         summary
         sort={recordingsSort}
-        schools={[...schools]}
+        schools={schools}
         columns={[
           {
             name: "City",
@@ -156,7 +156,7 @@ function ReportsPage(props) {
       <SchoolTable
         summary
         sort={enrollmentGrowthSort}
-        schools={[...schools]}
+        schools={schools}
         columns={[
           {name: "Educators Assigned in CACTUS", func: educatorLicenseCountGrowth, summary: true},
         ]}
@@ -166,7 +166,7 @@ function ReportsPage(props) {
         summary
         sort={enrollmentGrowthSortRev}
         limit={20}
-        schools={[...schools]}
+        schools={schools}
         columns={[
           {name: "% Change Enrollment SY 20-21", func: enrollmentGrowth, summary: true},
           {name: "% Change Enrollment SY 19-20", func: enrollmentGrowthPrev, summary: true},
@@ -177,7 +177,7 @@ function ReportsPage(props) {
       <SchoolTable
         limit={25}
         sort={yearOpenedSort}
-        schools={[...schools]}
+        schools={schools}
         columns={[
           {name: "Opened", func: yearOpened, summary: true},
           {name: "Address", func: address, summary: true},

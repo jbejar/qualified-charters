@@ -4,14 +4,16 @@ import PropTypes from "prop-types";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
 
-function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
-    if(sort) {
-        schools.sort(sort);
+function SchoolTable({schools, sort, limit = 10, columns=[], summary=false, debug}) {
+  const schoolsInOrder = [...schools]  
+  if(sort) {
+        schoolsInOrder.sort(sort);
     }
+  
     const summaryStats = {};
     if(summary) {
       ["Language Arts", "Mathematics", "Science"].forEach(subject => {
-        summaryStats[subject] = schools.reduce((acc, school) => {
+        summaryStats[subject] = schoolsInOrder.reduce((acc, school) => {
           if(!school.scores[subject]) {
             return acc;
           }
@@ -20,20 +22,20 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
             return acc;
           }
           return num + acc;
-        }, 0) / schools.length;
+        }, 0) / schoolsInOrder.length;
       });
       columns.forEach(col => {
-        summaryStats[col.name] = schools.reduce((acc, school) => {
+        summaryStats[col.name] = schoolsInOrder.reduce((acc, school) => {
           const result = col.func(school);
           if(!result) {
             return acc;
           }
           const num = parseFloat(result);
-          if(isNaN(num)) {
+          if(isNaN(num) || !isFinite(num)) {
             return acc;
           }
           return num + acc;
-        }, 0)/schools.length;
+        }, 0)/schoolsInOrder.length;
       });
       
     }
@@ -55,7 +57,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false}) {
           </tr>
         </thead>
         <tbody>
-          {schools.slice(0, limit).map((school, i) => (
+          {schoolsInOrder.slice(0, limit).map((school, i) => (
             <tr key={school.SchoolID}>
               <td>{i+1}</td>
               <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
