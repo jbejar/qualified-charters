@@ -69,3 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Credits
+- Auth0 (Free for up to 7,000 monthly active users)
+- Qualtrics [USBE providing to LEAs](https://le.utah.gov/interim/2020/pdf/00000722.pdf)
