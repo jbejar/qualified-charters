@@ -5,6 +5,7 @@ import withTracker from "./components/withTracker";
 import CustomChatbot from "./components/CustomChatbot";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBarComponent from "./components/NavBarComponent";
+import { withAuthenticationRequired } from "@auth0/auth0-react";
 const ProcurementPage = lazy(() => import('./pages/ProcurementPage'));
 const SchoolPage = lazy(() => import("./components/SchoolPage"));
 const HomePage = lazy(() => import("./pages/HomePage"));
@@ -49,7 +50,7 @@ function App() {
             <Route path="/map" component={withTracker(MapPage)} />
             <Route path="/blog" component={withTracker(BlogPage)} />
             <Route path="/procurement" component={withTracker(ProcurementPage)} />
-            <Route path="/account" component={withTracker(AccountPage)} />
+            <Route path="/account" component={withAuthenticationRequired(withTracker(AccountPage))} />
             <Route path="/" component={withTracker(HomePage)} />
           </Switch>
         </Suspense>

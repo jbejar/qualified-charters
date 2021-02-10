@@ -24,8 +24,13 @@ useEffect(() => {
 
         <FavoritesComponent favorites={favorites}/>
       </div>
-      <h3>Engagement Survey</h3>
-      <a type="button" class="btn btn-primary" href={ surveyUrl + "?email=" + user.name} >Take Survey</a>
+      
+      {
+          user && <div>
+              <h3>Engagement Survey</h3>
+              <a type="button" className="btn btn-primary" href={ surveyUrl + "?email=" + user.name || user.email} >Take Survey</a>
+              </div>
+      }
     </div>
 
   );
