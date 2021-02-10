@@ -4,6 +4,7 @@ import { Redirect } from "react-router-dom";
 import LicenseComponent from './LicenseComponent';
 import AssignmentsComponent from './AssignmentsComponent';
 import SchoolMap from './SchoolMap';
+import BlogPosts from "../components/BlogPosts"
 import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
 import EnrollmentComponent from "./EnrollmentComponent"
@@ -82,6 +83,7 @@ function SchoolPage(props) {
                 
             </div>
             
+            <BlogPosts schoolId={school.SchoolID}/>
             <EnrollmentComponent elsi={school.elsi}/>
             <AssignmentsComponent school={school}/>
             <LicenseComponent school={school}/>
