@@ -4,7 +4,7 @@ import { getJSON } from "../modules/api";
 import FavoritesComponent from '../components/FavoritesComponent';
 import schoolsDump from "./../dump.json";
 export default function AccountPage() {
-const { getAccessTokenSilently } = useAuth0();
+const { getAccessTokenSilently, user } = useAuth0();
 const [favorites, setFavorites]= useState([]);
 useEffect(() => {
     const loadFavorites = async () => {
@@ -16,7 +16,7 @@ useEffect(() => {
     };
     loadFavorites();
 }, [getAccessTokenSilently]);  
-    
+    const surveyUrl = "https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_5yzKttmxBnHf5R4";
   return (
     <div className="container">
       <div className="jumbotron p-4">
@@ -25,7 +25,7 @@ useEffect(() => {
         <FavoritesComponent favorites={favorites}/>
       </div>
       <h3>Engagement Survey</h3>
-      <a type="button" class="btn btn-primary" href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_5yzKttmxBnHf5R4">Take Survey</a>
+      <a type="button" class="btn btn-primary" href={ surveyUrl + "?email=" + user.name} >Take Survey</a>
     </div>
 
   );
