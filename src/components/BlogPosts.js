@@ -6,7 +6,6 @@ function BlogPosts({schoolId}) {
     const blogPostsContext = require.context("../_posts/blog", true, /\.md$/);
     const articleKeys = blogPostsContext.keys();
     const format = "MMMM Do YYYY";
-    debugger;
     const filteredKeys = !schoolId ? articleKeys : articleKeys.filter(k => blogPostsContext(k).attributes.tags.some(t => parseInt(t) === schoolId));
     return (
         <div>

@@ -862,7 +862,7 @@
             "name": "Advantage Arts Academy",
             "bodyName": "AAA Board of Directors",
             "scheduled": 5,
-            "shouldHaveRecordings": 4,
+            "shouldHaveRecordings": 5,
             "haveAttachments": 5,
             "haveRecordings": 5,
             "haveMinutes": 5,
@@ -1122,12 +1122,14 @@
                     "href": "/pmn/sitemap/notice/659935.html",
                     "date": "2021/02/23 07:00 PM",
                     "status": "Scheduled",
-                    "attachments": "AAI board meeting agenda 2-23-2021.pdf Other Added: 2021/02/22 02:34 PM",
+                    "attachments": "Meeting Minutes 02-23-2021.pdf Meeting Minutes Added: 2021/02/24 02:39 PM  AAI board meeting agenda 2-23-2021.pdf Other Added: 2021/02/22 02:34 PM  Finance Report December 2020_ January 2021.pdf Other Added: 2021/02/24 02:40 PM",
                     "attachmentLinks": [
-                        "/pmn/files/689421.pdf"
+                        "/pmn/files/690293.pdf",
+                        "/pmn/files/689421.pdf",
+                        "/pmn/files/690295.pdf"
                     ],
                     "contactInfo": "mia.prazen@aaiutah.org",
-                    "updatedDate": "February 22, 2021 07:38 PM",
+                    "updatedDate": "February 24, 2021 02:40 PM",
                     "contactName": "Mia Prazen",
                     "agenda": "American Academy of Innovation \r\nGoverning Board Meeting Agenda \r\nMeeting Date: February 23, 2021 7:00pm Meeting Location:\r\n5410 W. South Jordan Parkway\r\nSouth Jordan, UT 84009\r\nFirst Floor-Media Room & Remote Zoom Access Available\r\nActivity\r\nAction\r\nWELCOME\r\nPUBLIC COMMENTS (10 Minutes)\r\nAgenda Items:\r\nReview and Motion to accept prior month (January 2021) meeting minutes\r\nSCHOOL BUSINESS\r\nEnrollment, Open House/Marketing Update Discussion (15 min):\r\nEnrollment Data Update for 2020-21 and 2021-22 lottery\r\nCovid-19 School Dashboard Monthly Update and Review\r\nBoard Training:\r\nOpen and Public Meeting Annual Board Training\r\nhttps://training.auditor.utah.gov/courses/open-and-public-meetings-act-2019\r\nPolicy Review:\r\nAnnual\r\nSchool Fees Schedule and Policies for SY2021-22, 30 Day Public Review Vote 25 min\r\nFinancial Review:\r\nMonthly Financial Reporting - December 2020/January 2021 Vote 35 min\r\nSet Meeting Dates for remainder of calendar year 2021 - post to school website\r\nMotion to Adjourn Meeting",
                     "postedDate": "February 22, 2021 02:34 PM",
@@ -1234,7 +1236,7 @@
             "shouldHaveRecordings": 5,
             "haveAttachments": 6,
             "haveRecordings": 0,
-            "haveMinutes": 5,
+            "haveMinutes": 6,
             "advanceNotice": 6
         }
     },
@@ -6335,6 +6337,23 @@
             "meetings": [
                 {
                     "name": "Board of Directors Meeting",
+                    "href": "/pmn/sitemap/notice/660519.html",
+                    "date": "2021/02/25 06:30 PM",
+                    "status": "Scheduled",
+                    "attachments": "0.0 AAU Board Agenda_2_25_21.pdf Other Added: 2021/02/24 05:58 PM",
+                    "attachmentLinks": [
+                        "/pmn/files/690439.pdf"
+                    ],
+                    "contactInfo": "bhyink@athlosutah.org",
+                    "updatedDate": "February 24, 2021 05:58 PM",
+                    "contactName": "Ben Hyink",
+                    "endDate": "February 25, 2021 09:30 PM",
+                    "agenda": "1.0 Call to Order- 6:30pm\r\n\r\n1.1 Pledge of Allegiance - Ben Hyink\r\n\r\n2.0 Public Comment- 6:32pm\r\n\r\n3.0 Consent Agenda- 6:35pm\r\n\r\n3.1 Jan 28, 2021 Meeting Minutes - Propose approval of meeting minutes. - Ben Hyink\r\n\r\n3.2 Athlos Report - Update on support provided to the school by Homecourt.- Darin Knicely\r\n\r\n4.0 Administrative Reports- 6:40 pm\r\n\r\n4.1 Director's Report Update on progress on key priorities at AAU - Mandy Kartchner\r\n\r\n4.2 Monthly Financials Review monthly financial statements - Darin Knicely\r\n\r\n4.3 Receive Financials Vote to receive financial reports - Ben Hyink\r\n\r\n4.4 Academic Growth and Retention Presentation - Presentation of AGR Darin Knicely\r\n\r\n5.0 Committee Reports-7:10 pm\r\n\r\n5.1 Pillars Committee (5 min) Ben Hyink\r\n\r\n5.2 Governance Committee (5 min) (No meeting this month) Will Fountain\r\n\r\n5.3 Finance Committee (5 min) Ben Hyink\r\n\r\n6.0 Action Items-7:45pm\r\n\r\n6.1 Enrollment Caps Propose approval of enrollment caps Kyle Leybas\r\n\r\n6.2 Lottery Enrollment lottery will be conducted Kyle Leybas\r\n\r\n6.3 New Hires Proposal of new hires Mandy Kartchner\r\n\r\n- 10 Minute Break- 8:05 pm- optional\r\n\r\n7.0 Discussion Items - 8:15pm\r\n\r\n7.1 Budget Revision Presentation of proposed revisions to the 20-21 budget. - Darin Knicely\r\n\r\n7.2 Fraud Assessment Overview of items related to the fraud assessment - Ryan Webb\r\n\r\n8.0 Adjourn Meeting- 9:00pm",
+                    "postedDate": "February 24, 2021 05:58 PM",
+                    "hoursAdvanceNotice": 24.533333333333335
+                },
+                {
+                    "name": "Board of Directors Meeting",
                     "href": "/pmn/sitemap/notice/654213.html",
                     "date": "2021/01/28 06:30 PM",
                     "status": "Scheduled",
@@ -6443,35 +6462,16 @@
                     "agenda": "1.0 Call to Order- 6:30pm\r\n\r\n1.1 Pledge of Allegiance Ben Hyink\r\n\r\n2.0 Public Comment- 6:32pm\r\n\r\n3.0 Consent Agenda- 6:35pm\r\n\r\n3.1 Meeting Minutes Propose approval of August 26 board meeting minutes. - Ben Hyink\r\n\r\n3.2 Athlos Report Update on support provided to the school by Homecourt. - Darin Knicely\r\n\r\n4.0 Board Training- 6:37\r\n\r\n4.1 Board Roles and Responsibilities Jill Turgeon\r\n\r\n5.0 Administrative Reports- 6:50 pm\r\n\r\n5.1 Director's Report. Update on progress on key priorities at AAU - Mandy Kartchner\r\n\r\n5.2 Monthly Financials - Review monthly financial statements Darin Knicely/Ryan Webb\r\n\r\n5.3 Receive Financials. Vote to receive financial reports Ben Hyink 6.0 Committee Reports-7:20 pm\r\n\r\n6.1 Pillars Committee (5 min). Committee did not meet this month. No report. Ben Hyink\r\n\r\n6.2 Governance Committee (5 min). Committee did not meet this month. No report. Vacant\r\n\r\n6.3 Finance Committee (5 min) Jon Cazier \r\n\r\n7.0 Action Items-7:45pm\r\n\r\n7.1 Board/interviews/appointment(s) Propose appointment(s) of board member - Ben Hyink\r\n\r\n7.2 Officer appointments. Appoint board Vice-Chair and Secretary. Ben Hyink\r\n\r\n7.3 Committee chair and member appointments. Appoint committee chairs and members - Ben Hyink\r\n\r\n7.4 Purchase Agreement First Amendment. Propose approval of amendment to purchase agreement. - Ben Hyink\r\n\r\n7.5 Purchase Agreement Second Amendment. Propose approval of amendment to purchase agreement. - Ben Hyink\r\n\r\n7.6 MSA Amendment. Propose approval of amendment to MSA - Ben Hyink\r\n\r\n7.7 Early Literacy Plan revision. Propose revision to ELP as requested by state. - Mandy Kartchner\r\n\r\n7.8 Board meeting calendar. Propose final board meeting calendar - Jill Turgeon \r\n\r\n8.0 Discussion Items- 8:45pm\r\n\r\n8.1 OPMA Annual Training. Discussion of required state training on OPMA. Jill Turgeon \r\n\r\n9.0 Closed Session 9:00pm\r\n\r\n9.1 Motion to go into closed session\r\nI move that the Athlos Academy of Utah School Board recess this public meeting and enter into a closed meeting, pursuant to Section 52-4-205 of the Code of Utah for the following purpose: The discussion of the character, professional competence, or physical or mental health of an individual\r\nBen Hyink\r\n\r\n9.2 Closed Session\r\n\r\n9.3 Motion to adjourn closed session\r\nI move that we adjourn the closed session and enter into a public session. Furthermore, I certify that in the closed session no items that were not listed as a reason for the closed session were heard, considered, or discussed, and that no formal action took place in the closed session.\r\n\r\n10.0 Adjournment- 9:30pm",
                     "postedDate": "September 22, 2020 06:17 PM",
                     "hoursAdvanceNotice": 25.216666666666665
-                },
-                {
-                    "name": "Board of Directors Meeting",
-                    "href": "/pmn/sitemap/notice/625179.html",
-                    "date": "2020/08/26 07:30 PM",
-                    "status": "Scheduled",
-                    "attachments": "00-AAU-Board-AUDIO-8-26-2020.mp3 Audio Recording Added: 2020/09/29 12:46 PM  0.0 AAU Board MINUTES_8_26_2020.pdf Meeting Minutes Added: 2020/09/24 09:26 AM  AAU Board Agenda_8_26_2020.pdf Other Added: 2020/08/25 05:21 PM",
-                    "attachmentLinks": [
-                        "/pmn/files/642799.mp3",
-                        "/pmn/files/641629.pdf",
-                        "/pmn/files/632845.pdf"
-                    ],
-                    "contactInfo": "bhyink@athlosutah.org",
-                    "updatedDate": "September 24, 2020 09:26 AM",
-                    "contactName": "Ben Hyink",
-                    "endDate": "August 26, 2020 10:30 PM",
-                    "agenda": "1.0 Call to Order- 6:30pm\r\n\r\n1.1 Pledge of Allegiance Ben Hyink\r\n\r\n2.0 Officer Elections\r\n\r\n3.0 Public Comment- 6:40pm\r\n\r\n4.0 Consent Agenda- 6:45pm\r\n\r\n4.1 Meeting Minutes Propose approval of July 22 meeting minutes.\r\nBoard Chair\r\n\r\n4.2 Closed Meeting Minutes Propose approval of July 22 closed meeting minutes\r\nBoard Chair\r\n\r\n4.3 Athlos Report Update on support provided to the school by Homecourt.\r\nDarin Knicely\r\n\r\n5.0 Administrative Reports- 6:46 pm\r\n\r\n5.1 Director's Report Update on progress on key priorities at AAU\r\nMandy Kartchner\r\n\r\n5.2 Year End/Monthly Financials\r\nReview monthly financial statements Darin Knicely\r\n\r\n5.3 Receive Financials Vote to receive financial reports Board Chair\r\n\r\n5.4 Enrollment Update Reporting on enrollment data Camille Wells\r\n\r\n6.0 Committee Reports-7:15 pm\r\n\r\n5.1 Pillar Committee (5 min) Ben Hyink\r\n\r\n5.2 Governance Committee (5min)\r\nEric Christensen\r\n\r\n5.3 Finance Committee (5 min) Jon Cazier\r\n\r\n7.0 Action Items-7:45pm\r\n\r\n7.1 Committee Assignments Make chair and member assignments for all committees\r\nBoard Chair\r\n\r\n7.2 Policy 4037 Administrative Succession Policy Jill Turgeon\r\n\r\n7.3 Policy 2010 Board Succession Policy Jill Turgeon\r\n\r\n7.4 Early Literacy Plan Presentation and proposal of approval of annual Early Literacy Plan as required by the\r\n\r\n7.5 MSA Approve MSA with revisions Board Chair\r\n\r\n10 Minute Break- 8:05 pm- optional\r\n\r\n8.0 Discussion Items- 8:15pm\r\n\r\n7.1 School Board Calendar Presentation of proposed School Board Calendar\r\nJill Turgeon\r\n\r\n9.0 Closed Session- 8:25pm\r\n\r\n9.1 Motion to go into closed session: I move that the Athlos Academy of Utah School Board recess this public meeting and enter into a closed meeting, pursuant to Section 52-4-205 of the Code of Utah for the following purpose:\r\nThe discussion of the character, professional competence, or physical or mental health of an individual\r\n\r\n9.2 Closed session\r\n\r\n9.3 Motion to adjourn closed session: I move that we adjourn the closed session and enter into a public session. Furthermore, I certify that in the closed session no items that were not listed as a reason for the closed session were heard, considered, or discussed, and that no formal action took place in the closed session.\r\n\r\n10.0 Public Session 8:55pm\r\n\r\n10.1 Possible action from closed session\r\n\r\n11.0 Adjournment- 9:00pm",
-                    "postedDate": "August 25, 2020 05:20 PM",
-                    "hoursAdvanceNotice": 26.166666666666668
                 }
             ],
             "pmnId": "5279",
             "name": "Athlos Academy of Utah",
             "bodyName": "Board of Directors",
             "scheduled": 7,
-            "shouldHaveRecordings": 7,
+            "shouldHaveRecordings": 6,
             "haveAttachments": 7,
-            "haveRecordings": 5,
-            "haveMinutes": 6,
+            "haveRecordings": 4,
+            "haveMinutes": 5,
             "advanceNotice": 7
         }
     },
@@ -6711,6 +6711,20 @@
         "pmn": {
             "meetings": [
                 {
+                    "name": "BRCS Governing Board Meeting Agenda - March 2, 2021",
+                    "href": "/pmn/sitemap/notice/660583.html",
+                    "date": "2021/03/02 05:30 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "harrison.kleiner@usu.edu",
+                    "updatedDate": "February 25, 2021 10:45 AM",
+                    "contactName": "Harrison Kleiner",
+                    "endDate": "March 2, 2021 07:00 PM",
+                    "agenda": "Agenda:\r\n1. Call to Order\r\n2. Past Minutes\r\n3. Public Comment\r\n4. Gossip\r\n5. Financial update from Red Apple\r\n6. Update on grant for outdoor classroom\r\n7. SPED policy revision approval\r\n8. Calendar discussion and approval\r\n9. Update on hybrid learning model\r\n10. Update on addressing learning loss\r\n11. Update on Canyonlands Spring TripOther Business \r\n12. New board members (secretary + parent rep announcement)\r\n13. Update on personnel for SY21-22\r\n14. Adjournment",
+                    "postedDate": "February 25, 2021 10:45 AM",
+                    "hoursAdvanceNotice": 126.75
+                },
+                {
                     "name": "BRCS Governing Board Meeting Agenda - Feb 2, 2021",
                     "href": "/pmn/sitemap/notice/654757.html",
                     "date": "2021/02/02 05:30 PM",
@@ -6797,12 +6811,12 @@
             "pmnId": "2383",
             "name": "Bear River Charter School",
             "bodyName": "Bear River Charter School Governing Board",
-            "scheduled": 6,
+            "scheduled": 7,
             "shouldHaveRecordings": 6,
             "haveAttachments": 0,
             "haveRecordings": 0,
             "haveMinutes": 0,
-            "advanceNotice": 4
+            "advanceNotice": 5
         }
     },
     {
@@ -8121,8 +8135,10 @@
                     "href": "/pmn/sitemap/notice/658625.html",
                     "date": "2021/02/17 07:30 PM",
                     "status": "Scheduled",
-                    "attachments": "February 2021 board agenda.docx.pdf Public Information Handout Added: 2021/02/16 03:04 PM",
+                    "attachments": "02-17-2021.mp3 Audio Recording Added: 2021/02/24 02:19 PM  February 2021 board Meeting Minutes.docx.pdf Meeting Minutes Added: 2021/02/24 02:12 PM  February 2021 board agenda.docx.pdf Public Information Handout Added: 2021/02/16 03:04 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690281.mp3",
+                        "/pmn/files/690279.pdf",
                         "/pmn/files/687313.pdf"
                     ],
                     "contactInfo": "board@cslewisacademy.net",
@@ -8207,36 +8223,17 @@
                     "agenda": "Board of Directors Meeting\r\nAgenda\r\n\r\nDate: September 16, 2020\r\nTime: 7:30 pm\r\nLocation: 364 North State Road 198 Santaquin, 84655\r\nI. Opening Items\r\nA. Call to Order\r\nB. Public Forum\r\nC. Approve meeting minutes\r\nII. Executive Director Report\r\nIII. Review of C.S. Lewis charter\r\nA. Our current charter vs. original charter application\r\nB. How to do NIM reading\r\nIV. Committee Reports\r\nA. Finance Committee\r\nB. Audit committee\r\nC. Governance and policy committee\r\ni. Maintaining hard and soft copies of approved minutes, policies\r\nii. On-boarding processes for board members\r\n1. Interviews\r\n2. On board handbook\r\n3. Required trainings\r\niii. Board retreat\r\niv. Upcoming board trainings from UAPCS\r\nD. Academic Committee\r\ni. Snapshot of current academic performance\r\n\r\nV. New board members\r\nA. Interview possible new members\r\nB.\r\n\r\nVI. Possible Closed Session\r\nVII. Adjourn",
                     "postedDate": "September 15, 2020 01:08 PM",
                     "hoursAdvanceNotice": 31.366666666666667
-                },
-                {
-                    "name": "Board of Directors Meeting",
-                    "href": "/pmn/sitemap/notice/625211.html",
-                    "date": "2020/08/26 08:30 PM",
-                    "status": "Scheduled",
-                    "attachments": "8_26_2020.mp3 Audio Recording Added: 2020/09/10 03:34 PM  August 2020 Board meeting Minutes.pdf Meeting Minutes Added: 2020/08/26 10:16 PM  August 2020 Board meeting agenda.pdf Public Information Handout Added: 2020/08/25 07:15 PM",
-                    "attachmentLinks": [
-                        "/pmn/files/637375.mp3",
-                        "/pmn/files/633305.pdf",
-                        "/pmn/files/632891.pdf"
-                    ],
-                    "contactInfo": "board@cslewisacademy.net",
-                    "updatedDate": "September 10, 2020 03:34 PM",
-                    "contactName": "Governing Board",
-                    "endDate": "August 27, 2020 12:00 AM",
-                    "agenda": "Board of Directors Meeting\r\nAgenda\r\n\r\nDate:\t\tAugust 26, 2020\r\nTime:\t\t7:30 pm\r\nLocation:\t364 North State Road 198 Santaquin, 84655\r\n\r\nOpening Items\r\nCall to Order\r\nPublic Forum\r\nApprove meeting minutes\r\n\r\nExecutive Director Report\r\n\r\nReview of C.S. Lewis charter\r\n\r\nAmending Dress Code\r\n\r\nCommittee Reports\r\nFinance Committee\r\nEnrollment: Oct. 1 census, Sept. 9 poll, 1-year hold harmless\r\nBudget changes?\r\nAudit committee\r\nGovernance and policy committee\r\nEnrollment preference for returning students?\r\nAcademic Committee\r\n\r\nBoard members\r\n\r\nPossible Closed Session\r\n\r\nAdjourn",
-                    "postedDate": "August 25, 2020 07:15 PM",
-                    "hoursAdvanceNotice": 25.25
                 }
             ],
             "pmnId": "2426",
             "name": "CS Lewis Academy",
             "bodyName": "Governing Board",
-            "scheduled": 6,
-            "shouldHaveRecordings": 6,
-            "haveAttachments": 6,
+            "scheduled": 5,
+            "shouldHaveRecordings": 5,
+            "haveAttachments": 5,
             "haveRecordings": 5,
             "haveMinutes": 5,
-            "advanceNotice": 6
+            "advanceNotice": 5
         }
     },
     {
@@ -8873,12 +8870,14 @@
                     "href": "/pmn/sitemap/notice/659125.html",
                     "date": "2021/02/24 04:00 PM",
                     "status": "Scheduled",
-                    "attachments": "02.24.21.Agenda.CRA.pdf Public Information Handout Added: 2021/02/19 02:12 PM",
+                    "attachments": "2_24_21.CRA Board Meeting Recording Part 1 .MP3 Audio Recording Added: 2021/02/25 12:47 PM  2_24_21 CRA Board Meeting Recording Part 2.MP3 Audio Recording Added: 2021/02/25 12:48 PM  02.24.21.Agenda.CRA.pdf Public Information Handout Added: 2021/02/19 02:12 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690679.MP3",
+                        "/pmn/files/690681.MP3",
                         "/pmn/files/688867.pdf"
                     ],
                     "contactInfo": "daveagarrett@yahoo.com",
-                    "updatedDate": "February 19, 2021 02:14 PM",
+                    "updatedDate": "February 25, 2021 12:48 PM",
                     "contactName": "David Garrett",
                     "agenda": "BOARD MEETING AGENDA\r\n3005 South 2900 East\r\n801-474-2066\r\nwww.canyonrimacademy.org\r\n\r\nDate:  Wednesday, February 24, 2021\t\t\t\r\nTime: 4:00 pm \r\nLocation: 3005 South 2900 East Millcreek, UT  84109\r\n\r\nBoard Members:  Becky Benham, Kristen Billeter, Robert Booth, Nicole Handy, David Hillyard, Justin Scott, & Kim Winterton. \r\n\r\nMISSION STATEMENT: Cultivate a school environment centered on the maximum academic, social, and emotional potential for each student.\r\n\r\nAGENDA\r\n1\tPublic Comment \r\n2\tApproval of Minutes from January 28, 2021 Board Meeting\r\n3\tPTO Report\r\n4\tReview and/or approval Fieldtrip Policy and proposed Complaint Policy\r\n5\tPrincipal Report\r\n6\tLand Trust Funds\r\n7\tFinance Committee Report\r\n8\tGovernance\r\n-\tReview board member service terms\r\n9\tClosed Meeting - Utah Code 52-4-205",
                     "postedDate": "February 18, 2021 09:04 AM",
@@ -8960,7 +8959,7 @@
             "scheduled": 8,
             "shouldHaveRecordings": 3,
             "haveAttachments": 4,
-            "haveRecordings": 3,
+            "haveRecordings": 4,
             "haveMinutes": 3,
             "advanceNotice": 8
         }
@@ -11272,14 +11271,17 @@
                     "href": "/pmn/sitemap/notice/652291.html",
                     "date": "2021/01/20 08:30 AM",
                     "status": "Scheduled",
-                    "attachments": "01.20.2021 Board Meeting Agenda - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM  21-22 School Fee Schedule (PROPOSED 11-17-20) - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM  Fee Waiver Policy REV B (8-26-20) - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM",
+                    "attachments": "01.20.2021 Board Audio Recording 1 [via Zoom] 837 - ELA.mp3 Audio Recording Added: 2021/02/24 03:23 AM  01.20.2021 Board Audio Recording 2 [via Zoom] 1000 - ELA.mp3 Audio Recording Added: 2021/02/24 03:24 AM  01.20.2021 Board Meeting Minutes (BOARD APPROVED 2-17-21) - ELA.pdf Meeting Minutes Added: 2021/02/24 03:25 AM  01.20.2021 Board Meeting Agenda - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM  21-22 School Fee Schedule (PROPOSED 11-17-20) - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM  Fee Waiver Policy REV B (8-26-20) - ELA.pdf Public Information Handout Added: 2021/01/19 02:23 AM",
                     "attachmentLinks": [
+                        "/pmn/files/690041.mp3",
+                        "/pmn/files/690043.mp3",
+                        "/pmn/files/690045.pdf",
                         "/pmn/files/676685.pdf",
                         "/pmn/files/676687.pdf",
                         "/pmn/files/676689.pdf"
                     ],
                     "contactInfo": "dawn@academicawest.com",
-                    "updatedDate": "January 19, 2021 02:24 AM",
+                    "updatedDate": "February 24, 2021 03:25 AM",
                     "contactName": "Dawn Kawaguchi",
                     "agenda": "Early Light Academy \r\nElectronic Board Meeting Agenda\r\nWednesday, January 20, 2021\r\nLocation: 11709 S. Vadania Drive, South Jordan, Utah 84009\r\nZoom Link:  https://us02web.zoom.us/j/83478262428?from=addon\r\nMeeting ID:  834 7826 2428\r\nMobile:  (669) 900-9128\r\n\r\nThis meeting of the board of directors will be held via Zoom.Members of the public will be accommodated using the information provided.[Allowable Under: Executive Order Suspending the Enforcement of Provisions of Utah Code \u00a7\u00a7 52-4-202 and 52-4-207, and Related State Agency Orders, Rules, and Regulations, Due to Infectious Disease COVID-19 Novel Coronavirus]\r\n\r\nAGENDA\r\n\r\n8:30 AM - CALL TO ORDER \r\n\r\nPUBLIC COMMENT (Comments will be limited to three minutes)\r\n-\t2021-2022 School Fee Schedule\r\n-\tFee Waiver Policy\r\n\r\nREPORTS\r\n-\tDirectors Report\r\n-\tFinancial Report\r\n\r\nCONSENT ITEMS \r\n-\tNovember 18, 2020 Electronic Board Meeting Minutes \r\n-\tNovember 18, 2020 Closed Session Affadavit\r\n\r\nVOTING ITEMS\r\n-\tLEA Definition for 'At Risk'\r\n-\tDirector Evaluation Tool\r\n-\t2021-2022 School Calendar\r\n-\t2021-2022 School Fee Schedule\r\n-\tRe-Approve Fee Waiver Policy\r\n-\tRescind the Employment of Substitute Teachers Policy\r\n-\tLEA Educator Specific License for Zach Speed\r\n\r\nCALENDARING\r\n-\tPreBoard Meeting - February 3rd @ 10:00 am\r\n-\tNext Board Meeting - February 17th @ 8:30 am\r\n\r\nCLOSED SESSION to discuss the character, professional competence, or physical or mental health of an individual pursuant to Utah Code 52-4-205(I)(a). [IF NEEDED]\r\n\r\nADJOURN",
                     "postedDate": "January 19, 2021 02:24 AM",
@@ -11290,14 +11292,17 @@
                     "href": "/pmn/sitemap/notice/641253.html",
                     "date": "2020/11/18 08:30 AM",
                     "status": "Scheduled",
-                    "attachments": "11.18.2020 Board Meeting Agenda - ELA.pdf Public Information Handout Added: 2020/11/16 08:51 PM  Fee Waiver Policy (8-26-20) - ELA.pdf Public Information Handout Added: 2020/11/16 08:51 PM  21-22 School Fee Schedule (PROPOSED 11-17-20) - ELA.pdf Public Information Handout Added: 2020/11/17 06:51 PM",
+                    "attachments": "11.18.2020 Board Audio Recording 1 [via Zoom] 839.mp3 Audio Recording Added: 2021/02/24 03:21 AM  11.18.2020 Board Audio Recording 2 [via Zoom] 1034 - ELA.mp3 Audio Recording Added: 2021/02/24 03:22 AM  11.18.2020 Board Meeting Minutes (BOARD APPROVED 1-20-21) - ELA.pdf Meeting Minutes Added: 2021/02/24 03:22 AM  11.18.2020 Board Meeting Agenda - ELA.pdf Public Information Handout Added: 2020/11/16 08:51 PM  Fee Waiver Policy (8-26-20) - ELA.pdf Public Information Handout Added: 2020/11/16 08:51 PM  21-22 School Fee Schedule (PROPOSED 11-17-20) - ELA.pdf Public Information Handout Added: 2020/11/17 06:51 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690035.mp3",
+                        "/pmn/files/690037.mp3",
+                        "/pmn/files/690039.pdf",
                         "/pmn/files/659083.pdf",
                         "/pmn/files/659085.pdf",
                         "/pmn/files/659515.pdf"
                     ],
                     "contactInfo": "dawn@academicawest.com",
-                    "updatedDate": "November 17, 2020 06:51 PM",
+                    "updatedDate": "February 24, 2021 03:22 AM",
                     "contactName": "Dawn Kawaguchi",
                     "agenda": "Early Light Academy\r\nElectronic Board of Directors Meeting \r\nWednesday, November 18, 2020\r\nZoom Meeting:  https://us02web.zoom.us/j/89282599298?from=addon \r\nMeeting ID:  892 8259 9298\r\nMobile: (669) 900-9128\r\n\r\nThis meeting of the board of directors will be held via Zoom. Members of the public will be accommodated using the information provided.[Allowable Under: Executive Order Suspending the Enforcement of Provisions of Utah Code \u00a7\u00a7 52-4-202 and 52-4-207, and Related State Agency Orders, Rules, and Regulations, Due to Infectious Disease COVID-19 Novel Coronavirus]\r\n\r\nAGENDA\r\n\r\n8:30 AM - CALL TO ORDER \r\n\r\nPUBLIC COMMENT (Comments will be limited to three minutes)\r\n-\t2021-2022 School Fee Schedule\r\n-\tFee Waiver Policy\r\n\r\nREPORTS\r\n-\tAudit Report\r\n-\tDirectors Report\r\n-\tFinancial Report\r\n\r\nCLOSED SESSION\r\n-\tClosed session to discuss the character, professional competence, or physical or mental health of an individual pursuant to Utah Code 52-4-205(I)(a). \r\n\r\nCONSENT ITEMS \r\n-\tOctober 2, 2020 Board Meeting Minutes \r\n\r\nVOTING ITEMS\r\n-\tRevised Director's Employment Agreement\r\n-\tAmended Attendance Policy\r\n-\tAmended Bullying and Hazing Policy\r\n-\tAmended Home School Student Participation in Statewide Assessments Policy\r\n-\tTime and Effort Documentation Policy\r\n\r\nCALENDARING\r\n-\tNext Board Meeting - January 20th @ 8:30 am\r\n\r\nADJOURN",
                     "postedDate": "November 16, 2020 08:52 PM",
@@ -11308,13 +11313,14 @@
                     "href": "/pmn/sitemap/notice/631437.html",
                     "date": "2020/10/02 12:30 PM",
                     "status": "Scheduled",
-                    "attachments": "ELA Board Meeting Recording - 2020.10.02 1130am.WAV Audio Recording Added: 2020/10/02 04:06 PM  Board Meeting Agenda ELA 10.02.2020.pdf Public Information Handout Added: 2020/09/30 09:19 PM",
+                    "attachments": "ELA Board Meeting Recording - 2020.10.02 1130am.WAV Audio Recording Added: 2020/10/02 04:06 PM  10.02.2020 Board Meeting Minutes (BOARD APPROVED 11-18-20) - ELA.pdf Meeting Minutes Added: 2021/02/24 03:05 AM  Board Meeting Agenda ELA 10.02.2020.pdf Public Information Handout Added: 2020/09/30 09:19 PM",
                     "attachmentLinks": [
                         "/pmn/files/644447.WAV",
+                        "/pmn/files/690027.pdf",
                         "/pmn/files/643679.pdf"
                     ],
                     "contactInfo": "dawn@academicawest.com",
-                    "updatedDate": "October 02, 2020 04:06 PM",
+                    "updatedDate": "February 24, 2021 03:06 AM",
                     "contactName": "Dawn Kawaguchi",
                     "agenda": "Zoom Conference: https://zoom.us/j/99556222331 \r\nMeeting ID: 995 5622 2331\r\nPassword: 236287\r\n\r\nThis meeting of the board of directors will be held via Zoom. Members of the public will be accommodated using the information provided. [Allowable Under Executive Order Suspending the Enforcement of Provisions of Utah Code \u00a7 52-4-202 and 52-4-207, and Related State Agency Orders, Rules, and Regulations, Due to Infectious Disease COVID-19 Novel Coronavirus]\r\n\r\nAGENDA\r\n\r\n11:30 AM - CALL TO ORDER \r\n\r\nPUBLIC COMMENT \r\n\r\nCONSENT ITEMS \r\n-\tApprove September 23, 2020 Board Meeting Minutes and Closed Session Affidavit\r\n\r\n-\tApprove August 26, 2020 Board Meeting Minutes and Closed Session Affidavit \r\n-\tRatify Final Administration Transition\r\n\r\nVOTING ITEMS\r\n-\tLEA Specific Licenses Policy \r\n-\tH-Wire K-12 Chrome Book Lease Agreement\r\n-\tH-Wire SpEd Chrome Book Lease Agreement\r\n-\tH-Wire Wireless Upgrade \r\n-\tConnected 2 Therapy Contract\r\n-\tSchool LAND Trust Council Membership & Election Procedures\r\n\r\n-\tElect Board Officers \r\n-\tElect CSBBO Officer\r\n-\tAppoint School LAND Trust Committee \r\n-\tAmend Child Abuse and Neglect Reporting Policy\r\n-\tAmend Electronic Resources Policy\r\n-\tApprove the Sex Education Committee, Curriculum, and Presenter\r\n-\tApprove Snow Removal Contract \r\n-\tApprove LEA Specific Licenses\r\n\r\nCALENDARING\r\n-\tNext Board Meeting - October 28, 2020, at 8:30 am\r\n\r\nADJOURN",
                     "postedDate": "September 29, 2020 01:41 PM",
@@ -11338,36 +11344,17 @@
                     "agenda": "8:30 AM - CALL TO ORDER \r\n\r\n8:35 AM - PUBLIC COMMENT \r\n\r\n8:40 AM - CONSENT ITEMS \r\n-\tApprove August 26, 2020 Board Meeting Minutes and Closed Session Affidavit \r\n-\tRatify Final Administration Transition\r\n\r\n8:45 AM - REPORTS\r\n-\tDirector's Report \r\n-\tFinancial Report \r\n\r\n9:15 AM - VOTING ITEMS\r\n-\tElect Board Officers \r\n-\tElect CSBBO Officer\r\n-\tAppoint School LAND Trust Committee \r\n-\tAmend Child Abuse and Neglect Reporting Policy\r\n-\tAmend Electronic Resources Policy\r\n-\tApprove the Sex Education Committee, Curriculum, and Presenter\r\n-\tApprove Snow Removal Contract \r\n-\tApprove LEA Specific Licenses\r\n\r\n10:20 AM - CALENDARING\r\n-\tNext Board Meeting - October 28, 2020, at 8:30 am\r\n\r\n10:20 AM - CLOSED SESSION\r\n-\tClosed session to discuss the character, professional competence, or physical or mental health of an individual pursuant to Utah Code 52-4-205(I)(a).\r\n\r\n11:00 AM - ADJOURN",
                     "postedDate": "September 23, 2020 09:37 AM",
                     "hoursAdvanceNotice": -0.11666666666666667
-                },
-                {
-                    "name": "Early Light Academy Board Meeting",
-                    "href": "/pmn/sitemap/notice/624973.html",
-                    "date": "2020/08/26 09:30 AM",
-                    "status": "Scheduled",
-                    "attachments": "ELA Board Meeting Recording Part I - 08.26.2020 - 8.31 AM.mp3 Audio Recording Added: 2020/08/26 03:16 PM  ELA Board Meeting Recording Part II - 08.26.2020 11.04 AM.mp3 Audio Recording Added: 2020/08/26 03:17 PM  Minutes - 08.26.2020 board approved.pdf Meeting Minutes Added: 2020/10/02 06:32 PM  Board Meeting Agenda - 08.26.2020.pdf Public Information Handout Added: 2020/08/24 04:49 PM",
-                    "attachmentLinks": [
-                        "/pmn/files/633137.mp3",
-                        "/pmn/files/633139.mp3",
-                        "/pmn/files/644523.pdf",
-                        "/pmn/files/632477.pdf"
-                    ],
-                    "contactInfo": "dawn@academicawest.com",
-                    "updatedDate": "October 02, 2020 06:32 PM",
-                    "contactName": "Dawn Kawaguchi",
-                    "agenda": "8:30 AM - CALL TO ORDER \r\n\r\n8:35 AM - PUBLIC COMMENT \r\n\r\n8:40 AM - CONSENT ITEMS \r\n-\tRatify Amended 2020-2021 SY Calendar \r\n-\tApprove June 15, 2020 Board Meeting Minutes and Closed Session Affidavit\r\n-\tApprove July 20, 2020 Board Meeting Minutes \r\n-\tApprove August 14, 2020 Board Meeting Minutes \r\n\r\n8:45 AM - REPORTS\r\n-\tDirector's Report \r\n-\tFinancial Report \r\no\tFASB to GASB Accounting \r\n\r\n9:15 AM - VOTING ITEMS\r\n-\tAmend Civil Rights Policy\r\n-\tAmend Student Conduct and Discipline Policy\r\n-\tAmend Fee Waiver Policy\r\n-\tAmend Sexual Abuse and Molestation Prevention Policy\r\n\r\n10:00 AM - CALENDARING\r\n-\tNext Board Meeting\r\n\r\n10:10 AM - CLOSED SESSION\r\n-\tClosed session to discuss the character, professional competence, or physical or mental health of an individual pursuant to Utah Code 52-4-205(I)(a).\r\n\r\n10:30 AM - ADJOURN",
-                    "postedDate": "August 24, 2020 04:49 PM",
-                    "hoursAdvanceNotice": 40.68333333333333
                 }
             ],
             "pmnId": "1784",
             "name": "Early Light Academy at Daybreak",
             "bodyName": "Early Light Academy Board of Directors",
-            "scheduled": 6,
-            "shouldHaveRecordings": 6,
-            "haveAttachments": 6,
-            "haveRecordings": 3,
-            "haveMinutes": 2,
-            "advanceNotice": 5
+            "scheduled": 5,
+            "shouldHaveRecordings": 5,
+            "haveAttachments": 5,
+            "haveRecordings": 4,
+            "haveMinutes": 4,
+            "advanceNotice": 4
         }
     },
     {
@@ -12236,6 +12223,19 @@
         "pmn": {
             "meetings": [
                 {
+                    "name": "Endeavor Hall Board of Directors Meeting",
+                    "href": "/pmn/sitemap/notice/660359.html",
+                    "date": "2021/02/25 05:30 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "brittney.cummins@endeavorhall.org",
+                    "updatedDate": "February 24, 2021 10:48 AM",
+                    "contactName": "Brittney Cummins",
+                    "agenda": "Board Meeting\r\nThursday, February 25, 2021 at 5:30 pm\r\nEndeavor Hall\r\n2614 Decker Lake Lane\r\nWest Valley City, UT  84119\r\nhttps://meet.google.com/voj-cgfx-idy?hs=122&authuser=0\r\n\r\n\r\n* Anyone requiring accommodations should contact Sara Gorringe at sara.gorringe@endeavorhall.org or 801-972-1153 by 2:00 pm on 2/24/2021.\r\n\r\n* One or more members of the Endeavor Hall Board of Directors may participate by electronic communication.\r\n\r\nCall to Order\r\nRoll Call\r\nApproval of Minutes for 2/4/2021\r\nPublic Comment\r\nBoard Training:  Jennifer Moulder\r\nDiscussion:  LAND Trust\r\nDirector's Report\r\nBoiler\r\nMarketing\r\nBusiness Manager's Report:\r\nMonthly Budget Report\r\nPotential Future Agenda Items\r\nMotion for closed session (if necessary)\r\nAdjourn",
+                    "postedDate": "February 24, 2021 10:48 AM",
+                    "hoursAdvanceNotice": 30.7
+                },
+                {
                     "name": "EH Board of Directors Meeting",
                     "href": "/pmn/sitemap/notice/655643.html",
                     "date": "2021/02/04 05:30 PM",
@@ -12305,12 +12305,12 @@
             "pmnId": "2693",
             "name": "Endeavor Hall ",
             "bodyName": "Endeavor Hall Board of Directors",
-            "scheduled": 4,
+            "scheduled": 5,
             "shouldHaveRecordings": 4,
             "haveAttachments": 0,
             "haveRecordings": 0,
             "haveMinutes": 0,
-            "advanceNotice": 3
+            "advanceNotice": 4
         }
     },
     {
@@ -14979,35 +14979,17 @@
                     "agenda": "The Governing Board of Freedom Preparatory Academy\r\nWILL HOLD A PUBLIC MEETING\r\nIN THE SECONDARY SCHOOL CONFERENCE ROOM\r\n\r\nSeptember 17, 2020 12:00 PM\r\n\t\t\t\t\t\t\t\r\nBoard members may and will participate electronically with anchor location stated above.\r\n\r\n\r\n\r\n\t\t\t\tPUBLIC COMMENT \r\n\r\n\r\n\r\nREGULAR AGENDA\r\n\r\n1.\tApprove minutes from the August 27, 2020 Governing Board Meeting\r\n2.\tExecutive Director Update\r\n3.\tApprove Revisions to the Parent/Student Handbook Elementary 2020-2021\r\n4.\tApprove Revisions to the Parent/Student Handbook Secondary 2020-2021\r\n5.\tApprove of Bond Counsel\r\n6.\tApprove of Bond Underwriters\r\n7.\tThe Governing Board may consider a motion for a Closed Meeting in accordance \r\nwith The Utah Open and Public Meetings Act for purposes outlined in Utah Code*\r\n8.\tAdjourn\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n*The Freedom Preparatory Academy Governing Board may consider a motion to close the meeting to hold a strategy session \r\nto discuss the purchase, sale, exchange, or lease of real property, and/or the character, professional competence, or physical \r\nor mental health of an individual in conformance with \u00a7 52-4-204 and 52-4-205 et. Seq., Utah Code Ann.",
                     "postedDate": "September 16, 2020 12:21 PM",
                     "hoursAdvanceNotice": 24.65
-                },
-                {
-                    "name": "Governing Board Mtg. 8/27/20",
-                    "href": "/pmn/sitemap/notice/625289.html",
-                    "date": "2020/08/27 01:00 PM",
-                    "status": "Scheduled",
-                    "attachments": "GB public 8.27.20.mp3 Audio Recording Added: 2020/09/24 10:49 AM  August 27 2020 GB Minutes.docx Meeting Minutes Added: 2020/09/24 10:49 AM",
-                    "attachmentLinks": [
-                        "/pmn/files/641713.mp3",
-                        "/pmn/files/641711.docx"
-                    ],
-                    "contactInfo": "gboard@freedomprep.net",
-                    "updatedDate": "September 24, 2020 10:50 AM",
-                    "contactName": "Cary McConnell, CAO",
-                    "endDate": "August 27, 2020 02:00 PM",
-                    "agenda": "The Governing Board of Freedom Preparatory Academy\r\n\r\nWILL HOLD A PUBLIC MEETING\r\n\r\nIN THE SECONDARY SCHOOL CONFERENCE ROOM\r\n\r\nAugust 27, 2020 12:00 PM\r\n\r\nBoard members may and will participate electronically with anchor location stated above.\r\n\r\nPUBLIC COMMENT\r\n\r\nREGULAR AGENDA\r\n\r\n1. Approval of the minutes for the June 9, 2020 Governing Board Meeting\r\n\r\n2. Approval of the minutes for the June 30, 2020 Governing Board Meeting\r\n\r\n3. Approval of the minutes for the July 17, 2020 Governing Board Meeting\r\n\r\n4. Executive Director Update\r\n\r\n5. Approve Early Literacy Plan\r\n\r\n6. Approve Virtual Attendance Policy\r\n\r\n7. Approve Additions/Edits to the Reopening Plan\r\n\r\n8. Ratify Approval of Large Items Purchases\r\n\r\n9. Discuss Math Pilot Program to Compensate for COVID Challenges\r\n\r\n10. The Governing Board may consider a motion for a Closed Meeting in accordance\r\n\r\nwith The Utah Open and Public Meetings Act for purposes outlined in Utah Code*\r\n\r\n11. Adjourn\r\n\r\n*The Freedom Preparatory Academy Governing Board may consider a motion to close the meeting to hold a strategy session\r\n\r\nto discuss the purchase, sale, exchange, or lease of real property, and/or the character, professional competence, or physical\r\n\r\nor mental health of an individual in conformance with \u00a7 52-4-204 and 52-4-205 et. Seq., Utah Code Ann.\r\n\r\nBoard Goals 2019-2020\r\n\r\na. Student and Employee Success\r\n\r\ni. Ensure the development data-driven methods to understand student success.\r\n\r\nii. Contribute to improving lives through development of policies and practices\r\n\r\nb. Operational Efficiency\r\n\r\ni. Require school to operate in the black\r\n\r\nii. Oversee Retaining and Enrolling Students\r\n\r\niii. Quarterly Enrollment review\r\n\r\niv. Regular Policy Review each Board Meeting\r\n\r\nc. Community Relations\r\n\r\ni. Be involved regularly in Parent and Student engagement activities\r\n\r\nii. Evaluate PR quarterly\r\n\r\niii. Governing Board Members attend and assist fundraisers\r\n\r\nd. Specific Areas of Focus\r\n\r\ni. Define what makes Freedom different/unique\r\n\r\nii. Support consistent culture across campuses",
-                    "postedDate": "August 26, 2020 11:32 AM",
-                    "hoursAdvanceNotice": 25.466666666666665
                 }
             ],
             "pmnId": "2156",
             "name": "Freedom Academy",
             "bodyName": "Freedom Academy Governing Board",
-            "scheduled": 5,
-            "shouldHaveRecordings": 5,
-            "haveAttachments": 5,
-            "haveRecordings": 5,
-            "haveMinutes": 5,
-            "advanceNotice": 4
+            "scheduled": 4,
+            "shouldHaveRecordings": 4,
+            "haveAttachments": 4,
+            "haveRecordings": 4,
+            "haveMinutes": 4,
+            "advanceNotice": 3
         }
     },
     {
@@ -15366,35 +15348,17 @@
                     "agenda": "The Governing Board of Freedom Preparatory Academy\r\nWILL HOLD A PUBLIC MEETING\r\nIN THE SECONDARY SCHOOL CONFERENCE ROOM\r\n\r\nSeptember 17, 2020 12:00 PM\r\n\t\t\t\t\t\t\t\r\nBoard members may and will participate electronically with anchor location stated above.\r\n\r\n\r\n\r\n\t\t\t\tPUBLIC COMMENT \r\n\r\n\r\n\r\nREGULAR AGENDA\r\n\r\n1.\tApprove minutes from the August 27, 2020 Governing Board Meeting\r\n2.\tExecutive Director Update\r\n3.\tApprove Revisions to the Parent/Student Handbook Elementary 2020-2021\r\n4.\tApprove Revisions to the Parent/Student Handbook Secondary 2020-2021\r\n5.\tApprove of Bond Counsel\r\n6.\tApprove of Bond Underwriters\r\n7.\tThe Governing Board may consider a motion for a Closed Meeting in accordance \r\nwith The Utah Open and Public Meetings Act for purposes outlined in Utah Code*\r\n8.\tAdjourn\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n*The Freedom Preparatory Academy Governing Board may consider a motion to close the meeting to hold a strategy session \r\nto discuss the purchase, sale, exchange, or lease of real property, and/or the character, professional competence, or physical \r\nor mental health of an individual in conformance with \u00a7 52-4-204 and 52-4-205 et. Seq., Utah Code Ann.",
                     "postedDate": "September 16, 2020 12:21 PM",
                     "hoursAdvanceNotice": 24.65
-                },
-                {
-                    "name": "Governing Board Mtg. 8/27/20",
-                    "href": "/pmn/sitemap/notice/625289.html",
-                    "date": "2020/08/27 01:00 PM",
-                    "status": "Scheduled",
-                    "attachments": "GB public 8.27.20.mp3 Audio Recording Added: 2020/09/24 10:49 AM  August 27 2020 GB Minutes.docx Meeting Minutes Added: 2020/09/24 10:49 AM",
-                    "attachmentLinks": [
-                        "/pmn/files/641713.mp3",
-                        "/pmn/files/641711.docx"
-                    ],
-                    "contactInfo": "gboard@freedomprep.net",
-                    "updatedDate": "September 24, 2020 10:50 AM",
-                    "contactName": "Cary McConnell, CAO",
-                    "endDate": "August 27, 2020 02:00 PM",
-                    "agenda": "The Governing Board of Freedom Preparatory Academy\r\n\r\nWILL HOLD A PUBLIC MEETING\r\n\r\nIN THE SECONDARY SCHOOL CONFERENCE ROOM\r\n\r\nAugust 27, 2020 12:00 PM\r\n\r\nBoard members may and will participate electronically with anchor location stated above.\r\n\r\nPUBLIC COMMENT\r\n\r\nREGULAR AGENDA\r\n\r\n1. Approval of the minutes for the June 9, 2020 Governing Board Meeting\r\n\r\n2. Approval of the minutes for the June 30, 2020 Governing Board Meeting\r\n\r\n3. Approval of the minutes for the July 17, 2020 Governing Board Meeting\r\n\r\n4. Executive Director Update\r\n\r\n5. Approve Early Literacy Plan\r\n\r\n6. Approve Virtual Attendance Policy\r\n\r\n7. Approve Additions/Edits to the Reopening Plan\r\n\r\n8. Ratify Approval of Large Items Purchases\r\n\r\n9. Discuss Math Pilot Program to Compensate for COVID Challenges\r\n\r\n10. The Governing Board may consider a motion for a Closed Meeting in accordance\r\n\r\nwith The Utah Open and Public Meetings Act for purposes outlined in Utah Code*\r\n\r\n11. Adjourn\r\n\r\n*The Freedom Preparatory Academy Governing Board may consider a motion to close the meeting to hold a strategy session\r\n\r\nto discuss the purchase, sale, exchange, or lease of real property, and/or the character, professional competence, or physical\r\n\r\nor mental health of an individual in conformance with \u00a7 52-4-204 and 52-4-205 et. Seq., Utah Code Ann.\r\n\r\nBoard Goals 2019-2020\r\n\r\na. Student and Employee Success\r\n\r\ni. Ensure the development data-driven methods to understand student success.\r\n\r\nii. Contribute to improving lives through development of policies and practices\r\n\r\nb. Operational Efficiency\r\n\r\ni. Require school to operate in the black\r\n\r\nii. Oversee Retaining and Enrolling Students\r\n\r\niii. Quarterly Enrollment review\r\n\r\niv. Regular Policy Review each Board Meeting\r\n\r\nc. Community Relations\r\n\r\ni. Be involved regularly in Parent and Student engagement activities\r\n\r\nii. Evaluate PR quarterly\r\n\r\niii. Governing Board Members attend and assist fundraisers\r\n\r\nd. Specific Areas of Focus\r\n\r\ni. Define what makes Freedom different/unique\r\n\r\nii. Support consistent culture across campuses",
-                    "postedDate": "August 26, 2020 11:32 AM",
-                    "hoursAdvanceNotice": 25.466666666666665
                 }
             ],
             "pmnId": "2156",
             "name": "Freedom Academy",
             "bodyName": "Freedom Academy Governing Board",
-            "scheduled": 5,
-            "shouldHaveRecordings": 5,
-            "haveAttachments": 5,
-            "haveRecordings": 5,
-            "haveMinutes": 5,
-            "advanceNotice": 4
+            "scheduled": 4,
+            "shouldHaveRecordings": 4,
+            "haveAttachments": 4,
+            "haveRecordings": 4,
+            "haveMinutes": 4,
+            "advanceNotice": 3
         }
     },
     {
@@ -19433,6 +19397,20 @@
         "pmn": {
             "meetings": [
                 {
+                    "name": "Board of Trustees Meeting",
+                    "href": "/pmn/sitemap/notice/660413.html",
+                    "date": "2021/02/26 07:30 AM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "renee.edwards@iechs.org",
+                    "updatedDate": "February 24, 2021 02:01 PM",
+                    "contactName": "Renee Edwards",
+                    "endDate": "February 26, 2021 09:00 AM",
+                    "agenda": "Board of Trustees Meeting\r\nFebruary 26, 2021\r\nJoin Zoom Meeting:\r\nhttps://iechs-org.zoom.us/j/96328018788?pwd=NFY1YUNhRE1TekZuNVpRVXBhSG1sZz09\r\nMeeting ID: 963 2801 8788\r\nPasscode: BOARDTRUST\r\nAgenda\r\nREGULAR SESSION\r\nI. Welcome and Introductions 7:30 am\r\nII. Public Comments (Discussion) 7:30-7:35 am\r\nIII. Fee Schedule- Hearing #1 (Discussion) 7:35-7:45 am\r\nIV. Approve Minutes January 22, 2021 (Approval) 7:45-7:50 am\r\nV. Financial Report (Approval) 7:50-8:00 am\r\nVI. Recruitment update (Information) 8:00-8:10 am\r\nCurrent Applicants and End of Open Enrollment\r\nSophomore Social and Testing\r\nVII. School Accountability 8:10-8:25 am\r\nAccreditation Report (Information)\r\nACT Scores (Information)\r\nItineris PRQ & Membership Monitoring (Information)\r\nVIII. Guidance (Informational) 8:25-8:40 am\r\nACT and PreACT Testing\r\nBoard Rep for Graduation\r\nInterim Review\r\nIX. Other Business (Discussion) 8:40-9:00 am\r\nDance April 23rd- Test to Play\r\nGraduation Update- May 19th\r\nSummer School Update- May 24th\r\nSolar Panel Grant\r\nNHS Induction Ceremony",
+                    "postedDate": "February 24, 2021 02:01 PM",
+                    "hoursAdvanceNotice": 41.483333333333334
+                },
+                {
                     "name": "Board of Trustees",
                     "href": "/pmn/sitemap/notice/644095.html",
                     "date": "2020/12/04 07:30 AM",
@@ -19504,12 +19482,12 @@
             "pmnId": "1852",
             "name": "Itineris Early College High School",
             "bodyName": "Board of Trustees",
-            "scheduled": 4,
+            "scheduled": 5,
             "shouldHaveRecordings": 4,
             "haveAttachments": 4,
             "haveRecordings": 0,
             "haveMinutes": 0,
-            "advanceNotice": 3
+            "advanceNotice": 4
         }
     },
     {
@@ -22823,14 +22801,28 @@
         "pmn": {
             "meetings": [
                 {
+                    "name": "Lincoln Academy Board Meeting Agenda February 2021",
+                    "href": "/pmn/sitemap/notice/660409.html",
+                    "date": "2021/02/25 06:30 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "falcon@lincoln-academy.org",
+                    "updatedDate": "February 24, 2021 01:53 PM",
+                    "contactName": "Stephanie Falcon",
+                    "endDate": "February 25, 2021 09:00 PM",
+                    "agenda": "Lincoln Academy Board Meeting\r\nFebruary 25, 2021\r\n6:30 pm\r\n\r\nJoin Zoom Meeting\r\nID: 92077438581\r\nPasscode: QJToLK41J3\r\n\r\n\r\nAgenda\r\n\r\n-\tSchool Highlights\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tUpdate on Transition Plan-Test to Stay vs Online\r\n\r\n-\tOnline School Model Review\r\n\r\n-\tPrincipals Report\r\n\r\n-\tOnline Student Update\r\n\r\n-\tVolunteers and Building Rental\r\n\r\n-\tEmployee Conflict Resolution\r\n\r\n-\tPolicy Review\r\n\r\n-\tTitle I Parent Compact Review\r\n\r\n-\tFaculty and Staff Outreach\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n*Audio Enhancement Cameras\r\n\r\n*Phone System\r\n\r\n-\tFinancials\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
+                    "postedDate": "February 24, 2021 01:53 PM",
+                    "hoursAdvanceNotice": 28.616666666666667
+                },
+                {
                     "name": "Lincoln Academy Board Meeting Agenda January 2021",
                     "href": "/pmn/sitemap/notice/654157.html",
                     "date": "2021/01/28 06:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "January 27, 2021 03:32 PM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "January 28, 2021 09:30 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nJanuary 28, 2021\r\n6:30 pm\r\nJoin Zoom Meeting\r\nID: 91830690951\r\nPasscode: Af03Ji\r\n\r\n\r\nAgenda\r\n\r\n-\tSchool Highlights\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tReview Survey/Data\r\n\r\n-\tReview School Model\r\n\r\n-\tPrincipals Report\r\n\r\n-\tOnline Student Update\r\n\r\n-\tSchool Musical\r\n\r\n-\tEmployee Conflict Resolution\r\n\r\n-\tWebsite\r\n\r\n-\tLEA Specific Licenses\r\n\r\n-\tTitle I Parent Compact Review\r\n\r\n-\tSchool Reenrollment Survey Review\r\n\r\n-\tFacilities\r\n\r\n*Night Crew Update\r\n\r\n-\tIT\r\n\r\n-\tFinancials\r\n\r\n*Approve Lincoln Tax Form 990\r\n*CARES Funding\r\n*COVID Payout Update\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "January 27, 2021 03:32 PM",
@@ -22842,9 +22834,9 @@
                     "date": "2020/12/03 06:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "December 02, 2020 02:35 PM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "December 3, 2020 09:00 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nDecember 3, 2020\r\n6:30 pm\r\nJoin Zoom Meeting\r\nID: 96376149828\r\nPassword: s5xqx3c5GW\r\n\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tReview Survey/Data\r\n\r\n-\tReview School Model\r\n\r\n-\tParent Petition Concerns\r\n\r\n-\tSchool Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tOnline Student Update\r\n\r\n-\tStaff/Faculty Outreach\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n*Mac Mini Computer Resale\r\n\r\n-\tFinancials\r\n\r\n*Investment Agreement\r\n\r\n-\tChristmas Bonuses\r\n\r\n-\tEnrollment\r\n\r\n-\tLEA Specific Licenses\r\n\r\n-\tLEA Specific License Policy\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "December 02, 2020 02:35 PM",
@@ -22859,9 +22851,9 @@
                     "attachmentLinks": [
                         "/pmn/files/681581.pdf"
                     ],
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "February 01, 2021 12:28 PM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "agenda": "Lincoln Academy Board Meeting\r\nDecember 3, 2020\r\n6:30 pm\r\nJoin Zoom Meeting\r\nID: 96376149828\r\nPassword: s5xqx3c5GW\r\n\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tReview Survey/Data\r\n\r\n-\tReview School Model\r\n\r\n-\tParent Petition Concerns\r\n\r\n-\tSchool Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tOnline Student Update\r\n\r\n-\tStaff/Faculty Outreach\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n*Mac Mini Computer Resale\r\n\r\n-\tFinancials\r\n\r\n*Investment Agreement\r\n\r\n-\tChristmas Bonuses\r\n\r\n-\tEnrollment\r\n\r\n-\tLEA Specific Licenses\r\n\r\n-\tLEA Specific License Policy\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "February 01, 2021 12:28 PM",
                     "hoursAdvanceNotice": -1433.9666666666667
@@ -22872,9 +22864,9 @@
                     "date": "2020/10/22 07:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "October 21, 2020 04:31 PM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "October 22, 2020 10:00 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nOctober 22, 2020\r\n6:30 pm\r\n\r\nZoom Meeting\r\nID: 91390373761\r\nPassword: kd0q3X0N9y\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tSchool Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tRatify New Board Member\r\n\r\n-\tTSSA\r\n\r\n-\tReview School Model\r\n\r\n-\tOnline Student Update\r\n\r\n-\tOnline Certification\r\n\r\n-\tSchool Fee Policy Review\r\n\r\n-\tNovember Board Meeting Date\r\n\r\n-\tSchool Calendar\r\n\r\n-\tBoard Code of Ethics\r\n\r\n-\tAccreditation Report\r\n\r\n-\tStaff Appreciation\r\n\r\n-\tNeighbor Concerns\r\n\r\n-\tInvestment Plan\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tFinancials\r\n\r\n*August Financials\r\n\r\n*FY20 Approve Audited Financials\r\n\r\n-\tEnrollment\r\n\r\n-\tBoard Training\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "October 21, 2020 04:31 PM",
@@ -22889,9 +22881,9 @@
                     "attachmentLinks": [
                         "/pmn/files/651753.pdf"
                     ],
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "October 26, 2020 10:12 AM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "October 22, 2020 09:30 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nSeptember 24, 2020\r\n6:30 pm\r\n\r\n\r\nJoin Zoom Meeting\r\nID: 91285180173\r\nPassword: 6NLXAA2Po8\r\n\r\n\r\n\t\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tSchool Highlights\r\n\r\n-\tSchool Nurse Report\r\n\r\n-\tPrincipals Report\r\n\r\n-\tTuition Reimbursement\r\n\r\n-\tOnline Student Update\r\n\r\n-\tSchool Nurse Report\r\n\r\n-\tUpdate and Review on Instructional Model\r\n\r\n-\tLand Trust\r\n\r\n-\tBoard Code of Ethics\r\n\r\n-\tAccreditation\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees and Possible Real Estate Transactions",
                     "postedDate": "October 26, 2020 10:12 AM",
@@ -22906,9 +22898,9 @@
                     "attachmentLinks": [
                         "/pmn/files/665077.pdf"
                     ],
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "December 07, 2020 09:57 AM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "October 22, 2020 10:30 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nOctober 22, 2020\r\n6:30 pm\r\n\r\nZoom Meeting\r\nID: 91390373761\r\nPassword: kd0q3X0N9y\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tSchool Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tRatify New Board Member\r\n\r\n-\tTSSA\r\n\r\n-\tReview School Model\r\n\r\n-\tOnline Student Update\r\n\r\n-\tOnline Certification\r\n\r\n-\tSchool Fee Policy Review\r\n\r\n-\tNovember Board Meeting Date\r\n\r\n-\tSchool Calendar\r\n\r\n-\tBoard Code of Ethics\r\n\r\n-\tAccreditation Report\r\n\r\n-\tStaff Appreciation\r\n\r\n-\tNeighbor Concerns\r\n\r\n-\tInvestment Plan\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tFinancials\r\n\r\n*August Financials\r\n\r\n*FY20 Approve Audited Financials\r\n\r\n-\tEnrollment\r\n\r\n-\tBoard Training\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "December 07, 2020 09:57 AM",
@@ -22920,9 +22912,9 @@
                     "date": "2020/09/24 07:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "September 28, 2020 09:42 AM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "September 24, 2020 09:30 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nSeptember 24, 2020\r\n6:30 pm\r\n\r\n\r\nJoin Zoom Meeting\r\nID: 91285180173\r\nPassword: 6NLXAA2Po8\r\n\r\n\r\n\t\r\n\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tSchool Highlights\r\n\r\n-\tSchool Nurse Report\r\n\r\n-\tPrincipals Report\r\n\r\n-\tTuition Reimbursement\r\n\r\n-\tOnline Student Update\r\n\r\n-\tUpdate and Review on Instructional Model\r\n\r\n-\tLand Trust\r\n\r\n-\tBoard Code of Ethics\r\n\r\n-\tAccreditation\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees",
                     "postedDate": "September 28, 2020 09:42 AM",
@@ -22937,9 +22929,9 @@
                     "attachmentLinks": [
                         "/pmn/files/642327.docx"
                     ],
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "September 28, 2020 10:07 AM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "August 27, 2020 02:00 AM",
                     "agenda": "Lincoln Academy Board Meeting\r\nAugust 27, 2020\r\n6:30 pm\r\n\r\n\tzoom.us/j/95241519394?pwd=UG0yTE...\r\n(ID: 95241519394, password: EA8xqqPIN0\r\n\t\r\n\t\t\t\t\t\t\t\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tTeacher Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tTuition Reimbursement\r\n\r\n-\tOnline Update\r\n\r\n-\tSchool Nurse\r\n\r\n-\tFace Shield Exceptions\r\n\r\n-\tAPPEL Program\r\n\r\n-\tDriver's Ed\r\n\r\n-\tExpansion Progress and TimeLine\r\n\r\n-\tBoard Position\r\n\r\n-\tDollar Dress Day\r\n\r\n-\tFacility Usage\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tFinancials\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees and Possible Real Estate Transactions",
                     "postedDate": "September 28, 2020 10:07 AM",
@@ -22951,9 +22943,9 @@
                     "date": "2020/08/27 07:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
-                    "contactInfo": "coombs@lincoln-academy.org",
+                    "contactInfo": "falcon@lincoln-academy.org",
                     "updatedDate": "August 26, 2020 04:46 PM",
-                    "contactName": "Lisa Coombs",
+                    "contactName": "Stephanie Falcon",
                     "endDate": "August 27, 2020 09:30 PM",
                     "agenda": "Lincoln Academy Board Meeting\r\nAugust 27, 2020\r\n6:30 pm\r\n\r\n\tzoom.us/j/95241519394?pwd=UG0yTE...\r\n(ID: 95241519394, password: EA8xqqPIN0\r\n\t\r\n\t\t\t\t\t\t\t\r\nAgenda\r\n\r\n-\tApproval of the Minutes\r\n\r\n-\tPublic Comment\r\n\r\n-\tTeacher Highlights\r\n\r\n-\tPrincipals Report\r\n\r\n-\tTuition Reimbursement\r\n\r\n-\tOnline Update\r\n\r\n-\tSchool Nurse\r\n\r\n-\tFace Shield Exceptions\r\n\r\n-\tAPPEL Program\r\n\r\n-\tDriver's Ed\r\n\r\n-\tExpansion Progress and TimeLine\r\n\r\n-\tBoard Position\r\n\r\n-\tDollar Dress Day\r\n\r\n-\tFacility Usage\r\n\r\n-\tFacilities\r\n\r\n-\tIT\r\n\r\n-\tFinancials\r\n\r\n-\tEnrollment\r\n\r\n-\tBreak Out to Executive Meeting to Discuss Character and Competency of Employees and Possible Real Estate Transactions",
                     "postedDate": "August 26, 2020 04:46 PM",
@@ -22963,12 +22955,12 @@
             "pmnId": "2177",
             "name": "Lincoln Academy",
             "bodyName": "Lincoln Academy Board of Trustees",
-            "scheduled": 9,
+            "scheduled": 10,
             "shouldHaveRecordings": 9,
             "haveAttachments": 4,
             "haveRecordings": 0,
             "haveMinutes": 4,
-            "advanceNotice": 4
+            "advanceNotice": 5
         }
     },
     {
@@ -23264,9 +23256,10 @@
                     "href": "/pmn/sitemap/notice/659927.html",
                     "date": "2021/02/23 02:30 PM",
                     "status": "Scheduled",
-                    "attachments": "No associated attachments",
+                    "attachments": "No associated attachments Audio Recording Added: https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=3561&MID=459",
+                    "audioFile": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=3561&MID=459",
                     "contactInfo": "aurban@lumenscholar.org",
-                    "updatedDate": "February 22, 2021 02:29 PM",
+                    "updatedDate": "February 24, 2021 04:15 PM",
                     "contactName": "Andrea Urban",
                     "agenda": "1. Welcome and Roll Call\r\n2. Pledge of Allegiance \r\n3. Work Session\r\n4. Adjourn",
                     "postedDate": "February 22, 2021 02:29 PM",
@@ -23277,9 +23270,13 @@
                     "href": "/pmn/sitemap/notice/657319.html",
                     "date": "2021/02/18 03:00 PM",
                     "status": "Scheduled",
-                    "attachments": "No associated attachments",
+                    "attachments": "LSIBrdMtgRecFeb18_2021.wav Audio Recording Added: 2021/02/24 02:18 PM Audio Recording Added: https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=3561&MID=452",
+                    "audioFile": "https://simbli.eboardsolutions.com/SB_Meetings/ViewMeeting.aspx?S=3561&MID=452",
+                    "attachmentLinks": [
+                        "/pmn/files/690277.wav"
+                    ],
                     "contactInfo": "aurban@lumenscholar.org",
-                    "updatedDate": "February 16, 2021 09:04 AM",
+                    "updatedDate": "February 24, 2021 02:12 PM",
                     "contactName": "Andrea Urban",
                     "agenda": "1. Welcome and Roll Call\r\n2. Pledge of Allegiance\r\n3. Reports\r\na. Department Reports\r\nb. Financial Statements\r\n4. Public Comment\r\n5. Consent Agenda\r\na. January 28, 2021 Board Meeting Minutes\r\nb. January 28, 2021 Board Work Meeting Minutes\r\nc. Financial Statements Ending January 31, 2021\r\n6. Action Items\r\na. Policy 0416 (Revision): Continuing Enrollment\r\nb. EARS Application\r\n7. Board Business\r\na. May Board Meeting Date Change\r\n8. Closed Session, If Necessary\r\n9. Action, If Any, From Closed Session\r\n10. Trust Land Council\r\na. 2019-2020 School Improvement Plan Final Report\r\n11. Adjourn",
                     "postedDate": "February 10, 2021 12:00 PM",
@@ -23404,8 +23401,8 @@
             "bodyName": "Board of Trustees",
             "scheduled": 9,
             "shouldHaveRecordings": 8,
-            "haveAttachments": 6,
-            "haveRecordings": 6,
+            "haveAttachments": 8,
+            "haveRecordings": 8,
             "haveMinutes": 5,
             "advanceNotice": 9
         }
@@ -23657,6 +23654,19 @@
         "pmn": {
             "meetings": [
                 {
+                    "name": "Mana Academy Board Meeting",
+                    "href": "/pmn/sitemap/notice/657209.html",
+                    "date": "2021/02/10 06:30 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "rwolfgramm@themanaacademy.org",
+                    "updatedDate": "February 09, 2021 09:45 PM",
+                    "contactName": "Richard Wolfgramm",
+                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVirtual meeting. Contact ehernandez@themanaacademy.org for access. \r\nWednesday, February 10,, 2021\r\n6:30 p.m. - 8:30 p.m. \r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\nCall to order and approval of previous board meeting minutes. \r\nPublic Comment\r\nBoard Items and Reports\r\nAnnouncements\r\nDirector's Report - Anapesi Ka'ili - \r\nSpecial Education Report - Betsy Naeata\r\nFinance report\r\n\r\nAction Items\r\nBoard vote on approving actions relative to policy changes or updates\r\nBoard vote on finance report or to approve budgets as needed\r\n\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\n\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nTraining\r\nDiscussion - \r\nAdjourn Meeting\r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
+                    "postedDate": "February 09, 2021 09:45 PM",
+                    "hoursAdvanceNotice": 20.75
+                },
+                {
                     "name": "2.10.21 Mana Academy Board Meeting audio",
                     "href": "/pmn/sitemap/notice/657489.html",
                     "date": "2021/02/10 06:30 PM",
@@ -23672,29 +23682,16 @@
                 },
                 {
                     "name": "Mana Academy Board Meeting",
-                    "href": "/pmn/sitemap/notice/657209.html",
-                    "date": "2021/02/10 06:30 PM",
-                    "status": "Scheduled",
-                    "attachments": "No associated attachments",
-                    "contactInfo": "rwolfgramm@themanaacademy.org",
-                    "updatedDate": "February 09, 2021 09:45 PM",
-                    "contactName": "Richard Wolfgramm",
-                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVirtual meeting. Contact ehernandez@themanaacademy.org for access. \r\nWednesday, February 10,, 2021\r\n6:30 p.m. - 8:30 p.m. \r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\nCall to order and approval of previous board meeting minutes. \r\nPublic Comment\r\nBoard Items and Reports\r\nAnnouncements\r\nDirector's Report - Anapesi Ka'ili - \r\nSpecial Education Report - Betsy Naeata\r\nFinance report\r\n\r\nAction Items\r\nBoard vote on approving actions relative to policy changes or updates\r\nBoard vote on finance report or to approve budgets as needed\r\n\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\n\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nTraining\r\nDiscussion - \r\nAdjourn Meeting\r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
-                    "postedDate": "February 09, 2021 09:45 PM",
-                    "hoursAdvanceNotice": 20.75
-                },
-                {
-                    "name": "1.13.21Mana Academy Board Meeting Minutes",
-                    "href": "/pmn/sitemap/notice/657487.html",
+                    "href": "/pmn/sitemap/notice/650993.html",
                     "date": "2021/01/13 06:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
                     "contactInfo": "rwolfgramm@themanaacademy.org",
-                    "updatedDate": "February 10, 2021 07:16 PM",
+                    "updatedDate": "January 12, 2021 06:33 PM",
                     "contactName": "Richard Wolfgramm",
-                    "agenda": "January Mana Board meeting minutes can be found here: https://drive.google.com/file/d/1blH34BGCxYkeluL1y5dPx8D1_8v9p3ga/view?usp=sharing",
-                    "postedDate": "February 10, 2021 07:16 PM",
-                    "hoursAdvanceNotice": -672.7666666666667
+                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVirtual meeting. Contact ehernandez@themanaacademy.org for access. \r\nWednesday, January 13,, 2021\r\n6:30 p.m. - 8:30 p.m. \r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\nCall to order and approval of previous board meeting minutes. \r\nPublic Comment\r\nBoard Items and Reports\r\nAnnouncements\r\nDirector's Report - Anapesi Ka'ili - \r\nSpecial Education Report - Betsy Naeata\r\nFinance report\r\n\r\nAction Items\r\nBoard vote on approving actions relative to policy changes or updates\r\nBoard vote on finance report or to approve budgets as needed\r\n\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\n\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nTraining\r\nDiscussion - \r\nAdjourn Meeting\r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
+                    "postedDate": "January 12, 2021 06:33 PM",
+                    "hoursAdvanceNotice": 23.95
                 },
                 {
                     "name": "1.13.21 Mana Board Meeting Audio",
@@ -23711,17 +23708,17 @@
                     "hoursAdvanceNotice": -651.4
                 },
                 {
-                    "name": "Mana Academy Board Meeting",
-                    "href": "/pmn/sitemap/notice/650993.html",
+                    "name": "1.13.21Mana Academy Board Meeting Minutes",
+                    "href": "/pmn/sitemap/notice/657487.html",
                     "date": "2021/01/13 06:30 PM",
                     "status": "Scheduled",
                     "attachments": "No associated attachments",
                     "contactInfo": "rwolfgramm@themanaacademy.org",
-                    "updatedDate": "January 12, 2021 06:33 PM",
+                    "updatedDate": "February 10, 2021 07:16 PM",
                     "contactName": "Richard Wolfgramm",
-                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVirtual meeting. Contact ehernandez@themanaacademy.org for access. \r\nWednesday, January 13,, 2021\r\n6:30 p.m. - 8:30 p.m. \r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\nCall to order and approval of previous board meeting minutes. \r\nPublic Comment\r\nBoard Items and Reports\r\nAnnouncements\r\nDirector's Report - Anapesi Ka'ili - \r\nSpecial Education Report - Betsy Naeata\r\nFinance report\r\n\r\nAction Items\r\nBoard vote on approving actions relative to policy changes or updates\r\nBoard vote on finance report or to approve budgets as needed\r\n\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\n\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nTraining\r\nDiscussion - \r\nAdjourn Meeting\r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
-                    "postedDate": "January 12, 2021 06:33 PM",
-                    "hoursAdvanceNotice": 23.95
+                    "agenda": "January Mana Board meeting minutes can be found here: https://drive.google.com/file/d/1blH34BGCxYkeluL1y5dPx8D1_8v9p3ga/view?usp=sharing",
+                    "postedDate": "February 10, 2021 07:16 PM",
+                    "hoursAdvanceNotice": -672.7666666666667
                 },
                 {
                     "name": "Mana Academy Board Meeting",
@@ -23778,18 +23775,17 @@
                     "hoursAdvanceNotice": 44.38333333333333
                 },
                 {
-                    "name": "10.14.20 Mana Board Meeting minutes and audio",
-                    "href": "/pmn/sitemap/notice/641265.html",
+                    "name": "Mana Academy Board Meeting",
+                    "href": "/pmn/sitemap/notice/634521.html",
                     "date": "2020/10/14 07:30 PM",
                     "status": "Scheduled",
-                    "attachments": "No associated attachments Audio Recording Added: https://drive.google.com/drive/folders/1204sk-11wecozb1IiJMEfA91GnoiB5pu?usp=sharing",
-                    "audioFile": "https://drive.google.com/drive/folders/1204sk-11wecozb1IiJMEfA91GnoiB5pu?usp=sharing",
+                    "attachments": "No associated attachments",
                     "contactInfo": "rwolfgramm@themanaacademy.org",
-                    "updatedDate": "November 16, 2020 10:39 PM",
+                    "updatedDate": "October 13, 2020 08:09 PM",
                     "contactName": "Richard Wolfgramm",
-                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVIRTUAL MEETING\r\nWednesday, October 14, 2020\r\n6:30 p.m. - 8:30 p.m.\r\n\r\nMINUTES\r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\n\tAttendance: Anapesi Kaili, Estela Hernandez, Feleti Matagi, Clint Biesinger, Nate Adams, Kehaulani Vaughn, Emilio Manuel Camu, Betsy Naeata \r\nCall to order and approval of previous board meeting minutes.\r\nEmilio moves to approve the September meeting  minutes, Kehaulani seconds. All board members agree and the September minutes are approved.\r\nPublic Comment\r\nBoard Items and Reports\r\nAnnouncements- N/A\r\nDirector's Report - Anapesi Ka'ili - \r\n\r\nData on how remote learning has been working this first part of the school year\r\nCommunication with parents has been great\r\nKEEP assessment for kindergarten completed\r\nK-3 Reading tests completed remotely (ACADIENCE), working on the 4-6 tests\r\n1st term ends on October 23rd\r\nFall break tomorrow and friday\r\nStill monitoring COVID and the population served by Mana\r\nParent surveys to get feedback on the way the first term is going remotely\r\nGrant submission-Literacy plan due tomorrow, final will be presented\r\nOctober 1 membership audit completed. Enrollment at 315\r\nTitle 1 monitoring audit coming up in Nov.\t\r\nSpecial Education Report - Betsy Naeata\r\nadded 2 people to the team to work on math and science for the HS students. \r\nthe term has been very challenging\r\nnext week evaluations begin\r\nweekly team meetings to figure out how to work together and effectively\r\nconsistent support from parents\r\nwill continue to adjust to meet the needs of all the scholars\r\nFinance report- Nate Adams\r\n\r\nAction Items\r\nFinal approval of updated USBE approved Early Literacy plan- board previously reviewed and approved the preliminary plan\r\nUpdates to the FY21 Early Literacy Plan  \r\nnumber of minutes required in certain categories were updated according to research 30-40 min on phonics, vocabulary and writing\r\nTier 2 and 3: added information about which students would enter into tier 2 instruction and how they would exit that tier\r\nTier 2 is for students who are performing below benchmark\r\nTier 3 is for students who are performing well below benchmark \r\nExit into the higher tier through testing and see where the students are\r\nEstela motions to approve the final Literacy Plan as presented by Anapesi. Emilio seconds the motions. All board members are in favor and the final plan is approved. \r\nResolution authorizing the refinancing of the School's facility and the financing of improvement to the School's facility\r\nToday's resolution authorizes the bond financing, continuing disclosure procedures\r\nApplication process has been submitted\r\nTomorrow presenting to the members of the authority (SCC?)\r\nThe Board of Directors is responsible for:\r\nContinuing disclosure obligation agreement, due 200 days after fiscal year \r\nannual information: audited financials, enrollment, and similar information for as long as the bonds are outstanding, starting in Jan. \r\nEstela moves to approve the resolution to authorize the refinance of the School facility and the financing of improvements to the school's facility. Emilio seconds the motion. All board members approve and the motion is approved.\r\nBoard vote on approving actions relative to policy changes or updates\r\nBoard vote on finance report or to approve budgets as needed\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\n\tEmilio motions to move into closed session. Kehaulani seconds the motion. \r\n\tKehualani, yes; Emilio yes; Estela yes Feleti, yes. \r\n\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nAttendance: Kehaulani Vaughn, Estela Hernandez, Nate Adams, Emilio Camu, Feleti Matagi\r\n\tKehaulani motions to approve the salary adjustment as discussed in closed session. Estela seconds the motion. All board members are in favor. Motion is approved. \r\n\r\nTraining-- n/a\r\nDiscussion - n/a\r\nAdjourn Meeting\r\n\tEstela motions to adjourn the meeting. Emilio seconds the motion. All board \r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
-                    "postedDate": "November 16, 2020 10:39 PM",
-                    "hoursAdvanceNotice": -795.15
+                    "agenda": "Mana Academy Charter School Board Conference Agenda\r\nVirtual\r\nWednesday, October 14, 2020\r\n6:30 p.m. - 8:30 p.m. \r\n\r\nOur Mission: To develop scholars who are rooted in their native cultures and are prepared to be the leaders of tomorrow\r\n\r\nWelcome\r\n-\tCall to order and approval of previous board meeting minutes.\r\nPublic Comment\r\nBoard Items and Reports\r\n-\tAnnouncements\r\n-\tDirector's Report - Anapesi Ka'ili - \r\n-\tSpecial Education Report - Betsy Naeata\r\n-\tFinance report\r\n-\tDiscuss policies regarding sick leave and covid\r\nAction Items\r\n-\tFinal approval of Early Literacy plan\r\n-\tResolution authorizing the refinancing of the School's facility and the financing of improvement to the School's facility\r\n-\tBoard vote on approving actions relative to policy changes or updates\r\n-\tBoard vote on finance report or to approve budgets as needed\r\nClosed/ Executive Session: The board will consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/ or to discuss the purchase, exchange, or lease of real property, and/ or the character, professional competence, or physical or mental health of an individual in conformance with \u00a752-4-204 and 52-4-205 et. seq., Utah Code Ann.\r\nAction items from Closed/ Executive Session: Vote on items discussed in closed session.\r\nTraining\r\nDiscussion - \r\nAdjourn Meeting\r\n\r\n** USOE holds board members accountable by (1) documenting trainings attended; (2) examining financial and development records; (3) scrutinizing academic outcomes and student success; (4) and ensuring school improvement on its overall grade.",
+                    "postedDate": "October 13, 2020 08:09 PM",
+                    "hoursAdvanceNotice": 23.35
                 }
             ],
             "pmnId": "4227",
@@ -23797,8 +23793,8 @@
             "bodyName": "Board of Directors",
             "scheduled": 10,
             "shouldHaveRecordings": 10,
-            "haveAttachments": 5,
-            "haveRecordings": 5,
+            "haveAttachments": 4,
+            "haveRecordings": 4,
             "haveMinutes": 0,
             "advanceNotice": 2
         }
@@ -26574,13 +26570,17 @@
                     "href": "/pmn/sitemap/notice/636613.html",
                     "date": "2020/10/26 07:00 PM",
                     "status": "Scheduled",
-                    "attachments": "10.26.2020 Board Meeting Agenda - MWMA.pdf Public Information Handout Added: 2020/10/23 05:15 PM  10.26.2020 Closed Meeting Agenda - MWMA.pdf Public Information Handout Added: 2020/10/23 05:15 PM",
+                    "attachments": "10.26.2020 Board Audio Recording 1 [Library] 1805 -  MWMA.MP3 Audio Recording Added: 2021/02/24 12:35 AM  10.26.2020 Board Audio Recording 2 [Library] 2000 - MWMA.MP3 Audio Recording Added: 2021/02/24 12:36 AM  10.26.2020 Board Meeting Minutes (BOARD APPROVED 2-22-21) - MWMA.pdf Meeting Minutes Added: 2021/02/24 12:36 AM  10.26.2020 Closed Meeting eSIGNED Afffidavit - MWMA.pdf Meeting Minutes Added: 2021/02/24 12:36 AM  10.26.2020 Board Meeting Agenda - MWMA.pdf Public Information Handout Added: 2020/10/23 05:15 PM  10.26.2020 Closed Meeting Agenda - MWMA.pdf Public Information Handout Added: 2020/10/23 05:15 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690019.MP3",
+                        "/pmn/files/690021.MP3",
+                        "/pmn/files/690023.pdf",
+                        "/pmn/files/690025.pdf",
                         "/pmn/files/651457.pdf",
                         "/pmn/files/651459.pdf"
                     ],
                     "contactInfo": "dawn@academicawest.com",
-                    "updatedDate": "October 23, 2020 05:16 PM",
+                    "updatedDate": "February 24, 2021 12:39 AM",
                     "contactName": "Dawn Kawaguchi",
                     "agenda": "Mountain West Montessori Academy\r\nBoard Meeting Agenda\r\nMonday, October 26, 2020\r\nLocation:  MWMA Library, 4125 W. Foxview Drive, South Jordan, UT 84009\r\n\r\nNOTE:  It is possible that the MWMA Board of Directors may be utilizing an electronic meeting component with one or more of their members.\r\n\r\nAGENDA\t\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n2020-2021 BOARD PRIORITIES\r\nHigh Standard Cleanliness\r\nImprove Mental Health & Safety of Student & Staff\r\nImprove Literacy Instruction & Outcomes\r\n\r\n6:00 PM - INTRODUCTORY ITEMS\r\n\tCall to Order - Steve Barnes (2 minutes)  \r\n\tSchool Mission (1 minute)  \r\n\tMontessori Mastery (2 minutes)  \r\n\r\n6:05 PM - PUBLIC COMMENT (Limit 3 Minutes)\r\n\r\n6:05 PM - REPORTS\r\n\tDirector\r\n-\tState of the School - Angie Johnson (30 minutes)  \r\n\tBoard of Directors\r\n-\tFinancial Review - Andrew Marx (5 minutes)  \r\n\r\n6:40 PM - BOARD TRAINING\r\n\tAnnual Open & Public Meeting Act Training - Brandon Fairbanks (5 minutes)  \r\n\r\n6:45 PM - CONSENT ITEMS\r\n\tOctober 5, 2020 Electronic Board Meeting Minutes\r\n\r\n6:46 PM - BUSINESS ITEMS (To Be Discuss and/or Voted On)\r\n\tDiscuss & Vote on Snow Removal Rate Sheet - Angie Johnson (2 minutes)  \r\n\tDiscuss & Vote on SLT Council Membership & Election Procedure - Brandon Fairbanks (2 minutes)  \r\n\tDiscuss & Vote Sex Ed Instruction Curriculum & Maturation Education Program - Angie Johnson (2 minutes)  \r\n\tDiscuss & Vote on Time & Effort Documentation Policy - Cathie Hurst (2 minutes)  \r\n\tDiscuss & Vote on Amended Attendance Policy - Brandon Fairbanks (2 minutes)  \r\n\tDiscuss & Vote on Amended Bullying & Hazing Policy - Brandon Fairbanks (2 minutes)  \r\n\tDiscuss & Vote on Amended Home School Student Participation in Schoolwide Assessment Policy - Angie Johnson (2 minutes)  \r\n\r\n7:00 PM - OTHER BUSINESS ITEMS\r\n\tCalendaring - ALL (5 minutes)  \r\n-\tNext Pre-Board Meeting - November 18th @ 5:00 p.m. \r\n-\tNext Board Meeting - November 30th  \r\n\tREMINDER: Online Introductory Training for School Board Members \r\n\r\n7:05 PM - CLOSED SESSION to discuss an individual's character, professional competence, or physical or mental health pursuant to Utah Code 52-4-205(1) (a) (10 minutes)  \r\n\r\n7:15 PM - ADJOURN",
                     "postedDate": "October 23, 2020 05:16 PM",
@@ -26611,8 +26611,8 @@
             "scheduled": 3,
             "shouldHaveRecordings": 2,
             "haveAttachments": 3,
-            "haveRecordings": 1,
-            "haveMinutes": 1,
+            "haveRecordings": 2,
+            "haveMinutes": 2,
             "advanceNotice": 3
         }
     },
@@ -28718,7 +28718,7 @@
                     ],
                     "contactInfo": "trish@academicawest.com",
                     "updatedDate": "February 08, 2021 11:12 AM",
-                    "contactName": "Trish Trammell",
+                    "contactName": "Trish Lester",
                     "endDate": "February 4, 2021 08:00 PM",
                     "agenda": "4:30 PM \tCall to Order by Sidney Warnick\r\n\tPresentation by UAPCS: https://www.utahcharters.org/circle-of-excellence-nominations \r\n\tPublic Comment (Comments will be limited to 3 minutes each.) \r\n-\t2021-2022 Student Fee Schedule and Fee Waiver Policy\r\nBoard Training - Jordan Shields: Cash Handling Policy, Donations and Fundraising Policy \r\n4:45 PM \tReports\r\n-\tDirector Report - Tana Archer\r\no\tEnrollment\r\no\tCOVID Update\r\no\tNew CARES Act Funding\r\no\tCitizenship and Discipline\r\no\tCommittee Updates\r\no\tPersonnel \r\no\tSchool LAND Trust\r\no\tSEM\r\no\t5th Grade Maturation Presenter Change\r\no\tBeginning of Year, Middle of Year Assessment Data\r\n-\tFinancial Review and Building Projects\r\n5:45 PM \tConsent Items\r\n-\tApprove December 3, 2020 Board Meeting Minutes \r\n-\tApprove 2020-2021 Calendar Early Out Days\r\n5:50 PM \tBusiness Items\r\n-\tDiscuss and/or Vote to Approve 2021-2022 Student Fee Schedule\r\n-\tDiscuss and/or Vote to Re-Approve Fee Waiver Policy\r\n-\tDiscuss and/or Vote to Rescind the Employment of Substitute Teachers Policy\r\n-\tDiscuss and/or Vote to Approve Audit Committee as Director and Board Financial Coordinator \r\n-\tDiscuss and/or Vote to Approve Pristine Yards 2021 Landscape Contract\r\n-\tDiscuss and/or Vote to Approve Helpside Contract\r\n6:10 PM \tDiscussion Items\r\n-\tBuilding Evaluation by Academica West\r\n-\tOpen House Review: 1.21.2021\r\n-\tParent Teacher Conferences \r\n-\tSchoolwide Improvement Goal\r\n-\tCalendaring\r\no\t2020-2021 Board Meeting Dates: 3.25.2021, 5.6.2021, 6.24.2021- Annual Stakeholder Meeting: TBD\r\no\tUtah Association of Public Charter Schools: TBD\r\no\tNational Charter School Conference: Virtual 6.20.2021-6.23.2021\r\n6:45 PM\tClosed Session to discuss an individual's character, professional competence, or physical or mental health. \r\n7:45 PM \tAdjourn Meeting",
                     "postedDate": "February 02, 2021 12:32 PM",
@@ -28739,7 +28739,7 @@
                     ],
                     "contactInfo": "trish@academicawest.com",
                     "updatedDate": "February 08, 2021 09:18 AM",
-                    "contactName": "Trish Trammell",
+                    "contactName": "Trish Lester",
                     "endDate": "December 3, 2020 06:30 PM",
                     "agenda": "4:30 PM \tCall to Order by Sidney Warnick\r\n\tPublic Comment (Comments will be limited to 3 minutes each.) \r\n-\t2021-2022 Student Fee Schedule and Fee Waiver Policy\r\nAudit Report by Eide Bailly\r\nBoard Training - Jordan Shields: Financial Reporting, Debt and Risk Management Plan; Procurement Policy; Purchasing and Disbursement Policy \r\n5:00 PM \tReports\r\n-\tDirector Report - Tana Archer\r\no\tEnrollment and Lottery\r\no\tCOVID-19 Update\r\no\tCommittee Update\r\no\tAssessment Data\r\n-\tFinancial Review\r\n5:30 PM \tConsent Items\r\n-\tApprove November 5, 2020 Board Meeting Minutes \r\n5:35 PM \tBusiness Items\r\n-\tDiscuss and/or Vote to Approve 2021-2022 School Calendar\r\n-\tDiscuss and/or Vote to Approve Holiday Gift Purchases\r\n-\tDiscuss and/or Vote to Approval of the Explanation/Justification of Procurement Process Related to Purchase of the Ekahau Bundle \r\n6:00 PM \tDiscussion Items\r\n-\tOpen House: 1.21.2021\r\n-\tCalendaring\r\no\t2020-2021 Board Meeting Dates: 2.4.2021, 3.25.2021, 5.6.2021, 6.24.2021- Annual Stakeholder Meeting: TBD\r\n6:15 PM \tAdjourn Meeting",
                     "postedDate": "December 02, 2020 12:14 PM",
@@ -28758,7 +28758,7 @@
                     ],
                     "contactInfo": "trish@academicawest.com",
                     "updatedDate": "December 04, 2020 08:12 AM",
-                    "contactName": "Trish Trammell",
+                    "contactName": "Trish Lester",
                     "endDate": "November 5, 2020 01:30 PM",
                     "agenda": "1:00 PM \tCall to Order by Sidney Warnick\r\n\tThere will be no public comment. \r\n\tConsent Items\r\n-\tApprove October 1, 2020 Board Meeting Minutes \r\n-\tRatify Chromebook Purchase in the Amount of $17,400\r\n\tBusiness Items\r\n-\tDiscuss and/or Vote to Approve Enhancement for At-Risk Student 'At-Risk of Academic Failure' Definition as: 'At North Star Academy, at-risk of academic failure means any student who scores below proficient on a State or LEA approved assessment, currently Acadience Reading, RISE, or iReady Benchmarks.' \r\n-\tDiscuss and/or Vote to Approve Health Insurance Provider Change\r\n\tDiscussion Items\r\n-\tLiterature and Film Disclosure Statement\r\n-\tCalendaring\r\no\t2020-2021 Board Meeting Dates: 12.3.2020, 2.4.2021, 3.25.2021, 5.6.2021, 6.24.2021- Annual Stakeholder Meeting: TBD\r\n1:20 PM \tAdjourn Meeting",
                     "postedDate": "November 03, 2020 01:04 PM",
@@ -28769,14 +28769,15 @@
                     "href": "/pmn/sitemap/notice/631401.html",
                     "date": "2020/10/01 05:30 PM",
                     "status": "Scheduled",
-                    "attachments": "NSA 10.1.2020 Board Meeting Audio.mp3 Audio Recording Added: 2020/10/15 10:33 AM  10.1.2020 Bd Meeting Agenda - NSA FINAL.pdf Public Information Handout Added: 2020/09/29 11:48 AM",
+                    "attachments": "NSA 10.1.2020 Board Meeting Audio.mp3 Audio Recording Added: 2020/10/15 10:33 AM  10.1.2020 Bd Meeting MINUTES - NSA.pdf Meeting Minutes Added: 2021/02/24 04:44 PM  10.1.2020 Bd Meeting Agenda - NSA FINAL.pdf Public Information Handout Added: 2020/09/29 11:48 AM",
                     "attachmentLinks": [
                         "/pmn/files/648481.mp3",
+                        "/pmn/files/690391.pdf",
                         "/pmn/files/642713.pdf"
                     ],
                     "contactInfo": "trish@academicawest.com",
-                    "updatedDate": "October 15, 2020 10:34 AM",
-                    "contactName": "Trish Trammell",
+                    "updatedDate": "February 24, 2021 04:44 PM",
+                    "contactName": "Trish Lester",
                     "endDate": "October 1, 2020 07:30 PM",
                     "agenda": "4:30 PM \tCall to Order by Sidney Warnick\r\nPublic Comment (Comments will be limited to 3 minutes each.) \r\n4:35 PM \tBoard Training - Jordan Shields will review the following policies: Parent and Family Engagement Policy; Parent Compact; Attendance Policy; Bullying and Hazing Policy; Home School Student Participation in Statewide Assessments Policy. \r\n4:50 PM \tReports\r\n-\tDirector Report - Tana Archer\r\no\tAssessment Data\r\no\tParent Teacher Conferences\r\no\tBehavior Data (R277-613)\r\no\tUtah Grants\r\no\tProfessional Development\r\no\tOctober 1 Student Head Count\r\no\tDistance Learning Update\r\no\tLunch Grant\r\no\tStudent Decline and Withdraw Survey Feedback\r\no\tCOVID Update\r\no\tSummer Academy\r\n-\tFinancial Review\r\n5:30 PM \tConsent Items\r\n-\tApprove August 6, 2020 Board Meeting Minutes \r\n-\tRatify H&M Heating Invoice in the Amount of $12,600\r\n5:35 PM \tBusiness Items\r\n-\tDiscuss and/or Vote to Approve Amended Attendance Policy\r\n-\tDiscuss and/or Vote to Approve Amended Bullying and Hazing Policy\r\n-\tDiscuss and/or Vote to Approve Amended Home School Student Participation in UPASS Policy, now called Home School Student Participation in Statewide Assessments Policy\r\n-\tDiscuss and/or Vote to Approve Parent Compact\r\n-\tDiscuss and/or Vote to Approve 2020-2021 Snow Removal Contract\r\n-\tDiscuss and/or Vote to Approve LEA-Specific Licenses\r\n-\tDiscuss and/or Vote to Approve 2020-2021 Early Literacy Plan\r\n6:00 PM \tDiscussion Items\r\n-\tReview Statistics of Teen Pregnancy, HIV/STDs, Sexual Abuse\r\n-\tBoard Member Roles and Assignments\r\n-\tParent-Teacher Conference Review / Schoolwide Improvement Goal\r\n-\tBack to School Welcome Review\r\n \r\n-\tCalendaring\r\no\tOpen House Date\r\no\t2020-2021 Board Meeting Dates: 10.1.2020, 12.3.2020, 2.4.2021, 3.25.2021, 5.6.2021, 6.24.2021- Annual Stakeholder Meeting: TBD\r\n6:30 PM \tAdjourn Meeting",
                     "postedDate": "September 29, 2020 11:48 AM",
@@ -28790,7 +28791,7 @@
             "shouldHaveRecordings": 4,
             "haveAttachments": 4,
             "haveRecordings": 4,
-            "haveMinutes": 1,
+            "haveMinutes": 2,
             "advanceNotice": 4
         }
     },
@@ -31129,37 +31130,17 @@
                     "agenda": "1. Welcome- Mary Schulz- Board President\r\n2. Approval of Minutes\r\n3. Financials\r\n4. Principal's report\r\n5. Policy reviews- Trustlands, Title 1 plan etc.\r\n6. Review of awarded grants\r\n7. Updates to Covid-19 plan",
                     "postedDate": "November 03, 2020 04:37 PM",
                     "hoursAdvanceNotice": 24.883333333333333
-                },
-                {
-                    "name": "Board Meeting",
-                    "href": "/pmn/sitemap/notice/624981.html",
-                    "date": "2020/08/26 06:30 PM",
-                    "status": "Scheduled",
-                    "attachments": "20200826-172912.mp3 Audio Recording Added: 2020/10/13 11:26 AM  PCA BOARD MINUTES 8.26.20.pdf Meeting Minutes Added: 2020/10/13 11:25 AM  Financial Report This Year.pdf Other Added: 2020/10/13 11:24 AM  Financial Report Last Fiscal Year.pdf Other Added: 2020/10/13 11:24 AM",
-                    "attachmentLinks": [
-                        "/pmn/files/647611.mp3",
-                        "/pmn/files/647609.pdf",
-                        "/pmn/files/647605.pdf",
-                        "/pmn/files/647607.pdf"
-                    ],
-                    "contactInfo": "rhardy@starband.net",
-                    "updatedDate": "October 13, 2020 11:26 AM",
-                    "contactName": "Roberta Hardy",
-                    "endDate": "August 26, 2020 07:30 PM",
-                    "agenda": "1. Welcome- Mary Schulz\r\n2. Financials- Ashley Downard\r\nUpdated budget numbers\r\n3. Principals Report-\r\nMelissa Jeppson\r\nRoberta Hardy\r\nAction Items:\r\nPolicy Change:\r\nFree and Reduced lunch addition\r\nGrading Scale correction in Pinnacle Code",
-                    "postedDate": "August 24, 2020 05:05 PM",
-                    "hoursAdvanceNotice": 49.416666666666664
                 }
             ],
             "pmnId": "5215",
             "name": "Pinnacle Canyon Academy",
             "bodyName": "Board of Directors",
-            "scheduled": 3,
-            "shouldHaveRecordings": 3,
-            "haveAttachments": 3,
-            "haveRecordings": 3,
-            "haveMinutes": 3,
-            "advanceNotice": 3
+            "scheduled": 2,
+            "shouldHaveRecordings": 2,
+            "haveAttachments": 2,
+            "haveRecordings": 2,
+            "haveMinutes": 2,
+            "advanceNotice": 2
         }
     },
     {
@@ -34472,6 +34453,19 @@
             "meetings": [
                 {
                     "name": "Roots Board Meeting",
+                    "href": "/pmn/sitemap/notice/660375.html",
+                    "date": "2021/02/25 03:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "tyler@rootshigh.org",
+                    "updatedDate": "February 24, 2021 12:17 PM",
+                    "contactName": "Tyler Bastian",
+                    "agenda": "February 25, 2021, 3:00 pm\r\n____________________________________________________________________________________\r\n\r\nItem:\t   \t\t\t\t\t\t\t\t\t\tAction:\r\n\r\nCall To Order/Roll Call/Welcome\r\n\r\nPublic Comments (10 minutes)\r\nReview Minutes of Prev Board Meeting\t\t\t\tDiscussion/Approval\r\n\r\nBoard Training/Assessment/Follow-up\t\t\t\r\n- Board Training-Conflict of Interest\t\t\t\t\tDiscussion\r\n\r\nSchool Business\r\n\r\n- Financial Review\t\t\t\t\t\tDiscussion/Approval\r\n- 2021-22 Calendar\t\t\t\t\t\tDiscussion/Approval\r\n- Fee Schedule Approval\t\t\t\t\tDiscussion/Approval\r\n-Land Trust video\t\t\t\t\t      Discussion/Acknowledge\t\t\r\n\r\n\r\nSchool Culture/Mission/Students Outcomes\t\t\r\n- School Enrollment Update\t\t\t\t\t\tDiscussion\t\r\n- Teacher/Staff Update\t\t\t\t\t\t\tDiscussion\r\n- Farm Update\t\t\t\t\t\t\t\tDiscussion\r\n- Announcements\t\t\t\t\t\t\tDiscussion\r\n\r\n\r\n\r\nClosed Session (if needed) \r\n\r\n- Discuss the character, competence, or physical \r\n   or mental health of an individual.\r\n\t\t\t\r\nScheduling of the next Board Meeting\r\n\t\r\nAdjournment",
+                    "postedDate": "February 24, 2021 12:17 PM",
+                    "hoursAdvanceNotice": 26.716666666666665
+                },
+                {
+                    "name": "Roots Board Meeting",
                     "href": "/pmn/sitemap/notice/654247.html",
                     "date": "2021/02/02 03:00 PM",
                     "status": "Scheduled",
@@ -34568,12 +34562,12 @@
             "pmnId": "4939",
             "name": "Roots Charter High School",
             "bodyName": "Board of Directors",
-            "scheduled": 7,
+            "scheduled": 8,
             "shouldHaveRecordings": 7,
             "haveAttachments": 1,
             "haveRecordings": 0,
             "haveMinutes": 1,
-            "advanceNotice": 3
+            "advanceNotice": 4
         }
     },
     {
@@ -35420,7 +35414,7 @@
             "name": "Salt Lake City School District",
             "bodyName": "Salt Lake City Board of Education",
             "scheduled": 10,
-            "shouldHaveRecordings": 8,
+            "shouldHaveRecordings": 9,
             "haveAttachments": 10,
             "haveRecordings": 4,
             "haveMinutes": 1,
@@ -36077,11 +36071,11 @@
                     "href": "/pmn/sitemap/notice/641005.html",
                     "date": "2020/11/17 05:00 PM",
                     "status": "Scheduled",
-                    "attachments": "2020.11.17 Scholar Board of Directors Meeting audio 5PM via phone.MP3 Audio Recording Added: 2020/11/20 04:53 PM  SCH Board Meeting DRAFT MINUTES WATERMARKED 11.17.2020.pdf Meeting Minutes Added: 2020/11/20 04:56 PM  SCH Board Meeting APPROVED MINUTES11.17.2020.pdf Meeting Minutes Added: 2021/01/22 12:05 PM  SCH Board Meeting AGENDA 11.17.2020.pdf Other Added: 2020/11/16 10:30 AM",
+                    "attachments": "2020.11.17 Scholar Board of Directors Meeting audio 5PM via phone.MP3 Audio Recording Added: 2020/11/20 04:53 PM  SCH Board Meeting DRAFT MINUTES WATERMARKED 11.17.2020.pdf Meeting Minutes Added: 2020/11/20 04:56 PM  SCH Board Meeting APPROVED MINUTES 11.17.2020.pdf Meeting Minutes Added: 2021/02/24 04:53 PM  SCH Board Meeting AGENDA 11.17.2020.pdf Other Added: 2020/11/16 10:30 AM",
                     "attachmentLinks": [
                         "/pmn/files/660922.MP3",
                         "/pmn/files/660928.pdf",
-                        "/pmn/files/678613.pdf",
+                        "/pmn/files/690397.pdf",
                         "/pmn/files/658719.pdf"
                     ],
                     "contactInfo": "krystal@academicawest.com",
@@ -41530,13 +41524,15 @@
                     "href": "/pmn/sitemap/notice/659545.html",
                     "date": "2021/02/24 06:00 PM",
                     "status": "Scheduled",
-                    "attachments": "AGENDA 3 Budget Revision.pdf Public Information Handout Added: 2021/02/19 02:10 PM  AGENDA_02242021.pdf Other Added: 2021/02/19 02:10 PM",
+                    "attachments": "02242021 Board Meeting.mp3 Audio Recording Added: 2021/02/24 06:11 PM  MINUTES_02242021_DRAFT.pdf Meeting Minutes Added: 2021/02/25 01:36 PM  AGENDA 3 Budget Revision.pdf Public Information Handout Added: 2021/02/19 02:10 PM  AGENDA_02242021.pdf Other Added: 2021/02/19 02:10 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690441.mp3",
+                        "/pmn/files/690699.pdf",
                         "/pmn/files/688865.pdf",
                         "/pmn/files/688863.pdf"
                     ],
                     "contactInfo": "rwallis@theterraacademy.org",
-                    "updatedDate": "February 19, 2021 02:11 PM",
+                    "updatedDate": "February 25, 2021 01:36 PM",
                     "contactName": "Relin Wallis",
                     "endDate": "February 24, 2021 06:30 PM",
                     "agenda": "Terra Academy Governing Board Meeting Agenda\r\n267 Aggie Blvd., Vernal, UT 84078\r\nWednesday, February 24, 2021\r\n\t6pm e-meeting only\r\n\r\nSuspending the enforcement of Provisions of Utah Code 52-4-202 and 52-4-207, and Related State Agency, Orders, Rules and\r\nRegulations, Due to Infectious Disease COVID-19 Novel Coronavirus, and by Executive Order of Governor Herbert this\r\nmeeting will be held in electronic format only.\r\n\r\nPublic can attend electronically by using this link: meet.google.com/mnb-jnhd-epr\r\n(If you experience a problem attending the meeting by link, please attend by phone using number below)\r\nOr Public can attend by phone: US 1 631-765-7200 Pin: 408 741 313#  \r\n\r\nMinutes and audio recordings of meetings are always posted after the meeting and can be found on the Utah Public Notice\r\nWebsite.\r\n\r\nAll Terra Academy Board Policy and ByLaws can be found here: \r\nTERRA ACADEMY POLICY\r\n\r\nTerra Academy Board members adhere to the following:\r\n-\tKnow the charter and act to strategically uphold the vision and mission in our work.\r\n-\tBe informed, prepared and proactive through due diligence.\r\n-\tRepresent the Terra Academy as a unified board.\r\nMission Statement: We treat every student as a whole 'unique' person, giving them individualized\r\ninstruction in a community model with project-based learning to nourish their\r\ntalents, skills and desires.\r\n\r\nVision Statement: Terra Academy helps students become independent lifelong learners who are respectful of\r\nother cultures, are productive, and stewards of our environment.\r\n\r\nSchool Rules: Be Respectful, Be Responsible, Be Kind\r\nSchool Motto: Learn, Grow, Be\r\n1.\tOPENING ITEMS/WELCOME\t\t\t\t\t\t\tJim LaMuth, Chair\r\na.\tCall the meeting to order/Record Attendance and Guests\r\n2.\tPUBLIC COMMENT\t\r\n3.\tBUDGET REVISION (Action Item)\t\t\t\t\t\tDana Durham, Bus. Admin\r\n4.\tEXECUTIVE/CLOSED SESSION OPTION \r\n5.\tADJOURN MEETING\r\n*Next board Meeting is March 11, 2021\r\n\r\nAccessibility: Any person requiring an accommodation should provide advance notice by contacting Cassie Hays, 267 Aggie Blvd., Vernal Utah, 844-322-6562 prior to this meeting.  \r\nThe following are in accordance with UCA 52-4 The Open and Public Meeting Act:  \r\n\r\nPublic Comment Guidelines: Members of the public are welcomed to Terra Governing Board meetings. Please respect the time limit to ensure ample time for the board to conduct their scheduled business. The following are guidelines for presenting comments:\r\n-\tComments should be submitted in writing at the time of presentation as a matter of record.\r\n-\tComments shall be addressed respectfully to the entire board through the chair. Comments shall not include complaints about school or board personnel; refer instead to 01-103 Complaint Policy.\r\n-\tTime for comments shall be limited to 3 minutes per person. A time limit of 15 minutes total for public comment will be observed to ensure ample time for the board to conduct its scheduled business.\r\n\r\nClosed Meeting (Executive or Closed Session): As a regular agenda item, The Board may consider a motion to close the meeting to hold a strategy session to discuss pending or reasonably imminent litigation, and/or to discuss the purchase, exchange, or lease of real property, and/or the character, professional competence, or physical or mental health of an individual in conformance with 52-4-204 and 52-4-205 Utah Code.",
@@ -41658,8 +41654,8 @@
             "scheduled": 9,
             "shouldHaveRecordings": 5,
             "haveAttachments": 6,
-            "haveRecordings": 5,
-            "haveMinutes": 5,
+            "haveRecordings": 6,
+            "haveMinutes": 6,
             "advanceNotice": 9
         }
     },
@@ -43422,6 +43418,20 @@
             "meetings": [
                 {
                     "name": "TCS Board Meeting",
+                    "href": "/pmn/sitemap/notice/660339.html",
+                    "date": "2021/02/25 07:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "No associated attachments",
+                    "contactInfo": "robert.leckie@treesidecharter.org",
+                    "updatedDate": "February 24, 2021 10:09 AM",
+                    "contactName": "Robert Leckie",
+                    "endDate": "February 25, 2021 07:30 PM",
+                    "agenda": "Welcome & Call to Order\r\n\r\nOpening Remarks\r\nRoll Call\r\n\r\nClosed Session\r\nThe Treeside Charter School Board will consider a motion to close the meeting for the purposes of holding a strategy session to discuss pending or reasonably imminent litigation, and/or to discuss the purchase, sale, exchange, or lease of real property, and/or the character, professional competence, or physical or mental health of an individual in conformance with \u00a7 52-4-204 and 52-4-205 et. seq., Utah Code.\r\n\r\nAdjourn",
+                    "postedDate": "February 24, 2021 10:09 AM",
+                    "hoursAdvanceNotice": 32.85
+                },
+                {
+                    "name": "TCS Board Meeting",
                     "href": "/pmn/sitemap/notice/660031.html",
                     "date": "2021/02/23 06:00 PM",
                     "status": "Scheduled",
@@ -43582,12 +43592,12 @@
             "pmnId": "5557",
             "name": "Treeside Charter School",
             "bodyName": "TCS Board of Trustees",
-            "scheduled": 9,
+            "scheduled": 10,
             "shouldHaveRecordings": 8,
             "haveAttachments": 7,
             "haveRecordings": 7,
             "haveMinutes": 7,
-            "advanceNotice": 9
+            "advanceNotice": 10
         }
     },
     {
@@ -49623,12 +49633,31 @@
             "meetings": [
                 {
                     "name": "Wasatch Peak Academy Board of Director's Meeting",
+                    "href": "/pmn/sitemap/notice/660371.html",
+                    "date": "2021/02/26 12:00 PM",
+                    "status": "Scheduled",
+                    "attachments": "Public Comment Opportunity- WPA 21-22 Fee Schedule (draft).pdf Public Information Handout Added: 2021/02/24 11:59 AM  Public Comment Opportunity- Fee Waiver Policy - WPA.pdf Public Information Handout Added: 2021/02/24 12:01 PM  WPA Board Meeting Agenda 2.26.21.pdf Other Added: 2021/02/24 11:56 AM",
+                    "attachmentLinks": [
+                        "/pmn/files/690187.pdf",
+                        "/pmn/files/690189.pdf",
+                        "/pmn/files/690185.pdf"
+                    ],
+                    "contactInfo": "krystal@academicawest.com",
+                    "updatedDate": "February 24, 2021 12:01 PM",
+                    "contactName": "Krystal Taylor",
+                    "agenda": "Wasatch Peak Academy\r\nBoard of Directors Meeting\r\nFebruary 26, 2021\r\nAnchor Location:  414. N. Cutler Dr. \r\n North Salt Lake, UT 84054\r\nThis meeting of the board of directors will be held electronically. If you would like to attend the meeting, accommodations will be made for the public at the anchor location identified. \r\nTime: 12:00 PM\r\n\t\r\n\r\n\r\n\r\n\r\nAGENDA\r\n\r\nCALL TO ORDER \r\n\r\nPUBLIC COMMENT  (Comments limited to three minutes each)\r\no\t2021/2022 Fee Schedule and Fee Waiver Policy\r\n\t\r\nCONSENT ITEMS\r\no\tApprove October 22, 2020 Board Meeting Minutes and Closed Session Affidavit\r\n\r\nVOTING AND DISCUSSION ITEMS \r\no\tLawn Care Agreement \r\n\r\nCALENDARING\r\no\tBoard Meeting- March 18th, 2021 \r\n\r\nADJORN",
+                    "postedDate": "February 24, 2021 12:01 PM",
+                    "hoursAdvanceNotice": 47.983333333333334
+                },
+                {
+                    "name": "Wasatch Peak Academy Board of Director's Meeting",
                     "href": "/pmn/sitemap/notice/635939.html",
                     "date": "2020/10/22 09:30 AM",
                     "status": "Scheduled",
-                    "attachments": "2020.10.22 WPA Board Meeting Audio Recording 830AM Via Zoom.MP3 Audio Recording Added: 2020/10/22 12:37 PM  WPA Board Meeting Agenda 10.22.20 (Zoom).pdf Other Added: 2020/10/21 11:26 PM",
+                    "attachments": "2020.10.22 WPA Board Meeting Audio Recording 830AM Via Zoom.MP3 Audio Recording Added: 2020/10/22 12:37 PM  WPA Board Meeting DRAFT Minutes 10.22.20.pdf Meeting Minutes Added: 2021/02/24 04:56 PM  WPA Board Meeting Agenda 10.22.20 (Zoom).pdf Other Added: 2020/10/21 11:26 PM",
                     "attachmentLinks": [
                         "/pmn/files/650815.MP3",
+                        "/pmn/files/690399.pdf",
                         "/pmn/files/650595.pdf"
                     ],
                     "contactInfo": "krystal@academicawest.com",
@@ -49661,12 +49690,12 @@
             "pmnId": "1775",
             "name": "Wasatch Peak Academy",
             "bodyName": "Wasatch Peak Academy Board of Directors",
-            "scheduled": 2,
+            "scheduled": 3,
             "shouldHaveRecordings": 2,
-            "haveAttachments": 2,
+            "haveAttachments": 3,
             "haveRecordings": 2,
-            "haveMinutes": 1,
-            "advanceNotice": 2
+            "haveMinutes": 2,
+            "advanceNotice": 3
         }
     },
     {
@@ -49930,9 +49959,12 @@
                     "href": "/pmn/sitemap/notice/653665.html",
                     "date": "2021/01/27 06:15 PM",
                     "status": "Scheduled",
-                    "attachments": "No associated attachments",
+                    "attachments": "January 2021 Board Meeting Minutes.pdf Meeting Minutes Added: 2021/02/24 08:05 PM",
+                    "attachmentLinks": [
+                        "/pmn/files/690451.pdf"
+                    ],
                     "contactInfo": "emerchant@wasatchwaldorf.org",
-                    "updatedDate": "January 25, 2021 01:25 PM",
+                    "updatedDate": "February 24, 2021 08:05 PM",
                     "contactName": "Emily Merchant",
                     "agenda": "Wasatch Charter School\r\n27 January 2021\r\nGoverning Board Meeting \r\n6:15 PM - 8:30 PM\r\n1458 East Murray-Holladay Road, Holladay, UT 84117\r\nJoin Zoom Meeting https://zoom.us/j/91687003625?pwd=c0Q4ZldOTnJGNUxHY1c3TW5VdDA0dz09\r\nMeeting ID: 916 8700 3625 Passcode: 1whPEi\r\n\r\nAgenda\r\nConfirm Recorder is on\r\nRoll Call\r\nPotential Conflicts of Interest\r\nWaldorf Education Discussion - Mr. O (10 minutes, 6:25 - 6:35 pm)\r\n\r\nWaldorf Verse\r\n\t'The healthy social life is found\r\n\tWhen in the mirror of each human soul\r\n\tThe whole community finds its reflection,\r\n\tAnd when, in the community,\r\n\tThe strength of each one is living.'\r\n\t\t\t\t\t-Rudolf Steiner\r\n\r\nApproval of Meeting Minutes (10 min; 6:40 - 6:50)\r\nOctober 28, 2020\r\nNovember 13, 2020\r\nNovember 18, 2020\r\nBusiness Manager Report (15 min; 6:50 - 7:05)\r\nCommittee Reports (45 min; 7:05 - 7:50)\r\nGovernance Committee (10 min)\r\nFinance Committee (5 min)\r\nPolicy Committee (15 min)\r\nProcurement Policy\r\nFinancial and Fundraising Policy\r\nFundraising Committee (10 min)\r\nCharter Trust Land Council (5 min)\r\nExecutive Director Report (35 min; 7:50 - 7:25)\r\n2019-20 Annual Report\r\n2021-22 Schedule and Calendar\r\nFoundation update (10 min; 7:25 - 7:35)\r\nBoard discussion and/or Votes (10 min; 7:35 - 7:45)\r\n2021 - 2022 Academic Calendar vote\r\nTitle 1 Parent School Learning Compact\r\nOption for Closed Session (30 min; 7:45 - 8:15)\r\nClosing (5 min; 8:15 - 8:20)\r\nDid we spend our time effectively?\r\nWhat can we do to improve our effectiveness?\r\nWhat is keeping our leader awake at night?\r\nAdjourn (8:20 pm)",
                     "postedDate": "January 25, 2021 01:25 PM",
@@ -50000,9 +50032,9 @@
             "bodyName": "Wasatch Waldorf Charter School Governing Board",
             "scheduled": 6,
             "shouldHaveRecordings": 5,
-            "haveAttachments": 1,
+            "haveAttachments": 2,
             "haveRecordings": 1,
-            "haveMinutes": 1,
+            "haveMinutes": 2,
             "advanceNotice": 6
         }
     },
@@ -50501,12 +50533,13 @@
                     "href": "/pmn/sitemap/notice/659723.html",
                     "date": "2021/02/23 05:30 PM",
                     "status": "Scheduled",
-                    "attachments": "WSD-Board-Agenda-2021-02-23.pdf Public Information Handout Added: 2021/02/21 01:58 PM",
+                    "attachments": "WSD-Board-Recording-OPEN-2021-02-23.mp3 Audio Recording Added: 2021/02/24 07:11 AM  WSD-Board-Agenda-2021-02-23.pdf Public Information Handout Added: 2021/02/21 01:58 PM",
                     "attachmentLinks": [
+                        "/pmn/files/690049.mp3",
                         "/pmn/files/689065.pdf"
                     ],
                     "contactInfo": "cindyphillips@wsdpc.org",
-                    "updatedDate": "February 21, 2021 01:58 PM",
+                    "updatedDate": "February 24, 2021 07:12 AM",
                     "contactName": "Cindy Phillips",
                     "endDate": "February 23, 2021 07:00 PM",
                     "agenda": "Weilenmann Board of Directors Agenda\r\nTuesday, February 23, 2021\r\nPublic Session from 5:30-7:00 PM\r\nLocation: Weilenmann School, 4199 Kilby Rd, Park City,\r\nLibrary\r\nLocation: https://meet.google.com/xxj-tjrh-ojq\r\n\r\nIn compliance with the Utah State Open and Public Meetings Act, this is a meeting for the Board of Directors to take an action openly and conduct deliberations regarding Weilenmann School of Discovery business. As a courtesy, please step outside with noisy children or to speak amongst yourselves in order to maintain a quiet atmosphere for the meeting and the recording. The Board reserves the right to take an action on any agenda item. The board also reserves the right to go into closed session in compliance with Utah State Law 54-4-204, 205, & 206.\r\n \r\nAgenda\r\n\r\nCall to Order/ Roll Call\r\n\r\nConsent Agenda:\r\n-Receipt of Executive Report \r\n-Approval of minutes from January  26th board meeting\r\n\r\n\r\nPublic Comment Period\r\n\r\nAchieving WSDs Mission and Vision\r\n\r\nSchools Report\r\n\r\nEnrollment and Lottery\r\n\r\nConsideration of Recommendation from Evaluation Committee on East Courtyard Expansion Project\r\n\r\nFinance Report\r\n\r\nSchool Fee and Spend Plan: Second Public Hearing\r\n\r\n2020-2021 LAND Trust Plan: Second Consideration\r\n\r\nDevelopment and PSTO Report\r\n\r\nElection of Board Officers and Consideration of New Board and Committee Members\r\n\r\nAcademic Excellence Committee\r\n\r\nPolicy Review: General Education Provisions Act Statement\r\n\r\nPolicy Review: Head Injury Policy and Form\r\n\r\nPolicy Review:  Health and Human Sexuality Education Policy\r\n\r\nPolicy Review: Heavy Equipment Policy\r\n\r\nBoard Training:  Board Responsibility: Oversight, Loyalty, Obedience \r\n\r\nExecutive Session:  To discuss the character, competence, or mental or physical health of an individual; and to discuss potential pending litigation.\r\n\r\nHousekeeping and Adjournment",
@@ -50535,13 +50568,14 @@
                     "href": "/pmn/sitemap/notice/653523.html",
                     "date": "2021/01/26 05:30 PM",
                     "status": "Scheduled",
-                    "attachments": "WSD-Board-Recording-OPEN-2021-01-26.mp3 Audio Recording Added: 2021/01/27 09:36 AM  WSD-Board-Agenda-2021-01-26.pdf Public Information Handout Added: 2021/01/23 05:31 PM",
+                    "attachments": "WSD-Board-Recording-OPEN-2021-01-26.mp3 Audio Recording Added: 2021/01/27 09:36 AM  WSD-Board-Minutes-2021-01-26.pdf Meeting Minutes Added: 2021/02/24 06:46 AM  WSD-Board-Agenda-2021-01-26.pdf Public Information Handout Added: 2021/01/23 05:31 PM",
                     "attachmentLinks": [
                         "/pmn/files/679865.mp3",
+                        "/pmn/files/690047.pdf",
                         "/pmn/files/678923.pdf"
                     ],
                     "contactInfo": "cindyphillips@wsdpc.org",
-                    "updatedDate": "January 27, 2021 09:36 AM",
+                    "updatedDate": "February 24, 2021 06:46 AM",
                     "contactName": "Cindy Phillips",
                     "endDate": "January 26, 2021 07:30 PM",
                     "agenda": "Weilenmann Board of Directors Agenda\r\nTuesday, January 26, 2021\r\nPublic Session from 5:30-7:30 PM Location: https://meet.google.com/xxj-tjrh-ojq\r\n\r\nIn compliance with the Utah State Open and Public Meetings Act, this is a meeting for the Board of Directors to take an action openly and conduct deliberations regarding Weilenmann School of Discovery business. As a courtesy, please step outside with noisy children or to speak amongst yourselves in order to maintain a quiet atmosphere for the meeting and the recording. The Board reserves the right to take an action on any agenda item. The board also reserves the right to go into closed session in compliance with Utah State Law 54-4-204, 205, & 206.\r\n\r\nAgenda\r\n\r\nCall to Order/ Roll Call\r\nPublic Comment Period\r\n\r\nConsent Agenda:\r\n-Receipt of Executive Report\r\n-Approval of minutes from December 8th board meeting\r\n\r\nAchieving WSDs Mission and Vision\r\n\r\nPublic Acknowledgement of Bids for Courtyard Expansion Project\r\n\r\nBid Evaluation Committee Process and Requirements\r\n\r\nSchool Update\r\n\r\nFinance Report\r\n\r\nDevelopment and PSTO Report\r\n\r\nFaculty Presentation: Mobile Classroom\r\n\r\nPolicy Review/Approval: Fee Schedule and Waiver\r\n\r\nPolicy Review: Fundraising Policy\r\n    \r\n2020-2021 LAND Trust Plan: First Consideration\r\n\r\nRe-Enrollment Update and Pre-Lottery Enrollment Snapshot\r\n\r\nReport on Faculty Survey\r\n\r\nSecond Consideration of 2022-22 Calendar and Request for Approval\r\n\r\nBoard Training: Everlasting Board Culture\r\n\r\nDiscussion of Sections, Fill Numbers, and Matters Related to New Lottery Season\r\n\r\nExecutive Session: To discuss the character, competence, or mental or physical health of an individual; and to discuss potential pending litigation.\r\n\r\nHousekeeping and Adjournment\r\n-Will review finance policy in February (switch from FASB to GASB)",
@@ -50629,8 +50663,8 @@
             "scheduled": 6,
             "shouldHaveRecordings": 5,
             "haveAttachments": 7,
-            "haveRecordings": 5,
-            "haveMinutes": 4,
+            "haveRecordings": 6,
+            "haveMinutes": 5,
             "advanceNotice": 6
         }
     },

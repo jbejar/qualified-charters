@@ -1,9 +1,9 @@
 import React from 'react'
 import schools from './../dump.json';
-import { Redirect } from "react-router-dom";
+import { Redirect, useLocation } from "react-router-dom";
 import LicenseComponent from './LicenseComponent';
 import AssignmentsComponent from './AssignmentsComponent';
-import SchoolMap from './SchoolMap';
+import SchoolMap from './SchoolM0ap';
 import BlogPosts from "../components/BlogPosts"
 import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
@@ -16,6 +16,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useAuth0 } from "@auth0/auth0-react";
 import { postJSON } from "../modules/api";
+import MetaTags from 'react-meta-tags';
+
 function SchoolPage(props) {
     const { getAccessTokenSilently, isAuthenticated, loginWithRedirect } = useAuth0();
     const id = parseInt(props.match.params.schoolID);
@@ -25,6 +27,7 @@ function SchoolPage(props) {
         "-1": "Preschool",
         "0": "K"
       }
+    const location = useLocation();
     const formatGrade = grade => grade <= 0 ? gradeMap[grade + ""] : grade;
     const onSave = async evt => {
         evt.preventDefault();
@@ -41,12 +44,21 @@ function SchoolPage(props) {
     if(!school) {
         return <div>404 - Could not find school</div>
     }
+
     const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
     if(decodeURIComponent(props.match.params.schoolName) !== slug) {
         return <Redirect to={ "/schools/" + school.SchoolID + "/" + encodeURIComponent(slug) }/>
     }
+    const title = school.SchoolName + " - Data for Qualified Utah Charters";
     return (
-        <div className="container">    
+        <div className="container">   
+          <MetaTags>
+            <title>{title}</title>
+            <link rel="canonical" href={`https://www.qualifiedcharters.com${location.pathname}`} />
+            <meta name="description" content={`${school.SchoolName}, ${school.City}, UT - ${school.SchoolCategory} · ${school.elsi['Total Students All Grades (Excludes AE) 2020-21']} students`} />
+            <meta property="og:title" content={title} />
+            <meta name="twitter:title" content={title}></meta>
+          </MetaTags>
             <div className="jumbotron">
                 <h1 className="display-3">{school.SchoolName}</h1>
                 <hr className="my-2"/>
