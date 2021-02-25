@@ -24,7 +24,7 @@ export default function TransparencyPage() {
         <div className="container">
             <MetaTags>
             <title>{title}</title>
-            <meta name="description" content={`Ranking of Utah Charter schools and their transparency by number of audio recordings and minutess made publically available.`} />
+            <meta name="description" content={`Ranking of Utah Charter schools by number of on-time notices, audio recordings, and minutes posted.`} />
             <meta property="og:title" content={title} />
             <meta name="twitter:title" content={title}></meta>
           </MetaTags>
