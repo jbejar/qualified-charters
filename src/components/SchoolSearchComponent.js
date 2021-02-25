@@ -18,11 +18,11 @@ export default function SchoolSearchComponent() {
       label: option.SchoolName
     });
   };
-  
+  const slug = !school ? "" : school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
   return (
     <div style={{width: 500}} className="md-4">
       {(school) &&
-     (<Redirect to={ "/schools/" + school.SchoolID}/>)}
+     (<Redirect to={ "/schools/" + school.SchoolID + "/" + slug}/>)}
          <PowerSelect
           options={schools}
           optionLabelPath="SchoolName"

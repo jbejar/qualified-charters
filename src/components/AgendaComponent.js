@@ -46,11 +46,12 @@ function AgendaComponent({href, name, agenda, date, attachments, status,
         mp3s.sort();
     }
     const fileAttachments = attachmentLinks.filter(file => !isImage(file));
+    const slug = (SchoolName || "").trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
     return (
         <div className="p-4">
             <strong className={"d-inline-block mb-2 " + fontClass}>{heading}</strong>
             <h3 className="mb-0">{name}</h3>
-            <Link to={"/schools/" + SchoolID}><strong className="mb-0">{SchoolName}</strong></Link>
+            <Link to={"/schools/" + SchoolID + "/" + slug}><strong className="mb-0">{SchoolName}</strong></Link>
             <div>{date}</div>
             <div className="card-text mb-auto"><pre>{agenda}</pre></div>
             {embed && <p><iframe title={"iframe" + audioFile} src={embed} width="500" height="240"></iframe></p>}

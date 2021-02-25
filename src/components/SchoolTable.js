@@ -57,10 +57,12 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false, debu
           </tr>
         </thead>
         <tbody>
-          {schoolsInOrder.slice(0, limit).map((school, i) => (
+          {schoolsInOrder.slice(0, limit).map((school, i) => {
+            const slug = (school.SchoolName || "").trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
+            return (
             <tr key={school.SchoolID}>
               <td>{i+1}</td>
-              <td><Link to={"schools/"+school.SchoolID}>{school.SchoolName}</Link></td>
+              <td><Link to={"schools/"+school.SchoolID + "/" + slug}>{school.SchoolName}</Link></td>
               {columns.map( col => {
                 const val = col.func(school);
                 if(typeof val !== "number") {
@@ -74,7 +76,7 @@ function SchoolTable({schools, sort, limit = 10, columns=[], summary=false, debu
               <td>{school.scores["Science"] && school.scores["Science"]["2019"]}</td>
               
             </tr>
-          ))}
+          )})}
           {summary && <tr>
             <td>Summary</td>
             <td></td>

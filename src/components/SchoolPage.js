@@ -9,6 +9,7 @@ import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
 import EnrollmentComponent from "./EnrollmentComponent"
 import FirstLicensedHistogram from "./FirstLicensedHistogram"
+import AuditComponent from "./AuditComponent"
 import AgendaComponent from "./AgendaComponent";
 import ProcurementComponent from "./ProcurementComponent";
 import Row from "react-bootstrap/Row";
@@ -84,6 +85,7 @@ function SchoolPage(props) {
             </div>
             
             <BlogPosts schoolId={school.SchoolID}/>
+            <AuditComponent {...school.audit}/>
             <EnrollmentComponent elsi={school.elsi}/>
             <AssignmentsComponent school={school}/>
             <LicenseComponent school={school}/>

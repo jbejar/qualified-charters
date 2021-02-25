@@ -23,7 +23,9 @@ function ReportsPage(props) {
   const minutes = (s) => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
   const properNotice = (s) => s.pmn.advanceNotice / s.pmn.scheduled;
   const educatorLicenseCountGrowth = s =>  !s.oldAllLicenses ? 0 : ( ((s.licenseStatus.All || 0) / (s.oldAllLicenses || 0))-1);
-  const enrollmentGrowth = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2020-21"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2019-20"]) - 1;
+  const enrollment = s => (s.elsi || {})["Total Students All Grades (Excludes AE) 2020-21"] || 0
+  const enrollmentSort = (s, t) => (enrollment(t) -enrollment(s) );
+  const enrollmentGrowth = s =>  (enrollment(s) / (s.elsi || {})["Total Students All Grades (Excludes AE) 2019-20"]) - 1;
   const enrollmentGrowthPrev = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2019-20"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2018-19"]) - 1;
   const enrollmentGrowthPrev2 = s =>  ((s.elsi || {})["Total Students All Grades (Excludes AE) 2018-19"] / (s.elsi || {})["Total Students All Grades (Excludes AE) 2017-18"]) - 1;
   const procurement = s => s.procurement.length  + "";
@@ -31,6 +33,8 @@ function ReportsPage(props) {
   const yearOpened = s => s.YearOpened  + "";
   const city = s => s.City  + "";
   const address = s => s.Address  + "";
+  const relatedParties = s => s.audit.relatedParty ? 1 : 0;
+  const managementAgreement = s => s.audit.managementAgreement === true ? "3rd party" : s.audit.managementAgreement;
   const yearOpenedSort = (s,t) => (yearOpened(t) -yearOpened(s));
   const enrollmentGrowthSort = (s,t) => (educatorLicenseCountGrowth(t) -educatorLicenseCountGrowth(s));
   const enrollmentGrowthSortRev = (t,s) => (enrollmentGrowth(t) -enrollmentGrowth(s) || isNaN(enrollmentGrowth(t))-isNaN(enrollmentGrowth(s)));
@@ -150,6 +154,7 @@ function ReportsPage(props) {
           { name: "Recordings Avail", func: recordings, summary: true },
           { name: "Minutes Avail", func: minutes, summary: true },
           { name: "<= 24 hr notice", func: properNotice, summary: true },
+          { name: "Related Party", func: relatedParties, summary: true },
         ]}
       />
        <h4>Most New Assigned Educators Since Feb 2020</h4>
@@ -191,6 +196,17 @@ function ReportsPage(props) {
         schools={schools}
         columns={[
           {name: "Procurement Records", func: procurement, summary: true},
+        ]}
+        />
+        <h4>Related Party Transactions by Enrollment</h4>
+      <SchoolTable
+        limit={220}
+        sort={enrollmentSort}
+        schools={schools.filter(s => (s.audit || {}).relatedParty)}
+        columns={[
+          {name: "Enrollment", func: s => enrollment(s) + "" , summary: true},
+          { name: "Management", func: managementAgreement, summary: false },
+          { name: "Related Party", func: relatedParties, summary: false },
         ]}
         />
     

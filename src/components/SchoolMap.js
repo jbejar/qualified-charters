@@ -39,10 +39,12 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
         url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
       />
       
-      {schools.map((school) => (
+      {schools.map((school) => {
+        const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
+        return (
         <Marker key={school.SchoolID} position={[school.Lat, school.Lng]}>
           <Popup>
-            <Link to={"schools/" + school.SchoolID}>{school.SchoolName}</Link>
+            <Link to={"schools/" + school.SchoolID + "/" + slug}>{school.SchoolName}</Link>
             <br />
             Grades: {formatGrade(school.GradeLow)} - {formatGrade(school.GradeHigh)}
             <br />
@@ -80,7 +82,7 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
             <br />
           </Popup>
         </Marker>
-      ))}
+      )})}
       
     </Map>
   );

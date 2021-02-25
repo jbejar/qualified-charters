@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import {FaRegFileExcel, FaRegFile} from 'react-icons/fa'
+import {FaRegFileExcel, FaRegFile, FaRegCalendarTimes} from 'react-icons/fa'
 
 export default class AssignmentsComponent extends Component {
   static propTypes = {
@@ -14,11 +14,13 @@ export default class AssignmentsComponent extends Component {
     const leaSpecificAssignments =
       this.props.school.leaSpecificAssignments || [];
     const noLicenseAssignments = this.props.school.noLicenseAssignments || [];
-    const noIssues =
+    const expiredLicenseAssignments = this.props.school.expiredLicenseAssignments || [];
+    const noIssues = expiredLicenseAssignments.length +
       leaSpecificAssignments.length + noLicenseAssignments.length === 0;
     if (noIssues) {
       return <div></div>;
     }
+    expiredLicenseAssignments.sort();
     leaSpecificAssignments.sort();
     noLicenseAssignments.sort();
     return (
@@ -26,21 +28,31 @@ export default class AssignmentsComponent extends Component {
         <h3>Educator Assignments</h3>
         <Row>  
         {noLicenseAssignments.length > 0 && (
-          <Col sm={12} md={6}><div className="card" >
+          <Col sm={12} md={4}><div className="card" >
             <div className="card-header">Assignments with Unlicensed Educators</div>
             <ul className="list-group list-group-flush">
               {noLicenseAssignments.map((license) => {
-                return <li className="list-group-item"> <FaRegFileExcel className="text-danger  mr-3"/> {license}</li>;
+                return <li className="list-group-item"> <FaRegFileExcel className="text-dark  mr-3"/> {license}</li>;
+              })}
+            </ul>
+          </div></Col>
+        )}
+        {expiredLicenseAssignments.length > 0 && (
+          <Col sm={12} md={4}><div className="card" >
+            <div className="card-header">Assignments with Expired Licenses</div>
+            <ul className="list-group list-group-flush">
+              {expiredLicenseAssignments.map((license ) => {
+                return <li className="list-group-item"> <FaRegCalendarTimes className="text-danger  mr-3"/> {license}</li>;
               })}
             </ul>
           </div></Col>
         )}
         {leaSpecificAssignments.length > 0 && (
-          <Col sm={12} md={6}><div className="card" >
+          <Col sm={12} md={4}><div className="card" >
             <div className="card-header">Assignments with LEA-Specific Licenses</div>
             <ul className="list-group list-group-flush">
               {leaSpecificAssignments.map((license) => {
-                return <li className="list-group-item"> <FaRegFile className="text-warning mr-3"/>{license}</li>;
+                return <li className="list-group-item"> <FaRegFile className="text-secondary   mr-3"/>{license}</li>;
               })}
             </ul>
           </div></Col>
