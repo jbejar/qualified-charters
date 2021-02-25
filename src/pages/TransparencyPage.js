@@ -1,6 +1,7 @@
 import React, {useState } from 'react'
 import SchoolTable from '../components/SchoolTable';
 import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
+import MetaTags from 'react-meta-tags';
 export default function TransparencyPage() {
     const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
     const minutes = s => s.pmn.haveMinutes / s.pmn.shouldHaveRecordings;
@@ -18,8 +19,15 @@ export default function TransparencyPage() {
         return matches && matches.length > 0 ? matches[1] : s.CharteredBy;
     }
     const [schools, setSchools] = useState([]);
+    const title = "Transparency - Data for Qualified Utah Charters";
     return (
         <div className="container">
+            <MetaTags>
+            <title>{title}</title>
+            <meta name="description" content={`Ranking of Utah Charter schools and their transparency by number of audio recordings and minutess made publically available.`} />
+            <meta property="og:title" content={title} />
+            <meta name="twitter:title" content={title}></meta>
+          </MetaTags>
             <div className="jumbotron">
                 <h3 className="display-4">Transparency</h3>
                 <hr className="my-2"/>
