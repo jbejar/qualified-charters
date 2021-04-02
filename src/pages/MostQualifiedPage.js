@@ -11,7 +11,7 @@ export default function MostQualifiedPage() {
     const temporaryLicensed = s =>  ((s.licenseTypes.Temporary || 0) / (s.licenseTypes.All || 0))
     const leaLicensed = s =>  (((s.licenseTypes["Level 1 LEA-Specific"] || 0) + (s.licenseTypes["Level 2 LEA-Specific"] || 0) + (s.licenseTypes["LEA-Specific"] || 0)) / (s.licenseTypes.All || 0))
     const qualifiedSort = (s,t) => (2*firstLicensedMean(t)  + firstLicensedMedian(t)) -(2*firstLicensedMean(s) + firstLicensedMedian(s));
-    const meanLicensedSort = (s,t) => (1.5*renewedLicensed(t)  + 0.6*professionalLicense(t) + 0.3*teacherToStudent(t)) -(1.5*renewedLicensed(s) + 0.6*professionalLicense(s) - 0.3 * teacherToStudent(s));
+    const meanLicensedSort = (s,t) => (firstLicensedMean(t) - firstLicensedMean(s));
     const leastMeanLicensedSort = (t,s) => meanLicensedSort(s,t);
     const leastQualifiedSort = (t,s) => (2*renewedLicensed(t)  + professionalLicense(t)) -(2*renewedLicensed(s) + professionalLicense(s));
     const licensedSort = (s,t) => (leaLicensed(t) -leaLicensed(s));

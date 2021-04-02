@@ -11,15 +11,20 @@ function BlogPosts({schoolId}) {
         <div>
             {filteredKeys.map(key => {
             const article = blogPostsContext(key);
-            const {date, thumbnail, title, author} = article.attributes;
+            const {date, thumbnail, title, author, link} = article.attributes;
             
-            return <div key={key}>
-                <h1>{title}</h1>
-                <h4>{author}</h4>
-                <h4>{moment(date).format(format)}</h4>
-                <img src={thumbnail} alt={title + " image"}/>
-                {article.react({})}
+            return <div class="card" style={{width: "18rem;"}} key={key}>
+            <img class="card-img-top" src={thumbnail} alt={title + " image"}/>
+            <div class="card-body">
+              <h5 class="card-title">{title}</h5>
+              <h6>{moment(date).format(format)} - {author}</h6>
+              <p class="card-text">{article.react({})}</p>
+              { link && <a href={link} class="btn btn-primary">Read article</a>}
+              
             </div>
+          </div>
+            
+    
         })
         }
         </div>

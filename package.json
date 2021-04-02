@@ -40,8 +40,8 @@
     "test": "react-app-rewired test",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build; node sitemap-builder.js",
-    "deploy": "firebase deploy"
+    "predeploy": "node sitemap-builder.js; npm run build",
+    "deploy": "firebase deploy --only hosting"
   },
   "eslintConfig": {
     "extends": "react-app"

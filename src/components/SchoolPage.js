@@ -3,7 +3,7 @@ import schools from './../dump.json';
 import { Redirect, useLocation } from "react-router-dom";
 import LicenseComponent from './LicenseComponent';
 import AssignmentsComponent from './AssignmentsComponent';
-import SchoolMap from './SchoolM0ap';
+import SchoolMap from './SchoolMap';
 import BlogPosts from "../components/BlogPosts"
 import SchoolRadarComponent from "./SchoolRadarComponent";
 import BoardMeetingComponent from "./BoardMeetingComponent"
@@ -55,12 +55,16 @@ function SchoolPage(props) {
           <MetaTags>
             <title>{title}</title>
             <link rel="canonical" href={`https://www.qualifiedcharters.com${location.pathname}`} />
-            <meta name="description" content={`${school.SchoolName}, ${school.City}, UT - ${school.SchoolCategory} · ${school.elsi['Total Students All Grades (Excludes AE) 2020-21']} students`} />
+            <meta name="description" content={`${school.SchoolName}, ${school.City}, UT - ${school.SchoolCategory} · ${school.elsi && school.elsi['Total Students All Grades (Excludes AE) 2020-21']} students`} />
             <meta property="og:title" content={title} />
             <meta name="twitter:title" content={title}></meta>
           </MetaTags>
             <div className="jumbotron">
                 <h1 className="display-3">{school.SchoolName}</h1>
+                {
+                    school.ogImage && school.ogImage.length && <img width="100%" src={school.ogImage[0].url}/>
+                }
+                <img/>
                 <hr className="my-2"/>
                 <Row>  
                 <Col sm={12} md={6}>
