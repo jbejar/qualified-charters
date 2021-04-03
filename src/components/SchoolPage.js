@@ -62,9 +62,8 @@ function SchoolPage(props) {
             <div className="jumbotron">
                 <h1 className="display-3">{school.SchoolName}</h1>
                 {
-                    school.ogImage && school.ogImage.length && <img width="100%" src={school.ogImage[0].url}/>
+                    school.ogImage && school.ogImage.length && <img width="100%" alt="logo" src={school.ogImage[0].url}/>
                 }
-                <img/>
                 <hr className="my-2"/>
                 <Row>  
                 <Col sm={12} md={6}>

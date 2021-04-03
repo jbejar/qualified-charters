@@ -4,7 +4,7 @@ import moment from "moment";
 
 function BlogPosts({schoolId}) {
     const blogPostsContext = require.context("../_posts/blog", true, /\.md$/);
-    const articleKeys = blogPostsContext.keys();
+    const articleKeys = blogPostsContext.keys().reverse();
     const format = "MMMM Do YYYY";
     const filteredKeys = !schoolId ? articleKeys : articleKeys.filter(k => blogPostsContext(k).attributes.tags.some(t => parseInt(t) === schoolId));
     return (
