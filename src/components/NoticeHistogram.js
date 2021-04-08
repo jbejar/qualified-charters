@@ -14,7 +14,7 @@ function NoticeHistogram({ schools }) {
   const numbers = schools.reduce(
     (acc, school) =>
       acc.concat(
-        school.pmn.meetings.map((mtg) => mtg.hoursAdvanceNotice / 24.0)
+        school.pmn.meetings.filter(mtg => !mtg.isDuplicate).map((mtg) => mtg.hoursAdvanceNotice / 24.0)
       ),
     []
   );
