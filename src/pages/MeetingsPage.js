@@ -3,6 +3,7 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import {FaRegFileAudio, FaHourglass, FaRegCalendarTimes} from 'react-icons/fa'
+import { Link } from "react-router-dom";
 import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 const localizer = momentLocalizer(moment);
 const format = "YYYY/MM/DD hh:mm A";
@@ -20,7 +21,9 @@ export default function MeetingsPage() {
       return current;
     }
     districts[s.DistrictID] = true;
+    const slug = s.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
     s.pmn.meetings.forEach((m) => {
+      m.link = "schools/" + s.SchoolID + "/" + slug;
       m.LEA = s.LEA;
       m.City = s.City;
       m.StatePublicBody = s.CharteredBy === "State Charter School Board (SCSB)"
@@ -54,8 +57,8 @@ export default function MeetingsPage() {
         titleAccessor={e => <span>
             {e.status === "Cancelled" && <FaRegCalendarTimes className="mr-1"/>}
             {e.HasAudio && <FaRegFileAudio className="mr-1"/>}
-            {e.hoursAdvanceNotice < 24 && <FaHourglass className="mr-1"/>}
-            {e.LEA}
+            {!e.isDuplicate && e.hoursAdvanceNotice < 24 && <FaHourglass className="mr-1"/>}
+            {<Link className="text-white" to={e.link}>{e.LEA}</Link>}
         </span>}
         tooltipAccessor={ e =>
           e.LEA + " " + e.City
