@@ -61,7 +61,7 @@ export default function HomePage() {
       <div className="jumbotron p-4">
         <h1 className="display-4">Qualified Charters</h1>
         <p className="lead my-4">
-          Browse through all of Utah's Charter School to find the most qualified
+          Browse through all of Utah's Charter School to find the most qualified schools with the most qualified
           teachers
         </p>
 

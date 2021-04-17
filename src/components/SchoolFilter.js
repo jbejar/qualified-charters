@@ -8,6 +8,10 @@ import ReactGA from "react-ga";
 const professionalLicense = s =>  (((s.licenseTypes["1"] || 0) + (s.licenseTypes["1 - Returning"] || 0) + (s.licenseTypes["2"] || 0) + (s.licenseTypes["3"] || 0) + (s.licenseTypes["Professional"] || 0)) / (s.licenseTypes.All || 0))
 const recordings = s => Math.min(s.pmn.haveRecordings / s.pmn.shouldHaveRecordings,1);
 const percentExpired = s => ((s.licenseStatus["Expired"] || 0) / (s.licenseTypes.All || 0))
+const onlyVirtual = s => (s.elsi && (
+  s.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== "Not Virtual" &&
+  s.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== ""
+  ));
 function SchoolFilter(props) {
     
     const [checked, setChecked] = useState({});
@@ -44,6 +48,9 @@ function SchoolFilter(props) {
             if(match && checked.percentExpired) {
                 let score = percentExpired(school);
                 match = score < .1;
+            }
+            if(match && checked.onlyVirtual) {
+                match = onlyVirtual(school);
             }
             if(match && checked.recordings) {
                 let score = recordings(school);
@@ -114,6 +121,13 @@ function SchoolFilter(props) {
           type="checkbox"
           label="< 10% Licenses Expired"
           name="percentExpired"
+          id="formHorizontalRadios1"
+          onChange={onChange}
+        />
+        <Form.Check
+          type="checkbox"
+          label="Virtual"
+          name="onlyVirtual"
           id="formHorizontalRadios1"
           onChange={onChange}
         />

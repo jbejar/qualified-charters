@@ -67,7 +67,8 @@ function SchoolPage(props) {
                 <hr className="my-2"/>
                 <Row>  
                 <Col sm={12} md={6}>
-                <p className="lead">{school.SchoolCategory} ({formatGrade(school.GradeLow)} - {school.GradeHigh})</p>
+                <div className="lead">{school.SchoolCategory} ({formatGrade(school.GradeLow)} - {school.GradeHigh})</div>
+                { school.PrincipalName && <div class="mt-1 mb-2"><b>{school.PrincipalTitle}: </b>{school.PrincipalName}</div>}
                 </Col>
                 <Col>
                 <p className="lead">Opened {school.YearOpened} by {school.CharteredBy}</p>

@@ -1,8 +1,28 @@
 import React, {useState, useEffect} from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import * as L from "leaflet";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import ReactGA from "react-ga";
+
+const LeafIcon = L.Icon.extend({
+  options: {}
+});
+
+const blueIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=school|2980C9&chf=a,s,ee00FFFF"
+  }),
+  greenIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=school|27A743&chf=a,s,ee00FFFF"
+  }),
+  orangeIcon = new LeafIcon({
+    iconUrl:
+      "https://chart.apis.google.com/chart?chst=d_map_pin_icon&chld=school|C85202&chf=a,s,ee00FFFF"
+  });
+  
+  
 
 function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], locate, recenter=false}) {
   const gradeMap = {
@@ -41,8 +61,16 @@ function SchoolMap({ schools, zoom = 8, center = [40.7774076, -111.8881773], loc
       
       {schools.map((school) => {
         const slug = school.SchoolName.trim().toLowerCase().replaceAll('&', 'and').replaceAll(' ', '-').replaceAll('#', '').replace(/\./g, '');
+        const onlyVirtual = (school.elsi && (
+          school.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== "Not Virtual" &&
+          school.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== ""
+          ));
+        let icon = blueIcon;
+        if(onlyVirtual) {
+          icon = greenIcon;
+        }
         return (
-        <Marker key={school.SchoolID} position={[school.Lat, school.Lng]}>
+        <Marker key={school.SchoolID} icon={icon} position={[school.Lat, school.Lng]}>
           <Popup>
             <Link to={"schools/" + school.SchoolID + "/" + slug}>{school.SchoolName}</Link>
             <br />

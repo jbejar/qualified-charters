@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.0",
     "firebase-admin": "^9.4.2",
-    "firebase-functions": "^3.13.1",
+    "firebase-functions": "^3.13.2",
     "i": "^0.3.6",
     "leaflet": "^1.6.0",
     "moment": "^2.27.0",
