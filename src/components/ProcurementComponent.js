@@ -14,7 +14,7 @@ function ProcurementComponent({title, open, close, status, description, href, Sc
     return (
         <div className="p-4">
              <strong className={"d-inline-block mb-2 " + fontClass}>{status}</strong>
-                <h3 className="mb-0">{title}</h3>
+                <h3 className="mb-0">RFP - {title}</h3>
             <Link to={"/schools/" + SchoolID + "/" + slug}><strong className="mb-0">{SchoolName}</strong></Link>
             <div>{open} - {close}</div>
             <p className="card-text mb-auto">{description}</p>

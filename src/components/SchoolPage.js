@@ -110,9 +110,11 @@ function SchoolPage(props) {
             <div>
 
             </div>
-            {school.procurement.map(mtg => <ProcurementComponent key={mtg.open} {...mtg}/>)}
-            <div/>
+            <h3>Board Meetings</h3>
             {school.pmn.meetings.map(mtg => <AgendaComponent key={mtg.href} {...mtg}/>)}
+            <div/>
+            {school.procurement && <h3>Procurement Notices</h3>}
+            {school.procurement.map(mtg => <ProcurementComponent key={mtg.open} {...mtg}/>)}
     
         </div>
     )
