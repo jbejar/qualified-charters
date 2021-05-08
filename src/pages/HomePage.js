@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import AgendaComponent from "../components/AgendaComponent";
 import moment from "moment";
+import InfiniteScroll from "react-infinite-scroll-component";
 const format = "YYYY/MM/DD hh:mm A";
 
 export default function HomePage() {
@@ -47,9 +48,9 @@ export default function HomePage() {
     const results = [];
     let hrefs = new Set();
     let i = 0;
-    while (arr.length > 0 && results.length < Math.min(arr.length, max)) {
+    while (arr.length > 0 && results.length < Math.min(arr.length, max) && i < arr.length) {
       let currentMtg = arr[i++];
-      if (!hrefs.has(currentMtg.href)) {
+      if (currentMtg && !hrefs.has(currentMtg.href)) {
         results.push(currentMtg);
         hrefs.add(currentMtg.href);
       }
@@ -92,9 +93,18 @@ export default function HomePage() {
         <Col md={6}>
           <Row>
             <Col>
+            <InfiniteScroll
+          dataLength={max}
+          next={() => {
+            setMax(max + 10);
+          }}
+          hasMore={true}
+          loader={<h4>Loading...</h4>}
+        >
               {futureMeetings.map((mtg) => (
                 <AgendaComponent key={mtg.href} {...mtg} />
               ))}
+              </InfiniteScroll>
             </Col>
             <Col md="auto"></Col>
           </Row>

@@ -83,7 +83,11 @@ function ReportsPage(props) {
       All: 0,
     }
   );
-  const elsi = schools.reduce(
+  const onlyVirtual = s => (s.elsi && (
+    s.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== "Not Virtual" &&
+    s.elsi["Virtual School Status (SY 2018-19 onward) 2018-19"] !== ""
+    ));
+  const elsi = schools.filter(s => onlyVirtual(s)).reduce(
     (acc, s) => {
       if(!s.elsi) {
         return acc;
@@ -128,6 +132,7 @@ function ReportsPage(props) {
     oldAllLicenses,
     elsi
   };
+
   return (
     <div className="container">
 

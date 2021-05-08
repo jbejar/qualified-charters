@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import {FaRegFileAudio, FaHourglass, FaRegCalendarTimes} from 'react-icons/fa'
+import {FaRegFileAudio, FaHourglass, FaRegCalendarTimes, FaHeadset} from 'react-icons/fa'
 import { Link } from "react-router-dom";
 import LegislativeDistrictDropDown from '../components/LegislativeDistrictDropDown';
 const localizer = momentLocalizer(moment);
@@ -55,9 +55,10 @@ export default function MeetingsPage() {
           
         }}
         titleAccessor={e => <span>
-            {e.status === "Cancelled" && <FaRegCalendarTimes className="mr-1"/>}
-            {e.HasAudio && <FaRegFileAudio className="mr-1"/>}
-            {!e.isDuplicate && e.hoursAdvanceNotice < 24 && <FaHourglass className="mr-1"/>}
+            {e.status === "Cancelled" && <FaRegCalendarTimes title="Cancelled" className="mr-1"/>}
+            {e.HasAudio && <FaRegFileAudio title="Audio recording available" className="mr-1"/>}
+            {!e.isDuplicate && e.hoursAdvanceNotice < 24 && <FaHourglass title="< 24 hour notice"className="mr-1"/>}
+            {e.electronic && <FaHeadset title="Electronic meeting available" className="mr-1"/>}
             {<Link className="text-white" to={e.link}>{e.LEA}</Link>}
         </span>}
         tooltipAccessor={ e =>
